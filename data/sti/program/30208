@@ -1,0 +1,2 @@
+symlinkat(&(0x7f0000000300)='./file0\x00', 0xffffffffffffff9c, &(0x7f0000000340)='./file0\x00')
+syz_mount_image$msdos(&(0x7f0000001040)='msdos\x00', &(0x7f0000001080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000012c0))

@@ -1,0 +1,4 @@
+r0 = openat$vcsa(0xffffffffffffff9c, &(0x7f00000002c0)='/dev/vcsa\x00', 0x0, 0x0)
+r1 = syz_open_dev$sg(&(0x7f0000000000)='/dev/sg#\x00', 0x0, 0xe8022)
+writev(r1, &(0x7f0000001040)=[{&(0x7f0000000040)="03", 0x4024}], 0x1)
+mount$9p_fd(0x0, &(0x7f0000000000)='./cgroup/cgroup.procs\x00', &(0x7f0000000040)='9p\x00', 0x0, &(0x7f0000000480)={'trans=fd,', {'rfdno', 0x3d, r0}, 0x2c, {'wfdno', 0x3d, r1}})

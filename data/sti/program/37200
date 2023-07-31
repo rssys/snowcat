@@ -1,0 +1,2 @@
+socketpair$nbd(0x1, 0x1, 0x0, &(0x7f0000000240))
+syz_open_procfs(0x0, &(0x7f00000000c0)='fdinfo/4\x00')

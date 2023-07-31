@@ -1,0 +1,2 @@
+r0 = openat$khugepaged_scan(0xffffff9c, &(0x7f0000000280)='/sys/kernel/mm/transparent_hugepage/khugepaged/scan_sleep_millisecs\x00', 0x1, 0x0)
+write$khugepaged_scan(r0, &(0x7f0000000080)='1000000\x00', 0x8)

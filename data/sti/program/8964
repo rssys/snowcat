@@ -1,0 +1,2 @@
+r0 = openat$tcp_mem(0xffffff9c, &(0x7f0000000180)='/proc/sys/net/ipv4/tcp_rmem\x00', 0x1, 0x0)
+write$tcp_mem(r0, &(0x7f0000000080)={0x100000000000000}, 0x13)

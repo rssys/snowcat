@@ -1,0 +1,5 @@
+r0 = openat$vcs(0xffffff9c, &(0x7f0000000000)='/dev/vcs\x00', 0x0, 0x0)
+r1 = getpgrp(0x0)
+r2 = gettid()
+r3 = socket$inet6_udp(0xa, 0x2, 0x0)
+kcmp$KCMP_EPOLL_TFD(r1, r2, 0x7, r3, &(0x7f0000000040)={r0})

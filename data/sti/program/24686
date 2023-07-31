@@ -1,0 +1,1 @@
+openat$ttynull(0xffffff9c, &(0x7f00000000c0)='/dev/ttynull\x00', 0x40000, 0x0)

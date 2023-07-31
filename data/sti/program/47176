@@ -1,0 +1,6 @@
+keyctl$describe(0xd, 0x0, 0x0, 0x0)
+r0 = add_key$keyring(&(0x7f0000000140)='keyring\x00', &(0x7f0000000180)={'syz', 0x2}, 0x0, 0x0, 0xffffffffffffffff)
+add_key$keyring(&(0x7f00000000c0)='keyring\x00', &(0x7f0000000100)={'syz', 0x2}, 0x0, 0x0, r0)
+keyctl$unlink(0x9, r0, 0xfffffffffffffffd)
+r1 = add_key$user(&(0x7f0000000000)='user\x00', &(0x7f0000000040)={'syz', 0x2}, &(0x7f0000000080)="a8041d10a29431ea29016fc1609284486836d44b275c6515e5612615e64ed57a35473739cfd90cb659d9988146b9871354e3d59cd36b8d0d7aa0217f2e2cd19e32b396c2b3cc238b7b6674dd9cd77c067fc4a229d80f553dd7fd108031f26afaa2444cdb317b833bac618336084f9ca3502b1a86bb5ff17262c9b875f7a8a06249cccc4b9ac68cff173927587373f2ca690f67dd5e82e009ff5b975b014301251e1b524120bf3a4671", 0xa9, 0xfffffffffffffffd)
+keyctl$chown(0x4, r1, 0xffffffffffffffff, 0xee00)

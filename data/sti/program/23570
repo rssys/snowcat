@@ -1,0 +1,1 @@
+prctl$PR_GET_TSC(0xf, &(0x7f0000000ac0))

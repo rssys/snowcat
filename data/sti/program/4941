@@ -1,0 +1,5 @@
+mkdir(&(0x7f0000000000)='./file0\x00', 0x0)
+syz_mount_image$udf(0x0, &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x90ec10, &(0x7f00000023c0)={[{@uid={'uid'}}], [{@uid_gt={'uid>'}}, {@appraise='appraise'}, {@obj_role={'obj_role', 0x3d, '^'}}]})
+write$FUSE_CREATE_OPEN(0xffffffffffffffff, 0x0, 0x0)
+read$FUSE(0xffffffffffffffff, &(0x7f0000003640)={0x2020}, 0x2020)
+syz_mount_image$btrfs(&(0x7f0000002540)='btrfs\x00', &(0x7f0000002580)='./file0\x00', 0x80, 0x0, 0x0, 0x0, &(0x7f0000005680)={[{@space_cache_v1='space_cache=v1'}], [{@uid_gt={'uid>'}}]})

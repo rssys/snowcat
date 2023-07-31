@@ -1,0 +1,2 @@
+creat(&(0x7f0000000000)='./file0\x00', 0x0)
+lsetxattr$security_capability(&(0x7f0000009b00)='./file0\x00', &(0x7f0000009b40)='security.capability\x00', &(0x7f0000009b80)=@v3={0x3000000, [], 0xee01}, 0x18, 0x0)

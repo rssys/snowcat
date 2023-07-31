@@ -1,0 +1,1 @@
+openat$pfkey(0xffffff9c, &(0x7f00000000c0)='/proc/self/net/pfkey\x00', 0x0, 0x0)

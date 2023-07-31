@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$ipvs(&(0x7f0000000180)='IPVS\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$devlink(&(0x7f00000004c0)='devlink\x00', 0xffffffffffffffff)

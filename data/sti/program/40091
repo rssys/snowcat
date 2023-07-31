@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000080)='/dev/vcsa#\x00', 0x1, 0x101a02)
+write$eventfd(r0, &(0x7f0000000200), 0xfdef)

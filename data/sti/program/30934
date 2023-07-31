@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0xa85c2, 0x0)
+write$cgroup_netprio_ifpriomap(r0, &(0x7f0000000080)={'ipvlan1'}, 0xa)

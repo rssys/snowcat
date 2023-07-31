@@ -1,0 +1,3 @@
+r0 = getpgrp(0x0)
+r1 = gettid()
+rt_tgsigqueueinfo(r0, r1, 0x21, &(0x7f0000000080)={0x0, 0x0, 0xfffffffe})

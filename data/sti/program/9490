@@ -1,0 +1,1 @@
+syz_io_uring_setup(0x74ed, &(0x7f0000007ac0), &(0x7f0000ffc000/0x2000)=nil, &(0x7f0000ffc000/0x2000)=nil, &(0x7f0000007b40), &(0x7f0000007b80))

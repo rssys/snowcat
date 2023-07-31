@@ -1,0 +1,2 @@
+r0 = openat$cuse(0xffffff9c, &(0x7f0000004700)='/dev/cuse\x00', 0x2, 0x0)
+write$FUSE_IOCTL(r0, &(0x7f0000004740)={0x20}, 0x20)

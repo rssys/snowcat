@@ -1,0 +1,4 @@
+pipe2(&(0x7f00000011c0)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x0)
+unshare(0x20000400)
+r1 = syz_open_procfs$namespace(0x0, &(0x7f0000000000)='ns/uts\x00')
+copy_file_range(r1, 0x0, r0, 0x0, 0x0, 0x0)

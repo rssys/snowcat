@@ -1,0 +1,2 @@
+r0 = syz_io_uring_setup(0x686, &(0x7f00000000c0), &(0x7f0000fed000/0x13000)=nil, &(0x7f0000000000/0x4000)=nil, &(0x7f0000000140), &(0x7f0000000180))
+io_uring_register$IORING_UNREGISTER_PERSONALITY(r0, 0x8, 0xff600000, 0x0)

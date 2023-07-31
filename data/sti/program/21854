@@ -1,0 +1,1 @@
+bpf$BPF_PROG_GET_FD_BY_ID(0xd, &(0x7f0000000000)={0xffffffffffffffff}, 0x4)

@@ -1,0 +1,4 @@
+r0 = socket$inet_smc(0x2b, 0x1, 0x0)
+listen(r0, 0x0)
+setsockopt$inet_tcp_TCP_CONGESTION(r0, 0x6, 0xd, &(0x7f0000000040)='hybla\x00', 0x6)
+close(r0)

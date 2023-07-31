@@ -1,0 +1,8 @@
+r0 = syz_open_dev$usbfs(&(0x7f0000000000)='/dev/bus/usb/00#/00#\x00', 0xb, 0x8001)
+ioctl$USBDEVFS_DISCSIGNAL(r0, 0x8108551b, 0x0)
+syz_open_dev$evdev(&(0x7f0000000480)='/dev/input/event#\x00', 0xfce2, 0x200882)
+r1 = syz_open_dev$vim2m(0x0, 0x4004, 0x2)
+ioctl$USBDEVFS_CONTROL(r0, 0xc0105500, &(0x7f0000000100)={0x0, 0x8, 0x87f, 0x401, 0x7f, 0x7, &(0x7f00000003c0)="932f11229fa71a7e587165c8cc65722ef1ecbb9be046de0ff7a1bfbd2e9c451378e92aca38c1b836b021b64fb7fa92c116c0dfc612e876116d772740be1aa83a38a0a5acc32025389cf528e5ee06994331df1a60ee61904c1cca2cf7120c5815ac69231c7472554871fdb3a56498c5784fe7809edb43eb06f205b1a88ecdfa"})
+ioctl$USBDEVFS_SETCONFIGURATION(r0, 0x80045505, &(0x7f0000000280)=0x5)
+ioctl$vim2m_VIDIOC_ENUM_FRAMESIZES(r1, 0xc02c564a, &(0x7f0000000040)={0x8, 0x49433553, 0x2, @stepwise={0xff, 0x10001, 0x426b, 0x68, 0x8, 0x8000}})
+ioctl$vim2m_VIDIOC_S_FMT(0xffffffffffffffff, 0xc0cc5605, &(0x7f0000000180)={0x0, @pix={0x8c, 0xaf, 0x31324d4e, 0x7, 0xc, 0x5, 0xd, 0x2, 0x1, 0x8, 0x2, 0x4}})

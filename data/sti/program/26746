@@ -1,0 +1,4 @@
+setsockopt$netrom_NETROM_T4(0xffffffffffffffff, 0x103, 0x6, &(0x7f00000003c0), 0x4)
+sendmsg$DEVLINK_CMD_PORT_GET(0xffffffffffffffff, 0x0, 0x20040000)
+openat$incfs(0xffffffffffffff9c, &(0x7f0000001040)='.log\x00', 0x4140, 0x0)
+ioctl$MEDIA_REQUEST_IOC_QUEUE(0xffffffffffffffff, 0x7c80, 0x0)

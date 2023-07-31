@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000100)='./file0\x00', 0x40, 0x0)
+openat(r0, &(0x7f0000000200)='./file1\x00', 0x0, 0x0)

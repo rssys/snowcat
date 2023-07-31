@@ -1,0 +1,5 @@
+creat(&(0x7f0000000000)='./file0\x00', 0x0)
+r0 = open(&(0x7f0000000100)='./file0\x00', 0x0, 0x0)
+ioctl$FS_IOC_SETFLAGS(r0, 0x40086602, &(0x7f0000000080)=0x4000)
+r1 = creat(&(0x7f0000000040)='./file0\x00', 0x0)
+fallocate(r1, 0x11, 0x0, 0x4000003)

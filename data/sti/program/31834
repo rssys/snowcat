@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000001140)='mountinfo\x00')
+read$ptp(r0, &(0x7f0000000140)=""/4096, 0x1000)

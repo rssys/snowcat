@@ -1,0 +1,2 @@
+r0 = socket$inet_icmp_raw(0x2, 0x3, 0x1)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000100)={'sit0\x00', &(0x7f0000000000)=@ethtool_rxnfc={0x29, 0x0, 0x0, {0x0, @ah_ip6_spec={@private0, @ipv4}, {0x0, @link_local}, @hdata="c9d7e799a819d193312789d5fae7cc7be52e2f40e21ad1677f6797b20e3cd1900820ddc9dbc8ddf6b3abb1219806ab7fdcb8d8b6", {0x0, @local}}}})

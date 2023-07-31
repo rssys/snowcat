@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000000200)='./file0\x00', 0x0)
+write$P9_RREADDIR(r0, &(0x7f0000000240)={0xb}, 0xb)
+write$P9_RREAD(r0, &(0x7f0000000880)={0xb}, 0xb)

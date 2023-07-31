@@ -1,0 +1,6 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+pipe(&(0x7f0000000000))
+socket$packet(0x11, 0x2, 0x300)
+pipe(&(0x7f0000000000))
+pipe(&(0x7f0000000000))
+ioctl$sock_inet6_udp_SIOCINQ(r0, 0x5412, &(0x7f0000000000))

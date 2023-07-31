@@ -1,0 +1,3 @@
+bpf$OBJ_GET_PROG(0x7, &(0x7f0000003d80)={&(0x7f0000003d40)='./file0\x00'}, 0x10)
+ioctl$IMCLEAR_L2(0xffffffffffffffff, 0x80044946, 0x0)
+openat$dsp1(0xffffff9c, &(0x7f0000004040)='/dev/dsp1\x00', 0x4000, 0x0)

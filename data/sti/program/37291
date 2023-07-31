@@ -1,0 +1,1 @@
+syz_mount_image$msdos(&(0x7f0000000400)='msdos\x00', &(0x7f0000000440)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000940)=ANY=[@ANYBLOB='nodots,nodots,dots,dots,nocase,fscontext='])

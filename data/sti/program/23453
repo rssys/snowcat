@@ -1,0 +1,4 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x41, 0x0)
+write$binfmt_script(r0, &(0x7f00000000c0)=ANY=[], 0xfffffcd8)
+mount$9p_unix(&(0x7f00000000c0)='./file0\x00', &(0x7f0000000100)='./file0\x00', 0x0, 0x281810, 0x0)
+lremovexattr(&(0x7f0000000080)='./file0\x00', &(0x7f0000000240)=@random={'osx.', '\x00'})

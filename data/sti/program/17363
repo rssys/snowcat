@@ -1,0 +1,2 @@
+r0 = openat$urandom(0xffffff9c, &(0x7f0000000040)='/dev/urandom\x00', 0x0, 0x0)
+ioctl$RNDADDENTROPY(r0, 0x40085203, &(0x7f0000000100)=ANY=[@ANYBLOB="0000000095"])

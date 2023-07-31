@@ -1,0 +1,6 @@
+r0 = fork()
+sched_rr_get_interval(0x0, 0x0)
+openat$drirender128(0xffffff9c, &(0x7f0000000040)='/dev/dri/renderD128\x00', 0x0, 0x0)
+getpriority(0x0, r0)
+setsockopt$bt_BT_DEFER_SETUP(0xffffffffffffffff, 0x112, 0x7, 0x0, 0x0)
+getpriority(0x0, r0)

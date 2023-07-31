@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000fc0)='nl80211\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$nl80211(&(0x7f00000012c0)='nl80211\x00', 0xffffffffffffffff)

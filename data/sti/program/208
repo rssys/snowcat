@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vivid(&(0x7f0000000040)='/dev/video#\x00', 0x2, 0x2)
+ioctl$VIDIOC_G_TUNER(r0, 0x402c560b, &(0x7f00000001c0)={0x0, "efd2ffd2c596989877cd9c81cd71d2110cb5322aba8c60cfbc70169d5cfcc3f6"})

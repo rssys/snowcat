@@ -1,0 +1,3 @@
+mkdirat$cgroup_root(0xffffffffffffff9c, &(0x7f0000000000)='./cgroup.net/syz0\x00', 0x1ff)
+getrandom(&(0x7f0000000040)=""/89, 0x59, 0x0)
+prctl$PR_GET_THP_DISABLE(0x2a)

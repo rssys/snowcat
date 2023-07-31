@@ -1,0 +1,4 @@
+statx(0xffffffffffffffff, 0x0, 0x4000, 0x0, 0x0)
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000001540)='ns/pid_for_children\x00')
+dup2(0xffffffffffffffff, 0xffffffffffffffff)
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000001540)='ns/pid_for_children\x00')

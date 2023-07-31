@@ -1,0 +1,2 @@
+add_key$keyring(&(0x7f0000000040)='keyring\x00', 0x0, 0x0, 0x0, 0xfffffffffffffffe)
+faccessat(0xffffffffffffff9c, &(0x7f0000000080)='./cgroup/cgroup.procs\x00', 0x0)

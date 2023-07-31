@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$mptcp(&(0x7f00000001c0)='mptcp_pm\x00', 0xffffffffffffffff)
+sendmsg$MPTCP_PM_CMD_DEL_ADDR(r0, &(0x7f00000004c0)={0x0, 0x0, &(0x7f0000000480)={&(0x7f0000000340)={0x14, r1, 0x1}, 0x14}}, 0x0)

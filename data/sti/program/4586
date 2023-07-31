@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f00000008c0)='nl80211\x00')
+sendmsg$NL80211_CMD_ABORT_SCAN(r0, &(0x7f00000009c0)={0x0, 0x0, &(0x7f0000000980)={&(0x7f0000000040)=ANY=[@ANYBLOB='(\x00\x00\x00', @ANYRES16=r1, @ANYBLOB="010b0000000300b04b440582eb5b0c"], 0x28}}, 0x0)

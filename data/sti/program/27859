@@ -1,0 +1,2 @@
+syz_mount_image$xfs(0x0, &(0x7f0000000780)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+removexattr(&(0x7f0000000a80)='./file0\x00', &(0x7f0000000ac0)=@known='system.advise\x00')

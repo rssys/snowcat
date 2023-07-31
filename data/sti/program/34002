@@ -1,0 +1,5 @@
+clock_getres(0x0, &(0x7f0000000000))
+r0 = openat$ipvs(0xffffff9c, &(0x7f0000000040)='/proc/sys/net/ipv4/vs/expire_quiescent_template\x00', 0x2, 0x0)
+read$FUSE(r0, 0x0, 0x0)
+r1 = socket$tipc(0x1e, 0x5, 0x0)
+setsockopt$TIPC_MCAST_BROADCAST(r1, 0x10f, 0x85)

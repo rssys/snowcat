@@ -1,0 +1,6 @@
+munlockall()
+ioctl$ASHMEM_GET_SIZE(0xffffffffffffffff, 0x7704, 0x0)
+munlockall()
+munlockall()
+ioctl$VHOST_SET_VRING_BASE(0xffffffffffffffff, 0x4008af12, 0x0)
+openat$vnet(0xffffff9c, &(0x7f0000000380)='/dev/vhost-net\x00', 0x2, 0x0)

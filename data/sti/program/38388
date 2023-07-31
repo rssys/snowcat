@@ -1,0 +1,2 @@
+ioctl$SNDCTL_DSP_SUBDIVIDE(0xffffffffffffffff, 0xc0045009, 0x0)
+openat$sequencer(0xffffff9c, &(0x7f0000000200)='/dev/sequencer\x00', 0x0, 0x0)

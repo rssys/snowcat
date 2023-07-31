@@ -1,0 +1,3 @@
+open$dir(&(0x7f0000000000)='./file0\x00', 0x106442, 0x0)
+lsetxattr$trusted_overlay_upper(&(0x7f0000000180)='./file0\x00', &(0x7f00000001c0)='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)
+openat$dir(0xffffffffffffff9c, &(0x7f00000004c0)='./file0\x00', 0x600, 0x0)

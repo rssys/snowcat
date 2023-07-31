@@ -1,0 +1,3 @@
+syz_mount_image$tmpfs(0x0, &(0x7f0000004c80)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_nlink(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='trusted.overlay.nlink\x00', &(0x7f0000000080)={'U+'}, 0x16, 0x0)
+removexattr(&(0x7f00000000c0)='./file0\x00', &(0x7f0000000100)=@known='trusted.overlay.nlink\x00')

@@ -1,0 +1,2 @@
+r0 = openat$bsg(0xffffffffffffff9c, &(0x7f0000000040)='/dev/bsg\x00', 0x0, 0x0)
+getdents(r0, &(0x7f0000000500)=""/68, 0x44)

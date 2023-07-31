@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000000000)='tmpfs\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002580)=ANY=[@ANYBLOB="6d706f6c3d6c6ff0b42e2dd6233663616c3d7374617469633a3401"])

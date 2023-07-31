@@ -1,0 +1,2 @@
+r0 = socket$inet6_sctp(0xa, 0x1, 0x84)
+sendto$inet6(r0, &(0x7f0000000000)="5fb7b0d34e6ec5a09a88d91d86ce44579487842298240d09df904bd1e094574b459fafb094ce87654a4531f7912bf27cb3e6", 0x32, 0x40, &(0x7f0000000100)={0xa, 0x4e24, 0x3, @ipv4={[], [], @private=0xa010101}, 0x42}, 0x1c)

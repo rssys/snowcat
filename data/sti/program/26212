@@ -1,0 +1,2 @@
+openat$cgroup_ro(0xffffffffffffffff, &(0x7f0000000000)='cpuacct.usage_sys\x00', 0x0, 0x0)
+getitimer(0x0, &(0x7f0000000280))

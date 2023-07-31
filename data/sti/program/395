@@ -1,0 +1,2 @@
+r0 = socket$inet6_icmp_raw(0xa, 0x3, 0x3a)
+ioctl$sock_inet6_SIOCDELRT(r0, 0x890c, 0x0)

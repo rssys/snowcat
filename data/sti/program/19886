@@ -1,0 +1,3 @@
+syz_mount_image$ext4(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$trusted_overlay_opaque(&(0x7f0000000080)='./file0\x00', &(0x7f0000000180)='trusted.overlay.opaque\x00', &(0x7f0000000580)='y\x00', 0x2, 0x0)
+lsetxattr$trusted_overlay_opaque(&(0x7f0000000740)='./file0\x00', &(0x7f0000000780)='trusted.overlay.opaque\x00', &(0x7f00000007c0)='y\x00', 0x2, 0x0)

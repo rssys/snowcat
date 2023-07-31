@@ -1,0 +1,5 @@
+setsockopt$inet6_tcp_TLS_RX(0xffffffffffffffff, 0x6, 0x2, &(0x7f0000000000)=@gcm_128={{}, "848befc9c0f5eeea", "b9071c3ab4f3add288a95ba7ca698c5e", "cf2f1d2b", "150d710be4cdb8ef"}, 0x28)
+syz_open_procfs$namespace(0x0, 0x0)
+socket$kcm(0x29, 0x0, 0x0)
+r0 = openat$sequencer(0xffffff9c, &(0x7f00000011c0)='/dev/sequencer\x00', 0x101000, 0x0)
+ioctl$SNDCTL_SEQ_NRMIDIS(r0, 0x8004510b, &(0x7f0000001200))

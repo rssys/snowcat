@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$nbd(0x0, 0xffffffffffffffff)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$BINDER_GET_NODE_INFO_FOR_REF(0xffffffffffffffff, 0xc018620c, 0x0)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000640)='net/ip6_flowlabel\x00')

@@ -1,0 +1,3 @@
+r0 = openat$kvm(0xffffff9c, &(0x7f0000000140)='/dev/kvm\x00', 0x0, 0x0)
+r1 = ioctl$KVM_CREATE_VM(r0, 0xae01, 0x0)
+ioctl$KVM_SET_GSI_ROUTING(r1, 0x4008ae6a, &(0x7f0000000000))

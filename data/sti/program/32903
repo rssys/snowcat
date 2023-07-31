@@ -1,0 +1,4 @@
+sendmsg$TIPC_CMD_SET_LINK_WINDOW(0xffffffffffffffff, 0x0, 0x0)
+r0 = epoll_create1(0x0)
+r1 = syz_init_net_socket$nfc_raw(0x27, 0x3, 0x0)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f0000000300)={0x20000001})

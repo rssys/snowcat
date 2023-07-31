@@ -1,0 +1,2 @@
+write$RDMA_USER_CM_CMD_QUERY_ROUTE(0xffffffffffffffff, 0x0, 0x0)
+io_uring_setup(0x51ba, &(0x7f00000002c0))

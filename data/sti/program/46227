@@ -1,0 +1,6 @@
+r0 = openat$procfs(0xffffffffffffff9c, &(0x7f0000000000)='/proc/sysvipc/msg\x00', 0x0, 0x0)
+socketpair$unix(0x1, 0x5, 0x0, &(0x7f0000000040)={<r1=>0xffffffffffffffff, <r2=>0xffffffffffffffff})
+r3 = dup3(r2, r0, 0x0)
+write$char_raw(r0, &(0x7f0000000100)=ANY=[], 0xfdef)
+dup3(r0, r1, 0x0)
+write$P9_RRENAMEAT(r3, 0x0, 0x0)

@@ -1,0 +1,3 @@
+r0 = epoll_create1(0x0)
+r1 = openat$tcp_congestion(0xffffff9c, &(0x7f00000002c0)='/proc/sys/net/ipv4/tcp_congestion_control\x00', 0x1, 0x0)
+epoll_ctl$EPOLL_CTL_MOD(r0, 0x3, r1, &(0x7f0000000300)={0x50000000})

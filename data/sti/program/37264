@@ -1,0 +1,1 @@
+ioctl$SECCOMP_IOCTL_NOTIF_SEND(0xffffffffffffffff, 0xc0182101, 0x0)

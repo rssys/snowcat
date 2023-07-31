@@ -1,0 +1,3 @@
+ioctl$SNDCTL_DSP_GETCAPS(0xffffffffffffffff, 0x8004500f, 0x0)
+ioctl$LOOP_SET_FD(0xffffffffffffffff, 0x4c00, 0xffffffffffffffff)
+openat$adsp1(0xffffff9c, &(0x7f00000001c0)='/dev/adsp1\x00', 0x4800, 0x0)

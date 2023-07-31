@@ -1,0 +1,2 @@
+futimesat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)
+mkdir(&(0x7f0000000100)='./file0\x00', 0x0)

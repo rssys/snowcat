@@ -1,0 +1,2 @@
+r0 = openat$dlm_control(0xffffff9c, &(0x7f00000001c0)='/dev/dlm-control\x00', 0x201, 0x0)
+write$vhost_msg(r0, 0x0, 0x0)

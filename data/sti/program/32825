@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x7905, &(0x7f00000001c0))
+fcntl$setstatus(r0, 0x4, 0x2000)

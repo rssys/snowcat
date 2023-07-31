@@ -1,0 +1,2 @@
+sendmsg$BATADV_CMD_GET_BLA_BACKBONE(0xffffffffffffffff, 0x0, 0x8800)
+openat$ptmx(0xffffff9c, &(0x7f0000000700)='/dev/ptmx\x00', 0x20100, 0x0)

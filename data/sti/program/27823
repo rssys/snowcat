@@ -1,0 +1,7 @@
+syz_open_dev$video(&(0x7f0000000000)='/dev/video#\x00', 0x3, 0x400)
+mount$fuse(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, &(0x7f0000000200)={{'fd'}, 0x2c, {'rootmode'}, 0x2c, {'user_id'}, 0x2c, {'group_id'}, 0x2c, {[{@allow_other='allow_other'}]}})
+openat$vicodec0(0xffffff9c, &(0x7f00000003c0)='/dev/video36\x00', 0x2, 0x0)
+syz_init_net_socket$bt_sco(0x1f, 0x5, 0x2)
+bind$bt_sco(0xffffffffffffffff, &(0x7f0000000540)={0x1f, @fixed}, 0x8)
+syz_mount_image$fuse(&(0x7f0000000580)='fuse\x00', &(0x7f00000005c0)='./file0\x00', 0x0, 0x0, 0x0, 0x1000000, &(0x7f0000000600)={{'fd'}, 0x2c, {'rootmode'}, 0x2c, {'user_id'}, 0x2c, {'group_id', 0x3d, 0xffffffffffffffff}, 0x2c, {[{@allow_other='allow_other'}], [{@smackfsdef={'smackfsdef'}}]}})
+openat$cgroup_root(0xffffff9c, &(0x7f00000009c0)='./cgroup/syz1\x00', 0x200002, 0x0)

@@ -1,0 +1,3 @@
+r0 = openat$rtc(0xffffff9c, &(0x7f0000000040)='/dev/rtc0\x00', 0x0, 0x0)
+ioctl$RTC_RD_TIME(r0, 0x80247009, &(0x7f0000000080))
+ioctl$RTC_ALM_READ(r0, 0x80247008, &(0x7f0000000000))

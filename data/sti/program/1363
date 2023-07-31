@@ -1,0 +1,2 @@
+syz_mount_image$iso9660(&(0x7f00000007c0)='iso9660\x00', &(0x7f0000000800)='./file0\x00', 0x1, 0x0, 0x0, 0x0, &(0x7f0000000a00))
+setxattr$trusted_overlay_origin(&(0x7f0000003e00)='./file0\x00', &(0x7f0000003e40)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

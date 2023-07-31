@@ -1,0 +1,7 @@
+ioctl$LOOP_CLR_FD(0xffffffffffffffff, 0x4c01)
+ioctl$LOOP_SET_STATUS(0xffffffffffffffff, 0x4c02, &(0x7f0000000000)={0x0, {}, 0x0, {}, 0x1, 0x9, 0x1c, 0x0, "b1c89b8645facadd546be73d0db6cca83c4444214f361218d0f315fa41afcc9c4fb1c4e1a64a0258163f485d5c66224798fabd832c6c76428c875eebb3cb5069", "a025de7a229527eb4bd0435203eec27933ab5a2d0630dcd9e26322ed0a3b8cd5", [0x5, 0x5]})
+openat$vcsa(0xffffff9c, &(0x7f00000000c0)='/dev/vcsa\x00', 0x20000, 0x0)
+ioctl$KVM_PPC_GET_PVINFO(0xffffffffffffffff, 0x4080aea1, &(0x7f0000000100)=""/132)
+openat$binder_debug(0xffffff9c, &(0x7f00000001c0)='/sys/kernel/debug/binder/failed_transaction_log\x00', 0x0, 0x0)
+r0 = io_uring_setup(0x1819, &(0x7f00000009c0)={0x0, 0x0, 0x1, 0x1, 0x13e})
+io_uring_register$IORING_REGISTER_PERSONALITY(r0, 0x9, 0x0, 0x0)

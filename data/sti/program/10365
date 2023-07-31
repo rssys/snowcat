@@ -1,0 +1,4 @@
+socketpair(0x8, 0x0, 0x0, &(0x7f0000000000))
+syz_genetlink_get_family_id$batadv(&(0x7f00000002c0)='batadv\x00', 0xffffffffffffffff)
+openat$cgroup_root(0xffffff9c, &(0x7f0000000400)='./cgroup.net/syz1\x00', 0x200002, 0x0)
+openat$ipvs(0xffffff9c, &(0x7f0000000480)='/proc/sys/net/ipv4/vs/sync_sock_size\x00', 0x2, 0x0)

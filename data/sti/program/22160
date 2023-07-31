@@ -1,0 +1,2 @@
+r0 = syz_open_dev$swradio(&(0x7f00000023c0)='/dev/swradio#\x00', 0x0, 0x2)
+ioctl$VIDIOC_G_SLICED_VBI_CAP(r0, 0xc0505609, 0x0)

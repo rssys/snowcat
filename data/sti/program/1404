@@ -1,0 +1,1 @@
+openat$vcsu(0xffffff9c, &(0x7f0000000100)='/dev/vcsu\x00', 0x42000, 0x0)

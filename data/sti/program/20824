@@ -1,0 +1,4 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$SEG6(&(0x7f0000000a80)='SEG6\x00', 0xffffffffffffffff)
+sendmsg$SEG6_CMD_SETHMAC(r0, &(0x7f0000000b80)={0x0, 0x0, &(0x7f0000000b40)={&(0x7f0000000ac0)={0x14, r1, 0x1}, 0x14}}, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000c00)='devlink\x00', r0)

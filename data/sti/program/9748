@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/protocols\x00')
+readv(r0, &(0x7f0000000140)=[{&(0x7f00000000c0)=""/125, 0x7d}], 0x1)

@@ -1,0 +1,2 @@
+syz_mount_image$squashfs(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$overlay(0x0, &(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='overlay\x00', 0x0, &(0x7f0000000140)={[{@workdir={'workdir', 0x3d, './file0'}}, {@metacopy_on='metacopy=on'}, {@lowerdir={'lowerdir', 0x3d, './file0'}}]})

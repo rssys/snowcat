@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='clear_refs\x00')
+writev(r0, &(0x7f0000000200)=[{&(0x7f00000001c0)='0', 0x1}], 0x1)

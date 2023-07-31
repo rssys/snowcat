@@ -1,0 +1,2 @@
+add_key$keyring(0x0, 0x0, 0x0, 0x0, 0xfffffffffffffffd)
+syz_genetlink_get_family_id$team(&(0x7f0000000540)='team\x00')

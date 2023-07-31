@@ -1,0 +1,3 @@
+creat(&(0x7f0000000200)='./file0\x00', 0x0)
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='fd/3\x00')
+preadv2(r0, &(0x7f0000000440)=[{&(0x7f0000000000)=""/139, 0x2000008b}], 0x1, 0x2000000, 0x0, 0x0)

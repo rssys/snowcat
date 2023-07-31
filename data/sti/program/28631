@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+setsockopt$IP6T_SO_SET_ADD_COUNTERS(r0, 0x29, 0x1b, &(0x7f0000000040)=ANY=[@ANYBLOB='m'], 0x78)

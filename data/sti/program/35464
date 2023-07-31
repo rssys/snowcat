@@ -1,0 +1,1 @@
+ioctl$SECCOMP_IOCTL_NOTIF_ADDFD(0xffffffffffffffff, 0x40182103, 0x0)

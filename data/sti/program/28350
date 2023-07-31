@@ -1,0 +1,2 @@
+r0 = openat$full(0xffffff9c, &(0x7f0000000000)='/dev/full\x00', 0x102, 0x0)
+write$rfkill(r0, 0x0, 0x0)

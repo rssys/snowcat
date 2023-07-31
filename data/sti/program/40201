@@ -1,0 +1,2 @@
+ioctl$PPPIOCDISCONN(0xffffffffffffffff, 0x7439)
+fork()

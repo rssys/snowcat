@@ -1,0 +1,2 @@
+r0 = socket$alg(0x26, 0x5, 0x0)
+ioctl$sock_SIOCSPGRP(r0, 0x8902, &(0x7f0000000000))

@@ -1,0 +1,1 @@
+lsetxattr$trusted_overlay_nlink(&(0x7f0000000a00)='.\x00', &(0x7f0000000a40)='trusted.overlay.nlink\x00', &(0x7f0000000a80)={'U-'}, 0x16, 0x0)

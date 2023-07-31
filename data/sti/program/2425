@@ -1,0 +1,1 @@
+openat$cgroup_int(0xffffffffffffffff, &(0x7f00000013c0)='cpu.weight\x00', 0x2, 0x0)

@@ -1,0 +1,4 @@
+creat(&(0x7f0000000000)='./file0\x00', 0x0)
+rmdir(&(0x7f0000000140)='./file0\x00')
+lsetxattr$security_capability(&(0x7f0000000440)='./file0\x00', &(0x7f0000000480)='security.capability\x00', &(0x7f00000004c0)=@v3, 0x18, 0x0)
+creat(&(0x7f0000000640)='./file0\x00', 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_SIOCGIFCONF(r0, 0x8912, &(0x7f0000000240)=@req={0x20, &(0x7f0000000200)={'veth0_vlan\x00', @ifru_map}})

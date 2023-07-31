@@ -1,0 +1,1 @@
+openat$sequencer(0xffffff9c, &(0x7f0000000140)='/dev/sequencer\x00', 0x48802, 0x0)

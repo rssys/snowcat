@@ -1,0 +1,4 @@
+r0 = open_tree(0xffffffffffffff9c, &(0x7f0000000100)='\x00', 0x89101)
+mknodat(r0, &(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+mount$9p_unix(&(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x1021003, 0x0)
+unlink(&(0x7f00000000c0)='./file0\x00')

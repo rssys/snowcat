@@ -1,0 +1,2 @@
+r0 = openat$procfs(0xffffff9c, &(0x7f0000000040)='/proc/vmstat\x00', 0x0, 0x0)
+read(r0, &(0x7f0000000080)=""/178, 0xfdef)

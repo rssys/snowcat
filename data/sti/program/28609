@@ -1,0 +1,2 @@
+r0 = socket$nl_route(0x10, 0x3, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000001c80)='devlink\x00', r0)

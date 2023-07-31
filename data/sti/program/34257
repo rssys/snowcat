@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+sendmsg$TCPDIAG_GETSOCK(r0, &(0x7f0000000440)={0x0, 0x0, &(0x7f0000000400)={&(0x7f00000000c0)=ANY=[@ANYBLOB="4c00000012000116a8caca73f9908ded0a"], 0x4c}}, 0x0)

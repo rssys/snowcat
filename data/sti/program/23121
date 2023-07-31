@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sg(&(0x7f00000000c0)='/dev/sg#\x00', 0x0, 0x80182)
+ioctl$SCSI_IOCTL_SYNC(r0, 0x4)

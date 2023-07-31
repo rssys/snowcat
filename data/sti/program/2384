@@ -1,0 +1,4 @@
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000000100)='.\x00', 0x21)
+openat2$dir(0xffffff9c, &(0x7f0000000040)='./file0\x00', &(0x7f0000000080)={0x40}, 0x18)
+openat$incfs(0xffffffffffffff9c, &(0x7f0000000000)='.pending_reads\x00', 0x149440, 0x0)

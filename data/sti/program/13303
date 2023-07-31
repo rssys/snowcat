@@ -1,0 +1,1 @@
+syz_mount_image$omfs(&(0x7f0000003a80)='omfs\x00', &(0x7f0000003ac0)='./file0\x00', 0x0, 0x0, 0x0, 0x22, &(0x7f0000003b40))

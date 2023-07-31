@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000001ac0)='tmpfs\x00', &(0x7f0000001b00)='./file0\x00', 0x0, 0x0, 0x0, 0x10801, &(0x7f0000002e80)={[{@mode={'mode'}}]})

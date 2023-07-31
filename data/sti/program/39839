@@ -1,0 +1,1 @@
+syz_mount_image$ext4(&(0x7f00000003c0)='ext4\x00', &(0x7f0000000400)='./file0\x00', 0x0, 0x0, 0x0, 0x2, &(0x7f0000001780)={[], [{@defcontext={'defcontext', 0x3d, 'staff_u'}}]})

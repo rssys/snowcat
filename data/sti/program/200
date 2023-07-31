@@ -1,0 +1,3 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f0000000140)='/dev/snd/seq\x00', 0x442)
+ioctl$SNDRV_SEQ_IOCTL_CREATE_QUEUE(r0, 0xc08c5332, &(0x7f0000000080)={0x0, 0x0, 0x0, 'queue1\x00'})
+write$sndseq(r0, &(0x7f0000000040)=[{0x26, 0x0, 0x0, 0x0, @time, {}, {}, @addr}], 0x1c)

@@ -1,0 +1,2 @@
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f00000013c0)='ns/pid\x00')
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000001400)='ns/pid\x00')

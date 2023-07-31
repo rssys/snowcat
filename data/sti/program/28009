@@ -1,0 +1,5 @@
+mkdir(&(0x7f00000000c0)='./file0\x00', 0x0)
+r0 = syz_open_dev$vcsa(&(0x7f0000000500)='/dev/vcsa#\x00', 0x4, 0x0)
+r1 = openat$sndseq(0xffffff9c, &(0x7f0000000000)='/dev/snd/seq\x00', 0x2002)
+write$sndseq(r1, 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000480)='./file0\x00', &(0x7f00000004c0)='9p\x00', 0x0, &(0x7f0000000540)={'trans=fd,', {'rfdno', 0x3d, r0}, 0x2c, {'wfdno', 0x3d, r1}})

@@ -1,0 +1,3 @@
+open(&(0x7f00000002c0)='./file0\x00', 0x111040, 0x0)
+setxattr(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)=@known='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)
+open(&(0x7f0000000400)='./file0\x00', 0x141a00, 0x0)

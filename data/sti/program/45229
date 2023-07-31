@@ -1,0 +1,2 @@
+geteuid()
+syz_init_net_socket$nfc_raw(0x27, 0x5, 0x0)

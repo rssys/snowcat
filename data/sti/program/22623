@@ -1,0 +1,7 @@
+syz_genetlink_get_family_id$netlbl_calipso(&(0x7f0000000140)='NLBL_CALIPSO\x00', 0xffffffffffffffff)
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NLBL_CALIPSO_C_REMOVE(r0, &(0x7f0000000a80)={&(0x7f00000009c0)={0x10, 0x0, 0x0, 0x2000000}, 0xc, &(0x7f0000000a40)={&(0x7f0000000a00)={0x24, 0x0, 0x0, 0x70bd2a, 0x0, {}, [@NLBL_CALIPSO_A_MTYPE={0x8}, @NLBL_CALIPSO_A_MTYPE={0x8}]}, 0x24}}, 0x0)
+sendmsg$FOU_CMD_ADD(0xffffffffffffffff, 0x0, 0x80)
+ioctl$sock_inet6_SIOCDELRT(0xffffffffffffffff, 0x890c, 0x0)
+syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000e80)='NLBL_UNLBL\x00', r0)

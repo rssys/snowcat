@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000040)='net/anycast6\x00')
+lseek(r0, 0xf3ab, 0x0)

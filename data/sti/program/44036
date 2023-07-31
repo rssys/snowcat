@@ -1,0 +1,2 @@
+epoll_create1(0x0)
+fork()

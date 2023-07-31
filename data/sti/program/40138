@@ -1,0 +1,7 @@
+lremovexattr(&(0x7f0000000000)='./file0\x00', 0x0)
+syz_mount_image$ubifs(&(0x7f0000000080)='ubifs\x00', &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000002c0)={[{@auth_key={'auth_key', 0x3d, ')-![#[+%\x96%#\\]@:.,=-*}]/\x00'}}]})
+lsetxattr$trusted_overlay_upper(&(0x7f0000000780)='./file0\x00', &(0x7f00000007c0)='trusted.overlay.upper\x00', &(0x7f0000000800)={0x0, 0xfb, 0x39, 0x0, 0x0, "c71bb4be979f434974158a5717e042fb", "a55b8d2813f44e95b3ed030bc013d30c1cc4f176c3d9c4522d0b4c71d181f51e6eb1ab66"}, 0x39, 0x1)
+geteuid()
+syz_mount_image$squashfs(0x0, 0x0, 0xffffffff, 0x0, 0x0, 0x0, 0x0)
+geteuid()
+readlink(0x0, &(0x7f0000003880)=""/101, 0x65)

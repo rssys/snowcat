@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000240)='./file0\x00', 0x0)
+write$P9_RREADDIR(r0, &(0x7f0000000140)=ANY=[], 0x87)

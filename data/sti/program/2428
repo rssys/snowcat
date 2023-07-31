@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000400)='./file0\x00', 0x0)
+write$P9_ROPEN(r0, &(0x7f0000000040)={0x18}, 0xffffff7c)

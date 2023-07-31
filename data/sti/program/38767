@@ -1,0 +1,2 @@
+r0 = openat$vcsa(0xffffff9c, &(0x7f0000000100)='/dev/vcsa\x00', 0x2081, 0x0)
+write$snddsp(r0, 0x0, 0x0)

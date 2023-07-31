@@ -1,0 +1,5 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000080)='net/igmp6\x00')
+r1 = openat$pidfd(0xffffff9c, &(0x7f0000000140)='/proc/self\x00', 0x0, 0x0)
+r2 = openat$pidfd(0xffffff9c, &(0x7f0000000140)='/proc/self\x00', 0x0, 0x0)
+fcntl$setstatus(r2, 0x402, 0x40400)
+dup3(r0, r1, 0x0)

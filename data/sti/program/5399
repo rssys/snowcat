@@ -1,0 +1,2 @@
+r0 = socket$inet_udp(0x2, 0x2, 0x0)
+setsockopt$IPT_SO_SET_ADD_COUNTERS(r0, 0x0, 0x41, &(0x7f0000000000)={'filter\x00', 0x4, [{}, {}, {}, {}]}, 0x68)

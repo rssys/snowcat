@@ -1,0 +1,2 @@
+sendmsg$TEAM_CMD_OPTIONS_SET(0xffffffffffffffff, 0x0, 0x0)
+io_uring_setup(0x452, &(0x7f0000009240))

@@ -1,0 +1,2 @@
+r0 = socket$inet6_sctp(0xa, 0x5, 0x84)
+getsockname(r0, &(0x7f0000000880)=@tipc=@id, &(0x7f0000000900)=0x80)

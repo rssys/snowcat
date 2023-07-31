@@ -1,0 +1,4 @@
+r0 = openat$selinux_attr(0xffffffffffffff9c, &(0x7f00000000c0)='/proc/thread-self/attr/sockcreate\x00', 0x2, 0x0)
+write$selinux_attr(r0, &(0x7f0000000100)='system_u:object_r:kmsg_device_t:s0\x00', 0x23)
+r1 = socket$inet6_udp(0xa, 0x2, 0x0)
+getsockopt$inet6_udp_int(r1, 0x11, 0x1, 0x0, &(0x7f0000000040))

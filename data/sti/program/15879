@@ -1,0 +1,3 @@
+sendmsg$nl_route_sched(0xffffffffffffffff, 0x0, 0x0)
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000a80)='ns/time_for_children\x00')
+perf_event_open(0x0, 0x0, 0xf, 0xffffffffffffffff, 0x0)

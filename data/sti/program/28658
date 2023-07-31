@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+ioctl$EXT4_IOC_MOVE_EXT(r0, 0xc028660f, 0x0)

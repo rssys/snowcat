@@ -1,0 +1,5 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f0000000080)='/dev/snd/seq\x00', 0x0)
+ioctl$SNDRV_SEQ_IOCTL_GET_SUBSCRIPTION(r0, 0xc0a85320, &(0x7f00000000c0)={{0x80}})
+write$sndseq(0xffffffffffffffff, 0x0, 0x0)
+r1 = openat$ptp0(0xffffffffffffff9c, &(0x7f0000000880)='/dev/ptp0\x00', 0x0, 0x0)
+dup3(r1, r0, 0x0)

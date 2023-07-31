@@ -1,0 +1,2 @@
+r0 = epoll_create(0x4)
+epoll_wait(r0, &(0x7f0000000340)=[{}], 0x1, 0x0)

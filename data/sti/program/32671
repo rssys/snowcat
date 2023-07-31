@@ -1,0 +1,1 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000002940)='net/ip_mr_vif\x00')

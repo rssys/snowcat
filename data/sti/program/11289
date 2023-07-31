@@ -1,0 +1,2 @@
+r0 = openat$dlm_monitor(0xffffff9c, &(0x7f0000000000)='/dev/dlm-monitor\x00', 0x0, 0x0)
+mmap$IORING_OFF_CQ_RING(&(0x7f0000ffd000/0x1000)=nil, 0x1000, 0x1000006, 0x10, r0, 0x8000000)

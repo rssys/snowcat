@@ -1,0 +1,2 @@
+r0 = openat$null(0xffffff9c, &(0x7f0000000500)='/dev/null\x00', 0x0, 0x0)
+fcntl$setownex(r0, 0xf, &(0x7f0000000540))

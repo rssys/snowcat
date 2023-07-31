@@ -1,0 +1,8 @@
+syz_genetlink_get_family_id$net_dm(&(0x7f0000000040)='NET_DM\x00', 0xffffffffffffffff)
+sendmsg$NET_DM_CMD_STOP(0xffffffffffffffff, 0x0, 0x40000)
+ioctl$CAPI_GET_MANUFACTURER(0xffffffffffffffff, 0xc0044306, 0x0)
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$net_dm(&(0x7f0000000340)='NET_DM\x00', 0xffffffffffffffff)
+sendmsg$NET_DM_CMD_STOP(r0, &(0x7f0000000400)={&(0x7f0000000300), 0xc, &(0x7f00000003c0)={&(0x7f0000000380)={0x14}, 0x14}}, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$net_dm(&(0x7f0000000640)='NET_DM\x00', r0)

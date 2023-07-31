@@ -1,0 +1,5 @@
+open(&(0x7f0000000000)='./file0\x00', 0x4a2c0, 0x0)
+r0 = open(&(0x7f0000000040)='./file0\x00', 0x60001, 0x0)
+write$cgroup_netprio_ifpriomap(r0, &(0x7f0000000580)={'vlan0'}, 0x8)
+truncate(&(0x7f00000000c0)='./file0\x00', 0x5)
+open(&(0x7f0000000080)='./file0\x00', 0xaa02, 0x0)

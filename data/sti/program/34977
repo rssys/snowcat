@@ -1,0 +1,2 @@
+r0 = syz_open_dev$cec(&(0x7f00000000c0)='/dev/cec#\x00', 0x0, 0x2)
+ioctl$VIDIOC_DQBUF(r0, 0xc04c5611, 0x0)

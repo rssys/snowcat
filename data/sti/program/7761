@@ -1,0 +1,4 @@
+syz_open_dev$binderN(&(0x7f0000000040)='/dev/binder#\x00', 0x0, 0xc00)
+io_uring_setup(0x6, &(0x7f00000003c0))
+r0 = openat$binder_debug(0xffffff9c, &(0x7f00000024c0)='/sys/kernel/debug/binder/state\x00', 0x0, 0x0)
+read$hiddev(r0, &(0x7f0000002540)=""/225, 0xe1)

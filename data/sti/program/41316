@@ -1,0 +1,6 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000100)='./file1\x00', 0x42, 0x1ff)
+close(r0)
+r1 = openat(0xffffffffffffff9c, &(0x7f0000000200)='./file1\x00', 0x2, 0x0)
+write$binfmt_script(r0, &(0x7f00000003c0)=ANY=[@ANYBLOB='#e1\n'], 0xb)
+close(r1)
+execveat(0xffffffffffffff9c, &(0x7f0000000380)='./file1\x00', 0x0, 0x0, 0x0)

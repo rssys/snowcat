@@ -1,0 +1,2 @@
+syz_mount_image$vfat(0x0, &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lremovexattr(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)=@known='system.posix_acl_access\x00')

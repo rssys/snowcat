@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000003780)='net/ip_tables_names\x00')
+ioctl$sock_kcm_SIOCKCMATTACH(r0, 0x89e0, 0x0)

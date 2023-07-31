@@ -1,0 +1,2 @@
+r0 = openat$bsg(0xffffffffffffff9c, &(0x7f0000000280)='/dev/bsg\x00', 0x0, 0x0)
+sendfile(0xffffffffffffffff, r0, 0x0, 0x0)

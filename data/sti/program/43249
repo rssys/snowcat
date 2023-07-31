@@ -1,0 +1,5 @@
+r0 = open(&(0x7f0000000080)='./file0\x00', 0x4ac2, 0x0)
+r1 = creat(&(0x7f0000002100)='./file0\x00', 0x0)
+writev(r1, &(0x7f00000002c0)=[{&(0x7f0000000000)='p', 0x1}], 0x1)
+r2 = openat$vcsa(0xffffffffffffff9c, &(0x7f0000000040)='/dev/vcsa\x00', 0x2, 0x0)
+sendfile(r2, r0, 0x0, 0xfffffffeffc)

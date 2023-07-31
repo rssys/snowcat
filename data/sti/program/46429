@@ -1,0 +1,4 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+r1 = openat$nvram(0xffffffffffffff9c, &(0x7f0000000180)='/dev/nvram\x00', 0x0, 0x0)
+syz_mount_image$nfs4(0x0, &(0x7f0000000200)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='9p\x00', 0x0, &(0x7f0000000080)=ANY=[@ANYBLOB='trans=fd,rfdno=', @ANYRESHEX=r1, @ANYBLOB=',wfdno=', @ANYRESHEX=r0, @ANYBLOB=',fscache,noextend,debug=0x0000000000000004,defcontext='])

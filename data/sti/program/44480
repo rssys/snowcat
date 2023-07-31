@@ -1,0 +1,6 @@
+waitid(0x0, 0x0, &(0x7f0000000000), 0x0, 0x0)
+openat$sequencer2(0xffffff9c, &(0x7f0000000140)='/dev/sequencer2\x00', 0x0, 0x0)
+ioctl$SNDCTL_TMR_SELECT(0xffffffffffffffff, 0x40045408)
+openat$sequencer2(0xffffff9c, &(0x7f00000001c0)='/dev/sequencer2\x00', 0x14040, 0x0)
+getpid()
+openat$sequencer(0xffffff9c, &(0x7f0000000380)='/dev/sequencer\x00', 0x105622, 0x0)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$floppy(&(0x7f0000000040)='/dev/fd#\x00', 0x0, 0x48842)
+ioctl$FLOPPY_FDSETMAXERRS(r0, 0x254, 0x0)

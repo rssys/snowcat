@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+prctl$PR_SET_MM_EXE_FILE(0x23, 0xd, r0)

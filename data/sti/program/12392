@@ -1,0 +1,2 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f0000000040)='/dev/snd/seq\x00', 0x2)
+write$binfmt_elf32(r0, 0x0, 0x1b00)

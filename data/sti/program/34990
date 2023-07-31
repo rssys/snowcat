@@ -1,0 +1,1 @@
+openat$ipvs(0xffffff9c, &(0x7f0000000000)='/proc/sys/net/ipv4/vs/nat_icmp_send\x00', 0x2, 0x0)

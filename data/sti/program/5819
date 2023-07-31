@@ -1,0 +1,1 @@
+mount$9p_fd(0x0, &(0x7f00000000c0)='.\x00', &(0x7f0000000100)='9p\x00', 0x0, &(0x7f0000000140)=ANY=[@ANYBLOB=',debug=0x0000000000000031,privport,access=user,msize=0x00000000000003ff,msize=0x00000000000006cc,access=client,cache=loose,access=user,version=9'])

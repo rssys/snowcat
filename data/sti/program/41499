@@ -1,0 +1,2 @@
+syz_mount_image$qnx6(0x0, &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_redirect(&(0x7f00000018c0)='./file0\x00', &(0x7f0000001900)='trusted.overlay.redirect\x00', &(0x7f0000001940)='./file0\x00', 0x8, 0x0)

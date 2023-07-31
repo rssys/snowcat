@@ -1,0 +1,2 @@
+r0 = open(&(0x7f00000001c0)='./file0\x00', 0x44142, 0x0)
+write$vga_arbiter(r0, &(0x7f0000000240)=@unlock_all='unlock all\x00', 0xb)

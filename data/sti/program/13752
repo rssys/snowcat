@@ -1,0 +1,2 @@
+r0 = syz_mount_image$tmpfs(&(0x7f0000000440)='tmpfs\x00', &(0x7f0000000480)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000780))
+mknodat(r0, &(0x7f00000004c0)='./file0\x00', 0x1000, 0x0)

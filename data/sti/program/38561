@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000040)='/dev/vcsa#\x00', 0x0, 0x8741)
+fsetxattr$security_selinux(r0, &(0x7f0000000080)='security.selinux\x00', &(0x7f00000000c0)='/usr/sbin/ntpd\x00', 0xf, 0x0)

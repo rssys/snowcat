@@ -1,0 +1,2 @@
+r0 = add_key$fscrypt_v1(&(0x7f0000000000)='logon\x00', &(0x7f00000000c0)={'fscrypt:', @desc3='e8dab99234bb312e'}, &(0x7f0000000100)={0x0, "1f31a6c8f57a84a9de6bf91376007d8257cfbbfcd6e49684ad01730462d5274c53f9b39a892ae85d1b50a5269cd29cc8ee37de538f5d142aff6a14932809508c"}, 0x48, 0xfffffffffffffffe)
+keyctl$restrict_keyring(0x1d, r0, &(0x7f0000000080)='dns_resolver\x00', 0x0)

@@ -1,0 +1,1 @@
+openat$userio(0xffffff9c, &(0x7f00000009c0)='/dev/userio\x00', 0x240, 0x0)

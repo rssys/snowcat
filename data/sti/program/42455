@@ -1,0 +1,2 @@
+sched_setaffinity(0x0, 0x8, &(0x7f0000001a00))
+io_setup(0x80ef, &(0x7f0000000000))

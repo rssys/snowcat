@@ -1,0 +1,1 @@
+bpf$LINK_GET_FD_BY_ID(0x1e, &(0x7f0000000400)=0xffffffffffffffff, 0x4)

@@ -1,0 +1,4 @@
+r0 = socket$inet6(0xa, 0x3, 0x4)
+setsockopt$inet6_IPV6_PKTINFO(r0, 0x29, 0x1b, &(0x7f0000000040)={@dev}, 0x54)
+r1 = syz_open_procfs(0x0, &(0x7f0000000040)='net/anycast6\x00')
+read$rfkill(r1, 0x0, 0x0)

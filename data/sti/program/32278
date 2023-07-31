@@ -1,0 +1,1 @@
+execveat(0xffffffffffffffff, &(0x7f0000000300)='./file0\x00', &(0x7f0000000380)=[&(0x7f0000000340)='system.posix_acl_access\x00'], &(0x7f0000000440)=[&(0x7f00000003c0)='\x00', &(0x7f0000000400)='$\xaf.[\x00'], 0x400)

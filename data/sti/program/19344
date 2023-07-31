@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000000180)='./file1\x00', 0x0)
+ioctl$FS_IOC_SETFLAGS(r0, 0x40046602, &(0x7f0000000000))
+ioctl$FITRIM(r0, 0xc020660b, &(0x7f0000000140)={0x0, 0x4})

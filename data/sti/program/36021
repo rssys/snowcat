@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='coredump_filter\x00')
+readv(r0, &(0x7f00000011c0)=[{&(0x7f0000000040)=""/106, 0x6a}], 0x1)

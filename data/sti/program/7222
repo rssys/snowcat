@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NBD_CMD_STATUS(r0, &(0x7f0000000240)={0x0, 0x0, &(0x7f0000000200)={0x0}}, 0x0)
+syz_genetlink_get_family_id$netlbl_mgmt(&(0x7f0000000400)='NLBL_MGMT\x00', r0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

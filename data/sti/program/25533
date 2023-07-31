@@ -1,0 +1,1 @@
+syz_open_dev$floppy(&(0x7f0000000000)='/dev/fd#\x00', 0x0, 0x80000)

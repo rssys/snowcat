@@ -1,0 +1,4 @@
+sched_getaffinity(0xffffffffffffffff, 0x0, 0x0)
+getpgid(0x0)
+getgroups(0x0, &(0x7f00000002c0))
+fork()

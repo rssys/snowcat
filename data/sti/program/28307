@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$devlink(0x0, 0xffffffffffffffff)
+fork()
+syz_open_dev$vcsu(0x0, 0x0, 0x0)

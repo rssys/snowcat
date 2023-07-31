@@ -1,0 +1,3 @@
+ioctl$KVM_CREATE_VM(0xffffffffffffffff, 0xae01, 0x0)
+openat$procfs(0xffffff9c, &(0x7f0000000080)='/proc/zoneinfo\x00', 0x0, 0x0)
+fork()

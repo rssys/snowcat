@@ -1,0 +1,2 @@
+r0 = openat$ipvs(0xffffff9c, &(0x7f0000000000)='/proc/sys/net/ipv4/vs/sync_ports\x00', 0x2, 0x0)
+ioctl(r0, 0x1, &(0x7f0000000100)="24e65fa2")

@@ -1,0 +1,3 @@
+pipe(&(0x7f0000000000))
+ioctl$sock_ipv6_tunnel_SIOCCHGTUNNEL(0xffffffffffffffff, 0x89f3, 0x0)
+read$eventfd(0xffffffffffffffff, &(0x7f0000000080), 0x4)

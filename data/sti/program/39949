@@ -1,0 +1,5 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$gtp(&(0x7f0000000000)='gtp\x00', r0)
+seccomp$SECCOMP_SET_MODE_FILTER_LISTENER(0x1, 0x0, &(0x7f0000000240)={0x1, &(0x7f0000000200)=[{}]})
+ioctl$BTRFS_IOC_RM_DEV_V2(0xffffffffffffffff, 0x5000943a, 0x0)
+openat$sndseq(0xffffff9c, &(0x7f0000001300)='/dev/snd/seq\x00', 0x0)

@@ -1,0 +1,2 @@
+r0 = openat$sequencer(0xffffff9c, &(0x7f0000000040)='/dev/sequencer\x00', 0x0, 0x0)
+readv(r0, &(0x7f0000000340)=[{&(0x7f00000000c0)=""/2, 0x2}], 0x1)

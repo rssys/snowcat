@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x2, 0x300)
+ioctl$sock_TIOCOUTQ(r0, 0x8940, &(0x7f0000000000))

@@ -1,0 +1,5 @@
+r0 = socket$inet(0x2, 0xa, 0x0)
+ioctl$sock_inet_SIOCADDRT(r0, 0x890b, &(0x7f0000000080)={0x0, {0x2, 0x0, @broadcast}, {0x2, 0x0, @remote={0xac, 0x14, 0x11}}, {0x2, 0x4e24, @dev={0xac, 0x14, 0x14, 0x32}}, 0x1ae})
+r1 = socket$inet(0x2, 0xa, 0x0)
+setsockopt$inet_group_source_req(r1, 0x0, 0x0, 0x0, 0x0)
+setsockopt$inet_buf(r1, 0x0, 0x2c, &(0x7f0000000100)="85507868d51da0f503b34b2b219a7ce7b2a6c4d5683a6271f930054d87d2bb3ded674d388385d6320cff8952cc37d27ca5c1ac843de0680e5b00306bef7b4a01b9aecf82bd7b4280b2a7c224ebc43059e7c9d184c66248ca2cc30e762f1cf409e6f488bfab6eb0728883cfefdac339d3d8427756eb76d1bce1df2138dcfe8e61a0ee41ec2e5322e3ecf2c4161908694c62b3dd41fac9b9ebfb38a1008ed961f7c15e491f6799b97dee509fdc8aae65f9abdccab2f6bda5bba84033679e698aa0dbdea06e7519f28ae3e39cf9f0e1d9dd48de187ce8bf80baa7e0b1a7229fd54e8522", 0xe2)

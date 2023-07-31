@@ -1,0 +1,1 @@
+syz_open_dev$amidi(&(0x7f00000000c0)='/dev/amidi#\x00', 0x0, 0x105040)

@@ -1,0 +1,4 @@
+r0 = openat$cgroup_root(0xffffffffffffff9c, &(0x7f0000000040)='./cgroup.cpu/syz1\x00', 0x200002, 0x0)
+syz_genetlink_get_family_id$batadv(0x0)
+r1 = openat$cgroup_procs(r0, &(0x7f00000000c0)='cgroup.threads\x00', 0x2, 0x0)
+write$cgroup_pid(r1, &(0x7f0000000080), 0xffffffff000)

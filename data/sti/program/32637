@@ -1,0 +1,2 @@
+syz_open_dev$vcsn(&(0x7f0000000040)='/dev/vcs#\x00', 0x3fff8000, 0x20840)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000001980)='net/nf_conntrack\x00')

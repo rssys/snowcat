@@ -1,0 +1,5 @@
+r0 = inotify_init()
+open(&(0x7f0000000040)='./file0\x00', 0x141d42, 0x0)
+inotify_add_watch(r0, &(0x7f0000000040)='./file0\x00', 0x4000000)
+r1 = inotify_init()
+inotify_add_watch(r1, &(0x7f0000000040)='./file0\x00', 0x4000000)

@@ -1,0 +1,2 @@
+r0 = open(&(0x7f0000000440)='./file0\x00', 0x1fe, 0x0)
+fsetxattr$trusted_overlay_nlink(r0, &(0x7f0000000000)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

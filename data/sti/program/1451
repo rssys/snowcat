@@ -1,0 +1,2 @@
+r0 = openat$dlm_monitor(0xffffff9c, &(0x7f0000000e80)='/dev/dlm-monitor\x00', 0x220580, 0x0)
+ioctl$TUNSETSTEERINGEBPF(r0, 0x800454e0, 0x0)

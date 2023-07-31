@@ -1,0 +1,4 @@
+r0 = signalfd(0xffffffffffffffff, &(0x7f0000001400), 0x8)
+syz_open_procfs(0x0, &(0x7f0000000000)='fdinfo/3\x00')
+close(r0)
+syz_open_procfs(0x0, &(0x7f0000000000)='fdinfo/3\x00')

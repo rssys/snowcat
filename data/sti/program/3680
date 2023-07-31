@@ -1,0 +1,1 @@
+syz_open_dev$vcsn(0xffffffffffffffff, 0x0, 0x0)

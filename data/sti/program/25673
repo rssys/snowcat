@@ -1,0 +1,2 @@
+shmctl$SHM_INFO(0x0, 0xe, 0x0)
+syz_genetlink_get_family_id$ethtool(&(0x7f0000001300)='ethtool\x00', 0xffffffffffffffff)

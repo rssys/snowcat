@@ -1,0 +1,2 @@
+mlockall(0x1)
+openat$urandom(0xffffff9c, &(0x7f0000000040)='/dev/urandom\x00', 0x161140, 0x0)

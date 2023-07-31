@@ -1,0 +1,2 @@
+r0 = syz_mount_image$tmpfs(&(0x7f0000000100)='tmpfs\x00', &(0x7f0000000000)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000140)=ANY=[@ANYBLOB='nr_inodes=1'])
+openat(r0, &(0x7f00000000c0)='./file0\x00', 0x108c0, 0x0)

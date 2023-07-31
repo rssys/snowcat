@@ -1,0 +1,1 @@
+syz_btf_id_by_name$bpf_lsm(&(0x7f0000000340)='bpf_lsm_sb_free_mnt_opts\x00')

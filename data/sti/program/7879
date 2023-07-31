@@ -1,0 +1,2 @@
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f00000001c0)='ns/mnt\x00')
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000380)='ns/mnt\x00')

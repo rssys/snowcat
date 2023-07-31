@@ -1,0 +1,4 @@
+set_mempolicy(0x2, &(0x7f0000000100)=0x7, 0x65e)
+io_setup(0xa4de, &(0x7f0000000040))
+syz_genetlink_get_family_id$net_dm(&(0x7f0000000000)='NET_DM\x00')
+prctl$PR_SET_ENDIAN(0x14, 0x0)

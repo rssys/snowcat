@@ -1,0 +1,5 @@
+r0 = openat$dir(0xffffffffffffff9c, &(0x7f00000001c0)='.\x00', 0x0, 0x0)
+symlinkat(&(0x7f0000000040)='./file0/file0\x00', r0, &(0x7f0000000080)='./file0\x00')
+r1 = socket$nl_xfrm(0x10, 0x3, 0x6)
+sendmsg$nl_xfrm(r1, 0x0, 0x0)
+futimesat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)

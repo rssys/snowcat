@@ -1,0 +1,5 @@
+r0 = open(&(0x7f0000000040)='./file0\x00', 0xf2b41, 0x0)
+write$P9_RFLUSH(r0, &(0x7f0000000000)={0x7}, 0xffffffea)
+write$cgroup_netprio_ifpriomap(r0, 0x0, 0xfffffed0)
+fallocate(r0, 0x0, 0x0, 0xb3)
+ioctl$SCSI_IOCTL_SEND_COMMAND(r0, 0x1, &(0x7f0000000000))

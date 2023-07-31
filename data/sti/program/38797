@@ -1,0 +1,4 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$gtp(&(0x7f00000007c0)='gtp\x00', r0)
+ioctl$ifreq_SIOCGIFINDEX_batadv_hard(0xffffffffffffffff, 0x8933, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

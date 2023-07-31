@@ -1,0 +1,2 @@
+openat$procfs(0xffffff9c, &(0x7f00000000c0)='/proc/tty/ldiscs\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$ipvs(&(0x7f00000004c0)='IPVS\x00', 0xffffffffffffffff)

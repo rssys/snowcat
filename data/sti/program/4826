@@ -1,0 +1,2 @@
+syz_mount_image$squashfs(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$overlay(0x0, &(0x7f00000001c0)='./file0\x00', &(0x7f0000000200)='overlay\x00', 0x0, &(0x7f00000003c0)={[{@lowerdir={'lowerdir', 0x3d, './file0'}}, {@lowerdir={'lowerdir', 0x3d, './file0'}}, {@xino_off='xino=off'}]})

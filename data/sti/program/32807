@@ -1,0 +1,2 @@
+ioctl$DRM_IOCTL_SWITCH_CTX(0xffffffffffffffff, 0x40086424, 0x0)
+fork()

@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$SEG6(&(0x7f0000000140)='SEG6\x00', 0xffffffffffffffff)
+openat$bsg(0xffffff9c, &(0x7f0000000280)='/dev/bsg\x00', 0x0, 0x0)
+io_setup(0x40, &(0x7f0000000580)=<r0=>0x0)
+io_submit(r0, 0x0, 0x0)

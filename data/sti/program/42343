@@ -1,0 +1,2 @@
+r0 = openat$qrtrtun(0xffffff9c, &(0x7f00000001c0)='/dev/qrtr-tun\x00', 0x20102)
+writev(r0, &(0x7f0000000240)=[{&(0x7f0000000200)="97", 0x1}], 0x1)

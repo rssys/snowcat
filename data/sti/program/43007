@@ -1,0 +1,4 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$DEVLINK_CMD_TRAP_GROUP_SET(r0, &(0x7f0000000640)={0x0, 0x0, &(0x7f0000000600)={&(0x7f0000000580)={0x14, 0x0, 0x4}, 0x14}}, 0x0)
+syz_genetlink_get_family_id$devlink(0x0, 0xffffffffffffffff)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000ec0)='devlink\x00', r0)

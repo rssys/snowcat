@@ -1,0 +1,2 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000200)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_virtio(0x0, &(0x7f0000000100)='./file0\x00', &(0x7f0000000140)='9p\x00', 0x0, &(0x7f0000000240)={'trans=virtio,', {[{@noextend='noextend'}]}})

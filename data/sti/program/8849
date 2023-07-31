@@ -1,0 +1,4 @@
+r0 = openat$apparmor_thread_exec(0xffffff9c, &(0x7f0000000140)='/proc/thread-self/attr/exec\x00', 0x2, 0x0)
+r1 = syz_open_dev$usbmon(&(0x7f0000003580)='/dev/usbmon#\x00', 0x0, 0x0)
+clock_gettime(0x0, &(0x7f0000003640)={<r2=>0x0})
+ppoll(&(0x7f00000035c0)=[{}, {r1}, {r0, 0x110}], 0x3, &(0x7f0000003680)={r2}, &(0x7f00000036c0)={[0x8000]}, 0x8)

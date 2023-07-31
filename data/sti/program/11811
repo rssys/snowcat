@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f00000001c0)='proc\x00', 0x0)
+fsconfig$FSCONFIG_SET_PATH_EMPTY(r0, 0x4, 0x0, 0x0, 0xffffffffffffffff)

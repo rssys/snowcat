@@ -1,0 +1,4 @@
+syz_mount_image$nfs4(0x0, &(0x7f0000002f80)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = signalfd4(0xffffffffffffffff, &(0x7f0000000000), 0x8, 0x0)
+r1 = socket$inet(0x2, 0x3, 0x9)
+mount$9p_fd(0x0, &(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='9p\x00', 0x0, &(0x7f0000000440)=ANY=[@ANYBLOB='trans=fd,rfdno=', @ANYRESHEX=r0, @ANYBLOB=',wfdno=', @ANYRESHEX=r1])

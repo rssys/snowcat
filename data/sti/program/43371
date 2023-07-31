@@ -1,0 +1,1 @@
+openat$urandom(0xffffffffffffff9c, &(0x7f00000002c0)='/dev/urandom\x00', 0x1cf800, 0x0)

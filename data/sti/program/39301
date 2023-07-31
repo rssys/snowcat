@@ -1,0 +1,2 @@
+r0 = openat$vcsu(0xffffff9c, &(0x7f0000000080)='/dev/vcsu\x00', 0xa441, 0x0)
+write$RDMA_USER_CM_CMD_QUERY_ROUTE(r0, 0x0, 0x0)

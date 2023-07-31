@@ -1,0 +1,2 @@
+r0 = openat$urandom(0xffffffffffffff9c, &(0x7f0000000040)='/dev/urandom\x00', 0x0, 0x0)
+fsetxattr$trusted_overlay_upper(r0, &(0x7f0000000080)='trusted.overlay.upper\x00', 0x0, 0x0, 0x3)

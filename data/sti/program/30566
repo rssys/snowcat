@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$netlbl_cipso(&(0x7f0000000000)='NLBL_CIPSOv4\x00', 0xffffffffffffffff)
+openat$vsock(0xffffff9c, &(0x7f00000020c0)='/dev/vsock\x00', 0x142, 0x0)

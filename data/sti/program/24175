@@ -1,0 +1,2 @@
+r0 = syz_open_dev$ndb(&(0x7f0000000180)='/dev/nbd#\x00', 0x0, 0x0)
+ioctl$IOC_PR_PREEMPT(r0, 0x401870cb, 0x0)

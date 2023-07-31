@@ -1,0 +1,1 @@
+syz_mount_image$jffs2(&(0x7f000000fe80)='jffs2\x00', &(0x7f000000fec0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f000000ff80)={[{@rp_size={'rp_size'}}, {@compr_lzo='compr=lzo'}]})

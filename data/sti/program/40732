@@ -1,0 +1,1 @@
+syz_mount_image$f2fs(0x0, &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000540)={[{@two_active_logs='active_logs=2'}], [{@obj_role={'obj_role'}}]})

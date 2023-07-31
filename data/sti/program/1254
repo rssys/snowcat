@@ -1,0 +1,2 @@
+syz_open_dev$floppy(&(0x7f0000002380)='/dev/fd#\x00', 0x0, 0x10000)
+socket$nl_generic(0x10, 0x3, 0x10)

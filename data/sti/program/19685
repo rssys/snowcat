@@ -1,0 +1,1 @@
+syz_open_dev$usbmon(&(0x7f0000000080)='/dev/usbmon#\x00', 0x3, 0x0)

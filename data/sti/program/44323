@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000400)='oom_adj\x00')
+write$cgroup_subtree(r0, &(0x7f0000000000)={[{0x2b, 'cpu'}]}, 0x5)

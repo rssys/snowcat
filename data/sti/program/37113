@@ -1,0 +1,3 @@
+r0 = openat$procfs(0xffffff9c, &(0x7f0000000040)='/proc/cpuinfo\x00', 0x0, 0x0)
+read$usbmon(r0, &(0x7f0000027a00)=""/102400, 0x19000)
+read$char_raw(r0, &(0x7f0000019200)={""/59286}, 0xe800)

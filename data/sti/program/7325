@@ -1,0 +1,2 @@
+mknodat(0xffffffffffffff9c, &(0x7f0000000000)='./file1\x00', 0x0, 0x0)
+setxattr$security_selinux(&(0x7f00000001c0)='./file1\x00', &(0x7f0000000200)='security.selinux\x00', &(0x7f0000000240)='system_u:object_r:ping_exec_t:s0\x00', 0xc, 0x0)

@@ -1,0 +1,1 @@
+openat$incfs(0xffffffffffffff9c, &(0x7f0000000440)='.log\x00', 0x96240, 0x0)

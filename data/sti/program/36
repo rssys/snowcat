@@ -1,0 +1,4 @@
+r0 = socket$packet(0x11, 0x2, 0x300)
+setsockopt$packet_fanout(r0, 0x107, 0x12, &(0x7f00000002c0), 0x4)
+socket$packet(0x11, 0x3, 0x300)
+syz_emit_ethernet(0x2a, &(0x7f0000000080)=ANY=[@ANYBLOB="ffffffffffffaaaaaaaaaabb08060001080006040001"], 0x0)

@@ -1,0 +1,4 @@
+syz_open_dev$vim2m(0x0, 0x0, 0x2)
+syz_open_dev$sndpcmc(&(0x7f00000000c0)='/dev/snd/pcmC#D#c\x00', 0x1ff, 0x0)
+ioctl$LOOP_SET_FD(0xffffffffffffffff, 0x4c00, 0xffffffffffffffff)
+ioctl$sock_SIOCGIFINDEX_802154(0xffffffffffffffff, 0x8933, &(0x7f0000000180)={'wpan1\x00'})

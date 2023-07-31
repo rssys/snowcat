@@ -1,0 +1,2 @@
+r0 = openat$uhid(0xffffff9c, &(0x7f0000000280)='/dev/uhid\x00', 0x802, 0x0)
+read(r0, &(0x7f0000000100)=""/60, 0x3c)

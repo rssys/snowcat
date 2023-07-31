@@ -1,0 +1,2 @@
+r0 = openat$hwrng(0xffffffffffffff9c, &(0x7f0000000000)='/dev/hwrng\x00', 0x0, 0x0)
+openat$cgroup_ro(r0, &(0x7f0000001000)='cpuacct.usage_all\x00', 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x6)
+sendmsg$SOCK_DIAG_BY_FAMILY(r0, &(0x7f0000000000)={0x0, 0x0, &(0x7f0000000080)={&(0x7f00000000c0)={0x50, 0x15, 0x1, 0x0, 0x0, {}, [@INET_DIAG_REQ_BYTECODE={0x3b, 0x1, "d348b1549a9a59c7d178dc5f60e84ea5f7a269236ef2ad06eb5f94daf82eaa651f600e1fc3bb02e760cd6c8dd91855c3ccad15f8bc0de0"}]}, 0x50}}, 0x0)

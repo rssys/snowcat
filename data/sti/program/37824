@@ -1,0 +1,5 @@
+r0 = add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x1}, 0x0, 0x0, 0xfffffffffffffffc)
+r1 = add_key$keyring(&(0x7f0000000080)='keyring\x00', &(0x7f0000000240)={'syz', 0x3}, 0x0, 0x0, r0)
+keyctl$KEYCTL_MOVE(0x2, 0x0, 0x0, r1, 0x0)
+r2 = add_key$user(&(0x7f00000000c0)='user\x00', &(0x7f0000000100)={'syz', 0x2}, &(0x7f0000000140)="d1dc3b8b674426b9dd8efb81145422752e7f065577d1a150c278d992899c2157e70a22f365830e823f2ac88072fd45cdee22ec322be0f3fe4cf124ea6452db0e72cb3617b083255682a61ffc673bcad6e0293541632b4b18901e7dc4ccf64aed935941ac75e1bbc292bf89969038d6c8c35ee3d3fad96533b4f60fb0dda986dfbaa499507932734146cf3eb9", 0x8c, r1)
+keyctl$KEYCTL_MOVE(0x1e, r2, 0xfffffffffffffffc, r0, 0x1)

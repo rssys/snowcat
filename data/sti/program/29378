@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sndpcmp(&(0x7f0000000080)='/dev/snd/pcmC#D#p\x00', 0x0, 0x0)
+mmap$snddsp_control(&(0x7f0000ffb000/0x4000)=nil, 0x1000, 0x0, 0x13, r0, 0x83000000)

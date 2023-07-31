@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f0000000100)='keyring\x00', &(0x7f0000000140)={'syz', 0x3}, 0x0, 0x0, 0xfffffffffffffffc)
+keyctl$set_timeout(0xf, r0, 0x7907ab3a)

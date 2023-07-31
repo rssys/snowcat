@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0x0, &(0x7f0000000200)='ns/uts\x00')
+ioctl$NS_GET_PARENT(r0, 0xb702, 0x0)

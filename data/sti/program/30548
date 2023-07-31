@@ -1,0 +1,1 @@
+syz_emit_ethernet(0x2a, &(0x7f0000000000)={@link_local, @random="ca49cdcef4da", @void, {@arp={0x806, @ether_ipv4={0x1, 0x800, 0x6, 0x4, 0x2, @broadcast, @rand_addr=0x64010100, @multicast, @local}}}}, 0x0)

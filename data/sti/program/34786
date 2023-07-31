@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='net/netlink\x00')
+read$snapshot(r0, 0x0, 0x0)

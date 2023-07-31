@@ -1,0 +1,6 @@
+fork()
+sched_getattr(0x0, 0x0, 0x0, 0x0)
+syz_open_procfs$namespace(0xffffffffffffffff, 0x0)
+ptrace$setregs(0xd, 0x0, 0x1f, &(0x7f0000000080)="9ed5fde2710b0ac5b8741383a3d0c1f9611c66a7539b7a10a5282c84f70a02823e63afdaaab2edad44e26b6c6e0194987e1a89da19ccf95c762e")
+setpgid(0x0, 0x0)
+sched_getattr(0x0, &(0x7f0000000200)={0x38}, 0x38, 0x0)

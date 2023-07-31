@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$nl80211(&(0x7f00000000c0)='nl80211\x00', 0xffffffffffffffff)
+openat$btrfs_control(0xffffff9c, &(0x7f0000000200)='/dev/btrfs-control\x00', 0x42c1, 0x0)

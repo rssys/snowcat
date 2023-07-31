@@ -1,0 +1,4 @@
+r0 = openat$ipvs(0xffffff9c, &(0x7f0000000d80)='/proc/sys/net/ipv4/vs/pmtu_disc\x00', 0x2, 0x0)
+ioctl$IOCTL_VMCI_NOTIFY_RESOURCE(r0, 0x7a5, 0x0)
+openat$vcs(0xffffff9c, &(0x7f0000002240)='/dev/vcs\x00', 0x42, 0x0)
+openat$proc_capi20ncci(0xffffff9c, &(0x7f0000002280)='/proc/capi/capi20ncci\x00', 0x40040, 0x0)

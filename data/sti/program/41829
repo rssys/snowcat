@@ -1,0 +1,3 @@
+fork()
+r0 = getpid()
+ioprio_get$pid(0x2, r0)

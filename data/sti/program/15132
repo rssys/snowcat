@@ -1,0 +1,5 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$ipvs(&(0x7f0000000040)='IPVS\x00')
+sendmsg$IPVS_CMD_SET_SERVICE(r0, &(0x7f0000000100)={0x0, 0x0, &(0x7f00000000c0)={0x0, 0x1c}}, 0x0)
+openat$zero(0xffffffffffffff9c, &(0x7f0000000000)='/dev/zero\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$SEG6(&(0x7f0000000380)='SEG6\x00')

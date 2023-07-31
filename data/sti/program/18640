@@ -1,0 +1,3 @@
+r0 = memfd_create(&(0x7f00000000c0)='.\'#):.@E\x01\x00g\x98\x9f\v\x00j\xedv1,b$\x1e\xe3\xdf#zwG\x8f\xed?F\xe3,\xa6*\xbc\r\v\x84\x94W{\x95i\x9b\xc1\xd4@\xe1\x9f\xc2\xa4\xb2\x9fgT\xb5\"P\x04@\x8b\x18\x0e.\xd11)\xd0\xfdt#', 0x0)
+r1 = openat$udambuf(0xffffff9c, &(0x7f0000000000)='/dev/udmabuf\x00', 0x2)
+ioctl$UDMABUF_CREATE(r1, 0x40187542, &(0x7f0000000040)={r0})

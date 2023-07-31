@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$nbd(&(0x7f0000000040)='nbd\x00', 0xffffffffffffffff)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_calipso(0x0, 0xffffffffffffffff)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

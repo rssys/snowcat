@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000080)='attr/exec\x00')
+writev(r0, &(0x7f0000000140)=[{&(0x7f00000001c0)="da5542ec6e021983851d470e8dd6c5bc5c370eb36f3194372959566270be06485aa553532016", 0x26}], 0x1)

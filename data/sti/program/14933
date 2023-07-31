@@ -1,0 +1,1 @@
+sendmsg$TIPC_CMD_SET_LINK_TOL(0xffffffffffffffff, 0x0, 0x0)

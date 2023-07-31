@@ -1,0 +1,2 @@
+r0 = memfd_create(&(0x7f0000000000)='%:\x00', 0x2)
+fcntl$addseals(r0, 0x409, 0xa)

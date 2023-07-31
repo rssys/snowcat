@@ -1,0 +1,2 @@
+seccomp$SECCOMP_SET_MODE_FILTER(0x1, 0x0, &(0x7f0000001300)={0x1, &(0x7f00000012c0)=[{0x6, 0x0, 0x0, 0x7fffffff}]})
+add_key$fscrypt_v1(&(0x7f0000000180)='logon\x00', &(0x7f00000001c0)={'fscrypt:', @desc4='85baa174f0cb1142'}, &(0x7f0000000200)={0x0, "947d7225404da02b622d6ad3a8624ec33113334061dde552a8e0e0d047856417b79f6b4f81471caf7465ad3f9a37a280999189273828a0e991a4d353c47cbd27"}, 0x48, 0xfffffffffffffffb)

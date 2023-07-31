@@ -1,0 +1,4 @@
+open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+openat(0xffffffffffffff9c, &(0x7f0000000100)='./file1\x00', 0x42, 0x0)
+syz_mount_image$nfs(&(0x7f00000018c0)='nfs\x00', &(0x7f0000001900)='./file0\x00', 0x0, 0x0, &(0x7f0000001a00), 0x1891008, &(0x7f0000001a40))
+rename(&(0x7f0000000000)='./file0\x00', &(0x7f0000000080)='./file1\x00')

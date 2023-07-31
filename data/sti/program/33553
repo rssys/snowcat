@@ -1,0 +1,8 @@
+r0 = syz_open_procfs$namespace(0x0, &(0x7f00000050c0)='ns/ipc\x00')
+r1 = syz_open_procfs$namespace(0x0, &(0x7f00000050c0)='ns/ipc\x00')
+ioctl$NS_GET_OWNER_UID(r1, 0xb704, 0x0)
+r2 = fcntl$dupfd(r1, 0x406, 0xffffffffffffffff)
+mmap$IORING_OFF_CQ_RING(&(0x7f0000ffe000/0x2000)=nil, 0x2000, 0x1000001, 0x11, r2, 0x8000000)
+read$char_raw(r2, 0x0, 0x9c00)
+ioctl$NS_GET_OWNER_UID(r0, 0xb704, 0x0)
+openat$rtc(0xffffff9c, &(0x7f0000000100)='/dev/rtc0\x00', 0x0, 0x0)

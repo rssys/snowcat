@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f00000000c0)='net/ip6_tables_matches\x00')
+read$char_raw(r0, &(0x7f0000000480)=ANY=[], 0x5000)

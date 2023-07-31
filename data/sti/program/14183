@@ -1,0 +1,7 @@
+syz_genetlink_get_family_id$nl80211(0x0)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00')
+sendmsg$NL80211_CMD_CONNECT(r0, &(0x7f0000000100)={0x0, 0x0, &(0x7f00000000c0)={&(0x7f0000000080)=ANY=[@ANYRES16, @ANYBLOB='/'], 0x30}}, 0x0)
+ioctl$sock_SIOCGIFINDEX_80211(0xffffffffffffffff, 0x8933, &(0x7f0000000380)={'wlan0\x00'})
+syz_genetlink_get_family_id$batadv(&(0x7f0000000500)='batadv\x00')
+sendmsg$BATADV_CMD_GET_MESH(0xffffffffffffffff, 0x0, 0x4000)

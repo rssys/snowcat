@@ -1,0 +1,2 @@
+mknod(&(0x7f0000000000)='./file0\x00', 0x0, 0x800)
+syz_mount_image$nilfs2(0x0, 0x0, 0x0, 0x0, 0x0, 0x4001, &(0x7f0000001600)={[{@barrier='barrier'}, {@norecovery='norecovery'}], [{@subj_user={'subj_user', 0x3d, '@-k-\\'}}]})

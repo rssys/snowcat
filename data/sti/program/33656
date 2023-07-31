@@ -1,0 +1,5 @@
+setsockopt$inet_sctp6_SCTP_I_WANT_MAPPED_V4_ADDR(0xffffffffffffffff, 0x84, 0xc, 0x0, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nbd(&(0x7f0000000300)='nbd\x00', 0xffffffffffffffff)
+r0 = openat$audio1(0xffffff9c, &(0x7f0000000700)='/dev/audio1\x00', 0x60000, 0x0)
+ioctl$SNDCTL_DSP_GETIPTR(r0, 0x800c5011, &(0x7f0000000740))

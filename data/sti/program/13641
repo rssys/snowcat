@@ -1,0 +1,2 @@
+socket$inet_udplite(0x2, 0x2, 0x88)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='fdinfo/3\x00')

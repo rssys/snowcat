@@ -1,0 +1,4 @@
+pipe(&(0x7f0000000540)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+pipe(&(0x7f0000000000)={<r1=>0xffffffffffffffff, <r2=>0xffffffffffffffff})
+dup2(r0, r1)
+dup2(r0, r2)

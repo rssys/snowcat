@@ -1,0 +1,2 @@
+r0 = socket$inet_smc(0x2b, 0x1, 0x0)
+setsockopt$inet_tcp_TCP_MD5SIG(r0, 0x6, 0xe, &(0x7f00000001c0)={@in6={{0xa, 0x0, 0x0, @empty}}, 0x0, 0x0, 0x0, 0x0, "fb16ca44787b9ab5f46c6f702f05c163032872db359490ca9ab2b16cbc48713803598a459e9634fd184f54686ca0683689e83be8f853d36ce130263067ed8d40f417f8f70b66d4ccf84ea2acb47a391a"}, 0xd8)

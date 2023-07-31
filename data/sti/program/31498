@@ -1,0 +1,2 @@
+r0 = socket$inet6_icmp_raw(0xa, 0x3, 0x3a)
+ioctl$sock_TIOCOUTQ(r0, 0x5411, &(0x7f0000003080))

@@ -1,0 +1,2 @@
+r0 = memfd_create(&(0x7f0000000000)='(,\x00\x1d\xfb\xa1\x8c\xaeLJ\xcb\x87\xfb\'', 0x0)
+copy_file_range(r0, &(0x7f0000001040), r0, &(0x7f0000001080)=0x5, 0x0, 0x0)

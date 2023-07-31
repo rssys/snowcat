@@ -1,0 +1,2 @@
+acct(&(0x7f0000000200)='./cgroup/cgroup.procs\x00')
+acct(0x0)

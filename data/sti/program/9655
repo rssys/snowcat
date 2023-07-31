@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f0000000080)='keyring\x00', &(0x7f00000000c0)={'syz', 0x1}, 0x0, 0x0, 0xffffffffffffffff)
+add_key$fscrypt_provisioning(&(0x7f0000000040)='fscrypt-provisioning\x00', 0x0, 0x0, 0x0, r0)

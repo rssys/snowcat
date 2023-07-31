@@ -1,0 +1,2 @@
+ioctl$IOC_PR_REGISTER(0xffffffffffffffff, 0x401870c8, 0x0)
+syz_io_uring_setup(0x3d6c, &(0x7f0000000440), &(0x7f0000ffc000/0x3000)=nil, &(0x7f0000ffd000/0x3000)=nil, &(0x7f00000004c0), &(0x7f0000000500))

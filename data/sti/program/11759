@@ -1,0 +1,4 @@
+mkdir(&(0x7f0000000380)='./file0\x00', 0x0)
+syz_mount_image$tmpfs(0x0, &(0x7f00000009c0)='./file0/file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+chroot(&(0x7f0000000c00)='./file0\x00')
+utimes(&(0x7f0000000c80)='./file0/../file0\x00', 0x0)

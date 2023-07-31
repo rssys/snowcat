@@ -1,0 +1,2 @@
+r0 = epoll_create1(0x0)
+readahead(r0, 0x0, 0x0)

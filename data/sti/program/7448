@@ -1,0 +1,2 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000380)='./file0\x00', 0x0)
+setsockopt$inet6_tcp_TCP_ULP(0xffffffffffffffff, 0x6, 0x1f, &(0x7f0000004ac0)='tls\x00', 0x4)

@@ -1,0 +1,2 @@
+syz_mount_image$tmpfs(&(0x7f0000000000)='tmpfs\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000840)=ANY=[])
+rmdir(&(0x7f0000000200)='./file0\x00')

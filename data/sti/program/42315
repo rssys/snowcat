@@ -1,0 +1,8 @@
+getrlimit(0x0, &(0x7f0000000580))
+r0 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+write$P9_RSTAT(r0, 0x0, 0xfffffdfa)
+ioctl$ifreq_SIOCGIFINDEX_wireguard(0xffffffffffffffff, 0x8933, &(0x7f00000005c0)={'wg1\x00'})
+r1 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+write$P9_RSTAT(r1, &(0x7f0000000340)=ANY=[], 0xfffffdfa)
+ioctl$FS_IOC_SETFLAGS(r1, 0x40086602, 0x0)
+creat(&(0x7f0000000000)='./file0\x00', 0x0)

@@ -1,0 +1,2 @@
+prctl$PR_SET_NAME(0xf, &(0x7f0000000040)='\x00')
+syz_open_dev$audion(&(0x7f0000000380)='/dev/audio#\x00', 0x1, 0x0)

@@ -1,0 +1,4 @@
+ioctl$MON_IOCX_GET(0xffffffffffffffff, 0x400c9206, 0x0)
+ioctl$ifreq_SIOCGIFINDEX_team(0xffffffffffffffff, 0x8933, &(0x7f00000002c0)={'team0\x00'})
+syz_open_dev$usbmon(0x0, 0x0, 0x80301)
+syz_open_procfs$namespace(0x0, &(0x7f0000002580)='ns/time\x00')

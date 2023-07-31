@@ -1,0 +1,2 @@
+r0 = socket(0x2, 0x3, 0x1)
+ioctl$sock_inet6_tcp_SIOCINQ(r0, 0x89e1, &(0x7f0000000540))

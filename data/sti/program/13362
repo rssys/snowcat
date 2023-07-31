@@ -1,0 +1,2 @@
+r0 = msgget(0x1, 0x300)
+msgctl$IPC_RMID(r0, 0x0)

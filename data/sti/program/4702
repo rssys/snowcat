@@ -1,0 +1,2 @@
+ioctl$CHAR_RAW_RRPART(0xffffffffffffffff, 0x125f, 0x0)
+mknod$loop(&(0x7f0000001f40)='./file0\x00', 0x8000, 0x0)

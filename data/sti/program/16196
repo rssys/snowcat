@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000000180)='./file0\x00', 0x0)
+write$P9_RSETATTR(r0, &(0x7f00000001c0)={0x7}, 0xffffff4e)
+truncate(&(0x7f0000000000)='./file0\x00', 0x0)

@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000003c40)='net/ip6_flowlabel\x00')
+read$char_raw(r0, &(0x7f0000003e00)={""/11749}, 0x2e00)

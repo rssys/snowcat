@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f0000000000)='configfs\x00', 0x0)
+fsconfig$FSCONFIG_CMD_RECONFIGURE(r0, 0x7, 0x0, 0x0, 0x0)

@@ -1,0 +1,1 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='net/ipv6_route\x00')

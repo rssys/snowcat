@@ -1,0 +1,5 @@
+r0 = syz_open_dev$cec(&(0x7f0000000840)='/dev/cec#\x00', 0x0, 0x2)
+syz_open_dev$cec(&(0x7f0000000040)='/dev/cec#\x00', 0x0, 0x2)
+r1 = io_uring_setup(0x4599, &(0x7f0000002380))
+sendmsg$unix(0xffffffffffffffff, 0x0, 0x0)
+dup2(r1, r0)

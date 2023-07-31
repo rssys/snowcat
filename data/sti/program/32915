@@ -1,0 +1,2 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lremovexattr(&(0x7f0000000480)='./file0\x00', &(0x7f00000004c0)=@random={'osx.', '\x00'})

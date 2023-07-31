@@ -1,0 +1,2 @@
+r0 = open(&(0x7f0000000000)='./file0\x00', 0x4440, 0x0)
+ioctl$SIOCGSTAMPNS(r0, 0x6612, 0x0)

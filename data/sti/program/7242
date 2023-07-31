@@ -1,0 +1,1 @@
+openat$hwrng(0xffffff9c, &(0x7f00000003c0)='/dev/hwrng\x00', 0x440, 0x0)

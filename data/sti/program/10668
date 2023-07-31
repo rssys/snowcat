@@ -1,0 +1,2 @@
+openat$dir(0xffffffffffffff9c, &(0x7f0000000d00)='./file0\x00', 0x4e343, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='9p\x00', 0x800, &(0x7f00000001c0)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[{@msize={'msize'}}]}})

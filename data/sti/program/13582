@@ -1,0 +1,5 @@
+r0 = epoll_create(0x1)
+r1 = epoll_create(0xa7a)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f0000000000))
+r2 = epoll_create(0x1)
+epoll_ctl$EPOLL_CTL_ADD(r2, 0x1, r1, &(0x7f0000000040))

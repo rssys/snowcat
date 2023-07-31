@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000000000)='./file1\x00', 0x0)
+ioctl$FITRIM(r0, 0x40305828, &(0x7f0000000140)={0x0, 0x0, 0xffffffff000})
+creat(&(0x7f0000000040)='./file1\x00', 0x0)

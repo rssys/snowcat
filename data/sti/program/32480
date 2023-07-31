@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+setsockopt$inet_mreq(r0, 0x0, 0x20, &(0x7f00000000c0)={@remote, @loopback}, 0x7)

@@ -1,0 +1,2 @@
+ioctl$FLOPPY_FDSETEMSGTRESH(0xffffffffffffffff, 0x24a, 0x0)
+openat$hpet(0xffffff9c, &(0x7f0000000f00)='/dev/hpet\x00', 0x0, 0x0)

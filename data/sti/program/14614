@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f00000000c0)='net/ipv6_route\x00')
+read$char_raw(r0, &(0x7f0000000200)={""/38031}, 0x9600)

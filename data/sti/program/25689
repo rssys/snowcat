@@ -1,0 +1,2 @@
+r0 = syz_open_dev$evdev(&(0x7f00000028c0)='/dev/input/event#\x00', 0x0, 0xb51d1bdb918aa326)
+write$evdev(r0, &(0x7f0000002940)=[{{0x77359400}, 0x1200}], 0x1b78)

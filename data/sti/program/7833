@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0x0, &(0x7f0000000040)='ns/uts\x00')
+ioctl$EXT4_IOC_PRECACHE_EXTENTS(r0, 0x6612)

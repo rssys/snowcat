@@ -1,0 +1,4 @@
+r0 = openat$procfs(0xffffffffffffff9c, &(0x7f0000000000)='/proc/vmallocinfo\x00', 0x0, 0x0)
+r1 = fsopen(&(0x7f0000000180)='nfs\x00', 0x0)
+sendfile(r1, r0, &(0x7f00000001c0)=0x8a9, 0x200001c8)
+ioctl$BTRFS_IOC_DEFRAG_RANGE(0xffffffffffffffff, 0x40309410, 0x0)

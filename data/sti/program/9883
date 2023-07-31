@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$ethtool(0x0, 0xffffffffffffffff)
+syz_open_procfs(0x0, 0x0)

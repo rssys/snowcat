@@ -1,0 +1,2 @@
+r0 = getpid()
+tgkill(0xffffffffffffffff, r0, 0x0)

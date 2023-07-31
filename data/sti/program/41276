@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$ieee802154(0x0, 0xffffffffffffffff)

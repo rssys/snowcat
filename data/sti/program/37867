@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000240)='./file0\x00', 0x0)
+write$snapshot(r0, &(0x7f0000000380)='B', 0x1)

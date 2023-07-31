@@ -1,0 +1,1 @@
+syz_open_dev$vim2m(&(0x7f00000001c0)='/dev/video#\x00', 0x8192e000, 0x2)

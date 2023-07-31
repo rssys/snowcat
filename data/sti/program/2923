@@ -1,0 +1,1 @@
+syz_emit_ethernet(0x14, &(0x7f0000000400)={@broadcast, @remote, @val={@void, {0x8100, 0x3}}, {@mpls_mc={0x8848, {[], @generic="5bb1"}}}}, 0x0)

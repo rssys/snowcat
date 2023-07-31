@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000080)='smaps_rollup\x00')
+lseek(r0, 0xff, 0x0)

@@ -1,0 +1,2 @@
+fork()
+prctl$PR_SET_CHILD_SUBREAPER(0x24, 0x1)

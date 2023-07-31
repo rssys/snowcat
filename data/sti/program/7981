@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000001540)='tmpfs\x00', &(0x7f0000001580)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002a00)={[{@mode={'mode'}}, {@nr_blocks={'nr_blocks'}}]})

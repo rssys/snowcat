@@ -1,0 +1,2 @@
+mlockall(0x3)
+ioctl$KVM_SET_GSI_ROUTING(0xffffffffffffffff, 0x4008ae6a, 0x0)

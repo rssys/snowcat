@@ -1,0 +1,2 @@
+r0 = memfd_create(&(0x7f0000000340)='gcm(aes)\x00', 0x0)
+write$P9_RREADDIR(r0, &(0x7f0000000080)={0xb}, 0xb)

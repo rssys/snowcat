@@ -1,0 +1,3 @@
+r0 = syz_open_dev$sg(&(0x7f0000000000)='/dev/sg#\x00', 0x0, 0xc8122)
+ioctl$sock_SIOCGIFINDEX_80211(0xffffffffffffffff, 0x8933, &(0x7f0000000040)={'wlan1\x00'})
+writev(r0, &(0x7f0000001040)=[{&(0x7f0000000040)="03", 0x4000}], 0x1)

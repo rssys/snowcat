@@ -1,0 +1,2 @@
+mknod$loop(&(0x7f0000000000)='./file1\x00', 0xc900, 0x1)
+lsetxattr$trusted_overlay_nlink(&(0x7f0000001140)='./file1\x00', &(0x7f0000001180)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

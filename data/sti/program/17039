@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+r1 = creat(&(0x7f0000000080)='./file0\x00', 0x0)
+write$rfkill(r1, &(0x7f00000000c0), 0xfffffdef)
+dup3(r1, r0, 0x0)

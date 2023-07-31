@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+write$binfmt_script(r0, &(0x7f0000000000)={'#! ', './file0', [], 0x9b, '7G'}, 0xd)

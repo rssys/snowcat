@@ -1,0 +1,2 @@
+r0 = fork()
+ptrace$setopts(0x4206, r0, 0x7, 0x0)

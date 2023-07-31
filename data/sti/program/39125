@@ -1,0 +1,2 @@
+shmat(0x0, &(0x7f0000000000/0x2000)=nil, 0x5000)
+add_key$fscrypt_provisioning(&(0x7f0000000040)='fscrypt-provisioning\x00', &(0x7f0000000080)={'syz', 0x2}, 0x0, 0x0, 0xfffffffffffffffc)

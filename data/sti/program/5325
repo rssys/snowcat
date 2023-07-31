@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x539d, &(0x7f0000000100))
+io_uring_register$IORING_REGISTER_PROBE(r0, 0x8, &(0x7f0000000400), 0x0)

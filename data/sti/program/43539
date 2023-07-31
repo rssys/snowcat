@@ -1,0 +1,1 @@
+syz_mount_image$zonefs(0x0, &(0x7f0000000440)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000540)={[], [{@rootcontext={'rootcontext', 0x3d, 'user_u'}}]})

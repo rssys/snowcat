@@ -1,0 +1,2 @@
+ioctl$DRM_IOCTL_MODE_CREATE_LEASE(0xffffffffffffffff, 0xc01864c6, &(0x7f0000000040)={0x0})
+fork()

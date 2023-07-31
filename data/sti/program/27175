@@ -1,0 +1,4 @@
+socket$inet6_mptcp(0xa, 0x1, 0x106)
+sendmsg$BATADV_CMD_GET_ROUTING_ALGOS(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(0x0, 0xffffffffffffffff)
+setsockopt$inet6_tcp_TCP_REPAIR(0xffffffffffffffff, 0x6, 0x13, &(0x7f0000001540)=0xffffffffffffffff, 0x4)

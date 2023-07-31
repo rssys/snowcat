@@ -1,0 +1,2 @@
+r0 = syz_init_net_socket$bt_l2cap(0x1f, 0x3, 0x3)
+ioctl$F2FS_IOC_PRECACHE_EXTENTS(r0, 0x5411, 0x0)

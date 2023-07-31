@@ -1,0 +1,2 @@
+r0 = socket$inet6(0xa, 0x3, 0x1f)
+ioctl$sock_SIOCDELRT(r0, 0x890c, &(0x7f0000000100)={0x3f000000, @can, @isdn, @generic={0x0, "55aaaec7cfd42501d0becc3904f7"}})

@@ -1,0 +1,4 @@
+pipe2$9p(&(0x7f0000000040)={<r0=>0xffffffffffffffff, <r1=>0xffffffffffffffff}, 0x0)
+fcntl$getown(r1, 0x407)
+write$P9_RCLUNK(r1, &(0x7f00000000c0)={0x7}, 0x7)
+fcntl$getown(r0, 0x407)

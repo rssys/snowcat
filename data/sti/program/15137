@@ -1,0 +1,2 @@
+r0 = socket$phonet_pipe(0x23, 0x5, 0x2)
+ioctl$sock_SIOCGIFVLAN_GET_VLAN_REALDEV_NAME_CMD(r0, 0x8982, &(0x7f0000008840)={0x8, 'veth0\x00', {'batadv_slave_0\x00'}})

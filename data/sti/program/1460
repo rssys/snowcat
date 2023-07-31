@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f00000009c0)='./file0\x00', 0x0)
+mq_getsetattr(r0, &(0x7f0000000400), 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$inet_sctp(0x2, 0x5, 0x84)
+getsockname(r0, &(0x7f0000007d00)=@hci, &(0x7f0000007d80)=0x80)

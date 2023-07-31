@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='net/dev_mcast\x00')
+read$char_raw(r0, &(0x7f0000000200)={""/24720}, 0x6200)

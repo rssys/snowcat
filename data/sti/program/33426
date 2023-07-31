@@ -1,0 +1,4 @@
+r0 = socket$unix(0x1, 0x5, 0x0)
+bind$unix(r0, &(0x7f0000000000)=@file={0x1, './file0\x00'}, 0x6e)
+r1 = openat$autofs(0xffffff9c, &(0x7f0000000080)='/dev/autofs\x00', 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000cc0)='./file0\x00', &(0x7f0000000d00)='9p\x00', 0x0, &(0x7f0000000d40)={'trans=fd,', {'rfdno', 0x3d, r1}, 0x2c, {'wfdno', 0x3d, r0}})

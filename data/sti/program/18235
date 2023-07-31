@@ -1,0 +1,5 @@
+sendto$isdn(0xffffffffffffffff, &(0x7f0000000000)={0x0, 0x80, "54d5beef8a5a52bd3ca802eced8c8aafcd07ebcd827201293efc0270aa3956bae660ca06ee0a167beca7c3952b695ab723f74ecdad42d5fcf91d1f09c1e0762519528335916fbae1408adecb8256d9b642d43b4f495c4d11bf55623ecfef656c0d6087627ee52386430f8d57193ca01a9a5b89cc5f139d8f4d1fbbbf54c1ea84cdfe0e4af02a3c6360f014de6dd94dd21331f61c59bb5f9b71c4d518ba18ade385ffa7bef1cf8db5ef87d99eb4ad70fb20565dd0a8ebab2bea83f6a0c0826bab5c35cc8638ba8224b726dcc9066fa341aab8f9de77094b5fd16e777b"}, 0xe4, 0x44, &(0x7f0000000100)={0x22, 0x6, 0x6, 0x2, 0x80}, 0x6)
+getsockopt$inet_sctp6_SCTP_HMAC_IDENT(0xffffffffffffffff, 0x84, 0x16, &(0x7f0000000140)={0x5, [0x3f, 0x600, 0x101, 0x2, 0x4]}, &(0x7f0000000180)=0xe)
+sendto$isdn(0xffffffffffffffff, &(0x7f00000001c0)={0x107, 0x40, "fbe791dac4b8d1e2a9823a2d049e877c7cffa12ed0ee1d737e11dc37beaa5a10af3b22c618285ce7bb1553"}, 0x33, 0x40010, &(0x7f0000000200)={0x22, 0x1, 0xab, 0x1, 0xbb}, 0x6)
+getsockopt$inet_sctp6_SCTP_RTOINFO(0xffffffffffffffff, 0x84, 0x0, &(0x7f0000000240)={0x0, 0x1736, 0xffffffff, 0x3}, 0x0)
+socket$inet(0x2, 0xa, 0xffffff99)

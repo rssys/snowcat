@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$SEG6(&(0x7f0000000280)='SEG6\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000300)='nl80211\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$nbd(&(0x7f0000001f40)='nbd\x00', 0xffffffffffffffff)

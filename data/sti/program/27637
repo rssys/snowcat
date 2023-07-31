@@ -1,0 +1,2 @@
+r0 = openat$ttyS3(0xffffff9c, &(0x7f0000000080)='/dev/ttyS3\x00', 0x0, 0x0)
+fsetxattr$trusted_overlay_origin(r0, &(0x7f00000000c0)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

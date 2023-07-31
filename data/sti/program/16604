@@ -1,0 +1,3 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = openat$apparmor_thread_current(0xffffff9c, &(0x7f00000059c0)='/proc/thread-self/attr/current\x00', 0x2, 0x0)
+mount$9p_fd(0x0, &(0x7f0000005940)='./file0\x00', &(0x7f0000005980)='9p\x00', 0x0, &(0x7f0000005a00)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno', 0x3d, r0}})

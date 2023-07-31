@@ -1,0 +1,3 @@
+r0 = openat$dsp1(0xffffff9c, &(0x7f0000000000)='/dev/dsp1\x00', 0x401, 0x0)
+write$dsp(r0, &(0x7f0000000040)="ea", 0x1)
+connect$rxrpc(0xffffffffffffffff, 0x0, 0x0)

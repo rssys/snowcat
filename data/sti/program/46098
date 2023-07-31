@@ -1,0 +1,1 @@
+syz_mount_image$nfs4(&(0x7f0000000040)='nfs4\x00', &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000002c0)={[], [{@defcontext={'defcontext', 0x3d, 'root'}}, {@context={'context', 0x3d, 'system_u'}}]})

@@ -1,0 +1,7 @@
+socket$inet6_tcp(0xa, 0x1, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000740)='batadv\x00', 0xffffffffffffffff)
+r0 = socket$inet_udp(0x2, 0x2, 0x0)
+ioctl$ifreq_SIOCGIFINDEX_team(r0, 0x8933, 0x0)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$BATADV_CMD_GET_GATEWAYS(r1, &(0x7f00000009c0)={0x0, 0x0, &(0x7f0000000980)={&(0x7f0000000940)={0x14}, 0x14}}, 0x0)
+syz_genetlink_get_family_id$fou(&(0x7f00000010c0)='fou\x00', 0xffffffffffffffff)

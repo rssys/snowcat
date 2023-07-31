@@ -1,0 +1,3 @@
+socketpair$unix(0x1, 0x5, 0x0, &(0x7f00000014c0)={<r0=>0xffffffffffffffff})
+bind$unix(r0, &(0x7f0000001500)=@file={0x1, './file0\x00'}, 0x6e)
+lsetxattr$trusted_overlay_upper(&(0x7f0000001a80)='./file0\x00', &(0x7f0000001ac0)='trusted.overlay.upper\x00', &(0x7f0000001b00)={0x0, 0xfb, 0x45, 0x0, 0x0, "f4f5930542960e31505ccdb102b3d498", "c6c5430f9e5db85f636414b2920d230777e0248ec8a388bcd1acd61d0bd80fa06000b1d41e0070bb369db7c3c3abb6d4"}, 0x45, 0x0)

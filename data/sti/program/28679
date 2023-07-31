@@ -1,0 +1,2 @@
+syz_mount_image$afs(0x0, &(0x7f00000024c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$overlay(0x0, &(0x7f0000003480)='./file0\x00', &(0x7f00000034c0)='overlay\x00', 0x0, &(0x7f00000035c0)={[{@upperdir={'upperdir', 0x3d, './file0'}}, {@workdir={'workdir', 0x3d, './file0'}}, {@xino_on='xino=on'}, {@index_off='index=off'}], [{@uid_lt={'uid<'}}]})

@@ -1,0 +1,3 @@
+r0 = syz_init_net_socket$bt_sco(0x1f, 0x5, 0x2)
+r1 = dup2(r0, r0)
+getsockopt$inet_IP_IPSEC_POLICY(r1, 0x0, 0x10, &(0x7f0000000c00)={{{@in6=@private1, @in=@dev}}, {{@in6=@mcast1}, 0x0, @in6=@ipv4={[], [], @empty}}}, &(0x7f00000002c0)=0xe4)

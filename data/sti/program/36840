@@ -1,0 +1,2 @@
+pipe(&(0x7f0000001300)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+fsetxattr$trusted_overlay_upper(r0, &(0x7f0000000040)='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)

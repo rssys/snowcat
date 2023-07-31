@@ -1,0 +1,4 @@
+r0 = openat$userio(0xffffff9c, &(0x7f0000000000)='/dev/userio\x00', 0x601, 0x0)
+write$USERIO_CMD_SET_PORT_TYPE(r0, &(0x7f0000000040)={0x1, 0x8}, 0x2)
+write$USERIO_CMD_REGISTER(r0, &(0x7f0000000080), 0x2)
+write$USERIO_CMD_SEND_INTERRUPT(r0, &(0x7f00000000c0), 0x2)

@@ -1,0 +1,5 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000400)='clear_refs\x00')
+r1 = syz_open_dev$vcsa(&(0x7f0000000000)='/dev/vcsa#\x00', 0xc4220f2, 0x20342)
+dup2(r1, r0)
+r2 = syz_open_procfs(0x0, &(0x7f0000000040)='syscall\x00')
+sendfile(r0, r2, 0x0, 0x7ffff000)

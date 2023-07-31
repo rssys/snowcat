@@ -1,0 +1,2 @@
+r0 = openat$tun(0xffffff9c, &(0x7f0000000040)='/dev/net/tun\x00', 0x0, 0x0)
+ioctl$TUNSETSNDBUF(r0, 0x400454d4, 0x0)

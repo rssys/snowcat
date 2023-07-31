@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='oom_adj\x00')
+write$cgroup_pid(r0, &(0x7f0000000300), 0x12)
+read$snapshot(r0, 0x0, 0x0)

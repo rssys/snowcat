@@ -1,0 +1,1 @@
+keyctl$restrict_keyring(0x1d, 0xfffffffffffffffc, &(0x7f0000000040)='keyring\x00', &(0x7f0000000080)='\x00')

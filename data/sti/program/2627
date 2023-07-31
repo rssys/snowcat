@@ -1,0 +1,4 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+writev(r0, &(0x7f0000000580)=[{&(0x7f0000000040)="2d47382485acb1df417baa0e2254b2f0645a81daf7e5a7afc5b94b0d54fc4bfdbecc01fa7f538c3add597d6697", 0x2d}, {&(0x7f0000000480)}], 0x2)
+r1 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+ioctl$VT_GETSTATE(r1, 0x5603, &(0x7f0000000040))

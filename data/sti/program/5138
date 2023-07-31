@@ -1,0 +1,4 @@
+write$P9_RREAD(0xffffffffffffffff, &(0x7f0000000140)=ANY=[@ANYBLOB='\v'], 0xb)
+r0 = creat(&(0x7f0000000100)='./file0\x00', 0x0)
+ioctl$FS_IOC_GETFSMAP(r0, 0x40086602, &(0x7f0000000140)=ANY=[])
+creat(&(0x7f0000000040)='./file0\x00', 0x0)

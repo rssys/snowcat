@@ -1,0 +1,3 @@
+fsconfig$FSCONFIG_SET_BINARY(0xffffffffffffffff, 0x2, 0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000003580)='devlink\x00')
+ioctl$SNAPSHOT_FREE(0xffffffffffffffff, 0x3305)

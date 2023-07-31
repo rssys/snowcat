@@ -1,0 +1,2 @@
+write$USERIO_CMD_SET_PORT_TYPE(0xffffffffffffffff, &(0x7f0000000000), 0x2)
+socketpair(0x2, 0x0, 0x1ff, &(0x7f0000000300))

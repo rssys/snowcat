@@ -1,0 +1,4 @@
+getsockopt$inet_sctp_SCTP_RTOINFO(0xffffffffffffffff, 0x84, 0x0, 0x0, &(0x7f0000000080))
+r0 = fork()
+syz_open_procfs(r0, 0x0)
+fork()

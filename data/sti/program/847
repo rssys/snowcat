@@ -1,0 +1,3 @@
+r0 = openat$audio(0xffffff9c, &(0x7f0000000240)='/dev/audio\x00', 0x8081, 0x0)
+write$dsp(r0, &(0x7f0000000280)='i', 0x1)
+ioctl$SOUND_PCM_READ_CHANNELS(r0, 0x80045006, &(0x7f00000000c0))

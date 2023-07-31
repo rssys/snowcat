@@ -1,0 +1,2 @@
+openat$nvram(0xffffff9c, &(0x7f0000000000)='/dev/nvram\x00', 0x0, 0x0)
+io_setup(0x8, &(0x7f00000000c0))

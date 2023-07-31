@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f00000045c0)='./file0\x00', 0x0)
+fsconfig$FSCONFIG_SET_STRING(r0, 0x1, &(0x7f00000000c0)='client0\x00', 0x0, 0x0)

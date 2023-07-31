@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000280)='ns/pid_for_children\x00')
+ioctl$BTRFS_IOC_WAIT_SYNC(r0, 0x40089416, 0x0)

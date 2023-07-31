@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000080)='./file0\x00', 0x103040, 0x0)
+read(r0, &(0x7f0000000000), 0x20002000)

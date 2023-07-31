@@ -1,0 +1,3 @@
+write$P9_RWRITE(0xffffffffffffffff, &(0x7f0000000000)={0xb, 0x77, 0x1, 0x20}, 0xb)
+r0 = syz_open_dev$sg(&(0x7f0000000040)='/dev/sg#\x00', 0x0, 0x0)
+ioctl$SCSI_IOCTL_SEND_COMMAND(r0, 0x1, &(0x7f0000000080)=ANY=[@ANYBLOB="020000000000000095ffffff"])

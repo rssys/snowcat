@@ -1,0 +1,2 @@
+syz_mount_image$ext4(&(0x7f00000000c0)='ext4\x00', &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000580))
+setxattr$security_ima(&(0x7f0000000200)='./file0\x00', &(0x7f0000000240)='security.ima\x00', &(0x7f00000002c0)=@v2, 0x9, 0x0)

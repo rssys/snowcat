@@ -1,0 +1,1 @@
+syz_open_dev$hidraw(&(0x7f0000002040)='/dev/hidraw#\x00', 0x8, 0x20000)

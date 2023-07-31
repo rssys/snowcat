@@ -1,0 +1,2 @@
+r0 = socket$inet6(0x2, 0x3, 0xff)
+ioctl$sock_ipv6_tunnel_SIOCDELTUNNEL(r0, 0x8927, &(0x7f0000000340)={'sit0\x00', 0x0})

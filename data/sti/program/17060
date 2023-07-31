@@ -1,0 +1,2 @@
+r0 = openat$sequencer(0xffffff9c, &(0x7f00000001c0)='/dev/sequencer\x00', 0x0, 0x0)
+ioctl$SNDCTL_SYNTH_ID(r0, 0xc08c5114, &(0x7f0000000100)={"0ad86ac30c5c35261762bdb5286bd6c221ad818a5f92ee57d5882d9e3b48", 0xffffffff})

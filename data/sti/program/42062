@@ -1,0 +1,4 @@
+r0 = open$dir(&(0x7f0000000000)='./file0\x00', 0x1818c2, 0x0)
+r1 = fcntl$dupfd(r0, 0x0, r0)
+r2 = mq_open(&(0x7f0000000000)='-\x00', 0x0, 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f00000000c0)='./file0\x00', &(0x7f0000000100)='9p\x00', 0x0, &(0x7f0000000200)={'trans=fd,', {'rfdno', 0x3d, r1}, 0x2c, {'wfdno', 0x3d, r2}})

@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000580)='nl80211\x00', 0xffffffffffffffff)
+sendmsg$NL80211_CMD_GET_INTERFACE(0xffffffffffffffff, 0x0, 0x0)

@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r2 = syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000200)='NLBL_UNLBL\x00', r0)
+sendmsg$NLBL_UNLABEL_C_LIST(r1, &(0x7f0000000300)={0x0, 0x0, &(0x7f00000002c0)={&(0x7f0000000240)={0x30, r2, 0x1, 0x0, 0x0, {}, [@NLBL_UNLABEL_A_IPV6MASK={0x14, 0x3, @mcast1}, @NLBL_UNLABEL_A_ACPTFLG={0x5}]}, 0x30}}, 0x0)

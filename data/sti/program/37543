@@ -1,0 +1,2 @@
+ioctl$SNDRV_RAWMIDI_IOCTL_DROP(0xffffffffffffffff, 0x40045730, 0x0)
+openat$cuse(0xffffff9c, &(0x7f0000000140)='/dev/cuse\x00', 0x2, 0x0)

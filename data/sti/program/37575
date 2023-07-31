@@ -1,0 +1,4 @@
+syz_mount_image$msdos(0x0, &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$security_capability(&(0x7f0000000080)='./file0\x00', &(0x7f0000000100)='security.capability\x00', &(0x7f0000000280)=@v3, 0x18, 0x0)
+lsetxattr$security_ima(&(0x7f0000000140)='./file0\x00', &(0x7f0000000180)='security.ima\x00', &(0x7f0000000200)=ANY=[], 0x13, 0x0)
+llistxattr(&(0x7f0000000680)='./file0\x00', 0x0, 0x0)

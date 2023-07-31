@@ -1,0 +1,2 @@
+getsockopt$inet_sctp6_SCTP_AUTO_ASCONF(0xffffffffffffffff, 0x84, 0x1e, &(0x7f0000000000), &(0x7f0000000040)=0x4)
+syz_genetlink_get_family_id$team(&(0x7f00000000c0)='team\x00', 0xffffffffffffffff)

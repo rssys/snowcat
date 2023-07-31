@@ -1,0 +1,2 @@
+r0 = getpgrp(0x0)
+sched_rr_get_interval(r0, &(0x7f0000000100))

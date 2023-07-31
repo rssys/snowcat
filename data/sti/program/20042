@@ -1,0 +1,2 @@
+r0 = socket$inet6(0xa, 0x3, 0x8)
+ioctl$sock_ifreq(r0, 0x541b, &(0x7f0000001100)={'veth1_to_bond\x00', @ifru_settings={0x0, 0x0, @fr_pvc=0x0}})

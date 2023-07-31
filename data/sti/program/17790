@@ -1,0 +1,4 @@
+syz_mount_image$nfs(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = openat$vcsu(0xffffffffffffff9c, &(0x7f0000000100)='/dev/vcsu\x00', 0x0, 0x0)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+mount$9p_fd(0x0, &(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)='9p\x00', 0x0, &(0x7f0000000400)=ANY=[@ANYBLOB='trans=fd,rfdno=', @ANYRESHEX=r0, @ANYBLOB=',wfdno=', @ANYRESHEX=r1])

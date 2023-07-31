@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000080)='net/route\x00')
+preadv(r0, &(0x7f00000112c0)=[{&(0x7f00000000c0)=""/247, 0xf7}], 0x1, 0x0, 0x6)

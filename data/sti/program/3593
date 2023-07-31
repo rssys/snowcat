@@ -1,0 +1,2 @@
+r0 = socket$inet6_icmp_raw(0xa, 0x3, 0x3a)
+getsockopt$IP6T_SO_GET_REVISION_MATCH(r0, 0x29, 0x24, &(0x7f0000000000)={'IDLETIMER\x00'}, &(0x7f0000000040)=0x1e)

@@ -1,0 +1,2 @@
+pipe(&(0x7f0000002300)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+execveat(r0, &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0)

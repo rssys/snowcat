@@ -1,0 +1,2 @@
+r0 = fork()
+tkill(r0, 0x5)

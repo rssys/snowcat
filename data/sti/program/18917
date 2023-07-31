@@ -1,0 +1,3 @@
+r0 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000380)='nl80211\x00')
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_CONTROL_PORT_FRAME(r1, &(0x7f0000000080)={0x0, 0x0, &(0x7f0000000040)={&(0x7f0000000640)={0xac, r0, 0x1, 0x0, 0x0, {{}, {@void, @void}}, [@NL80211_ATTR_FRAME={0x98, 0xe, @ctrl_frame=@ba={{}, {}, @device_b, @device_a, @basic={{}, {}, "b7e97b0438716b22a8209f7fc6a3101efedbbc663f2fa1dddc37fe0ab686ce75fb27b688800e90b52890764559dd29b47e8c5ef24e3ff206a5eede5e4a8bc27cf8a7a3282b199c1d09c5496cc5f44ee7b7305e3a18a1ce37c9b04a4d9f0de889abb3043e3e68d8d77aac92b91846eaf0fa72a89075d4790dfe1e1c4988b848cd"}}}]}, 0xac}}, 0x0)

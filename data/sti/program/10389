@@ -1,0 +1,3 @@
+r0 = open(&(0x7f0000000000)='./file0\x00', 0x4240, 0x0)
+fsetxattr$trusted_overlay_upper(r0, &(0x7f0000000040)='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)
+fsetxattr$trusted_overlay_origin(r0, &(0x7f0000000180)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

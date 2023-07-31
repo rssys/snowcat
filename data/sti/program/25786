@@ -1,0 +1,5 @@
+r0 = openat$pidfd(0xffffff9c, &(0x7f0000000080)='/proc/self\x00', 0x0, 0x0)
+eventfd2(0x0, 0x0)
+fork()
+fcntl$notify(r0, 0x402, 0x80000009)
+syz_open_procfs(0x0, &(0x7f0000000440)='net/nfsfs\x00')

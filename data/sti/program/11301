@@ -1,0 +1,5 @@
+r0 = socket$inet_udp(0x2, 0x2, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='9p\x00', 0x425, &(0x7f0000000080)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno', 0x3d, r0}, 0x2c, {[{@msize={'msize', 0x3d, 0x81}}, {@dfltgid={'dfltgid', 0x3d, 0xee00}}, {@uname={'uname', 0x3d, ',+'}}, {@fscache='fscache'}, {@version_u='version=9p2000.u'}, {@privport='privport'}, {@version_9p2000='version=9p2000'}, {@uname={'uname'}}, {@debug={'debug', 0x3d, 0x8001}}], [{@appraise_type='appraise_type=imasig'}]}})
+openat$audio(0xffffff9c, &(0x7f0000000180)='/dev/audio\x00', 0x200100, 0x0)
+r1 = socket$l2tp(0x2, 0x2, 0x73)
+bind$l2tp(r1, &(0x7f00000005c0)={0x2, 0x0, @multicast1, 0x1}, 0x10)

@@ -1,0 +1,3 @@
+r0 = add_key$keyring(&(0x7f0000000080)='keyring\x00', &(0x7f0000000140)={'syz', 0x1}, 0x0, 0x0, 0xfffffffffffffffe)
+r1 = add_key$keyring(&(0x7f0000000080)='keyring\x00', &(0x7f0000000140)={'syz', 0x0}, 0x0, 0x0, 0xfffffffffffffffe)
+keyctl$KEYCTL_MOVE(0x1e, r0, 0xfffffffffffffffe, r1, 0x0)

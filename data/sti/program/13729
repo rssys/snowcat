@@ -1,0 +1,2 @@
+r0 = openat$procfs(0xffffffffffffff9c, &(0x7f00000008c0)='/proc/partitions\x00', 0x0, 0x0)
+read$rfkill(r0, 0x0, 0x0)

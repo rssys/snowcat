@@ -1,0 +1,2 @@
+r0 = openat$drirender128(0xffffff9c, &(0x7f0000000140)='/dev/dri/renderD128\x00', 0x0, 0x0)
+ioctl$DRM_IOCTL_PRIME_HANDLE_TO_FD(r0, 0xc00c642d, &(0x7f0000000380))

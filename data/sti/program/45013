@@ -1,0 +1,3 @@
+r0 = socket$inet_tcp(0x2, 0x1, 0x0)
+setsockopt$IPT_SO_SET_ADD_COUNTERS(r0, 0x0, 0x41, &(0x7f0000000400)={'security\x00', 0x2, [{}, {}]}, 0x44)
+syz_open_dev$swradio(&(0x7f0000000000)='/dev/swradio#\x00', 0x1, 0x2)

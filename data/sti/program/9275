@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000300)='ethtool\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000001640)='l2tp\x00', 0xffffffffffffffff)

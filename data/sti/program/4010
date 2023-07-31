@@ -1,0 +1,1 @@
+memfd_create(&(0x7f0000000080)='/dev/md0\x00', 0x7)

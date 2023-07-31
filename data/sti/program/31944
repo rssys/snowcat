@@ -1,0 +1,4 @@
+ioctl$CAPI_GET_FLAGS(0xffffffffffffffff, 0x80044323, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000080)='batadv\x00', 0xffffffffffffffff)
+syz_open_dev$evdev(&(0x7f0000000180)='/dev/input/event#\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000980)='batadv\x00', 0xffffffffffffffff)

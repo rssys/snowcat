@@ -1,0 +1,1 @@
+syz_mount_image$afs(&(0x7f0000000300)='afs\x00', &(0x7f0000000340)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000400)={[{@autocell='autocell'}, {@flock_local='flock=local'}]})

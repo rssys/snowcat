@@ -1,0 +1,3 @@
+socket$unix(0x1, 0x5, 0x0)
+r0 = syz_open_procfs(0x0, &(0x7f0000000500)='net/unix\x00')
+read$eventfd(r0, 0x0, 0x38000000)

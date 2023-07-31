@@ -1,0 +1,2 @@
+r0 = openat$udambuf(0xffffff9c, &(0x7f0000000000)='/dev/udmabuf\x00', 0x2)
+ioctl$UDMABUF_CREATE(r0, 0x40187542, &(0x7f0000000300)={0xffffffffffffffff, 0x0, 0x0, 0x100000000})

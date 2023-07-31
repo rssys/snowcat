@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$nbd(&(0x7f0000000280)='nbd\x00')
+ioctl$ifreq_SIOCGIFINDEX_team(0xffffffffffffffff, 0x8933, 0x0)

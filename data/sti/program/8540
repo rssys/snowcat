@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='wchan\x00')
+readv(r0, &(0x7f0000001400)=[{&(0x7f0000000080)=""/111, 0x6f}], 0x1)

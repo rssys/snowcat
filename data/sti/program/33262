@@ -1,0 +1,4 @@
+syz_mount_image$nfs4(0x0, &(0x7f00000001c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+io_setup(0x0, 0x0)
+syz_genetlink_get_family_id$ipvs(&(0x7f0000000400)='IPVS\x00')
+rmdir(&(0x7f00000045c0)='./file0\x00')

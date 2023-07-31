@@ -1,0 +1,4 @@
+pipe2(&(0x7f0000000080), 0x0)
+syz_genetlink_get_family_id$smc(&(0x7f0000000100)='SMC_PNETID\x00')
+socketpair(0x2, 0xa, 0x0, &(0x7f0000000240))
+syz_genetlink_get_family_id$nl80211(&(0x7f00000002c0)='nl80211\x00')

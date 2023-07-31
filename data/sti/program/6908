@@ -1,0 +1,2 @@
+r0 = openat$rdma_cm(0xffffff9c, &(0x7f0000000140)='/dev/infiniband/rdma_cm\x00', 0x2, 0x0)
+write$RDMA_USER_CM_CMD_INIT_QP_ATTR(r0, &(0x7f00000002c0)={0xb, 0x10, 0xfa00, {0x0}}, 0x18)

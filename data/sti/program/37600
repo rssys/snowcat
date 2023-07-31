@@ -1,0 +1,1 @@
+add_key$fscrypt_v1(&(0x7f0000000000)='logon\x00', 0x0, &(0x7f0000000080)={0x0, "ebf1aa21d243349eff4d9d4be67ac06038dabbb2539c9c4111c8e42a8bbe2b5db2a8de0bf1ac3664a2062cbb849b4d0259b5e43a5ec6089b4c03c99a6ea69195"}, 0x48, 0xfffffffffffffffe)

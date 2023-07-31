@@ -1,0 +1,3 @@
+syz_open_dev$vcsa(&(0x7f0000006500)='/dev/vcsa#\x00', 0x5, 0x0)
+ioctl$CHAR_RAW_SECTGET(0xffffffffffffffff, 0x1267, 0x0)
+io_setup(0xf3cc, &(0x7f0000006640))

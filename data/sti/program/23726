@@ -1,0 +1,2 @@
+r0 = openat$kvm(0xffffff9c, &(0x7f0000000000)='/dev/kvm\x00', 0x0, 0x0)
+ioctl$KVM_GET_MSR_INDEX_LIST(r0, 0xc004ae02, &(0x7f0000000080)=ANY=[@ANYBLOB="000000b6"])

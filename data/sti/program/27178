@@ -1,0 +1,4 @@
+r0 = fork()
+fcntl$setlease(0xffffffffffffffff, 0x400, 0x0)
+r1 = gettid()
+kcmp$KCMP_EPOLL_TFD(r0, r1, 0x7, 0xffffffffffffffff, &(0x7f0000001100))

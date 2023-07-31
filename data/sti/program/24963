@@ -1,0 +1,5 @@
+r0 = syz_open_dev$loop(&(0x7f0000000000)='/dev/loop#\x00', 0x0, 0x80)
+ioctl$LOOP_GET_STATUS64(r0, 0x4c00, 0x0)
+socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_ipv6_tunnel_SIOCADDPRL(0xffffffffffffffff, 0x89f5, &(0x7f0000000140)={'syztnl0\x00', 0x0})
+ioctl$LOOP_SET_STATUS(0xffffffffffffffff, 0x4c02, 0x0)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000200)='/dev/vcsa#\x00', 0x1, 0x0)
+read$ptp(r0, &(0x7f0000000300)=""/4096, 0x1000)

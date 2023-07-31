@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f0000000080)='efs\x00', 0x0)
+fsconfig$FSCONFIG_SET_FLAG(r0, 0x0, &(0x7f00000000c0)='lazytime\x00', 0x0, 0x0)

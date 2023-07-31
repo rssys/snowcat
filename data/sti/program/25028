@@ -1,0 +1,2 @@
+syz_mount_image$reiserfs(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$fuse(0x0, &(0x7f0000001700)='./file0\x00', &(0x7f0000001740)='fuse\x00', 0x2, &(0x7f0000001780)={{'fd'}, 0x2c, {'rootmode'}, 0x2c, {'user_id'}, 0x2c, {'group_id'}, 0x2c, {[{@max_read={'max_read'}}], [{@fscontext={'fscontext', 0x3d, 'system_u'}}]}})

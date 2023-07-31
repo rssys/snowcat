@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000900)='net/raw6\x00')
+lseek(r0, 0x7, 0x1)

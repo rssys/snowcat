@@ -1,0 +1,3 @@
+syz_open_procfs(0x0, &(0x7f0000000040)='net/softnet_stat\x00')
+openat$hwrng(0xffffffffffffff9c, &(0x7f0000000000)='/dev/hwrng\x00', 0x0, 0x0)
+syz_open_procfs(0xffffffffffffffff, &(0x7f00000000c0)='fd/4\x00')

@@ -1,0 +1,2 @@
+r0 = openat$loop_ctrl(0xffffffffffffff9c, &(0x7f00000003c0)='/dev/loop-control\x00', 0x0, 0x0)
+fcntl$getflags(r0, 0x1)

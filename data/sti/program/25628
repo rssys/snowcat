@@ -1,0 +1,2 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+sendmsg$NFNL_MSG_CTHELPER_GET(r0, &(0x7f0000000500)={0x0, 0x0, &(0x7f00000004c0)={&(0x7f0000000440)=ANY=[@ANYBLOB="4800000001090101"], 0x48}}, 0x0)

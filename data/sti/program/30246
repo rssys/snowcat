@@ -1,0 +1,4 @@
+r0 = syz_open_dev$sg(&(0x7f0000000140)='/dev/sg#\x00', 0x0, 0x0)
+openat$autofs(0xffffffffffffff9c, &(0x7f00000005c0)='/dev/autofs\x00', 0x202000, 0x0)
+ioctl$PTP_EXTTS_REQUEST(0xffffffffffffffff, 0x40103d02, 0x0)
+ioctl$SG_IO(r0, 0x2285, &(0x7f00000022c0)={0x53, 0x0, 0x6a, 0x80, @scatter={0x0, 0x0, 0x0}, &(0x7f0000002140)="7ce85ba946a722bc63f75b6f5b345751efa48edf30842634ae3e9f44b88530d4e5cea0c7eb73cb2dc0e9ec10e9d1d479de0baff049061839b645d1fac75cf8650046bad9450d1513ed4ea22354ccc63c310e318e6c0ccc7f312e9df68cd60bb90005d3103d7c5808a02f", &(0x7f00000021c0)=""/146, 0x311f, 0x21, 0x0, &(0x7f0000002280)})

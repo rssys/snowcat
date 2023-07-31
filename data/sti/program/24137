@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='net/netlink\x00')
+mmap$IORING_OFF_SQ_RING(&(0x7f0000ffb000/0x4000)=nil, 0x4000, 0x0, 0x2010, r0, 0x0)

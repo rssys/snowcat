@@ -1,0 +1,5 @@
+fork()
+fork()
+syz_open_dev$char_raw(&(0x7f00000002c0)='/dev/raw/raw#\x00', 0x0, 0x0)
+openat$nvme_fabrics(0xffffff9c, 0x0, 0x0, 0x0)
+sendmsg$IPSET_CMD_DEL(0xffffffffffffffff, 0x0, 0x0)

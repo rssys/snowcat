@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+ioctl$sock_SIOCGIFVLAN_SET_VLAN_FLAG_CMD(r0, 0x8982, &(0x7f0000000080)={0x7, 'vlan1\x00', {0x1ff}})

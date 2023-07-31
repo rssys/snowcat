@@ -1,0 +1,3 @@
+r0 = add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x1}, 0x0, 0x0, 0xffffffffffffffff)
+r1 = add_key$fscrypt_provisioning(&(0x7f0000000140)='fscrypt-provisioning\x00', &(0x7f0000000180)={'syz', 0x3}, &(0x7f0000000200)={0x1, 0x0, @a='\x01\x02\x03\x04\x05\x06\a\b\t\n\v\f\r\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !\"#$%&\'()*+,-./0123456789:;<=>?@'}, 0x48, r0)
+keyctl$invalidate(0x15, r1)

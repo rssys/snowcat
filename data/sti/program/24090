@@ -1,0 +1,2 @@
+r0 = openat2(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', &(0x7f0000000040)={0x60042}, 0x18)
+read$usbmon(r0, &(0x7f0000000140)=""/250, 0xfa)

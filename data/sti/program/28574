@@ -1,0 +1,2 @@
+r0 = openat$autofs(0xffffff9c, &(0x7f00000003c0)='/dev/autofs\x00', 0x0, 0x0)
+connect$llc(r0, 0x0, 0x0)

@@ -1,0 +1,1 @@
+setresgid(0x0, 0xee00, 0xffffffffffffffff)

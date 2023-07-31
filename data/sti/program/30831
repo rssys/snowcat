@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='attr/fscreate\x00')
+setuid(0xee00)
+write$char_usb(r0, &(0x7f0000000140)='\"', 0x1)

@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$nl80211(0x0, 0xffffffffffffffff)
+socket$inet6_mptcp(0xa, 0x1, 0x106)
+pidfd_getfd(0xffffffffffffffff, 0xffffffffffffffff, 0x0)
+openat$thread_pidfd(0xffffff9c, &(0x7f0000000f80)='/proc/thread-self\x00', 0x24200, 0x0)

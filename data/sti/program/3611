@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000000240)='./file0\x00', 0x0)
+write$cgroup_subtree(r0, &(0x7f0000000080)={[{0x0, 'cpu'}]}, 0x5)
+creat(&(0x7f0000000040)='./file0\x00', 0x0)

@@ -1,0 +1,1 @@
+keyctl$dh_compute(0x17, &(0x7f0000000140), 0x0, 0x0, &(0x7f0000000440)={&(0x7f00000003c0)={'digest_null-generic\x00'}})

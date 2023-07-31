@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsn(&(0x7f0000000300)='/dev/vcs#\x00', 0x2, 0x802)
+write$P9_RREADDIR(r0, &(0x7f0000000340)={0xb}, 0xb)

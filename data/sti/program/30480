@@ -1,0 +1,3 @@
+syz_mount_image$nfs(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$security_selinux(&(0x7f0000000100)='./file0\x00', &(0x7f0000000140)='security.selinux\x00', &(0x7f0000000180)='system_u:object_r:auditd_log_t:s0\x00', 0x52c, 0x0)
+llistxattr(&(0x7f0000000000)='./file0\x00', 0x0, 0x0)

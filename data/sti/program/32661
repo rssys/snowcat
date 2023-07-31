@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sg(&(0x7f0000000300)='/dev/sg#\x00', 0x0, 0x0)
+ioctl$SG_GET_ACCESS_COUNT(r0, 0x2289, &(0x7f0000000340))

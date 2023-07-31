@@ -1,0 +1,2 @@
+r0 = openat$vcsu(0xffffffffffffff9c, &(0x7f0000000000)='/dev/vcsu\x00', 0x201, 0x0)
+read$usbmon(r0, 0x0, 0x0)

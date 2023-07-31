@@ -1,0 +1,2 @@
+r0 = openat$dir(0xffffffffffffff9c, &(0x7f0000000140)='./file0\x00', 0x18840, 0x0)
+ioctl$FIBMAP(r0, 0x1, 0x0)

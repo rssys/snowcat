@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+r1 = perf_event_open(&(0x7f0000000040)={0x7, 0x70}, 0xffffffffffffffff, 0x0, 0xffffffffffffffff, 0x0)
+dup2(r0, r1)

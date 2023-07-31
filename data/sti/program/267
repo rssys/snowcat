@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000040)={'sit0\x00', &(0x7f0000000080)=@ethtool_link_settings={0x4d}})

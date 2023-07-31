@@ -1,0 +1,3 @@
+r0 = open(&(0x7f00000001c0)='./file0\x00', 0x41, 0x0)
+fcntl$setstatus(r0, 0x4, 0x2c00)
+write$vga_arbiter(r0, &(0x7f0000000240)=@target_default='target default\x00', 0xf)

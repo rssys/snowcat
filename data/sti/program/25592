@@ -1,0 +1,2 @@
+r0 = syz_open_dev$ttys(0xc, 0x2, 0x0)
+ioctl$TIOCGDEV(r0, 0x80045432, &(0x7f0000000340))

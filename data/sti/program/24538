@@ -1,0 +1,2 @@
+syz_init_net_socket$netrom(0x6, 0x5, 0x0)
+syz_genetlink_get_family_id$team(&(0x7f0000000200)='team\x00', 0xffffffffffffffff)

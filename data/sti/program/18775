@@ -1,0 +1,2 @@
+r0 = socket$can_raw(0x1d, 0x3, 0x1)
+ioctl$DRM_IOCTL_MODE_CREATE_DUMB(r0, 0xc02064b2, 0x0)

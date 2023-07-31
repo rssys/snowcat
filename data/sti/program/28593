@@ -1,0 +1,2 @@
+r0 = openat$ttyS3(0xffffffffffffff9c, &(0x7f0000000180)='/dev/ttyS3\x00', 0x81, 0x0)
+write$binfmt_misc(r0, 0x0, 0x0)

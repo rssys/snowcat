@@ -1,0 +1,2 @@
+pipe2$9p(&(0x7f0000003880)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x4000)
+write$P9_RFLUSH(r0, &(0x7f00000038c0)={0x7}, 0x7)

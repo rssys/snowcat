@@ -1,0 +1,2 @@
+r0 = openat$ptmx(0xffffff9c, &(0x7f0000006e00)='/dev/ptmx\x00', 0x0, 0x0)
+fcntl$setstatus(r0, 0x4, 0x2800)

@@ -1,0 +1,3 @@
+syz_open_dev$video4linux(&(0x7f0000000140)='/dev/v4l-subdev#\x00', 0x0, 0x0)
+r0 = syz_open_dev$vivid(&(0x7f0000000000)='/dev/video#\x00', 0x3, 0x2)
+ioctl$VIDIOC_TRY_EXT_CTRLS(r0, 0xc0185649, &(0x7f0000000080)={0x0, 0x200, 0x0, 0xffffffffffffffff, 0x0, &(0x7f0000000040)})

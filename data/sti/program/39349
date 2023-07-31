@@ -1,0 +1,2 @@
+r0 = socket$inet_tcp(0x2, 0x1, 0x0)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f00000058c0)={'gretap0\x00', &(0x7f0000005800)=@ethtool_perm_addr})

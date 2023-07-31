@@ -1,0 +1,3 @@
+r0 = syz_init_net_socket$llc(0x1a, 0x2, 0x0)
+r1 = fcntl$dupfd(r0, 0x0, r0)
+bind$can_raw(r1, &(0x7f0000000080), 0x10)

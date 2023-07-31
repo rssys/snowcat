@@ -1,0 +1,6 @@
+ioctl$SNDRV_TIMER_IOCTL_STOP(0xffffffffffffffff, 0x54a1)
+r0 = openat$dsp1(0xffffff9c, &(0x7f0000000000)='/dev/dsp1\x00', 0x44400, 0x0)
+ioctl$SOUND_MIXER_INFO(r0, 0x805c4d65, &(0x7f0000000040))
+syz_open_dev$char_raw(&(0x7f00000000c0)='/dev/raw/raw#\x00', 0x1, 0x80200)
+openat$sndtimer(0xffffff9c, &(0x7f0000000240)='/dev/snd/timer\x00', 0x0)
+ioctl$SNDRV_TIMER_IOCTL_STATUS32(0xffffffffffffffff, 0x80585414, 0x0)

@@ -1,0 +1,3 @@
+add_key$keyring(0x0, 0x0, 0x0, 0x0, 0xfffffffffffffffb)
+r0 = add_key$fscrypt_v1(&(0x7f0000000000)='logon\x00', &(0x7f0000000040)={'fscrypt:', @desc4='85baa174f0cb1142'}, &(0x7f0000000080)={0x0, "525c0b44970a4fbeb33a1a0bd7b799dc32b0fc0edbccbb00b06fa230ea359f8b481c33afaac18abf2c58fa913a6f11f2bc6a9d4b589011e9fb8be151d6c48044"}, 0x48, 0xfffffffffffffffc)
+request_key(0x0, 0x0, &(0x7f0000000180)='f\x06D\x0e\xd9\x98\xc1[', r0)

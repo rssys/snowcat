@@ -1,0 +1,2 @@
+r0 = socket$inet6_tcp(0xa, 0x1, 0x0)
+setsockopt$inet6_IPV6_IPSEC_POLICY(r0, 0x29, 0x1d, &(0x7f0000000000)={{{@in=@remote, @in6=@private2}}, {{@in=@remote}, 0x0, @in=@local}}, 0xe8)

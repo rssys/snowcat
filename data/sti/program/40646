@@ -1,0 +1,4 @@
+mkdir(&(0x7f0000000200)='./file0\x00', 0x0)
+stat(&(0x7f00000000c0)='./cgroup/cgroup.procs\x00', &(0x7f0000000040)={0x0, 0x0, 0x0, 0x0, <r0=>0x0})
+setreuid(0x0, r0)
+chroot(&(0x7f00000000c0)='./file0\x00')

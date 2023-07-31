@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000080)='/dev/vcsa#\x00', 0x4, 0x2041)
+write$sndseq(r0, &(0x7f0000000040)=[{0x0, 0x0, 0x0, 0x0, @time, {}, {}, @addr}], 0x2000005c)

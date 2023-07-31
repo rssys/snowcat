@@ -1,0 +1,2 @@
+r0 = openat$dlm_plock(0xffffff9c, &(0x7f0000000880)='/dev/dlm_plock\x00', 0x0, 0x0)
+sendmsg$TEAM_CMD_PORT_LIST_GET(r0, 0x0, 0x0)

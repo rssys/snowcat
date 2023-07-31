@@ -1,0 +1,3 @@
+r0 = open$dir(&(0x7f0000000000)='./file0\x00', 0x1818c2, 0x0)
+r1 = fcntl$dupfd(r0, 0x0, r0)
+write$cgroup_freezer_state(r1, &(0x7f0000000080)='FREEZING\x00', 0xfffffff0)

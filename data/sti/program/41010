@@ -1,0 +1,2 @@
+r0 = socket$nl_audit(0x10, 0x3, 0x9)
+ioctl$sock_ifreq(r0, 0x8971, &(0x7f0000000000)={'tunl0\x00', @ifru_flags})

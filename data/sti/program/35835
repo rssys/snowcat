@@ -1,0 +1,4 @@
+open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000000080)='.\x00', 0x20000000)
+rename(&(0x7f0000000100)='./file0\x00', &(0x7f0000000140)='./file1\x00')

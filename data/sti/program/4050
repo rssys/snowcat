@@ -1,0 +1,2 @@
+r0 = openat$dsp1(0xffffff9c, &(0x7f0000000080)='/dev/dsp1\x00', 0x0, 0x0)
+ioctl$SNDCTL_DSP_SETFRAGMENT(r0, 0xc004500a, &(0x7f0000000240)=0x7)

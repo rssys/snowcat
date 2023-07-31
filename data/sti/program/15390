@@ -1,0 +1,2 @@
+mkdir(&(0x7f0000000080)='./file0\x00', 0x0)
+setxattr$security_selinux(&(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x4)

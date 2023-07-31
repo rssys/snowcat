@@ -1,0 +1,3 @@
+syz_open_dev$ndb(&(0x7f0000000180)='/dev/nbd#\x00', 0x0, 0x0)
+r0 = syz_open_dev$ndb(&(0x7f00000001c0)='/dev/nbd#\x00', 0x0, 0x900)
+ioctl$NBD_CLEAR_SOCK(r0, 0xab04)

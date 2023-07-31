@@ -1,0 +1,2 @@
+r0 = eventfd(0x0)
+write$binfmt_misc(r0, &(0x7f00000000c0)={'syz0', "555a9f9e"}, 0x8)

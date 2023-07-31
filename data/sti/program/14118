@@ -1,0 +1,4 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f00000001c0)='attr/prev\x00')
+pipe2(&(0x7f0000000100)={0xffffffffffffffff, <r1=>0xffffffffffffffff}, 0x84000)
+writev(r1, &(0x7f0000001300)=[{&(0x7f0000000000)="c5", 0x1}], 0x1)
+sendfile(r1, r0, 0x0, 0xffffffff)

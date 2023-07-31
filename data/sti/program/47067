@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000580)='net/raw6\x00')
+read$rfkill(r0, 0x0, 0x0)

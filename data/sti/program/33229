@@ -1,0 +1,2 @@
+r0 = openat$incfs(0xffffffffffffff9c, &(0x7f0000000200)='.log\x00', 0xae141, 0x0)
+write$FUSE_INIT(r0, &(0x7f0000002100)={0x50}, 0x50)

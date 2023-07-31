@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='net/ip6_tables_names\x00')
+preadv(r0, &(0x7f0000000540)=[{&(0x7f0000000080)=""/66, 0x42}], 0x1, 0x400, 0x0)

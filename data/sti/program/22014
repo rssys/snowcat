@@ -1,0 +1,1 @@
+syz_open_dev$ndb(&(0x7f0000000500)='/dev/nbd#\x00', 0x0, 0x24040)

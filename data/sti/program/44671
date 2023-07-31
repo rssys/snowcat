@@ -1,0 +1,5 @@
+syz_mount_image$nfs4(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount(0x0, &(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)='mqueue\x00', 0x0, 0x0)
+r0 = open_tree(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)
+lsetxattr$trusted_overlay_upper(&(0x7f0000000040)='./file0\x00', &(0x7f0000000180)='trusted.overlay.upper\x00', &(0x7f00000001c0)={0x0, 0xfb, 0x75, 0x2, 0x3, "f2d612c7a6d534e5c2565caf51a471d8", "f241cb100c89774daa2524b928605ce4cc0b7dae975bfd4b04a20c774c5a69dae58e9c9a4f24a700b83770914100dd2d987972e904ba895050bb9886a5916c52689715a74006037639884b4bb667dceedcc14736aba1d946c84a81f8c3d68b5c"}, 0x75, 0x1)
+mknodat(r0, &(0x7f0000000140)='./file0\x00', 0x8000, 0x0)

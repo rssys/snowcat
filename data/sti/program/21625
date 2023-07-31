@@ -1,0 +1,2 @@
+mknod(&(0x7f0000000100)='./file0\x00', 0x0, 0x0)
+lsetxattr(&(0x7f0000002180)='./file0\x00', &(0x7f00000021c0)=@random={'user.', 'resgid'}, 0x0, 0x0, 0x0)

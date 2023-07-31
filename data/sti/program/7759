@@ -1,0 +1,2 @@
+r0 = syz_init_net_socket$bt_l2cap(0x1f, 0x1, 0x0)
+ioctl$sock_SIOCGIFINDEX_80211(r0, 0x8933, &(0x7f0000000740)={'wlan1\x00'})

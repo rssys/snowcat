@@ -1,0 +1,7 @@
+syz_genetlink_get_family_id$SEG6(&(0x7f0000000000)='SEG6\x00', 0xffffffffffffffff)
+bpf$OBJ_GET_PROG(0x7, &(0x7f00000000c0)={&(0x7f0000000080)='./file0\x00'}, 0x10)
+syz_open_dev$mouse(&(0x7f00000002c0)='/dev/input/mouse#\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000000380)='l2tp\x00', 0xffffffffffffffff)
+write$RDMA_USER_CM_CMD_CREATE_ID(0xffffffffffffffff, 0x0, 0x0)
+openat$cgroup_procs(0xffffffffffffffff, &(0x7f0000000640)='cgroup.procs\x00', 0x2, 0x0)
+socket$l2tp(0x2, 0x2, 0x73)

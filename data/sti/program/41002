@@ -1,0 +1,3 @@
+socket$unix(0x1, 0x1, 0x0)
+r0 = syz_open_procfs(0x0, &(0x7f0000000080)='fdinfo/3\x00')
+read$char_usb(r0, &(0x7f0000000240)=""/216, 0x20000318)

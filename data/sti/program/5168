@@ -1,0 +1,1 @@
+syz_emit_vhci(&(0x7f0000000140)=ANY=[], 0x2d)

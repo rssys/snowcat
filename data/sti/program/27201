@@ -1,0 +1,2 @@
+removexattr(&(0x7f0000000940)='./file0\x00', 0x0)
+creat(&(0x7f00000009c0)='./file0\x00', 0x0)

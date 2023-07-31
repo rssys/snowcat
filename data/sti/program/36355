@@ -1,0 +1,2 @@
+r0 = openat$sequencer(0xffffff9c, &(0x7f0000000180)='/dev/sequencer\x00', 0x0, 0x0)
+ioctl$SNDCTL_MIDI_INFO(r0, 0xc074510c, &(0x7f0000000000)={"03d8c6715cbd5991091be0b3558bf7f05b7b1f18723eb3826b2f4a4f09e5"})

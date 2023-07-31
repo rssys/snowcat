@@ -1,0 +1,2 @@
+r0 = openat$tun(0xffffff9c, &(0x7f00000000c0)='/dev/net/tun\x00', 0x20182, 0x0)
+writev(r0, &(0x7f0000001840)=[{&(0x7f0000000400)="d2", 0x1}], 0x1)

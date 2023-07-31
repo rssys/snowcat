@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x3, 0x300)
+ioctl$sock_ifreq(r0, 0x8917, &(0x7f0000001040)={'lo\x00', @ifru_mtu})

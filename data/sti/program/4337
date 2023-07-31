@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000000)='/dev/vcsa#\x00', 0x2, 0x40101)
+write$snapshot(r0, &(0x7f0000000040)='Y', 0x1)

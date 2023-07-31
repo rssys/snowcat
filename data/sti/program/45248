@@ -1,0 +1,2 @@
+openat$sndtimer(0xffffffffffffff9c, &(0x7f0000000d40)='/dev/snd/timer\x00', 0x0)
+shmat(0x0, &(0x7f0000ffb000/0x3000)=nil, 0x7000)

@@ -1,0 +1,2 @@
+pipe2(&(0x7f0000000100)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x80800)
+write$P9_RATTACH(r0, &(0x7f0000000040)={0x14}, 0xffffffca)

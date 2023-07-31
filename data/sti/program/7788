@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000001900)='tmpfs\x00', &(0x7f0000001940)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001680)={[], [{@defcontext={'defcontext', 0x3d, 'system_u'}}, {@defcontext={'defcontext', 0x3d, 'staff_u'}}]})

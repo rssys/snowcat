@@ -1,0 +1,2 @@
+open(&(0x7f0000000b00)='./file0\x00', 0x16b440, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='9p\x00', 0x0, &(0x7f00000000c0)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[{@noextend='noextend'}, {@msize={'msize'}}]}})

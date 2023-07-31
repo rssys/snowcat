@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x3d49, &(0x7f0000000240))
+io_uring_register$IORING_UNREGISTER_PERSONALITY(r0, 0xa, 0x0, 0x0)

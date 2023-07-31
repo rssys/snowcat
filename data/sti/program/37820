@@ -1,0 +1,3 @@
+r0 = openat$sndseq(0xffffff9c, &(0x7f0000000780)='/dev/snd/seq\x00', 0x0)
+openat$sndseq(0xffffff9c, 0x0, 0x2)
+ioctl$SNDRV_SEQ_IOCTL_SUBSCRIBE_PORT(r0, 0x40505330, &(0x7f0000000a00)={{0x5, 0x20}})

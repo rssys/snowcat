@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000100)='net/rpc\x00')
+fchmodat(r0, &(0x7f00000001c0)='./file0\x00', 0x0)

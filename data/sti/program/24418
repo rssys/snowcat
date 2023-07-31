@@ -1,0 +1,1 @@
+syz_open_dev$admmidi(&(0x7f00000004c0)='/dev/admmidi#\x00', 0x0, 0x5242c889827ef50c)

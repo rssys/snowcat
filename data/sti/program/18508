@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000280)='attr/exec\x00')
+ioctl$VIDIOC_G_FBUF(r0, 0x802c560a, 0x0)

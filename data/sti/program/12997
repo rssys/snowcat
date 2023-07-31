@@ -1,0 +1,2 @@
+r0 = socket$can_j1939(0x1d, 0x2, 0x7)
+ioctl$BTRFS_IOC_GET_SUBVOL_INFO(r0, 0x81e8943c, 0x0)

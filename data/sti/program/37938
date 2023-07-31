@@ -1,0 +1,1 @@
+openat$capi20(0xffffff9c, &(0x7f00000003c0)='/dev/capi20\x00', 0x4001, 0x0)

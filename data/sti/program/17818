@@ -1,0 +1,1 @@
+syz_mount_image$nfs4(&(0x7f0000001f00)='nfs4\x00', &(0x7f0000001f40)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002280)={[], [{@dont_appraise='dont_appraise'}]})

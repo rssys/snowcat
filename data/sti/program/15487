@@ -1,0 +1,5 @@
+syz_mount_image$iso9660(0x0, &(0x7f0000000040)='./file1\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount(0x0, &(0x7f0000000840)='./file1\x00', &(0x7f0000000880)='tmpfs\x00', 0x0, 0x0)
+lsetxattr$security_selinux(&(0x7f0000000280)='./file1\x00', &(0x7f00000002c0)='security.selinux\x00', &(0x7f0000000300)='system_u:object_r:usb_device_t:s0\x00', 0x22, 0x0)
+setxattr$security_capability(&(0x7f0000000000)='./file1\x00', &(0x7f0000000080)='security.capability\x00', 0x0, 0x0, 0x0)
+umount2(&(0x7f0000000100)='./file1\x00', 0x0)

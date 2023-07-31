@@ -1,0 +1,4 @@
+r0 = syz_open_dev$sg(&(0x7f0000000040)='/dev/sg#\x00', 0x0, 0x242)
+write$binfmt_elf64(r0, &(0x7f0000000240)=ANY=[], 0x78)
+read(r0, 0x0, 0x300)
+ioctl$SG_GET_NUM_WAITING(r0, 0x227c, &(0x7f0000000000))

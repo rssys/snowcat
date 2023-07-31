@@ -1,0 +1,1 @@
+openat$vsock(0xffffff9c, &(0x7f0000002480)='/dev/vsock\x00', 0x111000, 0x0)

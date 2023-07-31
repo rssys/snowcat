@@ -1,0 +1,7 @@
+r0 = openat$kvm(0xffffff9c, &(0x7f0000000000)='/dev/kvm\x00', 0x20002, 0x0)
+r1 = ioctl$KVM_CREATE_VM(r0, 0xae01, 0x0)
+ioctl$KVM_GET_REG_LIST(0xffffffffffffffff, 0xc008aeb0, &(0x7f0000000040)={0x7, [0xfffffffffffffff7, 0x0, 0x7, 0x6, 0x7ff, 0x1f, 0x7]})
+ioctl$KVM_INTERRUPT(0xffffffffffffffff, 0x4004ae86, &(0x7f0000000080)=0xb5f6)
+r2 = ioctl$KVM_CREATE_VCPU(r1, 0xae41, 0x0)
+ioctl$KVM_X86_SETUP_MCE(r2, 0x4008ae9c, &(0x7f00000000c0)={0x0, 0xc})
+ioctl$DRM_IOCTL_MODE_CREATEPROPBLOB(0xffffffffffffffff, 0xc01064bd, &(0x7f00000001c0)={&(0x7f0000000100)="a24f5544d88164e50d8d339746922d004b945ec11c7f81f50b91cc29bef9f277e6d8773b3746f8e0f885d1ead77d2466084b5fcc1a88d71c970cb9c1de4d404507f306dd2c02deaf7c54b0e9f15f7f7c551adce3b01825902bd770c7f02155813e3348d0bf0c37f7687f98fa7e314adee89f7874cc13b421089010fbe705e8ebb1f4619bea53eadbaae4b11e23b23f28e5f6b8f75ecfe526fc5c86efdd59", 0x9e})

@@ -1,0 +1,2 @@
+syz_open_dev$sndpcmp(&(0x7f0000000100)='/dev/snd/pcmC#D#p\x00', 0x0, 0x0)
+syz_open_dev$sndpcmc(&(0x7f0000001640)='/dev/snd/pcmC#D#c\x00', 0x0, 0x0)

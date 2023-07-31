@@ -1,0 +1,2 @@
+r0 = socket$inet6_mptcp(0xa, 0x1, 0x106)
+ioctl$sock_inet6_tcp_SIOCATMARK(r0, 0x8905, &(0x7f0000000040))

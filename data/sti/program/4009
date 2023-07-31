@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x3, 0x300)
+ioctl$sock_ifreq(r0, 0x8914, &(0x7f0000000180)={'sit0\x00', @ifru_data=0x0})

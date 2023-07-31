@@ -1,0 +1,2 @@
+setresuid(0xffffffffffffffff, 0xee00, 0xffffffffffffffff)
+mknod$loop(&(0x7f0000000080)='./file0\x00', 0x0, 0x0)

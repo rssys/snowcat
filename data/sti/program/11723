@@ -1,0 +1,2 @@
+r0 = socket$inet_icmp_raw(0x2, 0x3, 0x1)
+ioctl$sock_SIOCGIFCONF(r0, 0x8912, &(0x7f0000000100)=@buf={0x28, &(0x7f0000000000)="1c89ac5a3327f5c73f9460a84f0b2659bd4851a3832bdb91352a9bee769a0588a6d9e034c3879fcc"})

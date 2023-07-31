@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f00000007c0)='./file0\x00', 0x0)
+write$cgroup_freezer_state(r0, &(0x7f0000000800)='FROZEN\x00', 0x7)
+creat(&(0x7f0000000840)='./file0\x00', 0x0)

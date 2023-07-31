@@ -1,0 +1,2 @@
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nl802154(0x0, 0xffffffffffffffff)

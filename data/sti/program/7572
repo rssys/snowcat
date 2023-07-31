@@ -1,0 +1,1 @@
+openat$cachefiles(0xffffff9c, &(0x7f0000006780)='/dev/cachefiles\x00', 0x309400, 0x0)

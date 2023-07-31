@@ -1,0 +1,4 @@
+r0 = openat$uinput(0xffffff9c, &(0x7f0000000000)='/dev/uinput\x00', 0x0, 0x0)
+ioctl$UI_SET_FFBIT(r0, 0x4004556b, 0x0)
+ioctl$UI_DEV_SETUP(r0, 0x405c5503, &(0x7f0000000500)={{}, 'syz0\x00', 0xa})
+ioctl$UI_DEV_CREATE(r0, 0x5501)

@@ -1,0 +1,3 @@
+r0 = syz_open_dev$binderN(&(0x7f00000000c0)='/dev/binder#\x00', 0x0, 0x0)
+ioctl$BTRFS_IOC_GET_SUBVOL_INFO(r0, 0x81e8943c, 0x0)
+ioctl$FS_IOC_GET_ENCRYPTION_POLICY(r0, 0x400c6615, 0x0)

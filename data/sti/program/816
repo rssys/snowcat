@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/ptype\x00')
+socket$packet(0x11, 0x2, 0x300)
+read$ptp(r0, &(0x7f0000000040)=""/37, 0x25)

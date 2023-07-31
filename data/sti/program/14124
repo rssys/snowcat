@@ -1,0 +1,2 @@
+setresuid(0xee00, 0x0, 0xffffffffffffffff)
+add_key$user(&(0x7f0000000000)='user\x00', &(0x7f0000000040)={'syz', 0x0}, &(0x7f0000000080)='r', 0x1, 0xffffffffffffffff)

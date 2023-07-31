@@ -1,0 +1,2 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+sendmsg$NFNL_MSG_COMPAT_GET(r0, &(0x7f0000000200)={0x0, 0x0, &(0x7f00000001c0)={&(0x7f0000000240)=ANY=[@ANYBLOB="2c000000000b01"], 0x2c}}, 0x0)

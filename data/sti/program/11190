@@ -1,0 +1,5 @@
+ioctl$KVM_CREATE_VM(0xffffffffffffffff, 0xae01, 0x0)
+ioctl$KVM_PPC_ALLOCATE_HTAB(0xffffffffffffffff, 0xc004aea7, &(0x7f0000000000))
+r0 = openat$uinput(0xffffff9c, &(0x7f0000000200)='/dev/uinput\x00', 0x0, 0x0)
+ioctl$UI_SET_RELBIT(r0, 0x40045566, 0x0)
+write$input_event(0xffffffffffffffff, 0x0, 0x0)

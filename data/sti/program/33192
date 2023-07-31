@@ -1,0 +1,2 @@
+syz_mount_image$zonefs(&(0x7f0000000000)='zonefs\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001500)=ANY=[])
+lsetxattr$trusted_overlay_origin(&(0x7f0000001300)='./file0\x00', &(0x7f0000001340)='trusted.overlay.origin\x00', &(0x7f0000001380)='y\x00', 0x2, 0x0)

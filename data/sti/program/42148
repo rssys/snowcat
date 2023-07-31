@@ -1,0 +1,2 @@
+r0 = eventfd(0x0)
+write$eventfd(r0, &(0x7f0000000040)=0xffffffffffffffff, 0x8)

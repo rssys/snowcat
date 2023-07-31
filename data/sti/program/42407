@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/ip_tables_targets\x00')
+lseek(r0, 0x5, 0x0)

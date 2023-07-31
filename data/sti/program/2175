@@ -1,0 +1,3 @@
+syz_open_dev$vcsn(&(0x7f0000000080)='/dev/vcs#\x00', 0x0, 0x0)
+io_uring_setup(0x4dac, &(0x7f00000001c0))
+syz_io_uring_setup(0x764a, &(0x7f000000e740), &(0x7f0000ffe000/0x2000)=nil, &(0x7f0000ffe000/0x2000)=nil, &(0x7f000000e7c0), &(0x7f000000e800))

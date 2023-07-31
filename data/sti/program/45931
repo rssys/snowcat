@@ -1,0 +1,3 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+write$char_usb(0xffffffffffffffff, &(0x7f0000000040)="c83e2f48b78ffd82b7", 0x9)
+ioctl$sock_SIOCGPGRP(r0, 0x890b, &(0x7f0000000000))

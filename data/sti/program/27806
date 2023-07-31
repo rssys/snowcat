@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+sendto$inet(r0, &(0x7f0000000000)="941200c30a4c70a1a227b69eba3e964c8b7ecd7cc95527167e0345a48d19786571e1ad98906204f6ea", 0x29, 0x0, &(0x7f0000000040)={0x2, 0x4e21, @empty}, 0x10)

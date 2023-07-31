@@ -1,0 +1,4 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000400)='net/sockstat\x00')
+r1 = syz_open_procfs(0x0, &(0x7f0000000000)='net/ipv6_route\x00')
+read$rfkill(r1, &(0x7f0000000040), 0x8)
+sendfile(r0, r1, 0x0, 0x2b6)

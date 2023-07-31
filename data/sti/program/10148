@@ -1,0 +1,4 @@
+r0 = syz_open_dev$sndctrl(&(0x7f0000000040)='/dev/snd/controlC#\x00', 0x0, 0x0)
+r1 = openat(0xffffffffffffff9c, &(0x7f0000000040)='./cgroup/cgroup.procs\x00', 0x0, 0x0)
+preadv(r1, &(0x7f00000001c0)=[{&(0x7f0000000400)=""/4096, 0x1000}], 0x1, 0x0, 0x0)
+dup3(r0, r1, 0x0)

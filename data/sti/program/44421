@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f00000019c0)='./file0\x00', 0x0)
+ioctl$CHAR_RAW_RRPART(r0, 0x6628, 0x0)

@@ -1,0 +1,3 @@
+r0 = syz_init_net_socket$bt_hci(0x1f, 0x3, 0x1)
+bind$bt_hci(r0, &(0x7f0000000000)={0x1f, 0xffffffffffffffff, 0x3}, 0x6)
+write$bt_hci(r0, &(0x7f0000000040)={0x1, @link_key_reply={{0x40b, 0x16}, {@any, "51d9b9d0f4ed1d7376f8aaed5c65a8da"}}}, 0x1a)

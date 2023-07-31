@@ -1,0 +1,2 @@
+request_key(&(0x7f00000000c0)='id_legacy\x00', &(0x7f00000001c0)={'syz', 0x2}, 0x0, 0xffffffffffffffff)
+capset(&(0x7f00000002c0)={0x19980330}, &(0x7f0000000300))

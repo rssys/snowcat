@@ -1,0 +1,4 @@
+openat$tun(0xffffff9c, &(0x7f0000000000)='/dev/net/tun\x00', 0x20000, 0x0)
+sendmsg$DEVLINK_CMD_TRAP_SET(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f00000004c0)='batadv\x00', 0xffffffffffffffff)
+sendmsg$BATADV_CMD_SET_VLAN(0xffffffffffffffff, &(0x7f0000000580)={0x0, 0x0, 0x0}, 0x0)

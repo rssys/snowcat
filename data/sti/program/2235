@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x2, 0x300)
+ioctl$sock_ifreq(r0, 0x8937, &(0x7f0000000540)={'lo\x00', @ifru_addrs=@can})

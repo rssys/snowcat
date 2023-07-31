@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r2 = syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000300)='NLBL_UNLBL\x00', r0)
+sendmsg$NLBL_UNLABEL_C_ACCEPT(r1, &(0x7f0000000400)={&(0x7f0000000140), 0xc, &(0x7f00000003c0)={&(0x7f0000000340)={0x4c, r2, 0xc51, 0x0, 0x0, {}, [@NLBL_UNLABEL_A_IPV4ADDR={0x8}, @NLBL_UNLABEL_A_SECCTX={0x2e, 0x7, 'system_u:object_r:dlm_control_device_t:s0\x00'}]}, 0x4c}}, 0x0)

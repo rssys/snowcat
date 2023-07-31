@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nbd(&(0x7f0000000700)='nbd\x00', r0)
+socketpair$nbd(0x1, 0x1, 0x0, &(0x7f0000000880))
+sendmsg$NBD_CMD_CONNECT(r0, &(0x7f0000000980)={&(0x7f0000000840), 0xc, &(0x7f0000000940)={0x0}}, 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$inet6(0xa, 0x1, 0x0)
+ioctl$sock_inet6_udp_SIOCOUTQ(r0, 0x890b, &(0x7f0000000000))

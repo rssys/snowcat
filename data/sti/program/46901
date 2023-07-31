@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsn(&(0x7f00000001c0)='/dev/vcs#\x00', 0x0, 0x103041)
+write$P9_RXATTRWALK(r0, &(0x7f0000000280)={0xf}, 0xfffffdef)

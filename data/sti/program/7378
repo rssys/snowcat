@@ -1,0 +1,2 @@
+r0 = fork()
+tgkill(r0, r0, 0x2e)

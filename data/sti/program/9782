@@ -1,0 +1,2 @@
+r0 = syz_init_net_socket$rose(0xb, 0x5, 0x0)
+ioctl$FITHAW(r0, 0xc0045878)

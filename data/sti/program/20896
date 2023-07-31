@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000001b00)='tmpfs\x00', &(0x7f0000001b40)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000003280)={[], [{@fsuuid={'fsuuid'}}]})

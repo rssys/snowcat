@@ -1,0 +1,4 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+r1 = openat$thread_pidfd(0xffffffffffffff9c, &(0x7f0000000940)='/proc/thread-self\x00', 0x0, 0x0)
+r2 = dup3(r1, r0, 0x0)
+getdents(r2, &(0x7f0000000000)=""/183, 0xb7)

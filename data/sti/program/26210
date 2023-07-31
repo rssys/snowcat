@@ -1,0 +1,2 @@
+openat$null(0xffffff9c, &(0x7f0000000000)='/dev/null\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$team(&(0x7f0000004d40)='team\x00', 0xffffffffffffffff)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sndpcmp(&(0x7f0000000000)='/dev/snd/pcmC#D#p\x00', 0x0, 0x0)
+ioctl$SNDRV_PCM_IOCTL_DRAIN(r0, 0x4144, 0x0)

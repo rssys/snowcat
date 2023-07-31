@@ -1,0 +1,2 @@
+pkey_mprotect(&(0x7f0000000000/0x3000)=nil, 0x3000, 0x0, 0xffffffffffffffff)
+mq_notify(0xffffffffffffffff, &(0x7f0000000640))

@@ -1,0 +1,7 @@
+r0 = openat$vcs(0xffffff9c, &(0x7f0000000000)='/dev/vcs\x00', 0x0, 0x0)
+ioctl$SNDCTL_DSP_GETCAPS(r0, 0x8004500f, 0x0)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000008380)='l2tp\x00', 0xffffffffffffffff)
+connect$rds(r0, 0x0, 0x0)
+socketpair(0x25, 0x0, 0x0, &(0x7f0000008500))
+socket$packet(0x11, 0x3, 0x300)
+syz_genetlink_get_family_id$wireguard(&(0x7f0000009600)='wireguard\x00', 0xffffffffffffffff)

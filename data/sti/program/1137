@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x1b13, &(0x7f0000001ac0))
+io_uring_register$IORING_REGISTER_FILES_UPDATE(r0, 0x6, 0x0, 0x0)

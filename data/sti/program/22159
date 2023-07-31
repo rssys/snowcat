@@ -1,0 +1,4 @@
+syz_mount_image$tmpfs(&(0x7f0000000000)='tmpfs\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000200)=ANY=[@ANYBLOB='size=87x'])
+setxattr$security_capability(0x0, 0x0, 0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000440)='batadv\x00')
+rmdir(&(0x7f0000000580)='./file0\x00')

@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000b40)='nl80211\x00')
+openat$ptmx(0xffffffffffffff9c, &(0x7f0000000080)='/dev/ptmx\x00', 0x4100, 0x0)

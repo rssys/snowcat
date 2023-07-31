@@ -1,0 +1,2 @@
+syz_init_net_socket$nl_rdma(0x10, 0x3, 0x10)
+syz_open_dev$hiddev(&(0x7f00000019c0)='/dev/usb/hiddev#\x00', 0x0, 0x0)

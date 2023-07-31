@@ -1,0 +1,3 @@
+r0 = openat$dir(0xffffffffffffff9c, &(0x7f0000000000)='./file1\x00', 0x40, 0x0)
+r1 = openat$nvram(0xffffffffffffff9c, &(0x7f0000000540)='/dev/nvram\x00', 0x244400, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000300)='./file1\x00', &(0x7f0000000340)='9p\x00', 0x0, &(0x7f0000000440)={'trans=fd,', {'rfdno', 0x3d, r1}, 0x2c, {'wfdno', 0x3d, r0}})

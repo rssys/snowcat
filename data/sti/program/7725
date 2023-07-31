@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x8d3, &(0x7f0000000440))
+io_uring_register$IORING_REGISTER_PROBE(r0, 0x8, &(0x7f00000004c0)={0x0, 0x0, 0x0, [], [{}, {}]}, 0x2)

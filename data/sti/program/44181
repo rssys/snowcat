@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000040)='ns/uts\x00')
+ioctl$NS_GET_OWNER_UID(r0, 0xb704, 0x0)

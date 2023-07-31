@@ -1,0 +1,2 @@
+add_key$keyring(&(0x7f0000000cc0)='keyring\x00', 0x0, 0x0, 0x0, 0xfffffffffffffffe)
+execveat(0xffffffffffffffff, &(0x7f00000000c0)='./file0\x00', &(0x7f0000000300)=[&(0x7f0000000100)='}\x00', &(0x7f00000002c0)='syz'], 0x0, 0x1000)

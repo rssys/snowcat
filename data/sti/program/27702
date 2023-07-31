@@ -1,0 +1,4 @@
+syz_mount_image$msdos(0x0, &(0x7f0000002e00)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_origin(&(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)
+lsetxattr$security_capability(&(0x7f00000003c0)='./file0\x00', &(0x7f0000000400)='security.capability\x00', &(0x7f0000000440)=@v3={0x3000000, [], 0xee00}, 0x18, 0x0)
+lsetxattr$security_capability(&(0x7f00000004c0)='./file0\x00', &(0x7f0000000500)='security.capability\x00', 0x0, 0x0, 0x0)

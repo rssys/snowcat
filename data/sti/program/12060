@@ -1,0 +1,2 @@
+r0 = syz_open_dev$evdev(&(0x7f0000000040)='/dev/input/event#\x00', 0x1, 0x0)
+ioctl$EVIOCSKEYCODE_V2(r0, 0x40284504, &(0x7f0000000080)={0x0, 0x2, 0x0, 0x0, "769ce65c5ad388db67d4c4505236fb85119d2fb9272c7d161adda54332c7756e"})

@@ -1,0 +1,7 @@
+ioctl$IOCTL_VMCI_QUEUEPAIR_ALLOC(0xffffffffffffffff, 0x7a8, 0x0)
+syz_open_procfs$namespace(0xffffffffffffffff, 0x0)
+ioctl$IOCTL_VMCI_GET_CONTEXT_ID(0xffffffffffffffff, 0x7b3, 0x0)
+syz_genetlink_get_family_id$gtp(&(0x7f0000000700)='gtp\x00', 0xffffffffffffffff)
+sendmsg$GTP_CMD_GETPDP(0xffffffffffffffff, 0x0, 0x0)
+openat$char_raw_ctl(0xffffff9c, 0x0, 0x0, 0x0)
+bpf$BPF_BTF_GET_NEXT_ID(0x17, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = openat$pidfd(0xffffff9c, &(0x7f00000001c0)='/proc/self\x00', 0x0, 0x0)
+pidfd_getfd(r0, 0xffffffffffffffff, 0x0)

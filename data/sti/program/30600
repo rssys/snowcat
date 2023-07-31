@@ -1,0 +1,1 @@
+syz_mount_image$nfs(&(0x7f0000001ec0)='nfs\x00', &(0x7f0000001f00)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002340)={[{'rootcontext'}]})

@@ -1,0 +1,2 @@
+r0 = socket$inet_sctp(0x2, 0x5, 0x84)
+setsockopt$inet_sctp_SCTP_STREAM_SCHEDULER_VALUE(r0, 0x84, 0x7c, &(0x7f0000002840), 0x8)

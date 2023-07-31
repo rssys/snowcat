@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+sendmsg$inet(r0, &(0x7f0000000440)={&(0x7f0000000000)={0x2, 0x4e21, @loopback}, 0x10, &(0x7f0000000200)=[{&(0x7f0000000040)="4f3d7935ef4a952bd8d2382ec65126635c7aaee6cf924aeaf5ec1d7de7d4", 0x1e}], 0x1}, 0x0)

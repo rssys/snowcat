@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000000)='./file1\x00', 0x0)
+ioctl$FITRIM(r0, 0xc0185879, &(0x7f0000000240)={0x0, 0xfffffffffffffff7})
+r1 = inotify_init1(0x0)
+ioctl$FS_IOC_GETFSLABEL(r1, 0x81009431, 0x0)

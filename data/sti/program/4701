@@ -1,0 +1,2 @@
+r0 = socket$inet6(0xa, 0x3, 0x1)
+ioctl$BTRFS_IOC_SET_RECEIVED_SUBVOL(r0, 0xc0c89425, 0x0)

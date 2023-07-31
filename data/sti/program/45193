@@ -1,0 +1,2 @@
+fork()
+syz_open_procfs$namespace(0x0, &(0x7f0000004580)='ns/user\x00')

@@ -1,0 +1,4 @@
+r0 = socket$vsock_stream(0x28, 0x1, 0x0)
+ioctl$F2FS_IOC_GARBAGE_COLLECT(r0, 0x4004f506, 0x0)
+openat$autofs(0xffffff9c, &(0x7f0000000380)='/dev/autofs\x00', 0x200, 0x0)
+openat$proc_capi20(0xffffff9c, &(0x7f00000014c0)='/proc/capi/capi20\x00', 0x400, 0x0)

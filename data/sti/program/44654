@@ -1,0 +1,2 @@
+open$dir(&(0x7f0000000240)='./file0\x00', 0x840, 0x0)
+setxattr$security_selinux(&(0x7f0000000600)='./file0\x00', &(0x7f0000000640)='security.selinux\x00', &(0x7f0000000680)='system_u:object_r:setrans_exec_t:s0\x00', 0x21, 0x0)

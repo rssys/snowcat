@@ -1,0 +1,2 @@
+r0 = openat$md(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/md0\x00', 0x0, 0x0)
+fstat(r0, &(0x7f0000000480))

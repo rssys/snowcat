@@ -1,0 +1,3 @@
+clock_gettime(0x0, &(0x7f0000000000))
+fork()
+sched_rr_get_interval(0x0, &(0x7f0000000200))

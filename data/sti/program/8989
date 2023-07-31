@@ -1,0 +1,3 @@
+syz_open_dev$vcsa(&(0x7f0000000200)='/dev/vcsa#\x00', 0x0, 0x0)
+r0 = socket$netlink(0x10, 0x3, 0x0)
+sendmsg$ETHTOOL_MSG_TSINFO_GET(r0, &(0x7f00000001c0)={0x0, 0x0, &(0x7f0000000180)={&(0x7f0000000200)=ANY=[@ANYBLOB="680000001200"], 0x68}}, 0x0)

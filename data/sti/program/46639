@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000080)='/dev/vcsa#\x00', 0x1, 0x0)
+read$char_usb(r0, &(0x7f0000000300)=""/196, 0x200003c4)

@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='net/sockstat\x00')
+preadv2(r0, &(0x7f0000000640)=[{&(0x7f0000000580)=""/32, 0x20}], 0x1, 0x0, 0x0, 0x0)

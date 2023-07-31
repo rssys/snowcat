@@ -1,0 +1,2 @@
+openat$dir(0xffffffffffffff9c, &(0x7f0000000400)='./file0\x00', 0x200c0, 0x0)
+readlinkat(0xffffffffffffff9c, &(0x7f0000000100)='./file0\x00', &(0x7f0000000140)=""/15, 0xf)

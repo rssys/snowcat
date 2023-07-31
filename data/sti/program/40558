@@ -1,0 +1,2 @@
+r0 = openat$hpet(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/hpet\x00', 0x0, 0x0)
+timerfd_gettime(r0, 0x0)

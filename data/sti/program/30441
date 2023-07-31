@@ -1,0 +1,1 @@
+openat$vicodec1(0xffffff9c, &(0x7f0000000000)='/dev/video37\x00', 0x2, 0x0)

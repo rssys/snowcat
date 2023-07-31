@@ -1,0 +1,4 @@
+syz_open_dev$sndctrl(&(0x7f00000010c0)='/dev/snd/controlC#\x00', 0xae87, 0x0)
+syz_open_procfs(0x0, &(0x7f00000013c0)='cgroup\x00')
+openat$userio(0xffffff9c, &(0x7f0000001540)='/dev/userio\x00', 0x0, 0x0)
+syz_open_procfs(0x0, &(0x7f0000001640)='net/psched\x00')

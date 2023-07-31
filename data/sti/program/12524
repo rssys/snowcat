@@ -1,0 +1,2 @@
+r0 = openat$vcsa(0xffffffffffffff9c, &(0x7f00000002c0)='/dev/vcsa\x00', 0x8c01, 0x0)
+write$char_raw(r0, &(0x7f0000000e00)={"b3"}, 0x200)

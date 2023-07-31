@@ -1,0 +1,2 @@
+connect$bt_rfcomm(0xffffffffffffffff, 0x0, 0x13)
+openat$sequencer2(0xffffff9c, &(0x7f0000000000)='/dev/sequencer2\x00', 0x4801, 0x0)

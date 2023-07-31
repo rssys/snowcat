@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f00000000c0)='fdinfo\x00')
+syz_mount_image$fuse(&(0x7f0000000000)='fuse\x00', &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000002c0)=ANY=[@ANYBLOB='fd=', @ANYRESHEX=r0, @ANYBLOB=',rootmode=00000000000000000120000,user_id=', @ANYRESDEC=0x0])

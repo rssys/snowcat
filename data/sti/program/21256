@@ -1,0 +1,2 @@
+r0 = openat$procfs(0xffffff9c, &(0x7f000000ec00)='/proc/sysvipc/shm\x00', 0x0, 0x0)
+inotify_rm_watch(r0, 0x0)

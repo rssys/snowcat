@@ -1,0 +1,1 @@
+syz_emit_ethernet(0x58, &(0x7f0000000080)={@broadcast, @dev, @val={@void}, {@ipv6={0x86dd, @udp={0x0, 0x6, "e7c040", 0x1e, 0x11, 0x0, @local, @empty, {[], {0x0, 0x0, 0x1e, 0x0, @opaque="a80d3e128ff10d831151815b8d5dfbce027e7fe06a3a"}}}}}}, 0x0)

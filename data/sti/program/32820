@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f00000000c0)='./file0\x00', 0x0)
+sendmsg$NLBL_UNLABEL_C_STATICREMOVE(0xffffffffffffffff, 0x0, 0x0)
+write$snapshot(r0, &(0x7f0000000000)="586798849d57576b", 0x8)
+fchown(r0, 0xffffffffffffffff, 0xee00)

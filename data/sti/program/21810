@@ -1,0 +1,2 @@
+r0 = openat$bsg(0xffffffffffffff9c, &(0x7f0000000000)='/dev/bsg\x00', 0x579b81, 0x0)
+write$char_raw(r0, &(0x7f0000000200)=ANY=[], 0x3600)

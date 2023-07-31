@@ -1,0 +1,2 @@
+r0 = openat$full(0xffffffffffffff9c, &(0x7f00000018c0)='/dev/full\x00', 0x0, 0x0)
+read$char_raw(r0, &(0x7f000000b600)={""/45770}, 0x2000b45a)

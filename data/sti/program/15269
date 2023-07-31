@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+syz_genetlink_get_family_id$mptcp(&(0x7f0000000600)='mptcp_pm\x00', r0)

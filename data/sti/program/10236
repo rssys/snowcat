@@ -1,0 +1,4 @@
+sendmsg$NLBL_UNLABEL_C_STATICREMOVE(0xffffffffffffffff, 0x0, 0x0)
+bpf$BPF_BTF_GET_NEXT_ID(0x17, &(0x7f0000000280), 0x8)
+sendmsg$nl_route_sched(0xffffffffffffffff, 0x0, 0x4000000)
+io_setup(0xffff, &(0x7f0000000800))

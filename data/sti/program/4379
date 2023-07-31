@@ -1,0 +1,2 @@
+inotify_init1(0x0)
+ioctl$TCSETXF(0xffffffffffffffff, 0x5434, 0x0)

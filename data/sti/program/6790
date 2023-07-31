@@ -1,0 +1,1 @@
+openat$tun(0xffffff9c, &(0x7f0000003200)='/dev/net/tun\x00', 0x4c000, 0x0)

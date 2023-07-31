@@ -1,0 +1,2 @@
+memfd_create(&(0x7f00000006c0)='\xbeS}-.[\xf8\x00', 0x5)
+ioctl$UDMABUF_CREATE_LIST(0xffffffffffffffff, 0x40087543, 0x0)

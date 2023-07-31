@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000200)='nl80211\x00')
+sendmsg$NL80211_CMD_UPDATE_CONNECT_PARAMS(r0, &(0x7f0000000600)={0x0, 0x0, &(0x7f00000005c0)={&(0x7f0000000640)={0x68, r1, 0xffffffffffffffff, 0x0, 0x0, {{0x11}, {@void, @val={0xc}}}, [@fils_params=[@NL80211_ATTR_FILS_ERP_RRK={0x45, 0xfc, "c187aae7c0af3786e40c0cba956b0619c5775934e2c7f534eca495c153614718f8ac0edd23086b9cbfad1255624df753d8b33c7b23053c2ee121fee1af9a731c21"}]]}, 0x68}}, 0x0)

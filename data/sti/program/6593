@@ -1,0 +1,5 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$mptcp(&(0x7f0000000040)='mptcp_pm\x00', 0xffffffffffffffff)
+sendmsg$MPTCP_PM_CMD_FLUSH_ADDRS(r0, 0x0, 0x4000000)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$mptcp(&(0x7f0000000140)='mptcp_pm\x00', r1)

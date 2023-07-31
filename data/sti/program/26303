@@ -1,0 +1,2 @@
+r0 = openat$ocfs2_control(0xffffff9c, &(0x7f0000000380)='/dev/ocfs2_control\x00', 0x0, 0x0)
+fsetxattr$trusted_overlay_opaque(r0, 0x0, 0x0, 0x0, 0x0)

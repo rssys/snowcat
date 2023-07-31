@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+fsetxattr$security_capability(r0, &(0x7f0000000040)='security.capability\x00', &(0x7f0000000080)=@v2, 0x14, 0x0)

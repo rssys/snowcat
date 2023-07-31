@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f00000004c0)='tmpfs\x00', &(0x7f0000000500)='./file0\x00', 0x1, 0x0, 0x0, 0x0, &(0x7f0000000700)={[{@uid={'uid'}}, {@uid={'uid'}}, {@huge_within_size='huge=within_size'}]})

@@ -1,0 +1,4 @@
+syz_mount_image$tmpfs(&(0x7f00000000c0)='tmpfs\x00', &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000015c0)=ANY=[])
+chown(&(0x7f0000000080)='./file0\x00', 0xee00, 0x0)
+mknod$loop(&(0x7f00000001c0)='./file0/file0\x00', 0x6000, 0x1)
+creat(&(0x7f0000000040)='./file0/file0\x00', 0x0)

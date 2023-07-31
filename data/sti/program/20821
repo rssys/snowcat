@@ -1,0 +1,5 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x0)
+r0 = inotify_init1(0x0)
+inotify_add_watch(r0, &(0x7f0000000000)='./file0\x00', 0x80)
+r1 = open$dir(&(0x7f0000000500)='./file0\x00', 0x0, 0x0)
+mkdirat(r1, &(0x7f0000000540)='./file0\x00', 0x0)

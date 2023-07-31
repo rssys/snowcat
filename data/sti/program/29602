@@ -1,0 +1,7 @@
+sendmsg$IEEE802154_LLSEC_LIST_DEV(0xffffffffffffffff, 0x0, 0x4001)
+syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000140)='NLBL_UNLBL\x00', 0xffffffffffffffff)
+sendmsg$NLBL_UNLABEL_C_STATICLIST(0xffffffffffffffff, 0x0, 0x0)
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_calipso(0x0, r0)
+sendmsg$L2TP_CMD_SESSION_MODIFY(0xffffffffffffffff, &(0x7f0000000500)={0x0, 0x0, &(0x7f00000004c0)={0x0}}, 0x0)
+sendmsg$NL802154_CMD_NEW_INTERFACE(0xffffffffffffffff, &(0x7f0000000ac0)={0x0, 0x0, &(0x7f0000000a80)={0x0}, 0x1, 0x0, 0x0, 0x64008000}, 0x0)

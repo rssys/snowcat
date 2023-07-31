@@ -1,0 +1,3 @@
+r0 = openat$vcsu(0xffffffffffffff9c, &(0x7f0000000040)='/dev/vcsu\x00', 0x0, 0x0)
+r1 = fcntl$dupfd(r0, 0x2, 0xffffffffffffffff)
+sendfile(r1, r1, 0x0, 0x337c)

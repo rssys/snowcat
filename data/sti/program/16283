@@ -1,0 +1,2 @@
+r0 = openat$vcs(0xffffffffffffff9c, &(0x7f0000000300)='/dev/vcs\x00', 0x1, 0x0)
+write$char_usb(r0, &(0x7f0000000380)="36e1bbca6d717ce146bd", 0xa)

@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+fsetxattr$security_selinux(r0, &(0x7f0000000040)='security.selinux\x00', &(0x7f0000000080)='system_u:object_r:cpu_device_t:s0\x00', 0x22, 0x0)

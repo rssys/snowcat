@@ -1,0 +1,2 @@
+ioctl$F2FS_IOC_GARBAGE_COLLECT(0xffffffffffffffff, 0x4004f506, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000001980)='nl80211\x00')

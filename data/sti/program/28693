@@ -1,0 +1,2 @@
+r0 = openat$dlm_monitor(0xffffff9c, &(0x7f0000001140)='/dev/dlm-monitor\x00', 0x0, 0x0)
+fsetxattr$trusted_overlay_origin(r0, &(0x7f0000001180)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

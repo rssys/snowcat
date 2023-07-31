@@ -1,0 +1,4 @@
+ioctl$SNDCTL_DSP_NONBLOCK(0xffffffffffffffff, 0x500e, 0x0)
+r0 = openat$audio1(0xffffff9c, &(0x7f00000010c0)='/dev/audio1\x00', 0x0, 0x0)
+ioctl$SNDCTL_DSP_SETTRIGGER(r0, 0x40045010, &(0x7f0000001280))
+ioctl$SNDCTL_DSP_CHANNELS(r0, 0xc0045006, &(0x7f00000012c0)=0x74)

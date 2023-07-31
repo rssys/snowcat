@@ -1,0 +1,2 @@
+prctl$PR_SET_SECUREBITS(0x1c, 0x3f)
+setfsuid(0xee00)

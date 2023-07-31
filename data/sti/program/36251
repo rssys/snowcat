@@ -1,0 +1,2 @@
+r0 = socket$pppl2tp(0x18, 0x1, 0x1)
+ioctl$F2FS_IOC_PRECACHE_EXTENTS(r0, 0xf50f, 0x0)

@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000040)='NLBL_UNLBL\x00', 0xffffffffffffffff)
+sendmsg$NLBL_UNLABEL_C_STATICADDDEF(0xffffffffffffffff, &(0x7f0000000140)={&(0x7f0000000000), 0xc, 0x0, 0x1, 0x0, 0x0, 0x20040005}, 0x8820)
+r0 = openat$kvm(0xffffff9c, &(0x7f00000001c0)='/dev/kvm\x00', 0x80, 0x0)
+ioctl$KVM_CREATE_VM(r0, 0xae01, 0x0)

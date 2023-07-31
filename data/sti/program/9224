@@ -1,0 +1,4 @@
+r0 = socket$inet6_icmp_raw(0xa, 0x3, 0x3a)
+r1 = dup2(r0, r0)
+fcntl$setstatus(r0, 0x4, 0x42c00)
+read$eventfd(r1, 0x0, 0x0)

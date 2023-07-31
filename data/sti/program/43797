@@ -1,0 +1,2 @@
+ioctl$BTRFS_IOC_GET_SUBVOL_INFO(0xffffffffffffffff, 0x81e8943c, 0x0)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000002540)='setgroups\x00')

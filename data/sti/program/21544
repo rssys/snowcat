@@ -1,0 +1,1 @@
+mount$9p_fd(0x0, &(0x7f0000000080)='.\x00', &(0x7f0000000040)='9p\x00', 0x0, &(0x7f00000001c0)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[], [{@seclabel='seclabel'}, {@defcontext={'defcontext', 0x3d, 'system_u'}}]}})

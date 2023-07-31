@@ -1,0 +1,2 @@
+r0 = syz_mount_image$tmpfs(&(0x7f00000002c0)='tmpfs\x00', &(0x7f0000000300)='./file0\x00', 0x0, 0xfffffffffffffe30, 0x0, 0x0, &(0x7f00000000c0)=ANY=[])
+mkdirat(r0, &(0x7f0000000000)='./file0\x00', 0x0)

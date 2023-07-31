@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000240)='/dev/vcsa#\x00', 0x3, 0x0)
+read$char_raw(r0, &(0x7f0000000400)={""/38491}, 0x9800)

@@ -1,0 +1,2 @@
+r0 = openat$vicodec1(0xffffff9c, &(0x7f0000000000)='/dev/video37\x00', 0x2, 0x0)
+ioctl$VIDIOC_S_TUNER(r0, 0x4054561e, &(0x7f0000000300)={0x0, "1bd3474d0f0a3c75a58038968d652771b35857c7127f14df33f527e7a279c852"})

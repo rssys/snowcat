@@ -1,0 +1,4 @@
+inotify_add_watch(0xffffffffffffffff, 0x0, 0x0)
+r0 = openat$kvm(0xffffff9c, &(0x7f0000001140)='/dev/kvm\x00', 0x0, 0x0)
+r1 = ioctl$KVM_CREATE_VM(r0, 0xae01, 0x0)
+ioctl$KVM_XEN_HVM_CONFIG(r1, 0x4038ae7a, &(0x7f0000000140)={0x0, 0x0, &(0x7f0000000040)="842ccc74933d23158689d9d1b023bcdf8a946ec5ba919890b9d66701d570c4ef8798abb3db5f61ef3e4a16fe74dafc980900b65c16150363838e859360cfe994af167f338b7bc6cdb971926f75", &(0x7f00000000c0)="0efac5554ac66b09012f6d1c3d37c732a71c6c0aed030ba7235bc846fb7007afe2c6e5b1ddc385c2ee448c8ace5719a3edb6ec4d5dfad5b084a7b4cf6827", 0x4d, 0x3e})

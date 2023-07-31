@@ -1,0 +1,2 @@
+capset(&(0x7f00000000c0)={0x20071026}, &(0x7f0000000080))
+prctl$PR_SET_SECUREBITS(0x1c, 0x0)

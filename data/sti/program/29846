@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f0000000200)='keyring\x00', &(0x7f0000000240)={'syz', 0x1}, 0x0, 0x0, 0xfffffffffffffffd)
+keyctl$unlink(0xb, r0, 0x0)

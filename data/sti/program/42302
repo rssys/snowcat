@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f00000000c0)='proc\x00', 0x0)
+fsconfig$FSCONFIG_SET_BINARY(r0, 0x2, &(0x7f0000000100)='({:\x00', &(0x7f0000000140), 0x0)

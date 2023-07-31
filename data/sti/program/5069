@@ -1,0 +1,4 @@
+io_setup(0x0, &(0x7f0000000380))
+r0 = openat$sequencer2(0xffffff9c, &(0x7f0000000000)='/dev/sequencer2\x00', 0x0, 0x0)
+r1 = dup2(r0, r0)
+ioctl$SNDCTL_SEQ_NRMIDIS(r1, 0xc0045103, &(0x7f0000001500))

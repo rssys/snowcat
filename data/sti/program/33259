@@ -1,0 +1,8 @@
+r0 = accept4$nfc_llcp(0xffffffffffffffff, 0x0, &(0x7f0000000000), 0x80000)
+setsockopt$nfc_llcp_NFC_LLCP_RW(r0, 0x118, 0x0, &(0x7f0000000040)=0x941, 0x4)
+r1 = openat$urandom(0xffffff9c, &(0x7f0000000080)='/dev/urandom\x00', 0x100000, 0x0)
+getsockopt$nfc_llcp(r0, 0x118, 0x0, &(0x7f00000000c0)=""/4096, 0x1000)
+ioctl$RNDADDENTROPY(r1, 0x40085203, &(0x7f00000010c0)={0x2, 0xe6, "163897485f4710a29246c4cc939e0ab96a780224d9874cfe4dc3bd13302ae38b258572f03beb21af6bad29f400b0128bf7f1187b09cf9fddcd2b7f9cf57541d0d2d1195dedd3196297d9e6031c5e1df08ca1d3a3000beff2610cbce6a36c7dc0ffc4f65a235f1287abab3fd5472e072c82696f2999875d2b4034591c6db864916845ced6e6d48e5320c85fa0adb7902d2abf9f79c139c1478c1a8b1b2232da7b15237188bef7a5200a0c348252dae57bdd6882291703c51f7ed1cab9ef1c9cb5f177e057d9a7e86b9470c4594b19b57956fbee12985e8e7ce3841624fe168bea5951a08affcd"})
+syz_init_net_socket$nfc_llcp(0x27, 0x1, 0x1)
+r2 = socket$inet_udplite(0x2, 0x2, 0x88)
+ioctl$sock_SIOCADDRT(r2, 0x890b, &(0x7f0000004b80)={0x0, @l2tp={0x2, 0x0, @broadcast}, @l2tp={0x2, 0x0, @multicast2}, @qipcrtr={0x2a, 0xffffffffffffffff, 0x2}, 0xbd, 0x0, 0x0, 0x0, 0x40, &(0x7f0000004b40)='dummy0\x00', 0x5, 0x2, 0x7ff})

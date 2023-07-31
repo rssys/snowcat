@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='net/stat\x00')
+ioctl$sock_inet_udp_SIOCOUTQ(r0, 0xc0189436, &(0x7f0000000000))

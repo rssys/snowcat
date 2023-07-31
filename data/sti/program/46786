@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f00000003c0)='mountstats\x00')
+read$eventfd(r0, 0x0, 0x0)

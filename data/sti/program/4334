@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000140)='net/tcp\x00')
+read$eventfd(r0, &(0x7f0000000080), 0x4)

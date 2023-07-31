@@ -1,0 +1,2 @@
+r0 = openat$nvme_fabrics(0xffffff9c, &(0x7f0000003680)='/dev/nvme-fabrics\x00', 0x2, 0x0)
+writev(r0, &(0x7f0000000040)=[{&(0x7f0000000200)="e3", 0x1}], 0x1)

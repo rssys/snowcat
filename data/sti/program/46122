@@ -1,0 +1,2 @@
+r0 = openat$bsg(0xffffffffffffff9c, &(0x7f0000000800)='/dev/bsg\x00', 0x0, 0x0)
+fsconfig$FSCONFIG_SET_FLAG(r0, 0x0, &(0x7f00000000c0)='sync\x00', 0x0, 0x0)

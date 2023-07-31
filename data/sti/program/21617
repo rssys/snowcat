@@ -1,0 +1,2 @@
+pipe(&(0x7f0000000b00)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+write$cgroup_subtree(r0, &(0x7f0000000180)={[{0x0, 'memory'}, {0x0, 'cpu'}, {0x0, 'cpu'}, {0x0, 'pids'}, {0x0, 'pids'}, {0x0, 'memory'}, {0x0, 'cpu'}, {0x0, 'io'}]}, 0xffffff71)

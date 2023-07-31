@@ -1,0 +1,4 @@
+openat$hpet(0xffffff9c, &(0x7f00000021c0)='/dev/hpet\x00', 0x0, 0x0)
+fork()
+syz_genetlink_get_family_id$team(0x0, 0xffffffffffffffff)
+syz_genetlink_get_family_id$gtp(0x0, 0xffffffffffffffff)

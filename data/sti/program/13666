@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000100)='./file1\x00', 0x142, 0x0)
+close(r0)

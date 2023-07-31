@@ -1,0 +1,2 @@
+r0 = open(&(0x7f0000000080)='./file0\x00', 0x101141, 0x6bbc5deadd603dc6)
+write$rfkill(r0, &(0x7f0000000000), 0xfffffdef)

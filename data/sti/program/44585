@@ -1,0 +1,2 @@
+ioctl$VIDIOC_S_INPUT(0xffffffffffffffff, 0xc0045627, &(0x7f0000000240))
+io_setup(0x765, &(0x7f0000000080))

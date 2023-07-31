@@ -1,0 +1,3 @@
+openat$cgroup_root(0xffffff9c, 0x0, 0x200002, 0x0)
+r0 = openat$ptp0(0xffffff9c, &(0x7f0000003800)='/dev/ptp0\x00', 0x0, 0x0)
+ioctl$PTP_PIN_GETFUNC2(r0, 0xc0603d0f, &(0x7f0000003840))

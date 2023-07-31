@@ -1,0 +1,6 @@
+ioctl$FS_IOC_SETFLAGS(0xffffffffffffffff, 0x40046602, 0x0)
+r0 = creat(&(0x7f0000005f40)='./file0\x00', 0x0)
+ioctl$FS_IOC_SETFLAGS(0xffffffffffffffff, 0x40046602, 0x0)
+write$RDMA_USER_CM_CMD_CREATE_ID(r0, &(0x7f0000000180)={0x0, 0x18, 0xfa00, {0x0, 0x0}}, 0x20)
+ioctl$FS_IOC_SETFLAGS(r0, 0x40046602, &(0x7f0000000000))
+ioctl$FS_IOC_SETFLAGS(r0, 0x40046602, &(0x7f0000000080)=0x80000)

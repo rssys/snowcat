@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000dc0)='net/snmp6\x00')
+fcntl$addseals(r0, 0x409, 0x1a01d790c1bfc08b)

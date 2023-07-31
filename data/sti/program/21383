@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='oom_adj\x00')
+write$P9_RWALK(r0, &(0x7f00000000c0)={0x30, 0x6f, 0x0, {0x7, [{}, {}, {}, {}, {}, {}, {}]}}, 0x64)

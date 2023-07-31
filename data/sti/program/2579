@@ -1,0 +1,4 @@
+socket$nl_netfilter(0x10, 0x3, 0xc)
+sendmsg$NFT_MSG_GETSETELEM(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000001940)='devlink\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$devlink(0x0, 0xffffffffffffffff)

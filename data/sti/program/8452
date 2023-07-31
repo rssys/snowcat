@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000004640)='net/tcp6\x00')
+pread64(r0, &(0x7f00000001c0)=""/184, 0xb8, 0x14)

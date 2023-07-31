@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x3, 0x300)
+ioctl$BTRFS_IOC_GET_SUBVOL_ROOTREF(r0, 0xd000943d, 0x0)

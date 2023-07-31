@@ -1,0 +1,2 @@
+open$dir(&(0x7f0000000000)='./file0\x00', 0x2041, 0x0)
+setxattr$security_capability(&(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='security.capability\x00', &(0x7f00000000c0)=@v3={0x3004000, [], 0xffffffffffffffff}, 0x18, 0x0)

@@ -1,0 +1,6 @@
+io_uring_register$IORING_UNREGISTER_PERSONALITY(0xffffffffffffffff, 0xa, 0x0, 0x0)
+creat(&(0x7f0000000000)='./file0\x00', 0x0)
+openat$proc_capi20(0xffffff9c, &(0x7f0000000080)='/proc/capi/capi20\x00', 0x0, 0x0)
+syz_io_uring_setup(0x26d9, &(0x7f0000000540)={0x0, 0x0, 0x0, 0x3, 0x166}, &(0x7f0000ffe000/0x2000)=nil, &(0x7f0000ffe000/0x2000)=nil, &(0x7f00000005c0), &(0x7f0000000600))
+mmap$IORING_OFF_SQ_RING(&(0x7f0000fff000/0x1000)=nil, 0x1000, 0x2000008, 0x10, 0xffffffffffffffff, 0x0)
+syz_mount_image$fuse(&(0x7f0000000940)='fuse\x00', &(0x7f0000000980)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000009c0)={{'fd'}, 0x2c, {'rootmode'}, 0x2c, {'user_id'}, 0x2c, {'group_id', 0x3d, 0xee00}, 0x2c, {[{@allow_other='allow_other'}, {@blksize={'blksize'}}, {@allow_other='allow_other'}], [{@uid_lt={'uid<', 0xee01}}, {@seclabel='seclabel'}, {@obj_user={'obj_user', 0x3d, 'C'}}, {@context={'context', 0x3d, 'unconfined_u'}}, {@smackfsroot={'smackfsroot'}}, {@rootcontext={'rootcontext', 0x3d, 'sysadm_u'}}]}})

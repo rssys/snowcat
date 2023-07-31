@@ -1,0 +1,1 @@
+sendmsg$SOCK_DESTROY(0xffffffffffffffff, 0x0, 0x0)

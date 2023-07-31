@@ -1,0 +1,1 @@
+syz_open_dev$sndctrl(&(0x7f0000000000)='/dev/snd/controlC#\x00', 0xff, 0x2230c54e2d0bf574)

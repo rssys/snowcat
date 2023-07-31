@@ -1,0 +1,7 @@
+ioctl$BINDER_SET_CONTEXT_MGR_EXT(0xffffffffffffffff, 0x4018620d, 0x0)
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x32)
+ioctl$BINDER_GET_NODE_DEBUG_INFO(r0, 0xc018620b, &(0x7f0000000040)={0x3})
+r1 = creat(&(0x7f00000002c0)='./file0\x00', 0x130)
+open(&(0x7f0000000340)='./file0\x00', 0x0, 0x12)
+fsetxattr$trusted_overlay_opaque(r1, &(0x7f0000000ac0)='trusted.overlay.opaque\x00', &(0x7f0000000b00)='y\x00', 0x2, 0x1)
+open(&(0x7f0000000b40)='./file0\x00', 0x400102, 0x48)

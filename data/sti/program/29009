@@ -1,0 +1,2 @@
+socket$isdn(0x22, 0x3, 0x0)
+syz_genetlink_get_family_id$nbd(&(0x7f00000011c0)='nbd\x00', 0xffffffffffffffff)

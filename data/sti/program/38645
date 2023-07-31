@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+ioctl$sock_SIOCBRDELBR(r0, 0x89a1, &(0x7f0000000480)='wg0\x00')

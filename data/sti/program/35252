@@ -1,0 +1,2 @@
+syz_mount_image$nilfs2(&(0x7f0000000000)='nilfs2\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000600)=ANY=[])
+lsetxattr$trusted_overlay_upper(&(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)='trusted.overlay.upper\x00', &(0x7f0000000100)={0x0, 0xfb, 0x39, 0x0, 0x0, "e75be59e5c66aec4258950012d20ad0c", "1fb20f5fc7e2d08de75afe912405958ec8c8db11cd3dd4133d5903d91c7859562ddc9bca"}, 0x39, 0x0)

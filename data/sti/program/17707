@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$ipvs(&(0x7f00000001c0)='IPVS\x00', 0xffffffffffffffff)
+sendmsg$IPVS_CMD_NEW_DAEMON(0xffffffffffffffff, &(0x7f0000000c00)={0x0, 0x0, 0x0}, 0x0)
+getsockopt$inet6_tcp_buf(0xffffffffffffffff, 0x6, 0x0, &(0x7f00000024c0)=""/248, &(0x7f00000025c0)=0xf8)

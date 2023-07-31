@@ -1,0 +1,2 @@
+syz_mount_image$minix(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$trusted_overlay_upper(&(0x7f00000086c0)='./file0\x00', &(0x7f0000008700)='trusted.overlay.upper\x00', &(0x7f0000008740)={0x0, 0xfb, 0x39, 0x0, 0x0, "841988f7580f8431e38b120a6ae63fc1", "5753f9c469217d6cca38fc258f5bc74a1c909bfce352e1a223b353109b1b4d4b6b853fd1"}, 0x39, 0x0)

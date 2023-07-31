@@ -1,0 +1,5 @@
+openat$pfkey(0xffffff9c, &(0x7f0000000000)='/proc/self/net/pfkey\x00', 0x40, 0x0)
+sendmsg$ETHTOOL_MSG_LINKMODES_GET(0xffffffffffffffff, 0x0, 0x0)
+socket$inet6_udp(0xa, 0x2, 0x0)
+r0 = openat$sndseq(0xffffff9c, &(0x7f00000036c0)='/dev/snd/seq\x00', 0x0)
+ioctl$SNDRV_SEQ_IOCTL_PVERSION(r0, 0x80045300, &(0x7f0000003700))

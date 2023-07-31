@@ -1,0 +1,5 @@
+r0 = creat(&(0x7f00000000c0)='./file0\x00', 0x0)
+write$snapshot(r0, &(0x7f0000000000)="586798849d57576b00c08d747a24337b510f5889707356ed4f3aa7c64200000000000000", 0xfffffc72)
+r1 = creat(&(0x7f00000000c0)='./file0\x00', 0x0)
+ioctl$sock_inet_SIOCGIFDSTADDR(r1, 0x8917, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000080)='batadv\x00')

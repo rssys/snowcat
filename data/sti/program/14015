@@ -1,0 +1,4 @@
+syz_io_uring_setup(0x103a, &(0x7f00000001c0), &(0x7f0000ffc000/0x4000)=nil, &(0x7f0000ffc000/0x4000)=nil, &(0x7f0000000240), &(0x7f0000000280))
+syz_open_procfs$namespace(0xffffffffffffffff, 0x0)
+ioctl$SNDCTL_DSP_GETIPTR(0xffffffffffffffff, 0x800c5011, 0x0)
+ioctl$SNDCTL_DSP_GETIPTR(0xffffffffffffffff, 0x800c5011, 0x0)

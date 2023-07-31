@@ -1,0 +1,4 @@
+creat(&(0x7f0000000000)='./file0\x00', 0x0)
+r0 = creat(&(0x7f0000000080)='./file0\x00', 0x0)
+socketpair$nbd(0x1, 0x1, 0x0, &(0x7f00000000c0)={0xffffffffffffffff, <r1=>0xffffffffffffffff})
+dup3(r1, r0, 0x0)

@@ -1,0 +1,4 @@
+r0 = openat$procfs(0xffffffffffffff9c, &(0x7f0000000140)='/proc/mdstat\x00', 0x0, 0x0)
+read$char_raw(r0, 0x0, 0x0)
+r1 = memfd_create(&(0x7f0000000000)='/proc/mdstat\x00', 0x0)
+sendfile(r1, r0, &(0x7f0000000040)=0x2, 0x8)

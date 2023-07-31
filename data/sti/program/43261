@@ -1,0 +1,2 @@
+r0 = socket$inet_tcp(0x2, 0x1, 0x0)
+ioctl$sock_SIOCDELRT(r0, 0x890c, &(0x7f0000000a00)={0x0, @l2tp={0x2, 0x0, @dev}, @xdp, @generic={0x0, "741859772190604e5fa5310c3ce2"}})

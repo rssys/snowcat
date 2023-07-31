@@ -1,0 +1,3 @@
+mlock2(&(0x7f0000ffe000/0x2000)=nil, 0x2000, 0x0)
+ioctl$PTP_EXTTS_REQUEST(0xffffffffffffffff, 0x40103d02, &(0x7f0000000000))
+munlockall()

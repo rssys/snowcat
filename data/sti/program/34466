@@ -1,0 +1,4 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000080)='nl80211\x00')
+sendmsg$NL80211_CMD_NEW_INTERFACE(r0, &(0x7f00000001c0)={0x0, 0x0, &(0x7f0000000180)={&(0x7f0000000740)=ANY=[@ANYBLOB='0\x00\x00\x00', @ANYRES16=r1, @ANYBLOB="6dd9"], 0x30}}, 0x0)
+recvmmsg(r0, &(0x7f0000007340)=[{{0x0, 0x0, 0x0}}], 0x1, 0x0, 0x0)

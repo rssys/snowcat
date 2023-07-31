@@ -1,0 +1,4 @@
+syz_open_dev$sg(&(0x7f0000000080)='/dev/sg#\x00', 0x1, 0x0)
+ioctl$BLKTRACESTOP(0xffffffffffffffff, 0x1275, 0x0)
+ioctl$SCSI_IOCTL_SEND_COMMAND(0xffffffffffffffff, 0x1, &(0x7f00000000c0)={0xf, 0x0, 0x0, "16bfcff42b7686cab56215de73f0d3"})
+fsmount(0xffffffffffffffff, 0x91cfd70290b5882f, 0x74)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$dri(&(0x7f0000005e80)='/dev/dri/card#\x00', 0x0, 0x0)
+ioctl$DRM_IOCTL_MODE_GETPLANERESOURCES(r0, 0xc00c64b5, &(0x7f0000005f00)={0x0})

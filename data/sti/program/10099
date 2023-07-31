@@ -1,0 +1,2 @@
+r0 = getpid()
+migrate_pages(r0, 0x1f, &(0x7f0000000000)=0x1, &(0x7f0000000080)=0x1)

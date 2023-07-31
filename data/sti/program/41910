@@ -1,0 +1,8 @@
+r0 = add_key$fscrypt_v1(0x0, 0x0, 0x0, 0x0, 0xfffffffffffffff8)
+keyctl$KEYCTL_MOVE(0x1e, 0x0, 0x0, 0xfffffffffffffffb, 0x1)
+syz_io_uring_setup(0x1b08, &(0x7f0000000200)={0x0, 0xda10}, &(0x7f0000ffc000/0x4000)=nil, &(0x7f0000ffe000/0x1000)=nil, &(0x7f0000000280), &(0x7f00000002c0))
+ioctl$BLKBSZSET(0xffffffffffffffff, 0x40041271, &(0x7f0000000300)=0x7)
+socket$inet6_udp(0xa, 0x2, 0x0)
+keyctl$reject(0x13, r0, 0x0, 0x28, 0x0)
+keyctl$KEYCTL_MOVE(0x1e, r0, 0x0, r0, 0x0)
+add_key(&(0x7f00000003c0)='encrypted\x00', &(0x7f0000000400)={'syz', 0x1}, &(0x7f0000000440)="a47c7b843bb6e2e7147473a630887e517e4312cd7b2ca6bb26ba25a1aedb4ab8d99e92c0af27fe2901c3a9900f27427ca7fd9a0206771f318e0d22183339bade051409fb35dfb175942eb369fa4e3ddd01aa3ce19c01cee6666b200b0cd4eafab319b0bddb3cd07c99e47130c57cf16f25caa4c087636ad8b1b7962ba0e700f51e67c6635adfd48a817802de2fb72c7bdbe4087c680d1eeb50c92aa19e47f8a398edee3c8d65f3a5553935bd22b80fa2ec52b58cd2804698a2fca06ffaa6852588b52958df83af28ee410407f4eb8a6f54f6540f635abf7695", 0xd9, 0x0)

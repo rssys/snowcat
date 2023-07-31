@@ -1,0 +1,3 @@
+r0 = openat$procfs(0xffffffffffffff9c, &(0x7f0000000040)='/proc/timer_list\x00', 0x0, 0x0)
+read(r0, &(0x7f0000000100)=""/88, 0x20000158)
+read(r0, 0x0, 0x0)

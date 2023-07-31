@@ -1,0 +1,4 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+r1 = epoll_create(0x9)
+epoll_ctl$EPOLL_CTL_ADD(r1, 0x1, r0, &(0x7f0000000040))
+epoll_ctl$EPOLL_CTL_MOD(r1, 0x3, r0, &(0x7f0000000280))

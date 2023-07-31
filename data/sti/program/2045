@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$BTRFS_IOC_INO_LOOKUP(r0, 0xd0009412, 0x0)

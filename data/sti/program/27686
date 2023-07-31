@@ -1,0 +1,6 @@
+sendmsg$NBD_CMD_DISCONNECT(0xffffffffffffffff, 0x0, 0x0)
+sendmmsg(0xffffffffffffffff, 0x0, 0x0, 0x8840)
+r0 = openat$vga_arbiter(0xffffffffffffff9c, &(0x7f0000000000)='/dev/vga_arbiter\x00', 0x109881, 0x0)
+write$vga_arbiter(r0, &(0x7f00000013c0)=@other={'unlock', ' ', 'mem'}, 0xb)
+r1 = syz_open_dev$vcsa(&(0x7f0000000040)='/dev/vcsa#\x00', 0x0, 0x402)
+write$selinux_attr(r1, &(0x7f0000000080)='system_u:object_r:sshd_var_run_t:s0\x00', 0x200000a4)

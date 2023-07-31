@@ -1,0 +1,1 @@
+syz_mount_image$iso9660(&(0x7f0000000040)='iso9660\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001840)={[], [{@defcontext={'defcontext', 0x3d, 'root'}}, {@context={'context', 0x3d, 'staff_u'}}]})

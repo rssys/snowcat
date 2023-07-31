@@ -1,0 +1,6 @@
+r0 = openat$nullb(0xffffff9c, &(0x7f00000000c0)='/dev/nullb0\x00', 0x0, 0x0)
+socketpair(0x27, 0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000000240)='l2tp\x00', 0xffffffffffffffff)
+ioctl$BLKROSET(r0, 0x125d, &(0x7f00000006c0))
+syz_genetlink_get_family_id$ipvs(&(0x7f0000000700)='IPVS\x00', 0xffffffffffffffff)
+ioctl$BLKREPORTZONE(r0, 0xc0101282, &(0x7f0000000740))

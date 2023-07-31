@@ -1,0 +1,1 @@
+syz_open_dev$vcsa(&(0x7f0000001600)='/dev/vcsa#\x00', 0xfff, 0x40)

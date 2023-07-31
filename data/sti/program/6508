@@ -1,0 +1,4 @@
+write$P9_RREAD(0xffffffffffffffff, &(0x7f0000000140)=ANY=[@ANYBLOB='\t@'], 0xb)
+r0 = creat(&(0x7f0000000100)='./file0\x00', 0x0)
+write$P9_ROPEN(r0, &(0x7f0000000080)={0x18}, 0x18)
+ioctl$FS_IOC_GETFSMAP(r0, 0x40086602, &(0x7f0000000140)=ANY=[])

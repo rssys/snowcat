@@ -1,0 +1,1 @@
+syz_emit_ethernet(0x14, &(0x7f0000000280)={@local, @random="01d581004da5", @val={@void, {0x8100, 0x0, 0x1}}, {@generic={0x88f5, "b78e"}}}, 0x0)

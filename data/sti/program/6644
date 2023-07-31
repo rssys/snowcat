@@ -1,0 +1,5 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_SET_KEY(r0, &(0x7f0000000140)={0x0, 0x0, 0x0}, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f00000003c0)='nl80211\x00', 0xffffffffffffffff)
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000400)='ns/pid\x00')
+syz_init_net_socket$bt_l2cap(0x1f, 0x5, 0x0)

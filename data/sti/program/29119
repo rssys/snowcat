@@ -1,0 +1,4 @@
+syz_open_dev$vcsa(&(0x7f0000000000)='/dev/vcsa#\x00', 0x6, 0x1a3000)
+socket$inet_udp(0x2, 0x2, 0x0)
+syz_genetlink_get_family_id$ipvs(0x0, 0xffffffffffffffff)
+creat(&(0x7f00000000c0)='./file0\x00', 0x0)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+fsetxattr$system_posix_acl(r0, &(0x7f0000000040)='system.posix_acl_access\x00', &(0x7f0000000080), 0x24, 0x0)

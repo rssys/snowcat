@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$SEG6(&(0x7f0000000000)='SEG6\x00')

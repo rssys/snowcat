@@ -1,0 +1,1 @@
+syz_80211_inject_frame(&(0x7f00000000c0)=@broadcast, &(0x7f0000000100)=@ctrl_frame=@rts={{}, {}, @device_b}, 0x10)

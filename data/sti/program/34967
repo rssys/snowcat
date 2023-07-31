@@ -1,0 +1,1 @@
+execveat(0xffffffffffffffff, &(0x7f00000005c0)='./file0\x00', 0x0, &(0x7f0000000880)=[&(0x7f00000006c0)='/dev/vcs#\x00', &(0x7f0000000780)='/dev/vcs#\x00'], 0x900)

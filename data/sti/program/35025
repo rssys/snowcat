@@ -1,0 +1,2 @@
+r0 = openat$hwrng(0xffffffffffffff9c, &(0x7f0000000200)='/dev/hwrng\x00', 0x0, 0x0)
+fsetxattr$trusted_overlay_redirect(r0, &(0x7f0000000480)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)

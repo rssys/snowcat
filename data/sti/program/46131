@@ -1,0 +1,2 @@
+mknod$loop(&(0x7f0000000080)='./file0\x00', 0x1fff, 0x1)
+fchownat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0xee01, 0xffffffffffffffff, 0x0)

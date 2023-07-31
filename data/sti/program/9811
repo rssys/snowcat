@@ -1,0 +1,3 @@
+openat$dir(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x801c0, 0x0)
+futimesat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x0)
+openat$dir(0xffffffffffffff9c, &(0x7f0000000140)='./file0\x00', 0x125200, 0x0)

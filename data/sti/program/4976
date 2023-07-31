@@ -1,0 +1,3 @@
+r0 = syz_open_dev$loop(&(0x7f0000000240)='/dev/loop#\x00', 0x5, 0x2200)
+r1 = creat(&(0x7f0000000300)='./file0\x00', 0x0)
+ioctl$LOOP_CHANGE_FD(r0, 0x4c06, r1)

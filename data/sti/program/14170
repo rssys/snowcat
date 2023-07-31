@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f0000000000)='sockfs\x00', 0x0)
+read(r0, 0x0, 0x0)

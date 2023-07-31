@@ -1,0 +1,5 @@
+r0 = epoll_create(0x1)
+r1 = signalfd(0xffffffffffffffff, &(0x7f00000000c0), 0x8)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f0000000140))
+r2 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000880)='fdinfo/3\x00')
+preadv(r2, &(0x7f0000000ac0)=[{&(0x7f00000008c0)=""/120, 0x78}], 0x1, 0x0, 0x0)

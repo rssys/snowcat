@@ -1,0 +1,1 @@
+request_key(&(0x7f0000000040)='id_legacy\x00', &(0x7f0000000080)={'syz', 0x1}, &(0x7f00000000c0)='batadv\x00', 0xfffffffffffffffe)

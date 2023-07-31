@@ -1,0 +1,3 @@
+fork()
+getresuid(&(0x7f0000002640), &(0x7f0000002680), &(0x7f00000026c0))
+syz_fuse_handle_req(0xffffffffffffffff, 0x0, 0x0, 0x0)

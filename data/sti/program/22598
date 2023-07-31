@@ -1,0 +1,2 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x0)
+mount$9p_tcp(0x0, &(0x7f0000000340)='./file0\x00', &(0x7f0000000380)='9p\x00', 0x0, &(0x7f00000003c0)={'trans=tcp,', {'port'}, 0x2c, {[], [{@defcontext={'defcontext', 0x3d, 'unconfined_u'}}]}})

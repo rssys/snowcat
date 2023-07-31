@@ -1,0 +1,2 @@
+r0 = openat$vga_arbiter(0xffffffffffffff9c, &(0x7f0000000080)='/dev/vga_arbiter\x00', 0x20041, 0x0)
+write$vga_arbiter(r0, &(0x7f0000000040)=@other={'decodes', ' ', 'none'}, 0xd)

@@ -1,0 +1,3 @@
+r0 = eventfd2(0x0, 0x0)
+r1 = io_uring_setup(0x6eb4, &(0x7f0000000800))
+dup2(r1, r0)

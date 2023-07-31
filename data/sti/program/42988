@@ -1,0 +1,2 @@
+r0 = openat$uhid(0xffffff9c, &(0x7f00000000c0)='/dev/uhid\x00', 0x802, 0x0)
+write$UHID_INPUT2(r0, 0x0, 0x0)

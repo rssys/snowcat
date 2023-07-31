@@ -1,0 +1,4 @@
+fsconfig$FSCONFIG_SET_FD(0xffffffffffffffff, 0x5, &(0x7f0000000000)='$$#&\x00', 0x0, 0xffffffffffffffff)
+ioctl$VT_ACTIVATE(0xffffffffffffffff, 0x5606, 0x0)
+fork()
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

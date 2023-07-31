@@ -1,0 +1,4 @@
+add_key(&(0x7f0000000280)='asymmetric\x00', 0x0, &(0x7f0000000300)="2e5cee6cb45d2561d92be78142eda8307366c870eb4df6e057a91f83a73215878db24ac718084d70d6d510c661a6e3d4ea78d54d2a3bce6b47ae9dc53d386d4cacf36d80dacb5520f2497df1", 0x4c, 0xfffffffffffffffd)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_SIOCGIFINDEX_802154(0xffffffffffffffff, 0x8933, 0x0)
+syz_genetlink_get_family_id$gtp(&(0x7f0000000440)='gtp\x00', 0xffffffffffffffff)

@@ -1,0 +1,2 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='environ\x00')
+syz_open_procfs(0x0, &(0x7f00000002c0)='fd/3\x00')

@@ -1,0 +1,5 @@
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000001040)='./file0\x00', 0x4000024)
+syz_open_dev$usbfs(&(0x7f0000001100)='/dev/bus/usb/00#/00#\x00', 0x0, 0x90040)
+syz_genetlink_get_family_id$devlink(&(0x7f0000001840)='devlink\x00', 0xffffffffffffffff)
+openat$binder_debug(0xffffff9c, &(0x7f0000001880)='/sys/kernel/debug/binder/failed_transaction_log\x00', 0x0, 0x0)

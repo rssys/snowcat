@@ -1,0 +1,2 @@
+mknod$loop(&(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+setxattr$security_selinux(&(0x7f0000000440)='./file0\x00', &(0x7f0000000300)='security.selinux\x00', &(0x7f00000002c0)='system_u:object_r:sshd_var_run_t:s0\x00', 0x22, 0x0)

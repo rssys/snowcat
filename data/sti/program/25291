@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000040)='./file0\x00', 0x0)
+ioctl$BTRFS_IOC_RESIZE(r0, 0x50009403, 0x0)

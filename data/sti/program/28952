@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='fdinfo\x00')
+getdents(r0, &(0x7f00000012c0)=""/188, 0xbc)

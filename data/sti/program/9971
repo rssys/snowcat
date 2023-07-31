@@ -1,0 +1,7 @@
+socket$inet(0x2, 0x1, 0xfb4)
+ioctl$ifreq_SIOCGIFINDEX_wireguard(0xffffffffffffffff, 0x8933, &(0x7f00000006c0)={'wg1\x00'})
+r0 = openat$loop_ctrl(0xffffffffffffff9c, &(0x7f0000000000)='/dev/loop-control\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$netlbl_cipso(&(0x7f0000000400)='NLBL_CIPSOv4\x00')
+ioctl$LOOP_CTL_GET_FREE(0xffffffffffffffff, 0x4c82)
+ioctl$LOOP_CTL_GET_FREE(r0, 0x4c82)
+pipe(&(0x7f0000000040))

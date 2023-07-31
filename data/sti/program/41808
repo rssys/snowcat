@@ -1,0 +1,2 @@
+r0 = openat$nullb(0xffffff9c, &(0x7f0000001240)='/dev/nullb0\x00', 0x0, 0x0)
+ioctl$BLKTRACESETUP(r0, 0xc0401273, &(0x7f0000001280)={[], 0x0, 0x7fffffff, 0xfffffff9})

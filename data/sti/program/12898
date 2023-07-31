@@ -1,0 +1,7 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_CONNECT(r0, 0x0, 0x0)
+ioctl$sock_SIOCGIFINDEX_80211(0xffffffffffffffff, 0x8933, &(0x7f0000000380)={'wlan0\x00'})
+syz_genetlink_get_family_id$batadv(&(0x7f0000000500)='batadv\x00')
+clone(0x20000, &(0x7f0000000140)="e6f5e5d883e930e07e1e87f52291908d961a176957f18a7a302dc2f4a54507ef6deb565e649d67df9b089fb9300590c6b8624f9b4e428db3141c099eeab7f25cc908596a58014cdb453a7b367597fbefab430c68ef98a7fd82cf", 0x0, 0x0, &(0x7f0000000240)="4156d712cd16a2ee88e578b66af2fa3a7e6d46fe62ecb6f73c7cef9f8791c0e2f15906a37115122e6ee9abd8e8b29058f1d5c92012970b77e9cbf360d1")
+openat$ptp0(0xffffffffffffff9c, &(0x7f0000000300)='/dev/ptp0\x00', 0x200404, 0x0)
+sendmsg$BATADV_CMD_GET_MESH(0xffffffffffffffff, 0x0, 0x4000)

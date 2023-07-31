@@ -1,0 +1,2 @@
+r0 = getpid()
+ptrace$getregs(0xffffffffffffffff, r0, 0x0, 0x0)

@@ -1,0 +1,1 @@
+syz_80211_inject_frame(&(0x7f0000000000)=@device_b, &(0x7f0000000040)=@ctrl_frame=@ack={{}, {}, @device_b}, 0xa)

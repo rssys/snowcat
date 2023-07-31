@@ -1,0 +1,4 @@
+r0 = fsopen(&(0x7f0000000000)='hugetlbfs\x00', 0x0)
+fsconfig$FSCONFIG_CMD_CREATE(r0, 0x6, 0x0, 0x0, 0x0)
+fsmount(r0, 0x0, 0x0)
+fsconfig$FSCONFIG_SET_STRING(r0, 0x1, &(0x7f0000000080)='#\x00', &(0x7f00000000c0)='ramfs\x00', 0x0)

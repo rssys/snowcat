@@ -1,0 +1,6 @@
+getrandom(&(0x7f0000000140)=""/97, 0x61, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000200)='nl80211\x00')
+open_tree(0xffffffffffffffff, 0x0, 0x81800)
+ioctl$sock_SIOCGIFINDEX_80211(0xffffffffffffffff, 0x8933, 0x0)
+sendmsg$NL80211_CMD_SET_WIPHY_NETNS(0xffffffffffffffff, 0x0, 0x0)
+socket$inet6_udp(0xa, 0x2, 0x0)

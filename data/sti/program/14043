@@ -1,0 +1,2 @@
+openat$dir(0xffffffffffffff9c, &(0x7f0000000000)='./file1\x00', 0x40, 0x0)
+removexattr(&(0x7f0000000040)='./file1\x00', &(0x7f0000000080)=@known='system.posix_acl_default\x00')

@@ -1,0 +1,2 @@
+r0 = openat$vcsu(0xffffffffffffff9c, &(0x7f0000000080)='/dev/vcsu\x00', 0x0, 0x0)
+io_uring_register$IORING_REGISTER_PERSONALITY(r0, 0x9, 0x0, 0x0)

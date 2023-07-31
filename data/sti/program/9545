@@ -1,0 +1,6 @@
+sendmsg$NL802154_CMD_DEL_SEC_DEV(0xffffffffffffffff, 0x0, 0x0)
+sendmsg$NL802154_CMD_SET_LBT_MODE(0xffffffffffffffff, 0x0, 0x0)
+sendmsg$NL802154_CMD_DEL_SEC_DEVKEY(0xffffffffffffffff, 0x0, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_SIOCGIFINDEX_802154(0xffffffffffffffff, 0x8933, 0x0)
+sendmsg$NL802154_CMD_DEL_SEC_DEVKEY(0xffffffffffffffff, &(0x7f0000000c40)={&(0x7f0000000980), 0xc, 0x0}, 0x4000800)

@@ -1,0 +1,1 @@
+syz_open_procfs(0x0, &(0x7f0000000dc0)='timers\x00')

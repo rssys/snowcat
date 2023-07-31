@@ -1,0 +1,2 @@
+syz_mount_image$vfat(&(0x7f0000002880)='vfat\x00', &(0x7f00000028c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000003c00))
+mkdir(&(0x7f0000004280)='./file0/file0\x00', 0x0)

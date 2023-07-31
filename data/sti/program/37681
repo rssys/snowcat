@@ -1,0 +1,2 @@
+r0 = memfd_create(&(0x7f0000000200)='/proc/bus/input/devices\x00', 0x7)
+lseek(r0, 0x0, 0x1)

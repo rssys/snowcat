@@ -1,0 +1,2 @@
+r0 = socket$inet_icmp_raw(0x2, 0x3, 0x1)
+getsockopt$IP_SET_OP_GET_BYINDEX(r0, 0x1, 0x53, &(0x7f0000000080), &(0x7f00000000c0)=0xffffffffffffffe4)

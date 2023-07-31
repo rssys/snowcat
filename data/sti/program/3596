@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vivid(&(0x7f0000000240)='/dev/video#\x00', 0x1, 0x2)
+ioctl$VIDIOC_G_STD(r0, 0x80085617, &(0x7f0000000140))

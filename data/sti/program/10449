@@ -1,0 +1,2 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000001a40)='net/netstat\x00')
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='net/protocols\x00')

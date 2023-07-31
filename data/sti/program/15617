@@ -1,0 +1,2 @@
+r0 = inotify_init()
+fgetxattr(r0, &(0x7f0000000300)=@known='security.apparmor\x00', 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = openat$vcsa(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/vcsa\x00', 0x1a1041, 0x0)
+pwritev(r0, &(0x7f0000000080)=[{0x0}, {&(0x7f0000000140)="921ebd94dd68791a5d03cd1933cb282dde779b6804b53e4526e91ecf7142edfc2226d9ef3ffc621f8103ad0d6b083c7a46b593a62d0f60961d0360be", 0x3c}], 0x2, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = eventfd(0x0)
+flock(r0, 0xefd864834ea68677)

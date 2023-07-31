@@ -1,0 +1,2 @@
+openat$autofs(0xffffffffffffff9c, &(0x7f0000000000)='/dev/autofs\x00', 0x0, 0x0)
+io_setup(0x8000, &(0x7f00000001c0))

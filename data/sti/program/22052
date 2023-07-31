@@ -1,0 +1,2 @@
+r0 = open(&(0x7f0000000100)='./file0\x00', 0x443c2, 0x0)
+write$P9_RREADDIR(r0, &(0x7f0000000180)={0xb}, 0xb)

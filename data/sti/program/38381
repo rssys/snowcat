@@ -1,0 +1,2 @@
+openat2$dir(0xffffff9c, &(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)={0x540c0}, 0x18)
+mount$9p_fd(0x0, &(0x7f0000000e00)='./file0\x00', &(0x7f0000000e40)='9p\x00', 0x0, &(0x7f0000000ec0)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[{@version_9p2000='version=9p2000'}]}})

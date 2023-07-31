@@ -1,0 +1,3 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+sendto(r0, 0x0, 0x0, 0x0, 0x0, 0x0)
+connect(r0, &(0x7f0000000080)=@generic={0x0, "f93a7bc41e3aa4123f02fa012969ffbe3caf576aedde97d39eacaea9dde33687bb146424ba6770a86dbf1fec6e7bcd74cd20ea7b74d3db7a352c2c361ac0bef896b083799eea8050a2e58bbd26974a4ddfcbc73857516c12956131b77c59562357bdb4064aecacec9b4a6da3b4ac72a934a8178c2dd68a9733db492efe4b"}, 0x80)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$dri(&(0x7f00000034c0)='/dev/dri/card#\x00', 0x0, 0x0)
+ioctl$EXT4_IOC_GROUP_EXTEND(r0, 0x40046607, &(0x7f00000037c0))

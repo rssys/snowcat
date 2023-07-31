@@ -1,0 +1,4 @@
+r0 = add_key$user(&(0x7f0000000000)='user\x00', &(0x7f0000000040)={'syz', 0x1}, &(0x7f0000000080)="d3", 0x1, 0xfffffffffffffffd)
+keyctl$KEYCTL_MOVE(0x1e, r0, 0xfffffffffffffffb, 0xfffffffffffffffe, 0x0)
+r1 = add_key$fscrypt_v1(&(0x7f0000000100)='logon\x00', &(0x7f0000000140)={'fscrypt:', @desc4='85baa174f0cb1142'}, &(0x7f0000000180)={0x0, "549e9e006b1d309535cfed66b922fae72f40044ef462ac2d2f8e709384127a7527dd04b049b448ae2499a9c003220bd397a561728aa67a3b054349d549170074"}, 0x48, 0xfffffffffffffffc)
+keyctl$KEYCTL_MOVE(0x1e, r0, 0xfffffffffffffffd, r1, 0x0)

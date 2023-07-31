@@ -1,0 +1,4 @@
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000001280)='.\x00', 0x200)
+r1 = inotify_init()
+inotify_add_watch(r1, &(0x7f0000001280)='.\x00', 0x6000af4)

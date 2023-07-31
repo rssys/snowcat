@@ -1,0 +1,2 @@
+r0 = openat$ashmem(0xffffff9c, &(0x7f00000001c0)='/dev/ashmem\x00', 0x1a3440, 0x0)
+read(r0, 0x0, 0x0)

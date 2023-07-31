@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000380)='net/mcfilter6\x00')
+preadv(r0, &(0x7f0000000000)=[{&(0x7f0000000100)=""/216, 0xd8}], 0x1, 0x2, 0x0)

@@ -1,0 +1,4 @@
+openat$ppp(0xffffff9c, &(0x7f0000001100)='/dev/ppp\x00', 0x0, 0x0)
+openat$ipvs(0xffffff9c, &(0x7f0000001380)='/proc/sys/net/ipv4/vs/amemthresh\x00', 0x2, 0x0)
+syz_genetlink_get_family_id$gtp(&(0x7f0000001640)='gtp\x00', 0xffffffffffffffff)
+ioctl$FS_IOC_GET_ENCRYPTION_NONCE(0xffffffffffffffff, 0x8010661b, 0x0)

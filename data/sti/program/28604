@@ -1,0 +1,2 @@
+setuid(0xee01)
+add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x3}, 0x0, 0x0, 0xfffffffffffffffc)

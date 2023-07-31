@@ -1,0 +1,5 @@
+prctl$PR_SET_ENDIAN(0x2, 0x0)
+clock_getres(0x0, &(0x7f0000002940))
+getresuid(0x0, &(0x7f00000024c0), &(0x7f0000002500))
+syz_mount_image$tmpfs(0x0, &(0x7f0000000040)='./file0\x00', 0x97c2, 0x0, 0x0, 0x80000, &(0x7f0000002600)={[], [{@audit='audit'}, {@dont_hash='dont_hash'}, {@euid_gt={'euid>'}}, {@fowner_lt={'fowner<'}}, {@obj_type={'obj_type', 0x3d, '^$-'}}, {@smackfsfloor={'smackfsfloor'}}]})
+lsetxattr$trusted_overlay_nlink(&(0x7f0000002d40)='./file0\x00', &(0x7f0000002d80)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x1)

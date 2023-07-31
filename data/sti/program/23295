@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000040)='cmdline\x00')
+read$char_usb(r0, 0x0, 0x0)

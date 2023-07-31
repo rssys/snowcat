@@ -1,0 +1,4 @@
+syz_open_dev$loop(&(0x7f0000000000)='/dev/loop#\x00', 0x0, 0x0)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_FRAME(r0, &(0x7f0000002c80)={0x0, 0x0, &(0x7f0000002c40)={0x0}}, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000002d40)='nl80211\x00', 0xffffffffffffffff)

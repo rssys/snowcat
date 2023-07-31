@@ -1,0 +1,3 @@
+syz_mount_image$xfs(0x0, &(0x7f0000000040)='./file0\x00', 0xff, 0x0, 0x0, 0x0, 0x0)
+syz_mount_image$gfs2(0x0, 0x0, 0x4, 0x0, 0x0, 0x0, 0x0)
+mount$9p_rdma(&(0x7f0000005040)='127.0.0.1\x00', &(0x7f0000005080)='./file0\x00', &(0x7f00000050c0)='9p\x00', 0x0, &(0x7f0000005100)={'trans=rdma,', {'port'}, 0x2c, {[{@timeout={'timeout', 0x3d, 0x80000001}}, {@timeout={'timeout'}}, {@sq={'sq'}}, {@rq={'rq'}}], [{@obj_type={'obj_type', 0x3d, '#H*$Z}#'}}]}})

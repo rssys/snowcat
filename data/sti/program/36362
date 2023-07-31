@@ -1,0 +1,5 @@
+syz_mount_image$tmpfs(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000000000)='./file0\x00', 0x24000010)
+r1 = syz_open_procfs(0x0, &(0x7f0000000000)='fdinfo/3\x00')
+read$char_raw(r1, 0x0, 0x0)

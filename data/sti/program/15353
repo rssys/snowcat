@@ -1,0 +1,4 @@
+r0 = open(&(0x7f0000000000)='./file0\x00', 0x4ac2, 0x0)
+r1 = socket$inet6_udplite(0xa, 0x2, 0x88)
+truncate(&(0x7f0000000080)='./file0\x00', 0x2)
+sendfile(r1, r0, 0x0, 0xffffffff000)

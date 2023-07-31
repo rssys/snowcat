@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$batadv(&(0x7f00000003c0)='batadv\x00', 0xffffffffffffffff)
+openat$ubi_ctrl(0xffffff9c, &(0x7f0000000ac0)='/dev/ubi_ctrl\x00', 0x0, 0x0)

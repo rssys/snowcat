@@ -1,0 +1,2 @@
+capset(&(0x7f00000001c0)={0x20071026}, &(0x7f0000000200))
+add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x3}, 0x0, 0x0, 0xffffffffffffffff)

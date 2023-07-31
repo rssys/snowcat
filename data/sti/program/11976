@@ -1,0 +1,1 @@
+openat$pidfd(0xffffff9c, &(0x7f0000000000)='/proc/self\x00', 0x143482, 0x0)

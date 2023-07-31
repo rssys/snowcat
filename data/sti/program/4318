@@ -1,0 +1,4 @@
+readlink(&(0x7f0000000640)='./file0\x00', &(0x7f0000000680)=""/237, 0xed)
+syz_mount_image$nfs4(&(0x7f0000000180)='nfs4\x00', &(0x7f00000001c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000780)=ANY=[])
+syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000340)='NLBL_UNLBL\x00')
+rmdir(&(0x7f00000005c0)='./file0\x00')

@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x2, 0x300)
+ioctl$sock_ipv6_tunnel_SIOCADDTUNNEL(r0, 0x89f1, &(0x7f0000000300)={'sit0\x00', 0x0})

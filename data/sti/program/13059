@@ -1,0 +1,2 @@
+pipe(&(0x7f0000000100)={<r0=>0xffffffffffffffff})
+fcntl$dupfd(r0, 0x0, 0xffffffffffffffff)

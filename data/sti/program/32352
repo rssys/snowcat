@@ -1,0 +1,3 @@
+syz_mount_image$tmpfs(&(0x7f0000000040)='tmpfs\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000340)={[{@mpol={'mpol', 0x3d, {'prefer', '', @val={0x3a, [0x30]}}}}]})
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='mounts\x00')
+preadv(r0, &(0x7f0000000140)=[{&(0x7f0000000000)=""/45, 0x2d}], 0x1, 0x0, 0x9)

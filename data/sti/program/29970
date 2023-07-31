@@ -1,0 +1,2 @@
+open_tree(0xffffffffffffff9c, &(0x7f0000000580)='./file0\x00', 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000800)='nl80211\x00', 0xffffffffffffffff)

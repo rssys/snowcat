@@ -1,0 +1,2 @@
+syz_io_uring_setup(0x1654, &(0x7f0000001140), &(0x7f0000ffd000/0x1000)=nil, &(0x7f0000ffd000/0x3000)=nil, &(0x7f00000011c0), &(0x7f0000001200))
+ioctl$ifreq_SIOCGIFINDEX_batadv_hard(0xffffffffffffffff, 0x8933, 0x0)

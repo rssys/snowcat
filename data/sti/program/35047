@@ -1,0 +1,2 @@
+syz_mount_image$nfs4(&(0x7f0000000040)='nfs4\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001640))
+lsetxattr$trusted_overlay_nlink(&(0x7f0000002e80)='./file0\x00', &(0x7f0000002ec0)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

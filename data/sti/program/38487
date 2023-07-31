@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sndctrl(&(0x7f0000000000)='/dev/snd/controlC#\x00', 0x0, 0x0)
+ioctl$SNDRV_CTL_IOCTL_RAWMIDI_PREFER_SUBDEVICE(r0, 0x40045542, 0x0)

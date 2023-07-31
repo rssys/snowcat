@@ -1,0 +1,5 @@
+recvmsg$can_raw(0xffffffffffffffff, &(0x7f0000001780)={&(0x7f0000001300)=@sco={0x1f, @none}, 0x80, 0x0, 0x0, &(0x7f0000001700)=""/70, 0x46}, 0x2020)
+r0 = openat$adsp1(0xffffff9c, &(0x7f00000017c0)='/dev/adsp1\x00', 0x8000, 0x0)
+request_key(0x0, &(0x7f0000001900)={'syz', 0x3}, &(0x7f0000001940)='rxrpc\x00', 0x0)
+ioctl$SNDCTL_DSP_GETIPTR(r0, 0x800c5011, &(0x7f0000001a40))
+syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000001a80)='NLBL_UNLBL\x00', 0xffffffffffffffff)

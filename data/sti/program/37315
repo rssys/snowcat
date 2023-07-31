@@ -1,0 +1,2 @@
+creat(&(0x7f0000000240)='./file0\x00', 0x0)
+setxattr$security_selinux(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='security.selinux\x00', &(0x7f0000000080)='system_u:object_r:xserver_misc_device_t:s0\x00', 0x2b, 0x0)

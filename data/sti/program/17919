@@ -1,0 +1,1 @@
+listxattr(&(0x7f0000000100)='./cgroup/cgroup.procs\x00', &(0x7f0000000140)=""/134, 0x86)

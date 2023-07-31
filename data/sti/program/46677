@@ -1,0 +1,2 @@
+r0 = getpgrp(0x0)
+sched_setaffinity(r0, 0x8, &(0x7f00000001c0)=0x7fff)

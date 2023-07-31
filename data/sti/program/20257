@@ -1,0 +1,3 @@
+r0 = add_key$fscrypt_v1(&(0x7f0000000000)='logon\x00', &(0x7f0000000040)={'fscrypt:', @desc1='0000111122223333'}, &(0x7f0000000080)={0x0, "c71153d85b548ee6b52fad35118b9506efc7dc3b96f480814342ed86f8fbdff07e1ceeb6ad6e98de65e802021b5e6ec5fec0a0107312907b2fe78d3a4dc49fd6"}, 0x48, 0xffffffffffffffff)
+keyctl$setperm(0x5, r0, 0x0)
+add_key$fscrypt_v1(&(0x7f0000000000)='logon\x00', &(0x7f0000000040)={'fscrypt:', @desc1='0000111122223333'}, &(0x7f0000000080)={0x0, "c71153d85b548ee6b52fad35118b9506efc7dc3b96f480814342ed86f8fbdff07e1ceeb6ad6e98de65e802021b5e6ec5fec0a0107312907b2fe78d3a4dc49fd6"}, 0x48, 0xffffffffffffffff)

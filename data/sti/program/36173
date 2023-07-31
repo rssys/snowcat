@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f00000112c0)='net/softnet_stat\x00')
+read$char_raw(r0, &(0x7f000001a600)={""/58054}, 0xe400)

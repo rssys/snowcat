@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$DEVLINK_CMD_PORT_SPLIT(r0, 0x0, 0x0)

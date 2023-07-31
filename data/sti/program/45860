@@ -1,0 +1,2 @@
+pipe2(&(0x7f0000000000)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x84000)
+write$cgroup_int(r0, &(0x7f00000003c0), 0x12)

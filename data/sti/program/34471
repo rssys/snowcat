@@ -1,0 +1,5 @@
+r0 = socket$unix(0x2, 0x1, 0x0)
+r1 = syz_open_dev$evdev(&(0x7f0000000000)='/dev/input/event#\x00', 0x0, 0x0)
+r2 = dup2(r1, r1)
+r3 = dup2(r2, r0)
+read$rfkill(r3, &(0x7f0000000040), 0x8)

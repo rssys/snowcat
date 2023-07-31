@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000500)='net/mcfilter\x00')
+syz_open_dev$floppy(0x0, 0x0, 0x0)
+read$FUSE(r0, &(0x7f00000015c0)={0x2020}, 0x2020)

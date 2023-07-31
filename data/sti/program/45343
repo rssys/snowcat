@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000180)='nl80211\x00', 0xffffffffffffffff)
+sendmsg$NL80211_CMD_SET_MAC_ACL(r0, &(0x7f0000000300)={0x0, 0x0, &(0x7f00000002c0)={0x0}}, 0x0)

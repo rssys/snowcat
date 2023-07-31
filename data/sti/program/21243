@@ -1,0 +1,2 @@
+ioctl$KVM_CREATE_DEVICE(0xffffffffffffffff, 0xc00caee0, 0x0)
+openat$ttynull(0xffffff9c, &(0x7f0000000480)='/dev/ttynull\x00', 0x4080, 0x0)

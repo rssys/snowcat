@@ -1,0 +1,3 @@
+syz_open_dev$sg(&(0x7f0000000080)='/dev/sg#\x00', 0x0, 0x840)
+ioctl$SCSI_IOCTL_START_UNIT(0xffffffffffffffff, 0x5387)
+ioctl$SG_GET_VERSION_NUM(0xffffffffffffffff, 0x2282, &(0x7f0000000000))

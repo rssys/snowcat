@@ -1,0 +1,1 @@
+setxattr$trusted_overlay_nlink(&(0x7f0000000240)='.\x00', &(0x7f0000000280)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

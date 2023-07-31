@@ -1,0 +1,2 @@
+pipe(&(0x7f0000000540)={<r0=>0xffffffffffffffff})
+ioctl$FITHAW(r0, 0xc0045878)

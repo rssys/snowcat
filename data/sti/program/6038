@@ -1,0 +1,2 @@
+r0 = syz_open_dev$dmmidi(&(0x7f0000000000)='/dev/dmmidi#\x00', 0x2, 0x8c85)
+writev(r0, &(0x7f0000001300)=[{&(0x7f0000000300)="e3", 0x1}], 0x1)

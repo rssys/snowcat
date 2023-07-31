@@ -1,0 +1,2 @@
+r0 = socket$inet6_tcp(0xa, 0x1, 0x0)
+setsockopt$IP6T_SO_SET_ADD_COUNTERS(r0, 0x29, 0x41, &(0x7f0000000740)={'mangle\x00', 0x2, [{}, {}]}, 0x44)

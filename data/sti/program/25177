@@ -1,0 +1,3 @@
+r0 = openat$qat_adf_ctl(0xffffff9c, &(0x7f0000000000)='/dev/qat_adf_ctl\x00', 0x0, 0x0)
+r1 = syz_open_dev$media(&(0x7f0000000040)='/dev/media#\x00', 0x0, 0x0)
+dup3(r0, r1, 0x0)

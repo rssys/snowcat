@@ -1,0 +1,1 @@
+prctl$PR_SET_CHILD_SUBREAPER(0xf, 0x20ffffff)

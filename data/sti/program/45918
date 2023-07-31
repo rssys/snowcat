@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_SIOCGIFCONF(r0, 0x8912, &(0x7f0000000540)=@req={0x20, &(0x7f0000000500)={'virt_wifi0\x00', @ifru_map}})

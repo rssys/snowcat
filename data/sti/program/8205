@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+setsockopt$inet6_IPV6_XFRM_POLICY(r0, 0x29, 0x23, &(0x7f0000000000)={{{@in=@loopback, @in6=@ipv4={[], [], @empty}}, {}, {}, 0x0, 0x0, 0x0, 0x2}, {{@in6=@ipv4={[], [], @multicast1}}, 0x0, @in=@empty}}, 0xe4)

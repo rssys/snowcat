@@ -1,0 +1,2 @@
+openat$dir(0xffffff9c, &(0x7f0000000100)='./file0\x00', 0x882c0, 0x0)
+setxattr$trusted_overlay_nlink(&(0x7f00000005c0)='./file0\x00', &(0x7f0000000600)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

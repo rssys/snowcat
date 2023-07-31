@@ -1,0 +1,2 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000ac0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+pivot_root(&(0x7f0000000f00)='./file0\x00', &(0x7f0000000f40)='./file0\x00')

@@ -1,0 +1,2 @@
+r0 = socket(0x11, 0x2, 0x0)
+ioctl$sock_inet_udp_SIOCOUTQ(r0, 0x8901, &(0x7f0000000040))

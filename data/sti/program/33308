@@ -1,0 +1,2 @@
+syz_mount_image$ocfs2(&(0x7f0000000200)='ocfs2\x00', &(0x7f0000000240)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000600))
+lsetxattr$trusted_overlay_nlink(&(0x7f00000006c0)='./file0\x00', &(0x7f0000000700)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

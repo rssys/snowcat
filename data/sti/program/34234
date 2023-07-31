@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000001740)='net/ipv6_route\x00')
+readv(r0, &(0x7f0000001080)=[{&(0x7f0000000040)=""/4096, 0x1000}], 0x1)

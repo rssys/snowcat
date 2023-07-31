@@ -1,0 +1,5 @@
+sendmsg$BATADV_CMD_GET_MESH(0xffffffffffffffff, &(0x7f0000000140)={0x0, 0x0, 0x0}, 0x0)
+openat$hpet(0xffffff9c, 0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f00000007c0)='batadv\x00', 0xffffffffffffffff)
+r0 = syz_open_dev$binderN(&(0x7f0000000c00)='/dev/binder#\x00', 0x0, 0x0)
+ioctl$BINDER_GET_NODE_INFO_FOR_REF(r0, 0xc018620c, &(0x7f0000000c40))

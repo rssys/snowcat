@@ -1,0 +1,2 @@
+openat$uhid(0xffffff9c, 0x0, 0x0, 0x0)
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f00000014c0)='ns/user\x00')

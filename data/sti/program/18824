@@ -1,0 +1,2 @@
+r0 = openat$bsg(0xffffff9c, &(0x7f0000001280)='/dev/bsg\x00', 0x472002, 0x0)
+write$P9_RFLUSH(r0, &(0x7f00000000c0)={0x7}, 0x7)

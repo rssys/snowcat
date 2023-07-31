@@ -1,0 +1,2 @@
+r0 = getpid()
+ptrace$setregset(0x4205, r0, 0x0, 0x0)

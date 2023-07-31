@@ -1,0 +1,8 @@
+set_robust_list(0x0, 0x0)
+r0 = open_tree(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x81000)
+ioctl$SIOCAX25GETINFO(0xffffffffffffffff, 0x89ed, 0x0)
+syz_io_uring_setup(0x3f6d, &(0x7f00000000c0), &(0x7f0000ff9000/0x4000)=nil, &(0x7f0000ffc000/0x2000)=nil, &(0x7f0000000140), &(0x7f0000000180))
+ioctl$ifreq_SIOCGIFINDEX_batadv_mesh(0xffffffffffffffff, 0x8933, &(0x7f0000000300)={'batadv0\x00'})
+ioctl$sock_ipv4_tunnel_SIOCADDTUNNEL(r0, 0x89f1, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000280)='nl80211\x00', r0)
+ioctl$sock_SIOCGIFINDEX_80211(r0, 0x8933, 0x0)

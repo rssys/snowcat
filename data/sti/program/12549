@@ -1,0 +1,2 @@
+r0 = syz_io_uring_setup(0x2c78, &(0x7f0000000000), &(0x7f0000ff2000/0xe000)=nil, &(0x7f0000fff000/0x1000)=nil, &(0x7f0000000080), &(0x7f00000000c0))
+ioctl$F2FS_IOC_MOVE_RANGE(r0, 0xc01cf509, 0x0)

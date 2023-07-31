@@ -1,0 +1,4 @@
+r0 = openat$rdma_cm(0xffffff9c, &(0x7f0000001480)='/dev/infiniband/rdma_cm\x00', 0x2, 0x0)
+r1 = syz_open_dev$vcsu(&(0x7f0000000000)='/dev/vcsu#\x00', 0x3ff, 0x0)
+r2 = openat$binder_debug(0xffffff9c, &(0x7f0000001140)='/sys/kernel/debug/binder/failed_transaction_log\x00', 0x0, 0x0)
+poll(&(0x7f0000000240)=[{r1, 0x3004}, {}, {r0}, {r1}, {r2}], 0x5, 0x8688)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+write$binfmt_elf64(r0, &(0x7f0000000080)={{0x7f, 0x45, 0x4c, 0x46, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x40}, [{}, {}], "969b9a3aad05c9046b134cf9d5bff74308d30d13747a089e8aafc4ac8b0960512eea4cd62a80f1c66a1f025c2699fc1b3931c707ea4d724aea54bf776835d5115de7286c9c1db4c7c1f494115be74ca88e", [[], [], [], [], [], [], []]}, 0x801)

@@ -1,0 +1,2 @@
+r0 = openat$vnet(0xffffff9c, &(0x7f00000000c0)='/dev/vhost-net\x00', 0x2, 0x0)
+sync_file_range(r0, 0xffffffff, 0x7fffffff, 0x6)

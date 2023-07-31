@@ -1,0 +1,2 @@
+r0 = syz_init_net_socket$ax25(0x3, 0x3, 0x0)
+ioctl$sock_TIOCINQ(r0, 0x541b, &(0x7f0000000000))

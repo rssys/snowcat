@@ -1,0 +1,1 @@
+openat$full(0xffffffffffffff9c, &(0x7f00000002c0)='/dev/full\x00', 0x861, 0x0)

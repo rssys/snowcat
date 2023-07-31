@@ -1,0 +1,2 @@
+syz_open_dev$usbfs(&(0x7f00000002c0)='/dev/bus/usb/00#/00#\x00', 0x0, 0x0)
+creat(&(0x7f00000004c0)='./file0\x00', 0x92)

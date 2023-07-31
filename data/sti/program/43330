@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000000)='ns/uts\x00')
+ioctl$NS_GET_USERNS(r0, 0xb701, 0x0)

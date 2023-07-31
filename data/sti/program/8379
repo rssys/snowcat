@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x7dab, &(0x7f0000000800))
+dup2(r0, 0xffffffffffffffff)

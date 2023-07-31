@@ -1,0 +1,1 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f00000015c0)='net/tcp6\x00')

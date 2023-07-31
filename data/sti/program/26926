@@ -1,0 +1,2 @@
+r0 = openat$procfs(0xffffff9c, &(0x7f0000000400)='/proc/crypto\x00', 0x0, 0x0)
+fcntl$setstatus(r0, 0x4, 0x46c00)

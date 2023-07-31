@@ -1,0 +1,2 @@
+prctl$PR_SET_SECUREBITS(0x1c, 0x36)
+setreuid(0xffffffffffffffff, 0xee01)

@@ -1,0 +1,2 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000100)='./file0\x00', 0x0)
+listxattr(&(0x7f0000000500)='./file0\x00', &(0x7f0000000540)=""/4096, 0x1000)

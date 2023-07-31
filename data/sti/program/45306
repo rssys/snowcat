@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+r1 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+write$cgroup_pid(r1, &(0x7f0000000040), 0xffffff76)
+fallocate(r0, 0x20, 0x0, 0x4080000000)

@@ -1,0 +1,7 @@
+ioctl$BTRFS_IOC_BALANCE_V2(0xffffffffffffffff, 0xc4009420, 0x0)
+ioctl$F2FS_IOC_RESERVE_COMPRESS_BLOCKS(0xffffffffffffffff, 0x8008f513, 0x0)
+r0 = syz_open_dev$cec(&(0x7f0000000840)='/dev/cec#\x00', 0x0, 0x2)
+ioctl$BTRFS_IOC_SUBVOL_CREATE_V2(r0, 0x50009418, 0x0)
+ioctl$BTRFS_IOC_SCRUB_PROGRESS(0xffffffffffffffff, 0xc400941d, 0x0)
+r1 = io_uring_setup(0x459d, &(0x7f0000002380)={0x0, 0x0, 0x0, 0x1})
+dup2(r1, r0)

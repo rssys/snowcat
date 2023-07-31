@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x2, 0x300)
+ioctl$sock_SIOCGPGRP(r0, 0x8904, &(0x7f0000000240))

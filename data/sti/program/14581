@@ -1,0 +1,2 @@
+pipe(&(0x7f0000001300)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+fsetxattr$security_capability(r0, &(0x7f0000000000)='security.capability\x00', &(0x7f0000000040)=@v3={0x3000000, [], 0xee00}, 0x18, 0x0)

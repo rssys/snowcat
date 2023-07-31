@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$tipc2(&(0x7f0000000680)='TIPCv2\x00', 0xffffffffffffffff)
+fork()
+fork()

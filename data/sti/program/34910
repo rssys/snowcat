@@ -1,0 +1,2 @@
+r0 = syz_init_net_socket$bt_sco(0x1f, 0x5, 0x2)
+ioctl$FICLONERANGE(r0, 0x4020940d, 0x0)

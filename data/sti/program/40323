@@ -1,0 +1,1 @@
+syz_btf_id_by_name$bpf_lsm(&(0x7f00000007c0)='bpf_lsm_key_permission\x00')

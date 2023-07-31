@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/fib_trie\x00')
+read$char_usb(r0, &(0x7f0000001180)=""/4096, 0x1000)
+read$char_usb(r0, 0x0, 0x0)

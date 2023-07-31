@@ -1,0 +1,2 @@
+r0 = socket$caif_stream(0x25, 0x1, 0x0)
+fchdir(r0)

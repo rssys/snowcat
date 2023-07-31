@@ -1,0 +1,8 @@
+open_tree(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)
+clock_gettime(0x0, 0x0)
+syz_genetlink_get_family_id$netlbl_cipso(&(0x7f0000000100)='NLBL_CIPSOv4\x00')
+syz_genetlink_get_family_id$team(&(0x7f0000000180)='team\x00')
+r0 = add_key$keyring(&(0x7f00000001c0)='keyring\x00', &(0x7f0000000200)={'syz', 0x0}, 0x0, 0x0, 0xfffffffffffffffd)
+keyctl$get_keyring_id(0x0, r0, 0x0)
+fsmount(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$team(&(0x7f0000000540)='team\x00')

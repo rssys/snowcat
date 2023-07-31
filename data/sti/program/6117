@@ -1,0 +1,4 @@
+setxattr$incfs_id(&(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0)
+r0 = creat(&(0x7f0000000400)='./file0\x00', 0x0)
+ioctl$BLKDISCARD(r0, 0x1277, 0x0)
+chown(&(0x7f0000011d40)='./file0\x00', 0xffffffffffffffff, 0xee01)

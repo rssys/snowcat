@@ -1,0 +1,5 @@
+r0 = openat$selinux_attr(0xffffffffffffff9c, &(0x7f0000000000)='/proc/thread-self/attr/exec\x00', 0x2, 0x0)
+write$selinux_attr(r0, 0x0, 0x4000)
+r1 = openat$loop_ctrl(0xffffffffffffff9c, &(0x7f0000000880)='/dev/loop-control\x00', 0x0, 0x0)
+getpeername$inet6(0xffffffffffffffff, &(0x7f00000000c0)={0xa, 0x0, 0x0, @initdev}, &(0x7f0000000080)=0x7)
+ioctl$LOOP_CTL_ADD(r1, 0x4c80, 0xa)

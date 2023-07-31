@@ -1,0 +1,2 @@
+r0 = socket$inet6_tcp(0xa, 0x1, 0x0)
+setsockopt$inet6_tcp_buf(r0, 0x6, 0x21, &(0x7f00000000c0)="9fd38ae5f0b5a3796dc8d6bacc84c3f564c2ae53c9f3a713915258f8e3ff2522", 0x20)

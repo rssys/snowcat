@@ -1,0 +1,2 @@
+creat(&(0x7f00000045c0)='./file0\x00', 0x0)
+setxattr$trusted_overlay_upper(&(0x7f0000000080)='./file0\x00', &(0x7f0000000100)='trusted.overlay.upper\x00', &(0x7f0000000140)={0x0, 0xfb, 0x15, 0x0, 0x0, "e963a0a0fbd59c76d5f265c1b957d7e6"}, 0x15, 0x0)

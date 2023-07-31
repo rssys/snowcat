@@ -1,0 +1,2 @@
+syz_mount_image$iso9660(0x0, &(0x7f0000000580)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$system_posix_acl(&(0x7f0000000300)='./file0\x00', &(0x7f0000000340)='system.posix_acl_access\x00', &(0x7f0000000440), 0x24, 0x0)

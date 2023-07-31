@@ -1,0 +1,4 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000005640)='/dev/vcsa#\x00', 0x0, 0x0)
+r1 = dup(r0)
+syz_mount_image$msdos(0x0, &(0x7f0000000600)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='9p\x00', 0x0, &(0x7f00000000c0)={'trans=fd,', {'rfdno', 0x3d, r0}, 0x2c, {'wfdno', 0x3d, r1}, 0x2c, {[], [{@fowner_eq={'fowner'}}]}})

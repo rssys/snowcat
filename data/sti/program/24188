@@ -1,0 +1,2 @@
+r0 = memfd_create(&(0x7f0000000040)='^/\x1e\x05\x00L\aM\x88\x00\x00%]@]&\x02\x00', 0x6)
+lseek(r0, 0x0, 0x3)

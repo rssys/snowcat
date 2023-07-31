@@ -1,0 +1,2 @@
+ioctl$KVM_GET_SUPPORTED_CPUID(0xffffffffffffffff, 0xc008ae05, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f00000064c0)='batadv\x00', 0xffffffffffffffff)

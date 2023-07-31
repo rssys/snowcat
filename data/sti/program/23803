@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$nl_generic(r0, &(0x7f00000017c0)={0x0, 0x0, &(0x7f0000001780)={0x0}}, 0x0)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000001f00)='l2tp\x00', 0xffffffffffffffff)

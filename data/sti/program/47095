@@ -1,0 +1,1 @@
+openat(0xffffffffffffff9c, &(0x7f00000000c0)='./file0\x00', 0x40, 0x0)

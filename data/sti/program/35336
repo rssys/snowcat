@@ -1,0 +1,2 @@
+seccomp$SECCOMP_SET_MODE_FILTER_LISTENER(0x1, 0x0, &(0x7f0000000080)={0x1, &(0x7f00000000c0)=[{0x6, 0x0, 0x0, 0x7ffc0000}]})
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00')

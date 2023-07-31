@@ -1,0 +1,2 @@
+open$dir(&(0x7f0000000140)='./file0\x00', 0x1094c0, 0x0)
+syz_mount_image$tmpfs(&(0x7f0000001a80)='tmpfs\x00', &(0x7f0000001ac0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001b80))

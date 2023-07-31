@@ -1,0 +1,2 @@
+write$P9_RREAD(0xffffffffffffffff, 0x0, 0xb)
+creat(&(0x7f0000000100)='./file0\x00', 0x0)

@@ -1,0 +1,3 @@
+close_range(0xffffffffffffffff, 0xffffffffffffffff, 0x2)
+r0 = socket$netlink(0x10, 0x3, 0x0)
+connect$netlink(r0, &(0x7f0000001900)=@unspec, 0xc)

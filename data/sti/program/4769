@@ -1,0 +1,4 @@
+creat(&(0x7f0000000000)='./file0\x00', 0x8)
+ioctl$DRM_IOCTL_MODE_GETPLANERESOURCES(0xffffffffffffffff, 0xc00c64b5, 0x0)
+uselib(&(0x7f0000000180)='./file0\x00')
+getresuid(0x0, 0x0, 0x0)

@@ -1,0 +1,1 @@
+execveat(0xffffffffffffffff, &(0x7f0000001f80)='./file0\x00', 0x0, 0xfffffffffffffffe, 0x0)

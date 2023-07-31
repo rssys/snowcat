@@ -1,0 +1,2 @@
+r0 = getpgrp(0xffffffffffffffff)
+rt_tgsigqueueinfo(0xffffffffffffffff, r0, 0x0, &(0x7f0000000000))

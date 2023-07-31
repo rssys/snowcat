@@ -1,0 +1,2 @@
+r0 = socket$can_bcm(0x1d, 0x2, 0x2)
+close(r0)

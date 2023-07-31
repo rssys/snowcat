@@ -1,0 +1,2 @@
+syz_mount_image$iso9660(0x0, &(0x7f0000000840)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$security_selinux(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='security.selinux\x00', &(0x7f0000000080)='system_u:object_r:systemd_systemctl_exec_t:s0\x00', 0x2e, 0x0)

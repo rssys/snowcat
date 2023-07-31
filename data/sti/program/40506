@@ -1,0 +1,2 @@
+pipe2(&(0x7f0000000080), 0x0)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='fdinfo/4\x00')

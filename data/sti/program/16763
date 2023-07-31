@@ -1,0 +1,2 @@
+ioctl$MEDIA_IOC_REQUEST_ALLOC(0xffffffffffffffff, 0x80047c05, 0x0)
+openat$dsp1(0xffffff9c, &(0x7f0000000900)='/dev/dsp1\x00', 0x4800, 0x0)

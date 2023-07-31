@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f00000000c0)='./file1\x00', 0x26142, 0x0)
+write$vga_arbiter(r0, &(0x7f0000000240)=@target_default='target default\x00', 0x2000024f)

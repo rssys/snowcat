@@ -1,0 +1,3 @@
+r0 = add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x3}, 0x0, 0x0, 0xfffffffffffffffe)
+add_key$keyring(&(0x7f0000000580)='keyring\x00', &(0x7f00000005c0)={'syz', 0x2}, 0x0, 0x0, r0)
+keyctl$revoke(0x3, r0)

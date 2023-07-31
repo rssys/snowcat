@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$l2tp(&(0x7f00000002c0)='l2tp\x00', 0xffffffffffffffff)

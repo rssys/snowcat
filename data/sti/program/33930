@@ -1,0 +1,4 @@
+syz_mount_image$nfs4(0x0, &(0x7f00000001c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = open(&(0x7f0000000400)='./file0\x00', 0x0, 0x0)
+rmdir(&(0x7f0000000000)='./file0\x00')
+symlinkat(&(0x7f0000000380)='./file0\x00', r0, &(0x7f00000003c0)='./file0\x00')

@@ -1,0 +1,5 @@
+r0 = add_key$keyring(&(0x7f0000000140)='keyring\x00', &(0x7f0000000100)={'syz', 0x3}, 0x0, 0x0, 0xfffffffffffffffc)
+keyctl$set_timeout(0xf, r0, 0x3)
+r1 = add_key$keyring(&(0x7f00000001c0)='keyring\x00', &(0x7f0000000000)={'syz', 0x0}, 0x0, 0x0, r0)
+keyctl$KEYCTL_RESTRICT_KEYRING(0x1d, r1, &(0x7f0000000040)='asymmetric\x00', &(0x7f0000000080)=@builtin='builtin_trusted\x00')
+keyctl$get_keyring_id(0x0, r0, 0x0)

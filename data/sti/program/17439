@@ -1,0 +1,1 @@
+add_key(&(0x7f00000002c0)='user\x00', &(0x7f0000000300)={'syz', 0x3}, &(0x7f0000000340)="b0", 0x1, 0xfffffffffffffffc)

@@ -1,0 +1,1 @@
+syz_open_dev$vcsn(&(0x7f00000006c0)='/dev/vcs#\x00', 0x3f, 0x8001)

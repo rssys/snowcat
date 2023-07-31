@@ -1,0 +1,3 @@
+write$apparmor_exec(0xffffffffffffffff, 0x0, 0x0)
+ioctl$KVM_GET_REGS(0xffffffffffffffff, 0x8090ae81, 0x0)
+io_setup(0x8269, &(0x7f0000000380))

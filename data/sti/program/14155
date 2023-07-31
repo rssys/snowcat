@@ -1,0 +1,7 @@
+ioctl$PERF_EVENT_IOC_RESET(0xffffffffffffffff, 0x2403, 0xffffff7e)
+openat$rdma_cm(0xffffff9c, &(0x7f0000000000)='/dev/infiniband/rdma_cm\x00', 0x2, 0x0)
+write$RDMA_USER_CM_CMD_CREATE_ID(0xffffffffffffffff, &(0x7f0000000080)={0x0, 0x18, 0xfa00, {0x4, 0x0}}, 0x20)
+r0 = openat$mice(0xffffff9c, &(0x7f0000000200)='/dev/input/mice\x00', 0x101)
+ioctl$PERF_EVENT_IOC_ID(r0, 0x80042407, &(0x7f0000000240))
+socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$SNAPSHOT_GET_IMAGE_SIZE(0xffffffffffffffff, 0x8008330e, 0x0)

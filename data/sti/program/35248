@@ -1,0 +1,1 @@
+dup2(0xffffffffffffffff, 0xffffffffffffffff)

@@ -1,0 +1,3 @@
+syz_mount_image$reiserfs(0x0, &(0x7f0000000180)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$security_capability(&(0x7f0000001f00)='./file0\x00', &(0x7f0000001f40)='security.capability\x00', &(0x7f0000001f80)=@v2, 0x14, 0x0)
+lsetxattr$security_ima(&(0x7f0000001fc0)='./file0\x00', &(0x7f0000002000)='security.ima\x00', &(0x7f0000002040)=@md5={0x1, "62a72b74be628f1844c0ab165664e150"}, 0x11, 0x0)

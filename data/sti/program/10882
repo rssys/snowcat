@@ -1,0 +1,2 @@
+r0 = openat$sequencer2(0xffffff9c, &(0x7f00000003c0)='/dev/sequencer2\x00', 0x2002, 0x0)
+write$sequencer(r0, &(0x7f0000000400)=[@generic, @e={0xff, 0x0, 0x0, 0x0, @SEQ_NOTEON}], 0x9)

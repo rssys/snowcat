@@ -1,0 +1,2 @@
+r0 = socket(0xa, 0x3, 0xff)
+sendmsg$unix(r0, &(0x7f00000014c0)={&(0x7f0000000200)=@abs, 0x6e, &(0x7f0000001380)=[{&(0x7f0000000280)="ba8ec317775bea722cb423ba4bf8f6a84e5ec6e49b5d804fd1679c2d777b8bc252cf3132bd7598af", 0x200002a8}], 0x1}, 0x0)

@@ -1,0 +1,1 @@
+ioctl$SNDRV_CTL_IOCTL_POWER_STATE(0xffffffffffffffff, 0x800455d1, 0x0)

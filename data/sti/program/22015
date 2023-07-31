@@ -1,0 +1,2 @@
+openat$loop_ctrl(0xffffffffffffff9c, &(0x7f0000000280)='/dev/loop-control\x00', 0x0, 0x0)
+io_setup(0x400, &(0x7f0000000500))

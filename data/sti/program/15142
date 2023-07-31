@@ -1,0 +1,3 @@
+r0 = openat$audio1(0xffffff9c, &(0x7f0000000180)='/dev/audio1\x00', 0x40901, 0x0)
+ioctl$SNDCTL_DSP_GETOPTR(r0, 0x800c5012, 0x0)
+openat$adsp1(0xffffff9c, &(0x7f0000000140)='/dev/adsp1\x00', 0x4000, 0x0)

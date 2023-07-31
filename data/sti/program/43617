@@ -1,0 +1,5 @@
+syz_genetlink_get_family_id$netlbl_cipso(&(0x7f0000000000)='NLBL_CIPSOv4\x00', 0xffffffffffffffff)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r0 = syz_open_dev$tty20(0xc, 0x4, 0x0)
+ioctl$KDFONTOP_COPY(r0, 0x4b72, 0x0)
+syz_genetlink_get_family_id$netlbl_cipso(&(0x7f0000000840)='NLBL_CIPSOv4\x00', 0xffffffffffffffff)

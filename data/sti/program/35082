@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsu(&(0x7f0000000040)='/dev/vcsu#\x00', 0x401, 0x0)
+read$FUSE(r0, &(0x7f00000004c0)={0x2020}, 0x2020)

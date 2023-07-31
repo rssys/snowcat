@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$nl80211(&(0x7f00000003c0)='nl80211\x00')

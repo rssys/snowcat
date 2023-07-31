@@ -1,0 +1,2 @@
+r0 = openat$mixer(0xffffff9c, &(0x7f0000001540)='/dev/mixer\x00', 0x0, 0x0)
+ioctl$BTRFS_IOC_RESIZE(r0, 0x50009403, &(0x7f0000000000)={{}, {@val, @max='max'}})

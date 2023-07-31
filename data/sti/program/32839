@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='pagemap\x00')
+preadv(r0, &(0x7f0000000080)=[{&(0x7f0000000340)=""/4104, 0x1008}], 0x1, 0x2000, 0x0)

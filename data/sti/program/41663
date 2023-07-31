@@ -1,0 +1,4 @@
+r0 = syz_open_dev$sg(&(0x7f00000001c0)='/dev/sg#\x00', 0x0, 0x0)
+ioctl$SCSI_IOCTL_TEST_UNIT_READY(r0, 0x2)
+r1 = syz_open_dev$tty20(0xc, 0x4, 0x1)
+ioctl$PIO_FONT(r1, 0x4b61, &(0x7f0000000280)="b9")

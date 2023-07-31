@@ -1,0 +1,2 @@
+r0 = openat$tun(0xffffff9c, &(0x7f00000000c0)='/dev/net/tun\x00', 0x102001, 0x0)
+write$tun(r0, 0x0, 0x0)

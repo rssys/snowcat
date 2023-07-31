@@ -1,0 +1,2 @@
+r0 = openat$audio(0xffffff9c, &(0x7f0000000400)='/dev/audio\x00', 0x80041, 0x0)
+write$dsp(r0, &(0x7f0000000440)='K', 0x1)

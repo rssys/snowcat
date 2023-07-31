@@ -1,0 +1,2 @@
+socket$inet6_mptcp(0xa, 0x1, 0x106)
+openat$ipvs(0xffffff9c, &(0x7f0000001040)='/proc/sys/net/ipv4/vs/sync_version\x00', 0x2, 0x0)

@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x2104, &(0x7f0000000940))
+io_uring_register$IORING_REGISTER_BUFFERS(r0, 0x8, &(0x7f0000000300)=[{&(0x7f0000000080)=""/94, 0x5e}, {0x0}], 0x2)

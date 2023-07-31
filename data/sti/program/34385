@@ -1,0 +1,2 @@
+syz_open_dev$dmmidi(&(0x7f0000000000)='/dev/dmmidi#\x00', 0x2, 0x103003)
+syz_open_dev$dmmidi(&(0x7f0000000040)='/dev/dmmidi#\x00', 0x2, 0x105000)

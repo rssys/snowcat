@@ -1,0 +1,2 @@
+mkdir(&(0x7f0000000000)='./file1\x00', 0x0)
+lsetxattr$security_selinux(&(0x7f0000000040)='./file1\x00', &(0x7f0000000080)='security.selinux\x00', &(0x7f0000000100)='system_u:object_r:scsi_generic_device_t:s0\x00', 0x72, 0x0)

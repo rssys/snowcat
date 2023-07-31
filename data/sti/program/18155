@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0xf)
+sendmsg$ETHTOOL_MSG_COALESCE_SET(r0, &(0x7f0000000200)={0x0, 0x0, &(0x7f00000001c0)={&(0x7f0000000080)=ANY=[@ANYBLOB="2400000093f123"], 0x24}}, 0x0)

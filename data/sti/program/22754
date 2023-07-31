@@ -1,0 +1,1 @@
+syz_mount_image$ubifs(&(0x7f00000021c0)='ubifs\x00', &(0x7f0000002200)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000033c0))

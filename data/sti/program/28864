@@ -1,0 +1,2 @@
+r0 = socket$inet6_tcp(0xa, 0x1, 0x0)
+getsockopt$IP6T_SO_GET_ENTRIES(r0, 0x29, 0x41, &(0x7f0000002b00)={'security\x00'}, &(0x7f0000002bc0)=0x24)

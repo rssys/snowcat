@@ -1,0 +1,2 @@
+r0 = openat$ipvs(0xffffff9c, &(0x7f0000000000)='/proc/sys/net/ipv4/vs/expire_quiescent_template\x00', 0x2, 0x0)
+read$FUSE(r0, 0x0, 0x0)

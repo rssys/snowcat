@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+setsockopt$inet6_IPV6_XFRM_POLICY(r0, 0x29, 0x30, &(0x7f00000001c0)={{{@in6=@empty, @in6=@mcast1}}, {{@in6=@private2}, 0x0, @in=@dev}}, 0xe8)

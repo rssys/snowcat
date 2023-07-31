@@ -1,0 +1,4 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000440)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000080)='ethtool\x00')
+setxattr$security_selinux(&(0x7f0000000140)='./file0/file0\x00', 0x0, 0x0, 0x0, 0x0)
+rmdir(&(0x7f0000000000)='./file0\x00')

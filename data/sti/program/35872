@@ -1,0 +1,2 @@
+r0 = openat$vcsa(0xffffffffffffff9c, &(0x7f0000000000)='/dev/vcsa\x00', 0x80082, 0x0)
+writev(r0, &(0x7f00000003c0)=[{&(0x7f0000000080)="a849a504", 0x4}, {&(0x7f0000000240)='X', 0x1}], 0x2)

@@ -1,0 +1,6 @@
+sendmsg$RDMA_NLDEV_CMD_RES_QP_GET(0xffffffffffffffff, 0x0, 0x0)
+socketpair(0x27, 0x0, 0x0, &(0x7f0000000100))
+sendmsg$RDMA_NLDEV_CMD_STAT_DEL(0xffffffffffffffff, 0x0, 0x0)
+ioctl$PPPIOCGCHAN(0xffffffffffffffff, 0x80047437, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000780)='devlink\x00', 0xffffffffffffffff)
+openat$cachefiles(0xffffff9c, &(0x7f0000002dc0)='/dev/cachefiles\x00', 0x40000, 0x0)

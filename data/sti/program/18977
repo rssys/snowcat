@@ -1,0 +1,5 @@
+syz_genetlink_get_family_id$SEG6(0x0, 0xffffffffffffffff)
+sendmsg$SEG6_CMD_DUMPHMAC(0xffffffffffffffff, 0x0, 0x40001)
+bpf$BPF_PROG_GET_FD_BY_ID(0xd, 0x0, 0x0)
+r0 = fork()
+syz_open_procfs$namespace(r0, 0x0)

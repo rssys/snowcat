@@ -1,0 +1,1 @@
+openat$audio(0xffffff9c, &(0x7f0000000100)='/dev/audio\x00', 0x2481, 0x0)

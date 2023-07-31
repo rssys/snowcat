@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_ifreq(r0, 0x8922, &(0x7f0000000080)={'dummy0\x00', @ifru_mtu})

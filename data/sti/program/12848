@@ -1,0 +1,4 @@
+r0 = socket$unix(0x1, 0x1, 0x0)
+r1 = openat$selinux_attr(0xffffffffffffff9c, &(0x7f00000000c0)='/proc/thread-self/attr/sockcreate\x00', 0x2, 0x0)
+write$selinux_attr(r1, &(0x7f0000000100)='system_u:object_r:kmsg_device_t:s0\x00', 0x23)
+sendfile(r0, r1, 0x0, 0x1ff)

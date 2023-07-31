@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sg(&(0x7f0000000040)='/dev/sg#\x00', 0x1ff, 0x242)
+write$binfmt_elf64(r0, &(0x7f00000001c0)=ANY=[@ANYBLOB="7f454c4600000c"], 0x1e3)

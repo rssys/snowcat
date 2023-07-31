@@ -1,0 +1,2 @@
+r0 = syz_mount_image$tmpfs(&(0x7f0000000080)='tmpfs\x00', &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000380)={[{@nr_inodes={'nr_inodes', 0x3d, [0x0]}}]})
+openat(r0, &(0x7f0000000000)='./file0\x00', 0xc2, 0x0)

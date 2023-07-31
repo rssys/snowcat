@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f00000076c0)='tmpfs\x00', &(0x7f0000007700)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000007900)={[{@nr_inodes={'nr_inodes', 0x3d, [0x6b]}}]})

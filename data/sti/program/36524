@@ -1,0 +1,3 @@
+r0 = epoll_create(0x16a00000)
+r1 = openat$snapshot(0xffffffffffffff9c, &(0x7f0000000040)='/dev/snapshot\x00', 0x0, 0x0)
+dup2(r0, r1)

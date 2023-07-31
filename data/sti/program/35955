@@ -1,0 +1,5 @@
+sendmsg$FOU_CMD_DEL(0xffffffffffffffff, 0x0, 0x0)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_io_uring_setup(0x1fe6, &(0x7f00000006c0), &(0x7f0000ffd000/0x3000)=nil, &(0x7f0000ffd000/0x3000)=nil, &(0x7f0000000740), &(0x7f0000000780))
+syz_genetlink_get_family_id$team(&(0x7f0000001a00)='team\x00', r0)
+dup2(r0, r1)

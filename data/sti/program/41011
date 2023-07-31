@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0xa, 0x300)
+ioctl$sock_SIOCGIFINDEX(r0, 0x8914, &(0x7f00000003c0)={'sit0\x00'})

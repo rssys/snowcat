@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000400)='nl80211\x00')
+sendmsg$NL80211_CMD_PROBE_MESH_LINK(r0, &(0x7f0000002040)={0x0, 0x0, &(0x7f0000002000)={&(0x7f0000000200)={0x68, r1, 0x1, 0x0, 0x0, {{}, {@val={0x8}, @val={0xc}}}, [@NL80211_ATTR_FRAME={0x3e, 0xe, @data_frame={@qos_no_ht={{@type10={{0x0, 0x2, 0xe}, {}, @random="4be70cd2bf7a", @broadcast, @broadcast}}, {@type11={{}, {}, @broadcast, @device_a, @from_mac=@device_b, {}, @broadcast}}}, @a_msdu}}]}, 0x68}}, 0x0)

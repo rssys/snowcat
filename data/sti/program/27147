@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$batadv(&(0x7f0000000040)='batadv\x00', 0xffffffffffffffff)
+sendmsg$BATADV_CMD_GET_HARDIF(r0, &(0x7f0000000100)={0x0, 0x0, &(0x7f00000000c0)={&(0x7f0000000080)={0x14, r1, 0x201}, 0x14}}, 0x0)

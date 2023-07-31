@@ -1,0 +1,4 @@
+inotify_init()
+syz_genetlink_get_family_id$devlink(0x0, 0xffffffffffffffff)
+openat$binder_debug(0xffffff9c, &(0x7f0000001880)='/sys/kernel/debug/binder/failed_transaction_log\x00', 0x0, 0x0)
+socket$inet6_udplite(0xa, 0x2, 0x88)

@@ -1,0 +1,4 @@
+close_range(0xffffffffffffffff, 0xffffffffffffffff, 0x2)
+r0 = epoll_create(0x864f)
+r1 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f0000000000))

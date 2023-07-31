@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsu(&(0x7f0000000000)='/dev/vcsu#\x00', 0x80000000006a0, 0x40081)
+write$sndseq(r0, &(0x7f00000000c0)=[{0x0, 0x0, 0x0, 0x0, @time, {}, {}, @raw32}], 0x1c)

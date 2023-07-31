@@ -1,0 +1,2 @@
+r0 = socket$inet6_icmp_raw(0x11, 0x3, 0x3a)
+ioctl$sock_ifreq(r0, 0x891b, &(0x7f0000000080)={'lo\x00', @ifru_names})

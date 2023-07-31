@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vbi(&(0x7f0000000180)='/dev/vbi#\x00', 0x1, 0x2)
+write$USERIO_CMD_REGISTER(r0, 0x0, 0x0)

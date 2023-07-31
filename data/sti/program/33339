@@ -1,0 +1,3 @@
+r0 = socket$nl_audit(0x10, 0x3, 0x9)
+r1 = dup(r0)
+ioctl$sock_SIOCETHTOOL(r1, 0x8946, &(0x7f0000000040)={'sit0\x00', &(0x7f0000000100)=@ethtool_gstrings={0x1b, 0x5}})

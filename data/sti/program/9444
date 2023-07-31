@@ -1,0 +1,4 @@
+r0 = add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x3}, 0x0, 0x0, 0xfffffffffffffffe)
+keyctl$revoke(0x3, r0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000080)='devlink\x00')
+syz_genetlink_get_family_id$devlink(&(0x7f0000000140)='devlink\x00')

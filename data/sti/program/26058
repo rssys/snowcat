@@ -1,0 +1,4 @@
+r0 = openat$uinput(0xffffff9c, &(0x7f00000000c0)='/dev/uinput\x00', 0x802, 0x0)
+write$uinput_user_dev(r0, &(0x7f0000000100)={'syz0\x00'}, 0x45c)
+ioctl$UI_DEV_CREATE(r0, 0x5501)
+read(r0, 0x0, 0x0)

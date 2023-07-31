@@ -1,0 +1,4 @@
+mq_unlink(&(0x7f0000000000)='--*-@\x00')
+socket$inet6_sctp(0xa, 0x1, 0x84)
+openat$binder_debug(0xffffff9c, &(0x7f0000000100)='/sys/kernel/debug/binder/failed_transaction_log\x00', 0x0, 0x0)
+fork()

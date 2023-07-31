@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f0000000040)='configfs\x00', 0x0)
+fsconfig$FSCONFIG_SET_PATH_EMPTY(r0, 0x4, &(0x7f0000000240)='(-\x00', &(0x7f0000000280)='./file0\x00', 0xffffffffffffff9c)

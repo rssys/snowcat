@@ -1,0 +1,1 @@
+syz_open_dev$video4linux(&(0x7f0000003840)='/dev/v4l-subdev#\x00', 0xff, 0x0)

@@ -1,0 +1,4 @@
+syz_mount_image$nfs4(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$security_evm(&(0x7f0000000000)='./file0\x00', &(0x7f0000000080)='security.evm\x00', &(0x7f00000000c0)=ANY=[], 0xb, 0x0)
+lsetxattr$trusted_overlay_upper(&(0x7f0000000100)='./file0\x00', &(0x7f0000000140)='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)
+lsetxattr$security_evm(&(0x7f0000000740)='./file0\x00', &(0x7f0000000780)='security.evm\x00', &(0x7f00000007c0)=@v2, 0x9, 0x0)

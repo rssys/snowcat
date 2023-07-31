@@ -1,0 +1,2 @@
+socket$packet(0x11, 0x3, 0x300)
+syz_genetlink_get_family_id$ethtool(&(0x7f00000010c0)='ethtool\x00', 0xffffffffffffffff)

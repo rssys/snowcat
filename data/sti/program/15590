@@ -1,0 +1,2 @@
+ioctl$ifreq_SIOCGIFINDEX_batadv_mesh(0xffffffffffffffff, 0x8933, &(0x7f0000000100)={'batadv0\x00'})
+mlockall(0x5)

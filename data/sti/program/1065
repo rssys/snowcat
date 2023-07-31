@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0xce0cd98a82a04c7f)
+write$cgroup_int(r0, &(0x7f00000000c0), 0xfffffdcf)

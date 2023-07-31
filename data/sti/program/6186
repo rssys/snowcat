@@ -1,0 +1,1 @@
+request_key(&(0x7f0000000300)='trusted\x00', &(0x7f0000000340)={'syz', 0x2}, 0x0, 0xffffffffffffffff)

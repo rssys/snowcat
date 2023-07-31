@@ -1,0 +1,2 @@
+r0 = add_key$fscrypt_v1(&(0x7f00000016c0)='logon\x00', &(0x7f0000001700)={'fscrypt:', @desc4='85baa174f0cb1142'}, &(0x7f0000001740)={0x0, "c4d6075398bd6d90392ea3a71f95a7cbdefa3eb81535d384bd0246af1807bc9b1384f7a2c2e6dc531b47133cda7bf0293889de3144870b33393aba1b7bd5233d"}, 0x48, 0xffffffffffffffff)
+keyctl$revoke(0x3, r0)

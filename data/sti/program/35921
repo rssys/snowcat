@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_inet6_SIOCADDRT(r0, 0x890b, &(0x7f0000001080)={@rand_addr=' \x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01', @private1, @rand_addr=' \x01\x00', 0x0, 0x0, 0x401})

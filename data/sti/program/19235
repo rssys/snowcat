@@ -1,0 +1,3 @@
+r0 = socket(0x10, 0x2, 0x6)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000300)='nl80211\x00')
+sendmsg$NL80211_CMD_ADD_NAN_FUNCTION(r0, &(0x7f0000003a40)={&(0x7f0000001400)={0x10, 0x0, 0x0, 0x20}, 0xc, &(0x7f0000003a00)={&(0x7f0000001440)=ANY=[@ANYBLOB="a4250000", @ANYRES16=r1, @ANYBLOB="01"], 0x25a4}}, 0x0)

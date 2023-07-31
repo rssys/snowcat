@@ -1,0 +1,3 @@
+r0 = openat$audio(0xffffff9c, &(0x7f00000002c0)='/dev/audio\x00', 0x0, 0x0)
+ioctl$SNDCTL_DSP_GETFMTS(r0, 0x8004500b, 0x0)
+ioctl$SNDCTL_DSP_CHANNELS(r0, 0xc0045006, &(0x7f0000001c40)=0x9)

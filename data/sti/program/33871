@@ -1,0 +1,4 @@
+setsockopt$inet_MCAST_MSFILTER(0xffffffffffffffff, 0x0, 0x23, &(0x7f0000000040)=ANY=[@ANYBLOB="000000000000000002"], 0x90)
+r0 = socket(0x2, 0x3, 0x6)
+ioctl$sock_ipv6_tunnel_SIOCGETPRL(0xffffffffffffffff, 0x89f4, &(0x7f0000000100)={'syztnl2\x00', &(0x7f0000000080)={'ip6tnl0\x00', 0x0, 0x0, 0x0, 0x0, 0x0, 0x1b, @remote, @loopback}})
+ioctl$sock_inet6_udp_SIOCINQ(r0, 0x890b, &(0x7f0000000040))

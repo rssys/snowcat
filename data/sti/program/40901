@@ -1,0 +1,1 @@
+openat$binder_debug(0xffffff9c, &(0x7f00000000c0)='/sys/kernel/debug/binder/transactions\x00', 0x0, 0x0)

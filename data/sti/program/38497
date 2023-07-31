@@ -1,0 +1,2 @@
+r0 = socket$xdp(0x2c, 0x3, 0x0)
+fsetxattr$trusted_overlay_opaque(r0, &(0x7f00000002c0)='trusted.overlay.opaque\x00', 0x0, 0x0, 0x0)

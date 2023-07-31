@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$net_dm(&(0x7f0000000000)='NET_DM\x00', r0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_SIOCGIFINDEX_802154(0xffffffffffffffff, 0x8933, 0x0)

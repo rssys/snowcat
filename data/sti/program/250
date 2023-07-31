@@ -1,0 +1,2 @@
+openat$vmci(0xffffff9c, &(0x7f00000010c0)='/dev/vmci\x00', 0x2, 0x0)
+creat(&(0x7f0000002400)='./file0\x00', 0x0)

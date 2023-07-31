@@ -1,0 +1,6 @@
+syz_mount_image$ext4(0x0, &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f00000001c0)='./file0\x00', 0x200)
+r1 = inotify_init()
+r2 = inotify_add_watch(r1, &(0x7f00000001c0)='./file0\x00', 0x200)
+inotify_rm_watch(r1, r2)

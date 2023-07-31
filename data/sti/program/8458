@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/ip_vs_stats\x00')
+preadv(r0, &(0x7f0000000400)=[{&(0x7f0000000300)=""/224, 0xe0}], 0x16f, 0xffff, 0x0)

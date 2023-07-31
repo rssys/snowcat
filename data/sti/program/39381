@@ -1,0 +1,2 @@
+r0 = gettid()
+ptrace$setopts(0x4206, r0, 0x4, 0x0)

@@ -1,0 +1,2 @@
+openat(0xffffffffffffff9c, &(0x7f00000015c0)='./file0\x00', 0x40, 0x0)
+sendmsg$L2TP_CMD_SESSION_MODIFY(0xffffffffffffffff, 0x0, 0x0)

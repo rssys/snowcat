@@ -1,0 +1,5 @@
+socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000080)='nl80211\x00', 0xffffffffffffffff)
+r0 = socket$inet_udp(0x2, 0x2, 0x0)
+ioctl$sock_SIOCGIFINDEX_80211(r0, 0x8933, 0x0)
+fork()

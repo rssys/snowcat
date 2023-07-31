@@ -1,0 +1,4 @@
+setsockopt$netlink_NETLINK_RX_RING(0xffffffffffffffff, 0x10e, 0x6, &(0x7f0000001000), 0x10)
+fork()
+setsockopt$netlink_NETLINK_RX_RING(0xffffffffffffffff, 0x10e, 0x6, &(0x7f0000001000), 0x10)
+fork()

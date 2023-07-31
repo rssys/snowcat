@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_SIOCETHTOOL(r0, 0x8943, &(0x7f0000000000)={'wlan1\x00', &(0x7f0000000040)=@ethtool_ts_info})

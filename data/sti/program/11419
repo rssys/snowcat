@@ -1,0 +1,2 @@
+syz_open_dev$loop(0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$gtp(&(0x7f0000001b40)='gtp\x00', 0xffffffffffffffff)

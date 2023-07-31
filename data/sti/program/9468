@@ -1,0 +1,1 @@
+syz_80211_inject_frame(&(0x7f0000000000), &(0x7f0000000280)=@mgmt_frame=@probe_request={@with_ht={{{}, {}, @device_a, @device_a, @from_mac}}, @val={0x0, 0x6, @default_ap_ssid}, @void, @val={0x3, 0x1}, @void, @void}, 0x27)

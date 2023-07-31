@@ -1,0 +1,2 @@
+syz_open_dev$sndctrl(&(0x7f0000000040)='/dev/snd/controlC#\x00', 0x1, 0x0)
+openat$dsp1(0xffffff9c, &(0x7f0000000240)='/dev/dsp1\x00', 0x0, 0x0)

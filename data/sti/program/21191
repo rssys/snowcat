@@ -1,0 +1,1 @@
+syz_80211_inject_frame(&(0x7f0000000100), &(0x7f0000000140)=@ctrl_frame=@pspoll, 0x10)

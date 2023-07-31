@@ -1,0 +1,2 @@
+r0 = openat$autofs(0xffffffffffffff9c, &(0x7f0000000400)='/dev/autofs\x00', 0x101801, 0x0)
+tee(r0, 0xffffffffffffffff, 0x4, 0x0)

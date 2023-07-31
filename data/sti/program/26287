@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000200)='./file0\x00', 0x0)
+write$cgroup_pid(r0, &(0x7f0000000240), 0x12)
+creat(&(0x7f00000001c0)='./file1\x00', 0x0)
+rename(&(0x7f0000000040)='./file0\x00', &(0x7f0000000000)='./file1\x00')

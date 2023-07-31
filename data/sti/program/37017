@@ -1,0 +1,2 @@
+openat2$dir(0xffffff9c, &(0x7f0000000b00)='./file0\x00', &(0x7f0000000b40)={0x81c0}, 0x18)
+syz_mount_image$tmpfs(&(0x7f0000000dc0)='tmpfs\x00', &(0x7f0000000e00)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002040)={[{@mode={'mode'}}, {@mpol={'mpol', 0x3d, {'interleave', '', @void}}}, {@huge_advise='huge=advise'}]})

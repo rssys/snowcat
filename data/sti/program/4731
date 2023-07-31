@@ -1,0 +1,2 @@
+r0 = gettid()
+syz_open_procfs(r0, 0x0)

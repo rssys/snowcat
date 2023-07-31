@@ -1,0 +1,1 @@
+syz_mount_image$nfs(&(0x7f0000000380)='nfs\x00', &(0x7f00000003c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000007c0)={[], [{@euid_eq={'euid', 0x3d, 0xee00}}]})

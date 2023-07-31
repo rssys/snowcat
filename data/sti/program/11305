@@ -1,0 +1,5 @@
+add_key$keyring(0x0, 0x0, 0x0, 0x0, 0xfffffffffffffffb)
+add_key$fscrypt_v1(&(0x7f0000000080)='logon\x00', &(0x7f00000000c0)={'fscrypt:', @desc4='85baa174f0cb1142'}, 0x0, 0x0, 0xffffffffffffffff)
+add_key$fscrypt_v1(0x0, &(0x7f00000002c0)={'fscrypt:', @desc1='0000111122223333'}, &(0x7f0000000300)={0x0, "5ff0370c3bc76527f8251e981fdac48feb1950e71a53c8707dc5d91321f045818c34a4198515d12a466cc1ffc79dc399c20b8bf5b282b307f65e8f3dd0d10d56"}, 0x48, 0x0)
+fork()
+add_key$keyring(&(0x7f0000000500)='keyring\x00', &(0x7f0000000540)={'syz', 0x2}, 0x0, 0x0, 0xfffffffffffffffc)

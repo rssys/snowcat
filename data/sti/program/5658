@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$ipvs(&(0x7f0000000140)='IPVS\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$ethtool(0x0, 0xffffffffffffffff)
+syz_io_uring_submit(0x0, 0x0, 0x0, 0x0)

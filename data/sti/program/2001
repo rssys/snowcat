@@ -1,0 +1,2 @@
+openat$adsp1(0xffffff9c, &(0x7f0000000140)='/dev/adsp1\x00', 0x0, 0x0)
+openat$audio1(0xffffff9c, &(0x7f0000001a00)='/dev/audio1\x00', 0x281, 0x0)

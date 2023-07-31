@@ -1,0 +1,2 @@
+r0 = openat$nullb(0xffffff9c, &(0x7f0000000080)='/dev/nullb0\x00', 0x0, 0x0)
+ioctl$BLKBSZSET(r0, 0x40041271, &(0x7f0000000140))

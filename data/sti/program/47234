@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000080)='./file0\x00', 0x1870a03f86880df4)
+write$selinux_attr(r0, &(0x7f0000000000)='system_u:object_r:hald_mac_exec_t:s0\x00', 0x20000025)

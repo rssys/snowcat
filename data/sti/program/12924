@@ -1,0 +1,2 @@
+r0 = socket$nl_xfrm(0x10, 0x3, 0x6)
+sendmsg$nl_xfrm(r0, &(0x7f0000000000)={0x0, 0x0, &(0x7f00000000c0)={&(0x7f0000000100)=@updsa={0x17c, 0x1a, 0x1, 0x0, 0x0, {{@in=@broadcast, @in6=@mcast2}, {@in=@multicast2, 0x0, 0x33}, @in6=@ipv4={[], [], @dev}, {}, {}, {}, 0x0, 0x0, 0xa}, [@algo_auth={0x89, 0x1, {{'sha1\x00'}, 0x208, "2d6846d5fef5339795bb2f38042ee806c6b4ffa56daf1389b185e4207ba33fdcce71e85a84727205ea0fb269525cbb1885ca720b8ac599e1f7361de8fb26da6e49"}}]}, 0x17c}}, 0x0)

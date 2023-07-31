@@ -1,0 +1,2 @@
+r0 = openat$nvme_fabrics(0xffffff9c, &(0x7f0000000000)='/dev/nvme-fabrics\x00', 0x2, 0x0)
+write$snapshot(r0, &(0x7f0000000040)="e076", 0x2)

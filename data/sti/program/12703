@@ -1,0 +1,4 @@
+ioctl$LOOP_CHANGE_FD(0xffffffffffffffff, 0x4c06, 0xffffffffffffffff)
+syz_open_dev$ttys(0xc, 0x2, 0x0)
+timerfd_gettime(0xffffffffffffffff, 0x0)
+dup(0xffffffffffffffff)

@@ -1,0 +1,5 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000400)='cgroup\x00')
+ioctl$LOOP_CTL_REMOVE(0xffffffffffffffff, 0x5460, 0x0)
+r1 = openat$loop_ctrl(0xffffffffffffff9c, &(0x7f0000000000)='/dev/loop-control\x00', 0x40, 0x0)
+r2 = ioctl$LOOP_CTL_GET_FREE(r0, 0x4c82)
+ioctl$LOOP_CTL_ADD(r1, 0x4c80, r2)

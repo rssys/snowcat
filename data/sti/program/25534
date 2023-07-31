@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$devlink(&(0x7f0000000600)='devlink\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000000800)='l2tp\x00', 0xffffffffffffffff)

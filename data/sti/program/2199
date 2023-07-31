@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000080)='clear_refs\x00')
+fcntl$addseals(r0, 0x409, 0x9428af735f20adac)

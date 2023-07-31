@@ -1,0 +1,2 @@
+mkdir(&(0x7f0000000100)='./file0\x00', 0x0)
+setxattr$security_selinux(&(0x7f0000000240)='./file0\x00', &(0x7f0000000280)='security.selinux\x00', &(0x7f0000000480)='/usr/lib/telepathy/mission-control-5\x00', 0x25, 0x0)

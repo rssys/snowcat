@@ -1,0 +1,1 @@
+syz_80211_inject_frame(&(0x7f00000002c0)=@device_b, &(0x7f0000000280)=ANY=[@ANYBLOB="df"], 0x36)

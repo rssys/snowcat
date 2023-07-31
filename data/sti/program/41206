@@ -1,0 +1,2 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f0000000080)='/dev/snd/seq\x00', 0xc01)
+write$sndseq(r0, &(0x7f0000000100)=[{0xff, 0x0, 0x0, 0x0, @tick, {}, {}, @connect}, {0x0, 0x0, 0x0, 0x81, @tick, {}, {}, @raw8={"a14b9ef4cc42650e0269175d"}}], 0x38)

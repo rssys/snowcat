@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+setsockopt$inet6_IPV6_FLOWLABEL_MGR(r0, 0x29, 0x4e, &(0x7f0000000000)={@dev}, 0x20)

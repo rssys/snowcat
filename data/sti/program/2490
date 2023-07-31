@@ -1,0 +1,2 @@
+creat(&(0x7f0000000040)='./file0\x00', 0x0)
+accept4$phonet_pipe(0xffffffffffffffff, &(0x7f0000002b00), &(0x7f0000002b40)=0x10, 0x800)

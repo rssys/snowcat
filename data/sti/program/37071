@@ -1,0 +1,1 @@
+openat$random(0xffffff9c, &(0x7f00000000c0)='/dev/urandom\x00', 0x400, 0x0)

@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$mptcp(&(0x7f0000000340)='mptcp_pm\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$l2tp(&(0x7f00000007c0)='l2tp\x00', 0xffffffffffffffff)

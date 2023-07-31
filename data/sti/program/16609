@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000040)='ethtool\x00')
+shmat(0x0, &(0x7f0000000000/0x3000)=nil, 0xcc9ba884ad1ef11d)

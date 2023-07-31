@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x8f7f75f241f2c6e8)
+write$binfmt_script(r0, &(0x7f00000002c0)={'#! ', './file0'}, 0xb)

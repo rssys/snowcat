@@ -1,0 +1,6 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_REMAIN_ON_CHANNEL(r0, &(0x7f0000001880)={0x0, 0x0, &(0x7f0000001840)={0x0}}, 0x0)
+openat$sequencer2(0xffffff9c, &(0x7f0000001bc0)='/dev/sequencer2\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f0000001c80)='batadv\x00', r0)
+openat$incfs(0xffffffffffffff9c, &(0x7f0000001dc0)='.pending_reads\x00', 0x0, 0x0)
+execveat(0xffffffffffffffff, &(0x7f0000002080)='./file0\x00', &(0x7f0000002280)=[&(0x7f0000002100)='batadv\x00'], 0x0, 0x0)

@@ -1,0 +1,2 @@
+creat(&(0x7f0000001740)='./file0\x00', 0x0)
+mount$9p_tcp(0x0, &(0x7f00000000c0)='./file0\x00', &(0x7f0000000100)='9p\x00', 0x0, &(0x7f0000000140)={'trans=tcp,', {'port'}, 0x2c, {[{@version_9p2000='version=9p2000'}]}})

@@ -1,0 +1,1 @@
+mount$9p_fd(0x0, &(0x7f0000000700)='.\x00', &(0x7f0000000740)='9p\x00', 0x0, &(0x7f0000000000)=ANY=[@ANYBLOB='trans=fd,rfdno=', @ANYRESHEX, @ANYRESDEC])

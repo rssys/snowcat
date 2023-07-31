@@ -1,0 +1,3 @@
+r0 = open$dir(&(0x7f0000000080)='./file0\x00', 0x80042, 0x0)
+pipe2(&(0x7f00000011c0)={0xffffffffffffffff, <r1=>0xffffffffffffffff}, 0x0)
+ioctl$EXT4_IOC_MOVE_EXT(r0, 0xc028660f, &(0x7f00000000c0)={0x0, r1})

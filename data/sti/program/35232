@@ -1,0 +1,2 @@
+r0 = openat$ptmx(0xffffffffffffff9c, &(0x7f00000003c0)='/dev/ptmx\x00', 0xa8402, 0x0)
+write$evdev(r0, &(0x7f0000000280)=[{{0x77359400}}], 0x18)

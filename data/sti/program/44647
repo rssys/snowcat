@@ -1,0 +1,1 @@
+syz_emit_ethernet(0xc6, &(0x7f0000001980)={@local, @empty, @val={@void}, {@ipv6={0x86dd, @gre_packet={0x0, 0x6, "aa085d", 0x8c, 0x2f, 0x0, @empty, @mcast2, {[@srh={0x87, 0x8, 0x4, 0x4, 0x0, 0x0, 0x0, [@remote, @rand_addr=' \x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01', @private0, @empty]}]}}}}}, 0x0)

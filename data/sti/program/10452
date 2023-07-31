@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000080)='./file0\x00', 0x0)
+r1 = dup(r0)
+fsetxattr$trusted_overlay_opaque(r1, &(0x7f00000015c0)='trusted.overlay.opaque\x00', 0x0, 0x0, 0x0)
+fsetxattr$trusted_overlay_opaque(r1, &(0x7f0000000000)='trusted.overlay.opaque\x00', &(0x7f00000000c0)='y\x00', 0xfe01, 0x0)

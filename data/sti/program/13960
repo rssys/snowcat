@@ -1,0 +1,8 @@
+syz_open_dev$vivid(&(0x7f0000000040)='/dev/video#\x00', 0x3, 0x2)
+r0 = syz_open_dev$cec(&(0x7f0000000000)='/dev/cec#\x00', 0x2, 0x2)
+r1 = openat$hpet(0xffffff9c, &(0x7f0000000040)='/dev/hpet\x00', 0x840, 0x0)
+r2 = syz_open_dev$vivid(&(0x7f0000000080)='/dev/video#\x00', 0x2, 0x2)
+epoll_ctl$EPOLL_CTL_DEL(r1, 0x2, r2)
+r3 = syz_open_dev$vbi(&(0x7f0000000100)='/dev/vbi#\x00', 0x1, 0x2)
+ioctl$VIDIOC_LOG_STATUS(r3, 0x5646, 0x0)
+ioctl$VIDIOC_STREAMOFF(r0, 0x40045613, &(0x7f00000001c0)=0xb9)

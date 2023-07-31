@@ -1,0 +1,2 @@
+io_setup(0xffff, &(0x7f0000001180))
+io_setup(0x2f99, &(0x7f0000000040))

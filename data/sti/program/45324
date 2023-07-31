@@ -1,0 +1,2 @@
+r0 = epoll_create1(0x0)
+fsetxattr(r0, &(0x7f0000000000)=@random={'btrfs.', '.\x00'}, 0x0, 0x0, 0x0)

@@ -1,0 +1,2 @@
+io_uring_setup(0x5bd5, &(0x7f0000000080))
+fork()

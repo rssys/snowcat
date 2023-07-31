@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$BTRFS_IOC_TREE_SEARCH_V2(r0, 0xc0709411, &(0x7f0000001280))

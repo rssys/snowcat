@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsn(&(0x7f0000000000)='/dev/vcs#\x00', 0x100000000104, 0x3582)
+write$P9_ROPEN(r0, &(0x7f0000000080)={0x18}, 0xffffffd7)

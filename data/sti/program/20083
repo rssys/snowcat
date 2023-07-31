@@ -1,0 +1,2 @@
+r0 = inotify_init()
+fcntl$setstatus(r0, 0x4, 0x2000)

@@ -1,0 +1,1 @@
+ioprio_get$pid(0x1, 0xffffffffffffffff)

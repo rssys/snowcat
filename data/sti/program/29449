@@ -1,0 +1,2 @@
+sendmsg$IPSET_CMD_LIST(0xffffffffffffffff, 0x0, 0x0)
+getrusage(0x0, &(0x7f0000005140))

@@ -1,0 +1,5 @@
+r0 = openat$vcsu(0xffffff9c, &(0x7f0000000100)='/dev/vcsu\x00', 0x0, 0x0)
+r1 = syz_open_dev$dmmidi(&(0x7f0000001600)='/dev/dmmidi#\x00', 0x0, 0x0)
+ioctl$SNDRV_RAWMIDI_IOCTL_PVERSION(0xffffffffffffffff, 0x80045700, 0x0)
+r2 = openat$thread_pidfd(0xffffff9c, &(0x7f0000000040)='/proc/thread-self\x00', 0x200400, 0x0)
+poll(&(0x7f00000000c0)=[{r1, 0x700}, {r0}, {r2}, {}], 0x4, 0x0)

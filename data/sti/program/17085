@@ -1,0 +1,2 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000480)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_unix(0x0, &(0x7f0000000080)='./file0/../file0\x00', &(0x7f00000000c0)='9p\x00', 0x0, &(0x7f0000000100)={'trans=unix,', {[{@version_9p2000='version=9p2000'}, {@noextend='noextend'}]}})

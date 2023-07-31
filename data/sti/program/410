@@ -1,0 +1,1 @@
+openat$rtc(0xffffff9c, &(0x7f0000000640)='/dev/rtc0\x00', 0x185802, 0x0)

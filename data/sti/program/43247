@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000300)='./file0\x00', 0x0)
+ioctl$FS_IOC_FSSETXATTR(r0, 0x401c5820, &(0x7f0000000040)={0x98})

@@ -1,0 +1,4 @@
+syz_mount_image$msdos(0x0, &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = open_tree(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)
+rmdir(&(0x7f0000000200)='./file0\x00')
+openat$cgroup_ro(r0, &(0x7f0000000100)='memory.current\x00', 0x0, 0x0)

@@ -1,0 +1,5 @@
+ioctl$SNAPSHOT_SET_SWAP_AREA(0xffffffffffffffff, 0x400c330d, &(0x7f0000000500)={0x0, 0x400})
+r0 = openat$snapshot(0xffffff9c, &(0x7f0000000040)='/dev/snapshot\x00', 0x40000, 0x0)
+ioctl$SNAPSHOT_FREE(r0, 0x3305)
+timerfd_create(0x0, 0x0)
+clock_gettime(0x6, 0x0)

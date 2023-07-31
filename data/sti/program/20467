@@ -1,0 +1,1 @@
+fchownat(0xffffffffffffff9c, &(0x7f0000000240)='\x00', 0xffffffffffffffff, 0xee01, 0x1000)

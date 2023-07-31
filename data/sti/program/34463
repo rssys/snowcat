@@ -1,0 +1,2 @@
+r0 = openat$cuse(0xffffff9c, &(0x7f0000002100)='/dev/cuse\x00', 0x2, 0x0)
+write$FUSE_NOTIFY_DELETE(r0, &(0x7f0000000200)=ANY=[@ANYBLOB="2e00000006"], 0x2e)

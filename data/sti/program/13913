@@ -1,0 +1,3 @@
+r0 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00', 0xffffffffffffffff)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_SET_PMK(r1, &(0x7f0000000740)={0x0, 0x0, &(0x7f0000000700)={&(0x7f0000000680)={0x48, r0, 0x1, 0x0, 0x0, {{}, {@void, @void}}, [@NL80211_ATTR_MAC={0xa, 0x6, @broadcast}, @NL80211_ATTR_PMK={0x14, 0xfe, "fba595db72a11dec29a176b17c71f5f1"}, @NL80211_ATTR_PMKR0_NAME={0x14, 0x102, "d7b12abdf8b3dcd73e4172ad1e6aa6ba"}]}, 0x48}}, 0x0)

@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x42bc, &(0x7f0000000080))
+io_uring_register$IORING_REGISTER_EVENTFD(r0, 0x3, &(0x7f0000000100), 0x1)

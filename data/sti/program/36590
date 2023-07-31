@@ -1,0 +1,1 @@
+syz_open_dev$sg(&(0x7f0000001900)='/dev/sg#\x00', 0x7c, 0x0)

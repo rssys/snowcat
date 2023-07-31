@@ -1,0 +1,1 @@
+openat$sysctl(0xffffff9c, &(0x7f0000004000)='/proc/sys/net/ipv4/tcp_window_scaling\x00', 0x1, 0x0)

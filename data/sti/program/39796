@@ -1,0 +1,4 @@
+mknodat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+r0 = openat$dir(0xffffffffffffff9c, &(0x7f0000000100)='./file0\x00', 0x0, 0x0)
+fsetxattr$trusted_overlay_redirect(r0, &(0x7f0000000140)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)
+lsetxattr$security_capability(&(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='security.capability\x00', &(0x7f0000001180)=@v2, 0x14, 0x0)

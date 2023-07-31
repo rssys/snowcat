@@ -1,0 +1,1 @@
+openat$mixer(0xffffff9c, &(0x7f00000080c0)='/dev/mixer\x00', 0x840, 0x0)

@@ -1,0 +1,2 @@
+syz_mount_image$tmpfs(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f00000017c0)='./file0\x00', &(0x7f0000001800)='9p\x00', 0x1, &(0x7f0000001880)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[{@version_u='version=9p2000.u'}, {@version_9p2000='version=9p2000'}], [{@fscontext={'fscontext', 0x3d, 'unconfined_u'}}, {@defcontext={'defcontext', 0x3d, 'unconfined_u'}}]}})

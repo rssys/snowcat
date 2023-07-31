@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vim2m(&(0x7f00000015c0)='/dev/video#\x00', 0x3, 0x2)
+ioctl$vim2m_VIDIOC_S_FMT(r0, 0x802c560a, &(0x7f0000001ec0)={0x0, @sliced})

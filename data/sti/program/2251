@@ -1,0 +1,3 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000440)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+chroot(&(0x7f0000000040)='./file0\x00')
+rmdir(&(0x7f0000000000)='./file0\x00')

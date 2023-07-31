@@ -1,0 +1,5 @@
+r0 = openat$sndtimer(0xffffffffffffff9c, &(0x7f0000000080)='/dev/snd/timer\x00', 0x2ad02)
+ioctl$SNDRV_TIMER_IOCTL_SELECT(r0, 0x40345410, &(0x7f0000000040)={{0x1}})
+ioctl$SNDRV_TIMER_IOCTL_STATUS64(r0, 0x5422, 0x0)
+syz_genetlink_get_family_id$mptcp(&(0x7f00000018c0)='mptcp_pm\x00')
+read$snapshot(r0, &(0x7f0000001900)=""/4096, 0x1000)

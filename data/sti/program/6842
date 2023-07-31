@@ -1,0 +1,2 @@
+mkdir(&(0x7f0000000000)='./file1\x00', 0x0)
+lsetxattr$security_ima(0x0, &(0x7f0000000140)='security.ima\x00', 0x0, 0x0, 0x0)

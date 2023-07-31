@@ -1,0 +1,2 @@
+r0 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+ioctl$EXT4_IOC_MOVE_EXT(r0, 0xc028660f, &(0x7f0000000180)={0x0, r0})

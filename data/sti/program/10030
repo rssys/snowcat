@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+fsetxattr$security_ima(r0, &(0x7f00000012c0)='security.ima\x00', &(0x7f0000001300), 0x1, 0x0)

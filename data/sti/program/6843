@@ -1,0 +1,6 @@
+r0 = openat$vcsu(0xffffffffffffff9c, &(0x7f0000000240)='/dev/vcsu\x00', 0x0, 0x0)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$DEVLINK_CMD_TRAP_GROUP_GET(r1, &(0x7f0000000a40)={0x0, 0x0, &(0x7f0000000a00)={0x0, 0xcc}}, 0x0)
+ioctl$SNDRV_TIMER_IOCTL_START(r0, 0x54a0)
+syz_mount_image$nfs4(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$security_selinux(&(0x7f0000000140)='./file0\x00', &(0x7f0000000180)='security.selinux\x00', &(0x7f00000001c0)='unconfined_u:system_r:insmod_t:s0-s0:c0.c1023\x00', 0x55b, 0x0)

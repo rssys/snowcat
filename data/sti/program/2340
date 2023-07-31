@@ -1,0 +1,2 @@
+r0 = open(&(0x7f0000000000)='./file0\x00', 0x4a0c0, 0x0)
+ioctl$CHAR_RAW_DISCARD(r0, 0x401c5820, 0x0)

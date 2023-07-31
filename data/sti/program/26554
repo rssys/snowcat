@@ -1,0 +1,2 @@
+syz_80211_inject_frame(&(0x7f00000000c0)=@device_b, &(0x7f0000000100)=@ctrl_frame=@cts, 0xa)
+syz_80211_inject_frame(&(0x7f0000000140)=@device_b, &(0x7f0000000280)=@ctrl_frame=@ba={{}, {}, @broadcast, @broadcast, @basic={{}, {}, "a555a640dfefbd960c0064ef28da6ef9d9b0828981cbddab142edfaf261cb1db8d29149ccfda14ab8f1446eb65045b07330aba7790f50ed4e375c8815874605d34dd4e656de1126ff3724915a056cc9ad30b1f81f9158c51cd92e3a62892cac7fb05fe0e0d4180bcf2d444ac2d4db42ad44b235bab548a33547114f5898ea78c"}}, 0x94)

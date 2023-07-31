@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$l2tp(&(0x7f0000000500)='l2tp\x00', 0xffffffffffffffff)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$L2TP_CMD_NOOP(r0, &(0x7f000000a880)={0x0, 0x0, &(0x7f000000a840)={0x0}}, 0x0)

@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$wireguard(&(0x7f0000000640)='wireguard\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000d00)='devlink\x00', 0xffffffffffffffff)

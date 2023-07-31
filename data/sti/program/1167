@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/ipv6_route\x00')
+read(r0, &(0x7f0000000140)=""/157, 0x9d)

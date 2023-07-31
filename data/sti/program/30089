@@ -1,0 +1,8 @@
+syz_mount_image$ubifs(0x0, &(0x7f0000000a40)='./file0\x00', 0x0, 0x0, 0x0, 0x200090, &(0x7f0000000c80)={[{@compr_zlib='compr=zlib'}], [{@subj_user={'subj_user', 0x3d, 'ubifs\x00'}}]})
+syz_mount_image$jffs2(&(0x7f0000000000)='jffs2\x00', &(0x7f0000000040)='./file0/file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = open$dir(&(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+r1 = open$dir(&(0x7f0000000040)='.\x00', 0x0, 0x0)
+renameat2(r1, &(0x7f0000000140)='./file0\x00', r1, &(0x7f00000002c0)='./file1\x00', 0x4)
+renameat2(r1, &(0x7f0000000200)='./file0\x00', r0, &(0x7f0000000240)='./file0\x00', 0x2)
+r2 = open$dir(&(0x7f0000000040)='.\x00', 0x0, 0x0)
+renameat2(r2, &(0x7f0000000140)='./file0\x00', r2, &(0x7f00000002c0)='./file1\x00', 0x4)

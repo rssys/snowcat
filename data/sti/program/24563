@@ -1,0 +1,2 @@
+r0 = getpgrp(0xffffffffffffffff)
+process_vm_readv(r0, &(0x7f0000001000)=[{&(0x7f0000000000)=""/4096, 0x1000}], 0x1, &(0x7f0000001080)=[{&(0x7f0000001040)=""/42, 0x7ffff000}], 0x1, 0x0)

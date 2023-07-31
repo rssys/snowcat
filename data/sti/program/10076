@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$wireguard(&(0x7f0000000400)='wireguard\x00', 0xffffffffffffffff)
+socketpair(0x11, 0xa, 0x0, &(0x7f0000001fc0))
+socketpair(0x23, 0x2, 0x0, &(0x7f0000002280))

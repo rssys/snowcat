@@ -1,0 +1,2 @@
+io_uring_setup(0x452c, &(0x7f0000000040)={0x0, 0x6a8d})
+ioctl$PPPIOCSCOMPRESS(0xffffffffffffffff, 0x400c744d)

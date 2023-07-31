@@ -1,0 +1,7 @@
+ioctl$SNDRV_PCM_IOCTL_SW_PARAMS(0xffffffffffffffff, 0xc0684113, 0x0)
+write$P9_RXATTRCREATE(0xffffffffffffffff, &(0x7f00000001c0)={0x7}, 0x7)
+ioctl$DRM_IOCTL_MODE_CREATE_LEASE(0xffffffffffffffff, 0xc01864c6, 0x0)
+ioctl$SNDRV_PCM_IOCTL_HW_PARAMS_OLD(0xffffffffffffffff, 0xc0fc4111, 0x0)
+ioctl$DRM_IOCTL_PRIME_HANDLE_TO_FD(0xffffffffffffffff, 0xc00c642d, 0x0)
+r0 = openat$adsp1(0xffffff9c, &(0x7f0000000440)='/dev/adsp1\x00', 0x0, 0x0)
+ioctl$SNDCTL_DSP_GETBLKSIZE(r0, 0xc0045004, &(0x7f0000000480))

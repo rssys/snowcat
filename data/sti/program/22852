@@ -1,0 +1,1 @@
+openat$vfio(0xffffff9c, &(0x7f0000000600)='/dev/vfio/vfio\x00', 0x400, 0x0)

@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$devlink(&(0x7f0000000240)='devlink\x00', 0xffffffffffffffff)
+socketpair(0x0, 0x0, 0x0, 0x0)

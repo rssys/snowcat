@@ -1,0 +1,8 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+write$P9_RLERRORu(r0, &(0x7f0000000040)={0x10, 0x7, 0x0, {{0x3, ',^%'}}}, 0xfffffdef)
+write$P9_RLERRORu(r0, &(0x7f0000000140)=ANY=[@ANYBLOB="1000000007840003004b5e2500000000545d353cc838e04a91c063"], 0x10)
+r1 = fsmount(0xffffffffffffffff, 0x0, 0x0)
+setsockopt$inet_udp_int(0xffffffffffffffff, 0x11, 0x67, 0x0, 0x0)
+openat$nvram(0xffffffffffffff9c, &(0x7f0000000000)='/dev/nvram\x00', 0x82, 0x0)
+socket$inet_icmp_raw(0x2, 0x3, 0x1)
+ioctl$FS_IOC_SET_ENCRYPTION_POLICY(r1, 0x800c6613, &(0x7f0000000080)=@v1={0x0, @aes128, 0x0, "6c715ddd62039421"})

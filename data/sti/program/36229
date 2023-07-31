@@ -1,0 +1,4 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='net/arp\x00')
+fcntl$setlease(r0, 0x400, 0x0)
+r1 = syz_open_procfs(0x0, &(0x7f0000000000)='net/raw\x00')
+dup3(r1, r0, 0x0)

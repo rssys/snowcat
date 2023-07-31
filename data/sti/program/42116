@@ -1,0 +1,4 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_redirect(&(0x7f0000000500)='./file0\x00', &(0x7f0000000540)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)
+setxattr$security_evm(&(0x7f0000000600)='./file0\x00', &(0x7f0000000640)='security.evm\x00', 0x0, 0x0, 0x0)
+lsetxattr$security_smack_transmute(&(0x7f0000001fc0)='./file0\x00', &(0x7f0000002000)='security.SMACK64TRANSMUTE\x00', 0x0, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$usbmon(&(0x7f00000002c0)='/dev/usbmon#\x00', 0x0, 0x0)
+ioctl$MON_IOCG_STATS(r0, 0x80089203, 0x0)

@@ -1,0 +1,5 @@
+fork()
+ioctl$CHAR_RAW_BSZSET(0xffffffffffffffff, 0x40041271, &(0x7f0000000000))
+fork()
+pipe(&(0x7f0000000040))
+fork()

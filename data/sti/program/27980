@@ -1,0 +1,5 @@
+ioctl$SNDRV_TIMER_IOCTL_GINFO(0xffffffffffffffff, 0xc0f85403, 0x0)
+r0 = syz_open_dev$evdev(&(0x7f0000000000)='/dev/input/event#\x00', 0x0, 0x121c02)
+write$evdev(r0, &(0x7f0000000040)=[{{0x0, 0x2710}}], 0xfffffdef)
+ioctl$EVIOCGKEY(0xffffffffffffffff, 0x80404518, &(0x7f0000000200)=""/228)
+ioctl$EVIOCGSW(r0, 0x8040451b, &(0x7f0000000080)=""/172)

@@ -1,0 +1,2 @@
+r0 = openat$zero(0xffffffffffffff9c, &(0x7f00000043c0)='/dev/zero\x00', 0x0, 0x0)
+fcntl$F_SET_FILE_RW_HINT(r0, 0x40c, &(0x7f0000000340))

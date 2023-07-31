@@ -1,0 +1,4 @@
+r0 = socket$inet_udp(0x2, 0x2, 0x0)
+ioctl$sock_SIOCGIFINDEX(r0, 0x8933, &(0x7f0000000180)={'sit0\x00', <r1=>0x0})
+r2 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_inet6_SIOCSIFADDR(r2, 0x8936, &(0x7f00000001c0)={@remote, 0x0, r1})

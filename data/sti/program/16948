@@ -1,0 +1,3 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+ioctl$TIOCL_PASTESEL(0xffffffffffffffff, 0x541c, 0x0)
+write$binfmt_script(r0, &(0x7f0000000cc0)={'#! ', './file0', [{0x20, ')\b\\{'}], 0xa, "37d66bee9f5d571caa0a72a74fb473150d"}, 0x21)

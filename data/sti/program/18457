@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+write$binfmt_script(r0, &(0x7f0000002140)={'#! ', './file0', [{0x20, 'rr\x00'}, {0x20, 'rr\x00'}]}, 0x13)
+ioctl$FS_IOC_RESVSP(r0, 0x40305828, &(0x7f0000000080)={0x0, 0x0, 0x0, 0xffffffff000})
+creat(&(0x7f0000000100)='./file0\x00', 0x0)

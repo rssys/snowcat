@@ -1,0 +1,5 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/snd/seq\x00', 0x1)
+ioctl$SNDRV_SEQ_IOCTL_CREATE_QUEUE(r0, 0xc08c5332, &(0x7f0000000000)={0x0, 0x0, 0x0, 'queue0\x00'})
+write$sndseq(r0, &(0x7f0000000100)=[{0x0, 0x0, 0x0, 0x0, @tick, {}, {0x0, 0x8}, @control}], 0xfffffe66)
+ioctl$SNDRV_SEQ_IOCTL_REMOVE_EVENTS(r0, 0x4040534e, &(0x7f0000000140)={0x0, @tick=0x2, 0x7, {0x57, 0x17}, 0x40, 0x0, 0x83})
+syz_mount_image$fuse(0x0, 0x0, 0x0, 0x0, 0x0, 0x4, &(0x7f0000004a80)=ANY=[@ANYBLOB='fd=', @ANYRESHEX, @ANYBLOB=',rootmode=00000000000000000020000,user_id=', @ANYRESDEC=0x0, @ANYBLOB=',group_id=', @ANYRESDEC=0x0, @ANYBLOB="2c626c6b73697a65ed8b0621852714a83d3030303130303030302ceb4e6c55616c6c6f85735f6f746865722c64656661756c745f7065726d697373696f6e73", @ANYRESDEC=0x0, @ANYBLOB=',\x00'])

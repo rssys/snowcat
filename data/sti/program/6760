@@ -1,0 +1,2 @@
+r0 = socket$qrtr(0x2a, 0x2, 0x0)
+ioctl$sock_qrtr_TIOCINQ(r0, 0x541b, &(0x7f0000000300))

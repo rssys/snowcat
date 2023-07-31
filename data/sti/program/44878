@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000200)='net/ip_vs\x00')
+preadv(r0, &(0x7f0000000280)=[{&(0x7f00000000c0)=""/192, 0xc0}], 0x1, 0x5, 0x0)

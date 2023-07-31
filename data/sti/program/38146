@@ -1,0 +1,2 @@
+r0 = syz_open_dev$cec(&(0x7f0000002b00)='/dev/cec#\x00', 0x1, 0x2)
+ioctl$VIDIOC_S_AUDIO(r0, 0x40345622, 0x0)

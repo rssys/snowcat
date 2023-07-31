@@ -1,0 +1,1 @@
+syz_mount_image$msdos(&(0x7f0000009f80)='msdos\x00', &(0x7f0000009fc0)='./file0\x00', 0x0, 0x0, 0x0, 0x2180002, &(0x7f000000a400))

@@ -1,0 +1,2 @@
+pipe2$9p(&(0x7f00000005c0)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x84800)
+write$P9_RREADLINK(r0, 0x0, 0x0)

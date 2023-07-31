@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f00000001c0)='./file0\x00', 0x0)
+write$6lowpan_enable(r0, &(0x7f0000000200)='1', 0x1)

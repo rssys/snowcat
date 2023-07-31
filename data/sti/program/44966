@@ -1,0 +1,7 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/snd/seq\x00', 0x1)
+ioctl$SNDRV_SEQ_IOCTL_CREATE_QUEUE(r0, 0xc08c5332, &(0x7f0000000000)={0x0, 0x0, 0x0, 'queue0\x00'})
+write$sndseq(r0, &(0x7f0000000100)=[{0x0, 0x0, 0x0, 0x0, @tick, {}, {}, @control}], 0xfffffe66)
+write$FUSE_STATFS(0xffffffffffffffff, &(0x7f0000002880)={0x60, 0x0, 0x0, {{0xffffffffffffffff, 0x5bd0dd66, 0x4, 0x0, 0xbcbd, 0x0, 0x40, 0xffffffff}}}, 0x60)
+ioctl$FUSE_DEV_IOC_CLONE(0xffffffffffffffff, 0x8004e500, &(0x7f0000002940))
+r1 = openat$fuse(0xffffff9c, &(0x7f0000002980)='/dev/fuse\x00', 0x2, 0x0)
+syz_mount_image$fuse(&(0x7f00000029c0)='fuse\x00', &(0x7f0000002a00)='./file0\x00', 0x0, 0x0, 0x0, 0x4, &(0x7f0000004a80)={{'fd', 0x3d, r1}, 0x2c, {'rootmode', 0x3d, 0x2000}, 0x2c, {'user_id'}, 0x2c, {'group_id'}, 0x2c, {[{@blksize={'blksize', 0x3d, 0x1e00}}, {@max_read={'max_read', 0x3d, 0x10000}}, {@allow_other='allow_other'}, {@default_permissions='default_permissions'}, {@max_read={'max_read', 0x3d, 0xb0}}, {@blksize={'blksize', 0x3d, 0xe00}}, {@allow_other='allow_other'}], [{@uid_lt={'uid<'}}, {@smackfshat={'smackfshat', 0x3d, '(\\\'}:,'}}, {@smackfstransmute={'smackfstransmute', 0x3d, 'euid<'}}]}})

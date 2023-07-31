@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000002100)='./file0\x00', 0x0)
+write$RDMA_USER_CM_CMD_LISTEN(r0, &(0x7f0000002140)={0x7, 0x8}, 0x10)

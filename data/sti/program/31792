@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/psched\x00')
+syz_mount_image$zonefs(0x0, &(0x7f0000000180)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='9p\x00', 0x0, &(0x7f0000000180)={'trans=fd,', {'rfdno', 0x3d, r0}, 0x2c, {'wfdno', 0x3d, r0}, 0x2c, {[{@cache_loose='cache=loose'}, {@uname={'uname', 0x3d, '\xc9\'}\x8e{+%-'}}, {@cache_loose='cache=loose'}], [{@euid_gt={'euid>'}}]}})

@@ -1,0 +1,2 @@
+r0 = openat$cachefiles(0xffffff9c, &(0x7f0000000080)='/dev/cachefiles\x00', 0x0, 0x0)
+read$FUSE(r0, 0x0, 0x0)

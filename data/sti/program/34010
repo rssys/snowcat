@@ -1,0 +1,2 @@
+symlink(&(0x7f0000000280)='./file0\x00', &(0x7f00000002c0)='./file0\x00')
+lsetxattr$trusted_overlay_upper(&(0x7f0000000100)='./file0\x00', &(0x7f0000000140)='trusted.overlay.upper\x00', &(0x7f0000000180)={0x0, 0xfb, 0x39, 0x0, 0x0, "fba805d7bdd1e165c808dc857f3a33ae", "5056820fc9e8289f1ad502b941f53af44ee9fe5221bebd4482b99e8f9046cd5eede2b1f9"}, 0x39, 0x0)

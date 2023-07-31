@@ -1,0 +1,3 @@
+mknod(&(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+lsetxattr$security_evm(&(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='security.evm\x00', 0x0, 0x0, 0x0)
+setxattr$security_evm(&(0x7f0000000240)='./file0\x00', &(0x7f0000000280)='security.evm\x00', 0x0, 0x0, 0x0)

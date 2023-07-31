@@ -1,0 +1,2 @@
+r0 = openat$cuse(0xffffff9c, &(0x7f0000004380)='/dev/cuse\x00', 0x2, 0x0)
+write$FUSE_ENTRY(r0, 0x0, 0x0)

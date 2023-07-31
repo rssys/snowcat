@@ -1,0 +1,2 @@
+ioctl$SNDRV_RAWMIDI_IOCTL_PARAMS(0xffffffffffffffff, 0xc0205710, &(0x7f0000000000))
+getresuid(&(0x7f0000000300), &(0x7f0000000340), &(0x7f0000000380))

@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f0000000180)='keyring\x00', &(0x7f00000003c0)={'syz', 0x0}, 0x0, 0x0, 0xffffffffffffffff)
+add_key(&(0x7f0000000100)='encrypted\x00', &(0x7f0000000140)={'syz', 0x2}, &(0x7f00000002c0)="de453c399d3f8ae65cb2077cd3594e66631109", 0x13, r0)

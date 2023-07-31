@@ -1,0 +1,5 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+r1 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+write$cgroup_pid(r1, &(0x7f0000000240), 0xb05ad06)
+fsetxattr$security_ima(r1, &(0x7f0000000040)='security.ima\x00', 0x0, 0x0, 0x0)
+dup2(r0, r1)

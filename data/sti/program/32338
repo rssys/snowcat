@@ -1,0 +1,5 @@
+getsockopt$bt_l2cap_L2CAP_OPTIONS(0xffffffffffffffff, 0x6, 0x1, 0x0, &(0x7f0000000080))
+syz_genetlink_get_family_id$smc(&(0x7f0000000340)='SMC_PNETID\x00', 0xffffffffffffffff)
+r0 = openat$kvm(0xffffff9c, &(0x7f00000003c0)='/dev/kvm\x00', 0x0, 0x0)
+ioctl$KVM_CREATE_VM(r0, 0xae01, 0x0)
+syz_init_net_socket$bt_l2cap(0x1f, 0x0, 0x0)

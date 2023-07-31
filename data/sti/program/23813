@@ -1,0 +1,2 @@
+r0 = openat$sndtimer(0xffffffffffffff9c, &(0x7f0000003680)='/dev/snd/timer\x00', 0x0)
+ioctl$SNDRV_TIMER_IOCTL_PVERSION(r0, 0x80045400, &(0x7f0000000040))

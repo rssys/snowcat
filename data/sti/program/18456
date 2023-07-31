@@ -1,0 +1,2 @@
+dup2(0xffffffffffffffff, 0xffffffffffffffff)
+openat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x40, 0x0)

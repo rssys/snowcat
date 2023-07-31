@@ -1,0 +1,2 @@
+mkdirat(0xffffffffffffff9c, &(0x7f00000003c0)='./file0\x00', 0x0)
+rmdir(&(0x7f0000000040)='./file0\x00')

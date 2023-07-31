@@ -1,0 +1,2 @@
+r0 = socket$isdn_base(0x22, 0x3, 0x0)
+ioctl$sock_SIOCGIFCONF(r0, 0x8912, &(0x7f0000000c40)=@req={0x20, &(0x7f0000000c00)={'bond0\x00', @ifru_data=0x0}})

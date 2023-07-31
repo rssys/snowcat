@@ -1,0 +1,4 @@
+r0 = io_uring_setup(0x302b, &(0x7f0000000040))
+r1 = io_uring_setup(0x2fae, &(0x7f0000000080))
+io_uring_register$IORING_REGISTER_PERSONALITY(r1, 0x9, 0x0, 0x0)
+dup2(r0, r1)

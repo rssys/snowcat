@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$gtp(&(0x7f000000a1c0)='gtp\x00', 0xffffffffffffffff)
+sendmsg$GTP_CMD_DELPDP(r0, &(0x7f000000a480)={0x0, 0x0, &(0x7f000000a440)={&(0x7f0000000300)=ANY=[@ANYBLOB='$\x00\x00\x00', @ANYRES16=r1, @ANYBLOB='A'], 0x24}}, 0x0)

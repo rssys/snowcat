@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_SIOCSIFVLAN_SET_VLAN_INGRESS_PRIORITY_CMD(r0, 0x8983, &(0x7f0000005f80)={0x2, 'vlan1\x00'})

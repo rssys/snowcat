@@ -1,0 +1,4 @@
+r0 = syz_open_dev$dri(&(0x7f0000000040)='/dev/dri/card#\x00', 0x0, 0x0)
+r1 = syz_open_dev$dri(&(0x7f0000000640)='/dev/dri/card#\x00', 0x0, 0x0)
+ioctl$DRM_IOCTL_MODE_CREATE_DUMB(r1, 0xc02064b2, &(0x7f00000007c0)={0x81, 0x7, 0xf5d5, 0x0, <r2=>0x0})
+ioctl$DRM_IOCTL_MODE_DESTROY_DUMB(r0, 0xc00464b4, &(0x7f0000000800)={r2})

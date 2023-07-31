@@ -1,0 +1,3 @@
+pipe(&(0x7f0000000a00)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+r1 = openat$urandom(0xffffffffffffff9c, &(0x7f0000000100)='/dev/urandom\x00', 0x0, 0x0)
+splice(r1, &(0x7f0000000040), r0, 0x0, 0x7ff, 0x0)

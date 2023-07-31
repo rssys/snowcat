@@ -1,0 +1,1 @@
+setxattr$trusted_overlay_origin(&(0x7f00000000c0)='.\x00', &(0x7f0000000100)='trusted.overlay.origin\x00', &(0x7f0000000140)='y\x00', 0x2, 0x0)

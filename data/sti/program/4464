@@ -1,0 +1,2 @@
+r0 = openat$uinput(0xffffff9c, &(0x7f00000000c0)='/dev/uinput\x00', 0x0, 0x0)
+ioctl$UI_SET_ABSBIT(r0, 0x4004556c, 0x0)

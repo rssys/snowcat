@@ -1,0 +1,2 @@
+r0 = inotify_init()
+ioctl$PERF_EVENT_IOC_REFRESH(r0, 0x541b, 0xb70000)

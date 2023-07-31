@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$IEEE802154_LLSEC_SETPARAMS(r0, &(0x7f00000000c0)={0x0, 0x0, &(0x7f0000000080)={0x0}}, 0x0)
+r1 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$net_dm(&(0x7f0000000900)='NET_DM\x00', r1)

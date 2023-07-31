@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000080)='net/route\x00')
+readv(r0, &(0x7f0000000000)=[{&(0x7f00000002c0)=""/244, 0x200003b4}], 0x1)
+lseek(r0, 0x2, 0x1)

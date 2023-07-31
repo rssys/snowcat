@@ -1,0 +1,2 @@
+r0 = add_key(&(0x7f0000000000)='id_legacy\x00', &(0x7f0000000040)={'syz', 0x3}, &(0x7f0000000100)='L', 0x1, 0xfffffffffffffffc)
+keyctl$chown(0x4, r0, 0xee00, 0xffffffffffffffff)

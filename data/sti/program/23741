@@ -1,0 +1,2 @@
+creat(&(0x7f0000001980)='./file0\x00', 0x0)
+syz_genetlink_get_family_id$ethtool(&(0x7f00000029c0)='ethtool\x00', 0xffffffffffffffff)

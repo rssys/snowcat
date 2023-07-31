@@ -1,0 +1,1 @@
+syz_open_dev$cec(&(0x7f0000000480)='/dev/cec#\x00', 0x2, 0x2)

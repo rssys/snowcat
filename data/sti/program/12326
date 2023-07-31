@@ -1,0 +1,2 @@
+mkdir(&(0x7f00000000c0)='./file0\x00', 0x0)
+lsetxattr$security_evm(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='security.evm\x00', &(0x7f0000000100)=@v1={0x2, 'FsZ&\x00\x00\x00\x00'}, 0x9, 0x0)

@@ -1,0 +1,2 @@
+pipe(&(0x7f0000000040)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+fcntl$addseals(r0, 0x407, 0x3000000)

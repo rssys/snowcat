@@ -1,0 +1,2 @@
+r0 = syz_open_dev$loop(&(0x7f0000000000)='/dev/loop#\x00', 0x0, 0x0)
+ioctl$IOC_PR_RELEASE(r0, 0x1276, 0x0)

@@ -1,0 +1,4 @@
+r0 = syz_open_dev$vcsn(0x0, 0x0, 0x0)
+io_uring_setup(0x5ec5, &(0x7f0000000000))
+ioctl$SNDRV_TIMER_IOCTL_INFO(r0, 0x80e05411, 0x0)
+io_uring_setup(0x5ec1, &(0x7f0000000000))

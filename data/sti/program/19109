@@ -1,0 +1,3 @@
+epoll_create(0x0)
+ioctl$DRM_IOCTL_MODE_GETPLANE(0xffffffffffffffff, 0xc02064b6, 0x0)
+syz_io_uring_setup(0x14e, &(0x7f0000000400), &(0x7f0000ffd000/0x1000)=nil, &(0x7f0000fff000/0x1000)=nil, &(0x7f0000000480), &(0x7f00000004c0))

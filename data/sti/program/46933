@@ -1,0 +1,3 @@
+r0 = openat$random(0xffffffffffffff9c, &(0x7f0000000040)='/dev/urandom\x00', 0x0, 0x0)
+r1 = openat$ttyS3(0xffffffffffffff9c, &(0x7f0000000080)='/dev/ttyS3\x00', 0x103000, 0x0)
+dup2(r0, r1)

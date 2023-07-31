@@ -1,0 +1,1 @@
+syz_mount_image$nfs4(&(0x7f0000000c80)='nfs4\x00', &(0x7f0000000cc0)='./file0\x00', 0x0, 0x0, 0x0, 0x20, &(0x7f0000001ec0))

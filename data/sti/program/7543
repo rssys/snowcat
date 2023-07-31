@@ -1,0 +1,2 @@
+msgctl$MSG_INFO(0x0, 0xc, &(0x7f0000001180)=""/64)
+msgctl$MSG_STAT(0x0, 0xb, &(0x7f0000001280)=""/151)

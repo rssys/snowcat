@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+write$cgroup_pid(r0, &(0x7f0000000040), 0xfffffee3)
+fcntl$addseals(r0, 0x409, 0x0)
+creat(&(0x7f0000000000)='./file0\x00', 0x0)

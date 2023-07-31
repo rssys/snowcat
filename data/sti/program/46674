@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nfc_llcp(0x27, 0x3, 0x1)
+bind$nfc_llcp(r0, &(0x7f0000000000)={0x27, 0x0, 0x0, 0x0, 0x0, 0x0, "08f9ee65c52992e6c4ff858e7bd8383314dc445c31dd0484845240aa20b15ddc1f5bfbd6d6b1ca8d2ef4eac1f58b224d2d525e8df9732221f0b83b94076f09"}, 0x58)
+r1 = openat$vim2m(0xffffff9c, &(0x7f0000000080)='/dev/vim2m\x00', 0x2, 0x0)
+dup2(r1, r0)

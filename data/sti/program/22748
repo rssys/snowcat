@@ -1,0 +1,4 @@
+r0 = openat$binder_debug(0xffffff9c, &(0x7f0000000000)='/sys/kernel/debug/binder/failed_transaction_log\x00', 0x0, 0x0)
+close(r0)
+syz_open_dev$tty20(0xc, 0x4, 0x1)
+write$qrtrtun(r0, &(0x7f0000001b40)="49004db9f806e51b04f0532af644", 0xe)

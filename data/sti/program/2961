@@ -1,0 +1,1 @@
+syz_mount_image$squashfs(0x0, &(0x7f00000040c0)='./file1\x00', 0x0, 0x0, 0x0, 0x60000, &(0x7f0000004900)={[{'hash'}, {'staff_u'}], [{@smackfsroot={'smackfsroot', 0x3d, 'smackfsroot'}}]})

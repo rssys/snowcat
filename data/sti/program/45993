@@ -1,0 +1,4 @@
+syz_open_dev$sndpcmp(&(0x7f00000031c0)='/dev/snd/pcmC#D#p\x00', 0x7fffffff, 0x0)
+syz_open_dev$sndpcmp(&(0x7f0000003240)='/dev/snd/pcmC#D#p\x00', 0x4, 0x2000)
+syz_genetlink_get_family_id$nl802154(0x0, 0xffffffffffffffff)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

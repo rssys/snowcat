@@ -1,0 +1,2 @@
+setreuid(0xffffffffffffffff, 0xee01)
+shmctl$SHM_UNLOCK(0x0, 0xc)

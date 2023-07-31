@@ -1,0 +1,2 @@
+setresuid(0x0, 0xee00, 0x0)
+symlinkat(&(0x7f0000000000)='./file0\x00', 0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00')

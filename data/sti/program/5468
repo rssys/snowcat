@@ -1,0 +1,6 @@
+ioctl$PTP_SYS_OFFSET_EXTENDED(0xffffffffffffffff, 0xc4c03d09, 0x0)
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+sendmsg$sock(r0, &(0x7f0000000cc0)={0x0, 0x0, 0x0, 0x0, &(0x7f0000000c80)=[@timestamping={{0x10}}, @txtime={{0x14}}], 0x24}, 0x0)
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000d00)='ethtool\x00', 0xffffffffffffffff)
+ioctl$sock_ipv6_tunnel_SIOCCHGTUNNEL(0xffffffffffffffff, 0x89f3, 0x0)
+openat$ipvs(0xffffff9c, &(0x7f0000001c00)='/proc/sys/net/ipv4/vs/sync_threshold\x00', 0x2, 0x0)

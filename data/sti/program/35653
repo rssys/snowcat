@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000340)='net/fib_trie\x00')
+pread64(r0, &(0x7f00000001c0)=""/184, 0xb8, 0x14)

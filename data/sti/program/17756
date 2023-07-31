@@ -1,0 +1,2 @@
+r0 = openat$vcs(0xffffff9c, &(0x7f0000000100)='/dev/vcs\x00', 0x20102, 0x0)
+write$P9_RRENAMEAT(r0, &(0x7f0000000140)={0x7}, 0x1800)

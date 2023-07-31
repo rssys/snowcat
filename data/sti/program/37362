@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$wireguard(&(0x7f00000002c0)='wireguard\x00', 0xffffffffffffffff)
+fork()

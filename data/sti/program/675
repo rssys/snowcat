@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$bt_sco(0x1f, 0x5, 0x2)
+connect$bt_sco(r0, &(0x7f0000000000), 0x8)
+r1 = dup2(r0, r0)
+setsockopt$RDS_GET_MR_FOR_DEST(r1, 0x114, 0xb, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = openat$ptmx(0xffffffffffffff9c, &(0x7f00000002c0)='/dev/ptmx\x00', 0x8840, 0x0)
+read$char_usb(r0, 0x0, 0x0)

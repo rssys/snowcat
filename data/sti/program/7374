@@ -1,0 +1,3 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000000)='/dev/vcsa#\x00', 0x0, 0x100202)
+getsockname$netlink(0xffffffffffffffff, 0x0, &(0x7f0000002300))
+write$cgroup_pid(r0, &(0x7f0000000040), 0x20000052)

@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+ioctl$sock_FIOGETOWN(r0, 0x8903, &(0x7f0000006000))

@@ -1,0 +1,2 @@
+ioctl$PERF_EVENT_IOC_PERIOD(0xffffffffffffffff, 0x40082404, &(0x7f0000000500))
+arch_prctl$ARCH_GET_GS(0x1004, &(0x7f0000000000))

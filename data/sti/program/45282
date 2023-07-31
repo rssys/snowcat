@@ -1,0 +1,3 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_ipv6_tunnel_SIOCADDPRL(0xffffffffffffffff, 0x89f5, &(0x7f0000000600)={'syztnl0\x00', 0x0})
+ioctl$sock_inet6_udp_SIOCINQ(r0, 0x541b, &(0x7f0000000000))

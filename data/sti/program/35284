@@ -1,0 +1,6 @@
+r0 = syz_open_dev$sg(&(0x7f0000000000)='/dev/sg#\x00', 0x0, 0xc8122)
+r1 = syz_open_procfs(0x0, &(0x7f0000000000)='net/raw\x00')
+r2 = fcntl$dupfd(r0, 0x0, r1)
+stat(&(0x7f00000000c0)='./cgroup/cgroup.procs\x00', &(0x7f0000000040)={0x0, 0x0, 0x0, 0x0, <r3=>0x0})
+setreuid(0x0, r3)
+ioctl$ifreq_SIOCGIFINDEX_team(r2, 0x31f, 0x0)

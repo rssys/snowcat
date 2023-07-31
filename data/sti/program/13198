@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$batadv(&(0x7f0000000100)='batadv\x00', 0xffffffffffffffff)
+r0 = openat$dsp1(0xffffff9c, &(0x7f0000000780)='/dev/dsp1\x00', 0x0, 0x0)
+ioctl$SNDCTL_DSP_SETFRAGMENT(r0, 0xc004500a, &(0x7f00000007c0))

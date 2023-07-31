@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+write$char_raw(r0, &(0x7f0000000200)={"c0fea0"}, 0x200)

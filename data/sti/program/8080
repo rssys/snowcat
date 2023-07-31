@@ -1,0 +1,5 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NLBL_CALIPSO_C_ADD(r0, &(0x7f0000000240)={0x0, 0x0, &(0x7f0000000200)={0x0}}, 0x0)
+r1 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_calipso(&(0x7f00000009c0)='NLBL_CALIPSO\x00', r1)

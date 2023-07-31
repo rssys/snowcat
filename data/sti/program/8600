@@ -1,0 +1,4 @@
+openat$dir(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x8c042, 0x0)
+r0 = openat$vcs(0xffffffffffffff9c, &(0x7f0000000000)='/dev/vcs\x00', 0x0, 0x0)
+r1 = openat$vcs(0xffffffffffffff9c, &(0x7f0000000100)='/dev/vcs\x00', 0x2, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000000)='./file0\x00', &(0x7f0000000080)='9p\x00', 0x0, &(0x7f0000000140)={'trans=fd,', {'rfdno', 0x3d, r0}, 0x2c, {'wfdno', 0x3d, r1}})

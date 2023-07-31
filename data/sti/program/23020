@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x1b2c, &(0x7f0000001080))
+fcntl$notify(r0, 0x402, 0x0)

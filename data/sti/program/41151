@@ -1,0 +1,7 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000100)='./file1\x00', 0x42, 0x0)
+close(r0)
+r1 = openat(0xffffffffffffff9c, &(0x7f0000000200)='./file1\x00', 0x2, 0x0)
+write$binfmt_script(r0, &(0x7f0000000000)=ANY=[], 0x100)
+close(r1)
+r2 = openat(0xffffffffffffff9c, &(0x7f0000000100)='./file1\x00', 0x0, 0x0)
+ioctl$FS_IOC_FSSETXATTR(r2, 0x40086602, &(0x7f0000000140))

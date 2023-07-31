@@ -1,0 +1,2 @@
+mknod$loop(&(0x7f0000000000)='./file0\x00', 0x312188ee19fe6e6c, 0x1)
+open$dir(&(0x7f0000000140)='./file0\x00', 0x0, 0x0)

@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$nl80211(0x0, 0xffffffffffffffff)
+r0 = socket$packet(0x11, 0x2, 0x300)
+ioctl$sock_SIOCGIFINDEX_80211(r0, 0x8933, &(0x7f00000010c0)={'wlan1\x00'})

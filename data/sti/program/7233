@@ -1,0 +1,4 @@
+r0 = socket$inet_tcp(0x2, 0x1, 0x0)
+r1 = syz_open_procfs(0x0, &(0x7f0000000040)='net/snmp6\x00')
+r2 = fcntl$dupfd(r1, 0x0, r0)
+read$ptp(r2, 0x0, 0x0)

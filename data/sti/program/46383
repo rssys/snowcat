@@ -1,0 +1,5 @@
+fork()
+syz_genetlink_get_family_id$gtp(&(0x7f00000008c0)='gtp\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$l2tp(0x0, 0xffffffffffffffff)
+ioctl$RTC_AIE_OFF(0xffffffffffffffff, 0x7002)
+pipe2$9p(0x0, 0x0)

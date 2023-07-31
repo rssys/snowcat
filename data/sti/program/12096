@@ -1,0 +1,2 @@
+r0 = syz_open_dev$loop(&(0x7f0000000200)='/dev/loop#\x00', 0x0, 0x0)
+ioctl$LOOP_SET_STATUS(r0, 0xc0481273, &(0x7f0000000240)={0x0, {}, 0x0, {}, 0x0, 0x12, 0x16, 0x0, "af2be334cffc3b6effc8bf862971d53e3c0ef8deb7cecb072d19519e05ff5dcf62ac216194da9753d50ab747ea9efd3d9ec5ad886048d1d551ed37b33d22337a", "6e204f36ac034c6a7aff0c248464b7ac72569ac2f31b10daee03230af529e3eb"})

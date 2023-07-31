@@ -1,0 +1,3 @@
+r0 = openat$nullb(0xffffff9c, &(0x7f0000000340)='/dev/nullb0\x00', 0x0, 0x0)
+ioctl$BLKIOMIN(r0, 0x125f, 0x0)
+ioctl$BLKSECDISCARD(r0, 0x127d, &(0x7f0000000000))

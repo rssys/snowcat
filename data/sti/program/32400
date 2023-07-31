@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_inet6_SIOCDELRT(r0, 0x890c, &(0x7f0000008e00)={@ipv4={[], [], @broadcast}, @ipv4={[], [], @broadcast}, @rand_addr=' \x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01'})

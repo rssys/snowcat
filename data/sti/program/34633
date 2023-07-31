@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+sendto$inet6(r0, &(0x7f0000000140)="4adce947404e9ef37515be99f6baceca9abfcc11cc4cf9361e3ae11001c8b4846e494d3fb8275fa5111ab5c884c5ab804b3c19e88b690b0d089f364b72c2128f8c6cb3381e6a132e218e", 0x4a, 0x0, &(0x7f00000001c0)={0xa, 0x4e21, 0x0, @remote}, 0x1c)

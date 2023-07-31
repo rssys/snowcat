@@ -1,0 +1,5 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000080)='ns/mnt\x00')
+r1 = timerfd_create(0x0, 0x800)
+timerfd_settime(r1, 0x1, &(0x7f0000000000)={{0x0, 0x3938700}, {0x0, 0x3938700}}, 0x0)
+r2 = dup3(r1, r0, 0x0)
+read$usbmon(r2, &(0x7f0000000100)=""/73, 0x49)

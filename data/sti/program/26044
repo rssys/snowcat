@@ -1,0 +1,2 @@
+r0 = socket$inet6_icmp_raw(0xa, 0x3, 0x3a)
+setsockopt$inet6_IPV6_FLOWLABEL_MGR(r0, 0x29, 0x1b, &(0x7f0000000040)={@dev}, 0x20)

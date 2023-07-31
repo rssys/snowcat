@@ -1,0 +1,4 @@
+symlink(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='./file0\x00')
+mount$9p_virtio(0x0, &(0x7f0000000140)='./file0\x00', 0x0, 0x0, 0x0)
+lsetxattr$trusted_overlay_opaque(&(0x7f0000000240)='./file0\x00', &(0x7f0000000280)='trusted.overlay.opaque\x00', &(0x7f00000002c0)='y\x00', 0x2, 0x0)
+fchmodat(0xffffffffffffffff, 0x0, 0x0)

@@ -1,0 +1,2 @@
+symlink(&(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='./file0\x00')
+readlinkat(0xffffffffffffff9c, &(0x7f0000000380)='./file0\x00', &(0x7f00000003c0)=""/233, 0xe9)

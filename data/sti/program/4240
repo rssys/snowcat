@@ -1,0 +1,2 @@
+setresuid(0xee00, 0xee01, 0xffffffffffffffff)
+openat$dir(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x824c0, 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$inet_sctp(0x2, 0x1, 0x84)
+getsockopt$ARPT_SO_GET_REVISION_TARGET(r0, 0x0, 0x63, &(0x7f00000000c0)={'IDLETIMER\x00'}, &(0x7f0000000100)=0x1e)

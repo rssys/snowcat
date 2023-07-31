@@ -1,0 +1,1 @@
+syz_mount_image$vfat(&(0x7f00000000c0)='vfat\x00', &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000013c0)=ANY=[@ANYBLOB='shortname=win95,nonumtail=0,shortname=winnt,uni_xlate=1,subj_type=#,root(yndext=root,context=', @ANYBLOB=',context='])

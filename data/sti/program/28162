@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sg(&(0x7f0000000040)='/dev/sg#\x00', 0x0, 0x80e42)
+write$binfmt_misc(r0, &(0x7f0000000080)={'syz1', "5d7ad007971d9beec19a9072aee031dc47da3cf0088125ad1fadf5f956877d340780dccc1786"}, 0x2a)

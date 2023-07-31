@@ -1,0 +1,4 @@
+socketpair$nbd(0x1, 0x1, 0x0, &(0x7f0000000240)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+r1 = syz_open_procfs(0x0, &(0x7f0000000200)='net/psched\x00')
+dup3(r0, r1, 0x0)
+ioctl$sock_ipv6_tunnel_SIOCGETTUNNEL(r1, 0x8914, &(0x7f0000000680)={'sit0\x00', 0x0})

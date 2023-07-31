@@ -1,0 +1,4 @@
+r0 = epoll_create(0x2d)
+r1 = openat$ttyS3(0xffffff9c, &(0x7f0000000000)='/dev/ttyS3\x00', 0x0, 0x0)
+ioctl$TIOCSETD(r1, 0x5423, &(0x7f0000000040)=0x2)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f0000000000))

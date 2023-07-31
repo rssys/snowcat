@@ -1,0 +1,1 @@
+syz_80211_inject_frame(&(0x7f00000000c0), &(0x7f0000000100)=@ctrl_frame=@cf_end_cf_ack={{}, {0x4}, @broadcast, @broadcast}, 0x10)

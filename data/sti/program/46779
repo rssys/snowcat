@@ -1,0 +1,4 @@
+r0 = getegid()
+syz_mount_image$msdos(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000100)=ANY=[@ANYRESHEX=r0])
+syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f00000001c0)='NLBL_UNLBL\x00')
+shmat(0x0, &(0x7f0000ff9000/0x4000)=nil, 0x4000)

@@ -1,0 +1,2 @@
+unshare(0x20600)
+ioctl$DRM_IOCTL_GEM_OPEN(0xffffffffffffffff, 0xc010640b, 0x0)

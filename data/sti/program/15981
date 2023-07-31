@@ -1,0 +1,5 @@
+r0 = openat$dir(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x80a47, 0x0)
+open_tree(0xffffffffffffffff, &(0x7f0000000080)='./file0/file0\x00', 0x880)
+io_uring_register$IORING_REGISTER_EVENTFD_ASYNC(0xffffffffffffffff, 0x7, &(0x7f00000000c0), 0x1)
+ioctl$FITRIM(r0, 0x40086607, &(0x7f0000000040))
+ioctl$LOOP_CHANGE_FD(0xffffffffffffffff, 0x4c06, 0xffffffffffffffff)

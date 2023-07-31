@@ -1,0 +1,2 @@
+r0 = add_key$user(&(0x7f0000000140)='user\x00', &(0x7f0000000180)={'syz', 0x3}, &(0x7f00000001c0)='/', 0x1, 0xfffffffffffffffe)
+keyctl$setperm(0x5, r0, 0x0)

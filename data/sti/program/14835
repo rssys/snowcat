@@ -1,0 +1,5 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x0)
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000000080)='.\x00', 0x4000104)
+lsetxattr$security_ima(&(0x7f0000000740)='./file0\x00', &(0x7f0000000780)='security.ima\x00', 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_opaque(&(0x7f0000000000)='./file0\x00', &(0x7f00000000c0)='trusted.overlay.opaque\x00', 0x0, 0x0, 0x0)

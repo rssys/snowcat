@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+sendmsg$netlink(r0, &(0x7f0000001a00)={0x0, 0x0, &(0x7f00000004c0)=[{&(0x7f0000001a40)=ANY=[@ANYBLOB="ec0200002d0001002dbd7000ffdbdf2571906bba7822962e9d0268c67fdfb2d17ea8df"], 0x2ec}], 0x1}, 0x0)

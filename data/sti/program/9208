@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='oom_adj\x00')
+write$cgroup_pid(r0, &(0x7f00000003c0), 0x12)

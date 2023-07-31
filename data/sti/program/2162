@@ -1,0 +1,1 @@
+openat$vnet(0xffffff9c, &(0x7f0000002f80)='/dev/vhost-net\x00', 0x2, 0x0)

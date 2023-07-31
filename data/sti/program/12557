@@ -1,0 +1,4 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000000)='./file1\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+syz_mount_image$nfs(0x0, &(0x7f0000000140)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$security_ima(&(0x7f00000000c0)='./file0\x00', &(0x7f0000000180)='security.ima\x00', &(0x7f00000001c0)=@v2={0x0, 0x0, 0x0, 0x0, 0x3c, "30403454387eff7f872d1d42f0a8f62f829cf14ba91b38056fd73273c04f50b10930b43e5a38860025cac84d58f8881926513d2b813f68e7310125e1"}, 0x45, 0x0)
+rename(&(0x7f0000000040)='./file1\x00', &(0x7f0000000080)='./file0\x00')

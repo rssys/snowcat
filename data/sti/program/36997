@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000000240)='mountstats\x00')
+syz_open_procfs(0x0, &(0x7f0000000240)='fdinfo/3\x00')

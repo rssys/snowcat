@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+sendmsg(r0, &(0x7f0000000340)={&(0x7f0000000140)=@in={0x2, 0x4e20, @remote}, 0x80, &(0x7f0000000200)=[{&(0x7f00000001c0)="2510cd9d47a30eedf69d8a181a4cf6d289938a490cb7aa21414dfcc1dd1cafd9214e4366747145cb0f02ef17a1aae1fa25d95a9cb1efab", 0x37}], 0x1}, 0x0)

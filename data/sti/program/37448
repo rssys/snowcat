@@ -1,0 +1,7 @@
+ioctl$ifreq_SIOCGIFINDEX_vcan(0xffffffffffffffff, 0x8933, 0x0)
+ioctl$BTRFS_IOC_LOGICAL_INO_V2(0xffffffffffffffff, 0xc038943b, 0x0)
+socket$inet_dccp(0x2, 0x6, 0x0)
+ioctl$SNDCTL_SEQ_GETOUTCOUNT(0xffffffffffffffff, 0x80045104, &(0x7f00000005c0))
+r0 = socket(0x3, 0x5, 0x0)
+ioctl$sock_ipv4_tunnel_SIOCDELTUNNEL(r0, 0x89f2, 0x0)
+sendmsg$TIPC_CMD_SHOW_STATS(0xffffffffffffffff, 0x0, 0x20000001)

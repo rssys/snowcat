@@ -1,0 +1,2 @@
+r0 = openat$sysctl(0xffffff9c, &(0x7f0000000080)='/proc/self/clear_refs\x00', 0x1, 0x0)
+write$sysctl(r0, 0x0, 0x0)

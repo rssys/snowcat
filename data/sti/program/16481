@@ -1,0 +1,3 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+syz_genetlink_get_family_id$smc(&(0x7f0000000200)='SMC_PNETID\x00', r0)
+setsockopt$netlink_NETLINK_PKTINFO(r0, 0x10e, 0x3, 0x0, 0x0)

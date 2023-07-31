@@ -1,0 +1,2 @@
+creat(&(0x7f0000000080)='./file0\x00', 0x0)
+setxattr$system_posix_acl(&(0x7f0000000180)='./file0\x00', &(0x7f00000001c0)='system.posix_acl_access\x00', &(0x7f0000000580)={{}, {0x4}}, 0x24, 0x0)

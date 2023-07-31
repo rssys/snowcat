@@ -1,0 +1,7 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = dup2(r0, r0)
+r2 = dup2(r1, r1)
+r3 = syz_open_dev$sg(&(0x7f0000000200)='/dev/sg#\x00', 0x0, 0x2)
+prctl$PR_SET_SECUREBITS(0x1c, 0x0)
+dup2(r3, r2)
+write$snapshot(r1, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = openat$tcp_congestion(0xffffff9c, &(0x7f0000000240)='/proc/sys/net/ipv4/tcp_congestion_control\x00', 0x1, 0x0)
+write$tcp_congestion(r0, &(0x7f0000000080)='reno\x00', 0x4)

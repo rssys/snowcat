@@ -1,0 +1,3 @@
+r0 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+fcntl$F_SET_FILE_RW_HINT(r0, 0x40e, &(0x7f0000000080)=0x1)
+sendfile(r0, r0, 0x0, 0x7fff)

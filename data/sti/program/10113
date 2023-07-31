@@ -1,0 +1,2 @@
+r0 = add_key$fscrypt_v1(&(0x7f0000000040)='logon\x00', &(0x7f0000000080)={'fscrypt:', @desc4='85baa174f0cb1142'}, &(0x7f00000000c0)={0x0, "8bdfc0054495d94f1014ec36ba69932f15b235296ef53d63383467e3b18e42a007067ecba405ca2797840252ba15eb2e634f1c1998f6340f1d45e94b2ba40a36"}, 0x48, 0xfffffffffffffffe)
+keyctl$assume_authority(0x10, r0)

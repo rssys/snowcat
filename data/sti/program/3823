@@ -1,0 +1,4 @@
+r0 = openat$audio1(0xffffff9c, &(0x7f00000001c0)='/dev/audio1\x00', 0x0, 0x0)
+r1 = openat$audio1(0xffffff9c, 0x0, 0x0, 0x0)
+ioctl$SOUND_PCM_READ_CHANNELS(r1, 0x80045006, 0x0)
+ioctl$SNDCTL_DSP_SETTRIGGER(r0, 0x40045010, &(0x7f0000000040)=0xfffffff8)

@@ -1,0 +1,3 @@
+r0 = open(&(0x7f0000000080)='./file0\x00', 0x14d8c1, 0x0)
+ioctl$FS_IOC_SETFLAGS(r0, 0x40086602, &(0x7f0000000000)=0x8)
+setxattr$security_selinux(&(0x7f00000001c0)='./file0\x00', &(0x7f0000000100)='security.selinux\x00', &(0x7f0000000140)='system_u:object_r:netcontrol_device_t:s0\x00', 0x29, 0x0)

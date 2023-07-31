@@ -1,0 +1,8 @@
+setsockopt$inet_sctp6_SCTP_I_WANT_MAPPED_V4_ADDR(0xffffffffffffffff, 0x84, 0xc, 0x0, 0x0)
+r0 = openat$tcp_congestion(0xffffff9c, 0x0, 0x1, 0x0)
+write$tcp_congestion(r0, &(0x7f0000000280)='bic\x00', 0x4)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nbd(&(0x7f0000000300)='nbd\x00', 0xffffffffffffffff)
+bpf$BPF_MAP_FREEZE(0x16, 0x0, 0x0)
+r1 = openat$audio1(0xffffff9c, &(0x7f0000000700)='/dev/audio1\x00', 0x0, 0x0)
+ioctl$SNDCTL_DSP_GETIPTR(r1, 0x800c5011, &(0x7f0000000740))

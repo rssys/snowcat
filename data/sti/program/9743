@@ -1,0 +1,2 @@
+request_key(&(0x7f0000000000)='rxrpc\x00', &(0x7f0000000040)={'syz', 0x3}, 0x0, 0xfffffffffffffffe)
+request_key(&(0x7f0000000240)='asymmetric\x00', &(0x7f0000000280)={'syz', 0x1}, 0x0, 0x0)

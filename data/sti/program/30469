@@ -1,0 +1,4 @@
+syz_mount_image$adfs(&(0x7f0000000000)='adfs\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000680)={[{}], [{@audit='audit'}]})
+lsetxattr$system_posix_acl(&(0x7f0000000740)='./file0\x00', &(0x7f0000000780)='system.posix_acl_default\x00', &(0x7f0000000940)={{}, {}, [{}, {}, {}, {}, {}, {}], {0x4, 0x1}, [{}]}, 0x5c, 0x0)
+sendmsg$NL80211_CMD_SET_BSS(0xffffffffffffffff, &(0x7f0000000ac0)={0x0, 0x0, 0x0}, 0x0)
+openat$ubi_ctrl(0xffffff9c, 0x0, 0x112442, 0x0)

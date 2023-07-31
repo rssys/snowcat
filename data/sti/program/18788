@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/if_inet6\x00')
+preadv(r0, &(0x7f00000002c0)=[{&(0x7f0000000640)=""/102395, 0x18ffb}], 0x1, 0xfffffffa, 0x0)

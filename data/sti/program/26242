@@ -1,0 +1,3 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x0)
+lsetxattr$security_ima(&(0x7f0000000080)='./file0\x00', &(0x7f0000000100)='security.ima\x00', &(0x7f0000000000)=@sha1={0x1, "3c4651d53c57fed6c321a126bc6cf0dc0a67828c"}, 0x15, 0x0)
+lsetxattr$security_ima(&(0x7f0000000240)='./file0\x00', &(0x7f0000000280)='security.ima\x00', 0x0, 0x0, 0x0)

@@ -1,0 +1,2 @@
+openat$vnet(0xffffff9c, &(0x7f0000000000)='/dev/vhost-net\x00', 0x2, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f0000001e40)='batadv\x00', 0xffffffffffffffff)

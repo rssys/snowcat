@@ -1,0 +1,2 @@
+symlink(&(0x7f0000000040)='.\x00', &(0x7f0000000080)='./file0\x00')
+syz_mount_image$nfs4(&(0x7f0000000600)='nfs4\x00', &(0x7f00000006c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000b00)={[], [{@euid_eq={'euid'}}, {@fsmagic={'fsmagic'}}]})

@@ -1,0 +1,5 @@
+setreuid(0x0, 0xee01)
+r0 = geteuid()
+setreuid(r0, 0xee01)
+r1 = getuid()
+ioprio_get$uid(0x3, r1)

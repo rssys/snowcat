@@ -1,0 +1,2 @@
+r0 = openat$vicodec0(0xffffff9c, &(0x7f0000000500)='/dev/video36\x00', 0x2, 0x0)
+ioctl$VIDIOC_S_AUDOUT(r0, 0x40345632, &(0x7f0000000000)={0x10000, "66648b695b1b9ed14f50449c347b18c2f9e502937c114b0a7c172aecf0158606"})

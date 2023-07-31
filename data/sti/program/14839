@@ -1,0 +1,4 @@
+ioctl$UFFDIO_REGISTER(0xffffffffffffffff, 0xc020aa00, 0x0)
+syz_open_procfs(0x0, &(0x7f00000006c0)='net/anycast6\x00')
+write$P9_RVERSION(0xffffffffffffffff, 0x0, 0x0)
+syz_open_dev$sg(&(0x7f00000007c0)='/dev/sg#\x00', 0x0, 0x44000)

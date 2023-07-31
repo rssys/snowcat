@@ -1,0 +1,5 @@
+r0 = epoll_create1(0x0)
+r1 = openat$procfs(0xffffffffffffff9c, &(0x7f00000004c0)='/proc/asound/seq/clients\x00', 0x0, 0x0)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f00000000c0))
+r2 = openat$procfs(0xffffffffffffff9c, &(0x7f00000004c0)='/proc/asound/seq/clients\x00', 0x0, 0x0)
+dup2(r2, r0)

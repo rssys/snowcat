@@ -1,0 +1,2 @@
+r0 = openat$vcs(0xffffffffffffff9c, &(0x7f0000000200)='/dev/vcs\x00', 0x2802, 0x0)
+pwritev(r0, &(0x7f0000000300)=[{&(0x7f0000000240)="413833f20ea9731132575c77b21d8644be6f4746504b65cabc58ea9b5c8514a048", 0x21}, {&(0x7f00000002c0)="a4", 0x1}], 0x2, 0xe0, 0x0)

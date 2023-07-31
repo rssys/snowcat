@@ -1,0 +1,2 @@
+r0 = openat$apparmor_task_current(0xffffff9c, &(0x7f00000002c0)='/proc/self/attr/current\x00', 0x2, 0x0)
+fstatfs(r0, &(0x7f0000001100)=""/22)

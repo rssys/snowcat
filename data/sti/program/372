@@ -1,0 +1,6 @@
+r0 = epoll_create1(0x0)
+flock(r0, 0x1)
+r1 = epoll_create1(0x0)
+r2 = epoll_create1(0x0)
+flock(r2, 0x1)
+flock(r1, 0x1)

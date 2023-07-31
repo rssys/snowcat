@@ -1,0 +1,4 @@
+openat(0xffffffffffffff9c, &(0x7f0000000280)='./file0\x00', 0x40, 0xc8)
+execveat(0xffffffffffffffff, &(0x7f0000000380)='./file0\x00', 0x0, 0x0, 0x0)
+uselib(&(0x7f00000006c0)='./file0\x00')
+truncate(&(0x7f0000007c40)='./file0\x00', 0x0)

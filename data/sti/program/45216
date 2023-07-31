@@ -1,0 +1,2 @@
+r0 = openat$vcs(0xffffff9c, &(0x7f0000000140)='/dev/vcs\x00', 0x8381, 0x0)
+write$FUSE_CREATE_OPEN(r0, &(0x7f0000000180)={0xa0}, 0xa0)

@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000080)='./file0\x00', 0x0)
+fsetxattr$security_ima(r0, &(0x7f0000000040)='security.ima\x00', 0x0, 0x0, 0x0)

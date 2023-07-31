@@ -1,0 +1,2 @@
+creat(&(0x7f0000000600)='./file0\x00', 0x0)
+setxattr$trusted_overlay_opaque(&(0x7f00000001c0)='./file0\x00', &(0x7f0000000200)='trusted.overlay.opaque\x00', 0x0, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$inet6_dccp(0xa, 0x6, 0x0)
+getsockopt$IP6T_SO_GET_REVISION_MATCH(r0, 0x29, 0x44, &(0x7f00000013c0)={'ipvs\x00'}, &(0x7f0000001580)=0x1e)

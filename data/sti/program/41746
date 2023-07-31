@@ -1,0 +1,2 @@
+mkdir(&(0x7f0000000000)='./file1\x00', 0x0)
+lsetxattr$security_selinux(&(0x7f0000000040)='./file1\x00', &(0x7f0000000080)='security.selinux\x00', &(0x7f0000000100)='u:r:untrusted_app:s0:c512,c768\x00', 0x1f, 0x0)

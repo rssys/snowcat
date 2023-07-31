@@ -1,0 +1,6 @@
+r0 = add_key(&(0x7f00000000c0)='dns_resolver\x00', 0x0, &(0x7f00000005c0)="989f02c646fb2e9a7cf17a3fa5dd1af0b08667bc55f609000416ad96894934b588de43bdbec557c20f9fd7bef47aa558c871c37e5fa51540db26439a2573037dff573e75c8234456565bc8dc10bf0c16a455a62d1d95553a2ff8a23099c09d5198da9013b408eeedf9673c01bbeb99deb2c083b2d48c73d89e243d6c4da6bd546c83dce8f334ee87711b5fb549a0f89970cbd3ac47166a13b8910e53dee43de893b9b33546097e00000000000000", 0xae, 0xfffffffffffffffe)
+r1 = openat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x41, 0x0)
+write$binfmt_script(r1, &(0x7f00000000c0)=ANY=[], 0xfffffcd8)
+ioctl$LOOP_SET_CAPACITY(r1, 0x6611)
+openat(0xffffffffffffffff, &(0x7f0000000440)='./file0\x00', 0x280, 0x4)
+add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x3}, 0x0, 0x0, r0)

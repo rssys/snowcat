@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsu(&(0x7f0000000000)='/dev/vcsu#\x00', 0x47, 0x0)
+read$eventfd(r0, &(0x7f0000000080), 0x8)

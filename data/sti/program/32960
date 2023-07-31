@@ -1,0 +1,3 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL802154_CMD_SET_CCA_ED_LEVEL(r0, &(0x7f0000002680)={0x0, 0x0, &(0x7f0000002640)={0x0}}, 0x0)
+syz_genetlink_get_family_id$netlbl_mgmt(&(0x7f0000000000)='NLBL_MGMT\x00', r0)

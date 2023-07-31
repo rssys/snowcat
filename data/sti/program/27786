@@ -1,0 +1,2 @@
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000080)='ns/cgroup\x00')
+syz_open_procfs$namespace(0x0, &(0x7f0000000100)='ns/cgroup\x00')

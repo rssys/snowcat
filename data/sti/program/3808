@@ -1,0 +1,5 @@
+r0 = epoll_create(0x1)
+r1 = openat$rfkill(0xffffffffffffff9c, &(0x7f0000000740)='/dev/rfkill\x00', 0x0, 0x0)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f00000001c0)={0xa0002017})
+r2 = epoll_create(0x6)
+epoll_ctl$EPOLL_CTL_ADD(r2, 0x1, r0, &(0x7f0000000040))

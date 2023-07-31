@@ -1,0 +1,2 @@
+openat$ptmx(0xffffffffffffff9c, &(0x7f0000000000)='/dev/ptmx\x00', 0x44800, 0x0)
+inotify_rm_watch(0xffffffffffffffff, 0x0)

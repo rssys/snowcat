@@ -1,0 +1,3 @@
+r0 = syz_open_dev$sg(&(0x7f0000000000)='/dev/sg#\x00', 0x0, 0xc8122)
+ioctl$SG_NEXT_CMD_LEN(r0, 0x2283, &(0x7f0000000040)=0xae)
+writev(r0, &(0x7f0000001440)=[{&(0x7f00000000c0)="57510be146b8f00382297df002f622e5fcde0b771aad016876d3d56592a0934c8ea40e5f8353e7a7c484", 0x2a}], 0x1)

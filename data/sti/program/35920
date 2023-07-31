@@ -1,0 +1,1 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000003e80)='./file0\x00', 0x0)

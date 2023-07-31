@@ -1,0 +1,4 @@
+renameat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0xffffffffffffff9c, 0x0)
+syz_mount_image$ocfs2(0x0, &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000380)={[{'}:'}, {'--\xda{]!\x9d^^['}, {',\xf2('}, {'@^}'}], [{@seclabel='seclabel'}, {@smackfstransmute={'smackfstransmute'}}, {@fsname={'fsname', 0x3d, '}+*.\x0e+-'}}, {@dont_hash='dont_hash'}, {@fowner_eq={'fowner'}}]})
+ioctl$VHOST_VSOCK_SET_GUEST_CID(0xffffffffffffffff, 0x4008af60, 0x0)
+syz_io_uring_setup(0x3579, 0x0, &(0x7f0000ffc000/0x4000)=nil, &(0x7f0000ffd000/0x1000)=nil, &(0x7f0000000500), 0x0)

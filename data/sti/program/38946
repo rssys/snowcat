@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$tipc(&(0x7f0000003b40)='TIPC\x00', 0xffffffffffffffff)

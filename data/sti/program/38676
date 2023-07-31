@@ -1,0 +1,1 @@
+add_key(&(0x7f00000001c0)='asymmetric\x00', &(0x7f0000000200)={'syz', 0x0}, &(0x7f0000000240)="43e4", 0x2, 0xfffffffffffffffe)

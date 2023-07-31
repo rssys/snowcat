@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f00000014c0)='./file0\x00', 0x0)
+write$cgroup_devices(r0, &(0x7f0000001500)={'a', ' *:* ', 'wm\x00'}, 0x9)

@@ -1,0 +1,4 @@
+creat(&(0x7f0000000040)='./file0\x00', 0x0)
+acct(0x0)
+lchown(&(0x7f00000001c0)='./file0\x00', 0x0, 0x0)
+creat(&(0x7f0000000080)='./file0\x00', 0xa)

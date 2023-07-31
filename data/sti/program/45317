@@ -1,0 +1,2 @@
+r0 = syz_open_dev$loop(&(0x7f0000000080)='/dev/loop#\x00', 0x0, 0x1a1001)
+ioctl$LOOP_SET_CAPACITY(r0, 0x4c07)

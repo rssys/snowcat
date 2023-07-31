@@ -1,0 +1,2 @@
+r0 = socket$inet_tcp(0x2, 0x1, 0x0)
+ioctl$sock_inet_SIOCGIFDSTADDR(r0, 0x8914, &(0x7f0000000000)={'sit0\x00'})

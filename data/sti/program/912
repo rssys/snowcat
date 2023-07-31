@@ -1,0 +1,4 @@
+sched_rr_get_interval(0x0, &(0x7f0000005480))
+mkdirat$cgroup_root(0xffffffffffffff9c, &(0x7f0000000080)='./cgroup/syz0\x00', 0x1ff)
+ioctl$sock_inet_udp_SIOCINQ(0xffffffffffffffff, 0x541b, &(0x7f0000000040))
+io_setup(0xfffffffa, &(0x7f0000000000))

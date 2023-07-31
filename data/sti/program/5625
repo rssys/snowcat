@@ -1,0 +1,5 @@
+pipe2$9p(&(0x7f0000000080)={<r0=>0xffffffffffffffff, <r1=>0xffffffffffffffff}, 0x0)
+write$P9_RWRITE(r1, &(0x7f0000000000)={0xb}, 0xb)
+r2 = socket$inet6_icmp_raw(0xa, 0x3, 0x3a)
+r3 = dup2(r0, r2)
+read$snapshot(r3, &(0x7f00000000c0)=""/4096, 0x1000)

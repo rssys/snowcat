@@ -1,0 +1,2 @@
+openat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x1aa5c2, 0x0)
+setxattr$security_capability(&(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)='security.capability\x00', &(0x7f0000000100)=@v2, 0x14, 0x0)

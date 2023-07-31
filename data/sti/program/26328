@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r2 = syz_genetlink_get_family_id$nbd(&(0x7f0000001880)='nbd\x00', r0)
+sendmsg$NBD_CMD_RECONFIGURE(r1, &(0x7f0000001940)={0x0, 0x0, &(0x7f0000001900)={&(0x7f00000018c0)={0x14, r2, 0x1}, 0x14}}, 0x0)

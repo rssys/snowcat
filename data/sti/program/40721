@@ -1,0 +1,1 @@
+openat$vim2m(0xffffff9c, &(0x7f0000006f80)='/dev/vim2m\x00', 0x2, 0x0)

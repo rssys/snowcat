@@ -1,0 +1,2 @@
+ioctl$IOC_PR_PREEMPT(0xffffffffffffffff, 0x401870cb, &(0x7f0000000000))
+socketpair$tipc(0x1e, 0x2, 0x0, &(0x7f00000006c0))

@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+fremovexattr(r0, &(0x7f0000000000)=@known='system.sockprotoname\x00')

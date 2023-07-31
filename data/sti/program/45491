@@ -1,0 +1,2 @@
+creat(&(0x7f0000000380)='./file0\x00', 0xa9fa7bc975c5ed38)
+chown(&(0x7f00000001c0)='./file0\x00', 0x0, 0x0)

@@ -1,0 +1,5 @@
+r0 = openat$kvm(0xffffff9c, &(0x7f0000000040)='/dev/kvm\x00', 0x0, 0x0)
+r1 = ioctl$KVM_CREATE_VM(r0, 0xae01, 0x0)
+ioctl$KVM_X86_GET_MCE_CAP_SUPPORTED(r1, 0x8008ae9d, 0x0)
+ioctl$KVM_CREATE_VCPU(r1, 0xae41, 0x0)
+setsockopt$RDS_GET_MR_FOR_DEST(0xffffffffffffffff, 0x114, 0x7, 0x0, 0x0)

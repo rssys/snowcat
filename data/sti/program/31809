@@ -1,0 +1,2 @@
+syz_mount_image$tmpfs(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$security_selinux(&(0x7f0000004d80)='./file0\x00', &(0x7f0000007fc0)='security.selinux\x00', &(0x7f0000008000)='system_u:object_r:traceroute_exec_t:s0\x00', 0x27, 0x0)

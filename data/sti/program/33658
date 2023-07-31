@@ -1,0 +1,1 @@
+openat$bsg(0xffffff9c, &(0x7f0000000000)='/dev/bsg\x00', 0x4b0883, 0x0)

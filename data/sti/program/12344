@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/if_inet6\x00')
+read(r0, &(0x7f0000000040)=""/179, 0xb3)

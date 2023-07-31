@@ -1,0 +1,2 @@
+r0 = openat$ubi_ctrl(0xffffff9c, &(0x7f0000002180)='/dev/ubi_ctrl\x00', 0x0, 0x0)
+ioctl$SNDRV_PCM_IOCTL_DROP(r0, 0x4143, 0x0)

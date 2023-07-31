@@ -1,0 +1,6 @@
+r0 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+write$P9_RSTAT(r0, &(0x7f0000000100)=ANY=[], 0xfffffdfa)
+ioctl$sock_inet_udp_SIOCINQ(0xffffffffffffffff, 0x4020940d, 0x0)
+gettid()
+setpriority(0x0, 0x0, 0x0)
+write$P9_RGETLOCK(0xffffffffffffffff, 0x0, 0x0)

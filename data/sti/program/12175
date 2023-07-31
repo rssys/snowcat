@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsn(&(0x7f0000000040)='/dev/vcs#\x00', 0x2df, 0x0)
+read$snapshot(r0, &(0x7f00000010c0)=""/4089, 0xff9)

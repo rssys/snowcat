@@ -1,0 +1,4 @@
+r0 = openat$audio1(0xffffff9c, &(0x7f0000000000)='/dev/audio1\x00', 0x4040, 0x0)
+ioctl$SNDCTL_DSP_GETOPTR(r0, 0x800c5012, 0x0)
+accept4$phonet_pipe(0xffffffffffffffff, 0x0, 0x0, 0x1800)
+openat$rdma_cm(0xffffff9c, &(0x7f00000001c0)='/dev/infiniband/rdma_cm\x00', 0x2, 0x0)

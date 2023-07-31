@@ -1,0 +1,4 @@
+semctl$SEM_INFO(0x0, 0x0, 0x13, &(0x7f0000000000)=""/118)
+ioctl$LOOP_SET_STATUS64(0xffffffffffffffff, 0x4c04, &(0x7f0000000080)={0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x7, 0xa, "e15ad22c741e325449ad2bbcef8ce3e11ad32f55e6f98a0cc7c7b0177a9941430edea79ec9fb3e5542fa56e1b100b8ff2eba30b3e49ba8d3cbdad8d64100bb00", "8800e64d7aa967b91e0f1b1601e5a320f26a5d08235c187aeeffa77d8f997eb919f1d1dfb9a5fa0c5149167c58f35726a8f02b59d2dc6dd1bab79a956957b1a3", "c3cf9bbe40a89568f4514aa25f040f56a6ba5b130bc376ee6f817440608069fd", [0xff, 0x9]})
+r0 = openat$urandom(0xffffffffffffff9c, &(0x7f0000002580)='/dev/urandom\x00', 0x0, 0x0)
+ioctl$RNDADDTOENTCNT(r0, 0x40045201, &(0x7f00000025c0))

@@ -1,0 +1,3 @@
+r0 = syz_open_dev$ndb(&(0x7f0000000a80)='/dev/nbd#\x00', 0x0, 0x0)
+ioctl$BLKTRACESETUP(r0, 0xc0401273, &(0x7f0000000040)={[], 0x0, 0x7f, 0x80000000, 0xfffffffeffffffff})
+ioctl$BLKTRACESTOP(r0, 0x1275, 0x0)

@@ -1,0 +1,5 @@
+syz_io_uring_setup(0x469e, &(0x7f0000000000)={0x0, 0xaeed}, &(0x7f0000ffa000/0x4000)=nil, &(0x7f0000ffd000/0x3000)=nil, &(0x7f0000000080), &(0x7f00000000c0))
+syz_genetlink_get_family_id$team(&(0x7f0000000180)='team\x00', 0xffffffffffffffff)
+io_uring_setup(0x6dd3, &(0x7f0000000400))
+io_uring_register$IORING_UNREGISTER_FILES(0xffffffffffffffff, 0x3, 0x0, 0x0)
+syz_genetlink_get_family_id$ethtool(&(0x7f00000004c0)='ethtool\x00', 0xffffffffffffffff)

@@ -1,0 +1,5 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = epoll_create1(0x0)
+r2 = dup3(r0, r1, 0x0)
+syz_genetlink_get_family_id$tipc2(&(0x7f0000001d80)='TIPCv2\x00', r0)
+syz_genetlink_get_family_id$tipc2(&(0x7f0000002980)='TIPCv2\x00', r2)

@@ -1,0 +1,4 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$trusted_overlay_opaque(&(0x7f0000000180)='./file0\x00', &(0x7f00000000c0)='trusted.overlay.opaque\x00', 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_nlink(&(0x7f0000002b00)='./file0\x00', &(0x7f0000002b40)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_nlink(&(0x7f0000000000)='./file0\x00', &(0x7f0000000100)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

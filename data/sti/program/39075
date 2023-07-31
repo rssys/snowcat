@@ -1,0 +1,4 @@
+syz_mount_image$msdos(0x0, &(0x7f00000001c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000000000)='./file0\x00', 0x60000004)
+chown(&(0x7f00000002c0)='./file0\x00', 0x0, 0xee00)

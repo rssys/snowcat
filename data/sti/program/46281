@@ -1,0 +1,4 @@
+close_range(0xffffffffffffffff, 0xffffffffffffffff, 0x2)
+r0 = openat$sndseq(0xffffff9c, &(0x7f0000000100)='/dev/snd/seq\x00', 0x0)
+r1 = dup(r0)
+pidfd_getfd(r1, 0xffffffffffffffff, 0x0)

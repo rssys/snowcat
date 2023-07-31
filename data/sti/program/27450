@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000000140)='net/ip_tables_matches\x00')
+syz_open_procfs(0x0, &(0x7f0000000000)='net/nf_conntrack_expect\x00')

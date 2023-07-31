@@ -1,0 +1,2 @@
+r0 = socket$inet6(0xa, 0x80001, 0x0)
+connect$unix(r0, &(0x7f0000000040)=@abs, 0x6e)

@@ -1,0 +1,2 @@
+openat$dir(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x2140, 0x0)
+open_tree(0xffffffffffffff9c, &(0x7f0000000280)='./file0\x00', 0x8801)

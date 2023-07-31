@@ -1,0 +1,1 @@
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f00000028c0)='ns/uts\x00')

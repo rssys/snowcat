@@ -1,0 +1,2 @@
+r0 = socket$inet_udp(0x2, 0x2, 0x0)
+setsockopt$inet_buf(r0, 0x0, 0x24, &(0x7f00000001c0)="126b6624df3ee293089894ae", 0xc)

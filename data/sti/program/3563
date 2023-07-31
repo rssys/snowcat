@@ -1,0 +1,4 @@
+pipe2(&(0x7f0000000040)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x0)
+r1 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000140)='smaps_rollup\x00')
+mount$9p_fd(0x0, 0x0, 0x0, 0x0, &(0x7f00000002c0)=ANY=[])
+sendfile(r0, r1, 0x0, 0x5)

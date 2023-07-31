@@ -1,0 +1,2 @@
+io_uring_setup(0x7e36, &(0x7f0000000000))
+io_uring_setup(0x4173, &(0x7f0000000200))

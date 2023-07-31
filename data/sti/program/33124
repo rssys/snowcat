@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$devlink(&(0x7f0000000000)='devlink\x00')
+sendmsg$DEVLINK_CMD_TRAP_GROUP_GET(0xffffffffffffffff, 0x0, 0x0)
+creat(&(0x7f0000000480)='./file0\x00', 0x0)

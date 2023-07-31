@@ -1,0 +1,8 @@
+setsockopt$XDP_RX_RING(0xffffffffffffffff, 0x11b, 0x2, 0x0, 0x0)
+r0 = socket(0x22, 0x0, 0x9)
+r1 = socket$inet6_mptcp(0xa, 0x1, 0x106)
+getsockopt$SO_TIMESTAMP(r1, 0x1, 0x0, 0x0, &(0x7f0000001480))
+sendto(r0, &(0x7f0000000080)="7e36a2998995d68183c952f176bb1f23501635480f1f1d1112e16ecfa28f15c0d4d5e32ce4c3decf01e1f9fb5a5ac45ac9d7bcd6a901d35d7e06ef9056f5700ba49ae9f55a04704de46ef5cf28d9d7e901284d55adfaf054e67103e06b670b32d363d8fbbea3b24c3869280d2d6ee22033732d15dbec1d60e3a25de5e979bcb639f0e710ef12bc06b77065ea0c9327ef35353c305a3387ebc3a80be962d3639252d79c53396f502f80b999735da142ca9d70a9d61bb33bbabe4ce51b6f2901ad0b95", 0xc2, 0x40040, &(0x7f0000000180)=@pppol2tp={0x18, 0x1, {0x0, r1, {0x2, 0x4e24, @loopback}, 0x2, 0x2, 0x4, 0x1}}, 0x80)
+ioctl$ifreq_SIOCGIFINDEX_batadv_mesh(r0, 0x8933, &(0x7f0000000000)={'batadv0\x00'})
+r2 = socket$inet_udp(0x2, 0x2, 0x0)
+ioctl$sock_SIOCGIFVLAN_ADD_VLAN_CMD(r2, 0x8982, &(0x7f0000000040)={0x0, 'veth1_to_bond\x00', {0x4}, 0xffff})

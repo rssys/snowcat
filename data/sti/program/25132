@@ -1,0 +1,5 @@
+r0 = syz_open_dev$usbmon(&(0x7f0000000000)='/dev/usbmon#\x00', 0x0, 0x0)
+getsockopt$inet6_IPV6_XFRM_POLICY(0xffffffffffffffff, 0x29, 0x23, &(0x7f0000008b80)={{{@in6=@empty, @in=@local}}, {{@in6=@dev}, 0x0, @in6=@mcast1}}, 0x0)
+geteuid()
+sendmsg$netlink(0xffffffffffffffff, 0x0, 0x0)
+ioctl$MON_IOCT_RING_SIZE(r0, 0x9204, 0x98a85)

@@ -1,0 +1,2 @@
+r0 = openat$thread_pidfd(0xffffffffffffff9c, &(0x7f0000000600)='/proc/thread-self\x00', 0x0, 0x0)
+fcntl$getownex(r0, 0x402, 0x0)

@@ -1,0 +1,2 @@
+openat$nullb(0xffffff9c, &(0x7f0000006d00)='/dev/nullb0\x00', 0x0, 0x0)
+openat$nullb(0xffffff9c, &(0x7f0000006d80)='/dev/nullb0\x00', 0x0, 0x0)

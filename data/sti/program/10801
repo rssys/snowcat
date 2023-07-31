@@ -1,0 +1,1 @@
+syz_emit_ethernet(0x34, &(0x7f0000000700)={@multicast, @empty, @val, {@ipx={0x8137, {0xffff, 0x1e, 0x0, 0x0, {@current, @broadcast}, {@broadcast, @random="019a3e695b23"}}}}}, 0x0)

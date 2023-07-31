@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sndctrl(&(0x7f0000000040)='/dev/snd/controlC#\x00', 0x0, 0x0)
+ioctl$SNDRV_CTL_IOCTL_CARD_INFO(r0, 0x81785501, &(0x7f0000000080)=""/245)

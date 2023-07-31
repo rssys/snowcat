@@ -1,0 +1,3 @@
+creat(&(0x7f00000045c0)='./file0\x00', 0x0)
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000000080)='./file0\x00', 0x2)

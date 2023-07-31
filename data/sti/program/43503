@@ -1,0 +1,4 @@
+sendmsg$TIPC_NL_MON_GET(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000280)='nl80211\x00', 0xffffffffffffffff)
+syz_open_procfs$namespace(0x0, &(0x7f0000003940)='ns/cgroup\x00')
+syz_genetlink_get_family_id$nl80211(&(0x7f0000003dc0)='nl80211\x00', 0xffffffffffffffff)

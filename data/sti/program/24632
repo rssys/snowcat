@@ -1,0 +1,2 @@
+syz_open_dev$audion(&(0x7f0000000280)='/dev/audio#\x00', 0x0, 0x201000)
+creat(&(0x7f0000000600)='./file0\x00', 0x38)

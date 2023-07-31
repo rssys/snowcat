@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+setsockopt$inet6_IPV6_RTHDRDSTOPTS(r0, 0x29, 0x37, &(0x7f00000002c0)=ANY=[], 0x10)

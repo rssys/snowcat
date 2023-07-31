@@ -1,0 +1,2 @@
+r0 = socket$inet6_icmp_raw(0x11, 0x3, 0x3a)
+sendmsg(r0, &(0x7f0000001400)={&(0x7f0000000000)=@nfc_llcp={0x27, 0x1, 0x0, 0x0, 0x0, 0x0, "3f4f6bc8ee53316aa96d160e9be114ae712ee70939eb7fd5c16c2cc9b66646eb3b134aaa533ead820d4bcb34bf1d3cbea58abc3379cfa2a689b82940be7424"}, 0x80, 0x0}, 0x0)

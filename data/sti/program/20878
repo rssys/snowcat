@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000400)='net/sockstat\x00')
+r1 = syz_open_procfs(0x0, &(0x7f0000000000)='net/igmp6\x00')
+sendfile(r0, r1, 0x0, 0x2b6)

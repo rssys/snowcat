@@ -1,0 +1,8 @@
+ioctl$CAPI_GET_MANUFACTURER(0xffffffffffffffff, 0xc0044306, 0x0)
+syz_open_dev$vcsu(&(0x7f0000000080)='/dev/vcsu#\x00', 0x0, 0x90080)
+socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$BINDER_THREAD_EXIT(0xffffffffffffffff, 0x40046208, 0x0)
+ioctl$CAPI_GET_SERIAL(0xffffffffffffffff, 0xc0044308, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f00000001c0)='batadv\x00', 0xffffffffffffffff)
+openat$capi20(0xffffff9c, &(0x7f0000000400)='/dev/capi20\x00', 0x40000, 0x0)
+ioctl$CAPI_GET_MANUFACTURER(0xffffffffffffffff, 0xc0044306, 0x0)

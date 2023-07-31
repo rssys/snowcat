@@ -1,0 +1,4 @@
+r0 = fork()
+setresuid(0xee01, 0x0, 0x0)
+r1 = fork()
+kcmp$KCMP_EPOLL_TFD(r0, r1, 0x7, 0xffffffffffffffff, 0x0)

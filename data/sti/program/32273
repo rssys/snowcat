@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+ioctl$sock_ipv4_tunnel_SIOCADDTUNNEL(r0, 0x89f1, &(0x7f0000000100)={'gre0\x00', &(0x7f00000000c0)=ANY=[@ANYBLOB='syztnl2\x00\x00\x00\x00\x00\x00\x00\x00\x00', @ANYRES32=0x0, @ANYBLOB="0000000000001000000100004500001400000000002f"]})

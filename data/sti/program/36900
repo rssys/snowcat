@@ -1,0 +1,4 @@
+r0 = gettid()
+r1 = getpgid(0x0)
+r2 = openat$uhid(0xffffff9c, &(0x7f0000000080)='/dev/uhid\x00', 0x0, 0x0)
+kcmp$KCMP_EPOLL_TFD(r0, r1, 0x7, r2, &(0x7f00000000c0))

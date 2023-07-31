@@ -1,0 +1,2 @@
+io_uring_setup(0x24fb, &(0x7f0000000100))
+seccomp$SECCOMP_SET_MODE_FILTER_LISTENER(0x1, 0x0, &(0x7f0000000200)={0x1, &(0x7f00000001c0)=[{}]})

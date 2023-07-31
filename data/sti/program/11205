@@ -1,0 +1,3 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+r1 = syz_genetlink_get_family_id$ethtool(&(0x7f0000000100)='ethtool\x00', 0xffffffffffffffff)
+sendmsg$ETHTOOL_MSG_LINKINFO_SET(r0, &(0x7f0000000340)={0x0, 0x0, &(0x7f0000000300)={&(0x7f00000002c0)={0x28, r1, 0x1, 0x0, 0x0, {}, [@ETHTOOL_A_LINKINFO_TP_MDIX_CTRL={0x5}, @ETHTOOL_A_LINKINFO_HEADER={0x4}, @ETHTOOL_A_LINKINFO_TP_MDIX_CTRL={0x5}]}, 0x28}}, 0x0)

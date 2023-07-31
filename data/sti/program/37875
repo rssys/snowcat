@@ -1,0 +1,2 @@
+ioctl$FS_IOC_SETFLAGS(0xffffffffffffffff, 0x40046602, &(0x7f0000000040)=0x1000)
+bpf$ENABLE_STATS(0x20, &(0x7f0000000000), 0x6e)

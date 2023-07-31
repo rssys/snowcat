@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000080)={'lo\x00', &(0x7f0000000040)=@ethtool_sfeatures={0x3b, 0x2, [{0x400}, {}]}})

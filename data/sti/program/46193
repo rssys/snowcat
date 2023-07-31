@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000080)='nl80211\x00', 0xffffffffffffffff)
+sendmsg$NL80211_CMD_SET_COALESCE(r0, &(0x7f0000000480)={0x0, 0x0, &(0x7f0000000440)={&(0x7f0000000a80)={0x28, r1, 0x1, 0x0, 0x0, {{}, {@void, @val={0xc}}}, [@NL80211_ATTR_COALESCE_RULE_DELAY={0x8}]}, 0x28}}, 0x0)

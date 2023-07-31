@@ -1,0 +1,3 @@
+r0 = openat$procfs(0xffffff9c, &(0x7f00000000c0)='/proc/tty/drivers\x00', 0x0, 0x0)
+r1 = syz_init_net_socket$rose(0xb, 0x5, 0x0)
+dup3(r0, r1, 0x0)

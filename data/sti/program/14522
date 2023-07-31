@@ -1,0 +1,4 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000040)='./file0\x00', 0x41, 0x0)
+write$binfmt_script(r0, &(0x7f00000001c0)=ANY=[@ANYRES64], 0xfffffcd8)
+write$nbd(r0, &(0x7f0000000640), 0x10)
+lsetxattr$security_ima(&(0x7f00000000c0)='./file0\x00', &(0x7f0000000100)='security.ima\x00', &(0x7f00000021c0)=ANY=[], 0x1009, 0x3)

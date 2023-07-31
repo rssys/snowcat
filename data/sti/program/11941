@@ -1,0 +1,2 @@
+r0 = syz_io_uring_setup(0x1abc, &(0x7f0000000140), &(0x7f0000ff3000/0xd000)=nil, &(0x7f0000ffb000/0x1000)=nil, &(0x7f00000001c0), &(0x7f0000000200))
+fremovexattr(r0, &(0x7f0000000240)=@known='trusted.overlay.upper\x00')

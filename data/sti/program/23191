@@ -1,0 +1,2 @@
+r0 = openat$cuse(0xffffff9c, &(0x7f0000000300)='/dev/cuse\x00', 0x2, 0x0)
+write$FUSE_DIRENTPLUS(r0, &(0x7f00000044c0)={0x10}, 0x10)

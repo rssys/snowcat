@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_SIOCGIFCONF(r0, 0x8912, &(0x7f00000000c0)=@buf={0x40, &(0x7f0000000040)="6c1cea6e8952361349e28451d8a4b0481fad49edeef212f9595cd6a5519a3bd17b026a0a465e5c24d1bd51dc61e1e4ece8945fb1f2d08201fcf6a6e52c4dcbbe"})

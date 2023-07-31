@@ -1,0 +1,2 @@
+r0 = syz_io_uring_setup(0x1b7b, &(0x7f0000001140), &(0x7f0000ffc000/0x3000)=nil, &(0x7f0000ffa000/0x3000)=nil, &(0x7f00000011c0), &(0x7f0000001200))
+io_uring_register$IORING_REGISTER_PROBE(r0, 0x8, 0x0, 0x0)

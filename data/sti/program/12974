@@ -1,0 +1,1 @@
+syz_80211_inject_frame(&(0x7f0000000040), &(0x7f0000000200)=ANY=[@ANYBLOB="8400231b2d4208ffffff"], 0x14)

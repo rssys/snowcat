@@ -1,0 +1,1 @@
+syz_mount_image$iso9660(&(0x7f0000000180)='iso9660\x00', &(0x7f00000001c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000380)={[], [{@seclabel='seclabel'}]})

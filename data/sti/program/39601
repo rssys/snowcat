@@ -1,0 +1,3 @@
+sendmsg$WG_CMD_GET_DEVICE(0xffffffffffffffff, 0x0, 0x0)
+sendmsg$IEEE802154_ASSOCIATE_RESP(0xffffffffffffffff, 0x0, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

@@ -1,0 +1,7 @@
+syz_open_dev$dri(&(0x7f0000000000)='/dev/dri/card#\x00', 0x100, 0x141201)
+openat$procfs(0xffffff9c, &(0x7f00000003c0)='/proc/asound/seq/clients\x00', 0x0, 0x0)
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_ipv6_tunnel_SIOCDELTUNNEL(r0, 0x89f2, &(0x7f0000000580)={'ip6tnl0\x00', 0x0})
+setsockopt$IPT_SO_SET_REPLACE(0xffffffffffffffff, 0x0, 0x40, 0x0, 0x0)
+timer_getoverrun(0x0)
+syz_init_net_socket$nl_rdma(0x10, 0x3, 0x10)

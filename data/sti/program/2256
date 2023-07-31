@@ -1,0 +1,4 @@
+r0 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+write$P9_RSTAT(r0, &(0x7f0000000100)=ANY=[], 0xfffffdfa)
+ioctl$PTP_SYS_OFFSET_EXTENDED(r0, 0xc4c03d09, 0x0)
+socket$inet_udp(0x2, 0x2, 0x0)

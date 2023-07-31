@@ -1,0 +1,6 @@
+fork()
+ioctl$SNDRV_PCM_IOCTL_READN_FRAMES(0xffffffffffffffff, 0x800c4153, &(0x7f0000001380)={0x0, &(0x7f0000001340)=[&(0x7f0000000000)="93969f5b1ffecddf67950d6585e7", &(0x7f0000000100)="0672569ace92e19a1e1adf024c40273253e95784bff8123e166811e82724652e192e53ffd36b94b971761fbb7c35c01494bb0542b641ee1893feb54f14416589971c943b66a0cd13f6409acf5a92475507a3fc21f1925b2664c320587ecb8cdea82e741ada6331c636e0accad94979a4d96ce630cdaeda2828daadac216f199919cc30ead3cc7bc2b264b4a2e4c0beea0fe88071602fec5b7244fba679d3de3664cf2cf5a60be6e82507c24b", 0x0, 0x0, &(0x7f00000012c0)="08fddf7169319485143ee513f6358d6cf0d4d62df8d0da24bd5241aee01975943f"]})
+read$FUSE(0xffffffffffffffff, &(0x7f0000001540)={0x2020}, 0x2020)
+syz_open_procfs$namespace(0x0, 0x0)
+write$RDMA_USER_CM_CMD_BIND_IP(0xffffffffffffffff, &(0x7f00000013c0)={0x2, 0x28, 0xfa00, {0x0, {0xa, 0x4e20, 0x1ff, @remote, 0xcedb}}}, 0x30)
+syz_open_dev$sndpcmp(&(0x7f0000000080)='/dev/snd/pcmC#D#p\x00', 0x0, 0xa2042)

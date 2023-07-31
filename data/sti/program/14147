@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsn(&(0x7f0000000080)='/dev/vcs#\x00', 0x1, 0xc0c01)
+writev(r0, &(0x7f0000000740)=[{&(0x7f00000000c0)="eaf0cd33f872e49c9421029b95b3e9e1026ef305c8a6aeb479fb21dd", 0x1c}], 0x1)

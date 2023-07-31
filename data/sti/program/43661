@@ -1,0 +1,4 @@
+syz_open_dev$vcsn(&(0x7f0000000140)='/dev/vcs#\x00', 0x0, 0x0)
+syz_open_procfs(0x0, &(0x7f0000000000)='oom_adj\x00')
+r0 = syz_open_procfs(0x0, &(0x7f0000000040)='fd/4\x00')
+preadv(r0, &(0x7f0000000000)=[{&(0x7f0000000300)=""/208, 0xd0}], 0x1, 0x0, 0x0)

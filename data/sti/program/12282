@@ -1,0 +1,2 @@
+r0 = openat$ppp(0xffffff9c, &(0x7f0000000040)='/dev/ppp\x00', 0x0, 0x0)
+ioctl$PPPIOCATTCHAN(r0, 0x40047438, &(0x7f0000000080))

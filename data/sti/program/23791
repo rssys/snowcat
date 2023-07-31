@@ -1,0 +1,2 @@
+r0 = openat$nvme_fabrics(0xffffff9c, &(0x7f0000000000)='/dev/nvme-fabrics\x00', 0x1, 0x0)
+write$RDMA_USER_CM_CMD_INIT_QP_ATTR(r0, &(0x7f0000000140)={0xb, 0x10, 0xfa00, {0x0}}, 0x18)

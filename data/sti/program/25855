@@ -1,0 +1,2 @@
+r0 = socket$pptp(0x18, 0x1, 0x2)
+close(r0)

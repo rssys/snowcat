@@ -1,0 +1,2 @@
+add_key$fscrypt_provisioning(&(0x7f0000000040)='fscrypt-provisioning\x00', 0x0, 0x0, 0x0, 0xffffffffffffffff)
+prctl$PR_CAP_AMBIENT(0x2f, 0x3, 0x0)

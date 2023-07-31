@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$BATADV_CMD_GET_VLAN(r0, &(0x7f0000000400)={0x0, 0x0, &(0x7f0000000340)={0x0}}, 0x0)
+syz_genetlink_get_family_id$wireguard(&(0x7f0000000240)='wireguard\x00')

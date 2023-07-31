@@ -1,0 +1,1 @@
+syz_mount_image$msdos(0x0, &(0x7f0000001280)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000016c0)={[{@dots='dots'}, {@dots='dots'}, {@fat=@check_normal='check=normal'}], [{@uid_eq={'uid'}}, {@obj_role={'obj_role', 0x3d, '\xfc@'}}, {@uid_lt={'uid<'}}]})

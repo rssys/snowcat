@@ -1,0 +1,2 @@
+io_setup(0xf63b, &(0x7f0000000100))
+ioctl$BTRFS_IOC_GET_SUBVOL_INFO(0xffffffffffffffff, 0x8901, &(0x7f0000000480))

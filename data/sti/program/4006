@@ -1,0 +1,2 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f0000000600)='/dev/snd/seq\x00', 0x0)
+ioctl$SNDRV_SEQ_IOCTL_DELETE_QUEUE(r0, 0x408c5333, &(0x7f0000000000)={0xff, 0x0, 0x0, 'queue0\x00'})

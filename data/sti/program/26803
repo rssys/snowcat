@@ -1,0 +1,3 @@
+r0 = socket$inet6_sctp(0xa, 0x1, 0x84)
+write$P9_RRENAME(0xffffffffffffffff, &(0x7f0000000080)={0x7}, 0x7)
+ioctl$sock_ifreq(r0, 0x890b, &(0x7f0000000040)={'wlan0\x00', @ifru_data=0x0})

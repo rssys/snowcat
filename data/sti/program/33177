@@ -1,0 +1,2 @@
+setsockopt$nfc_llcp_NFC_LLCP_RW(0xffffffffffffffff, 0x118, 0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f00000072c0)='batadv\x00', 0xffffffffffffffff)

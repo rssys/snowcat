@@ -1,0 +1,4 @@
+mknodat(0xffffffffffffff9c, &(0x7f0000000080)='./file0\x00', 0x0, 0x0)
+setresuid(0x0, 0xee01, 0x0)
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000000000)='./file0\x00', 0xc0000009)

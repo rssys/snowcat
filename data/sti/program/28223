@@ -1,0 +1,2 @@
+io_setup(0x8000, &(0x7f0000000000))
+ioctl$sock_ipv6_tunnel_SIOCADD6RD(0xffffffffffffffff, 0x89f9, 0x0)

@@ -1,0 +1,1 @@
+ioctl$IOCTL_VMCI_CTX_ADD_NOTIFICATION(0xffffffffffffffff, 0x7af, 0x0)

@@ -1,0 +1,1 @@
+lsetxattr$trusted_overlay_upper(&(0x7f0000000000)='.\x00', &(0x7f0000000040)='trusted.overlay.upper\x00', &(0x7f0000000080)={0x0, 0xfb, 0x39, 0x0, 0x0, "66ab203b09e5a8ab52a06f1ee9de38e7", "b9537b20a71642b5f77455dd8d24bf273c33687e037c71826a43c8bd9527603c3c5d24e2"}, 0x39, 0x0)

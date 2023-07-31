@@ -1,0 +1,2 @@
+r0 = openat$proc_capi20ncci(0xffffff9c, &(0x7f0000004340)='/proc/capi/capi20ncci\x00', 0x0, 0x0)
+read$FUSE(r0, &(0x7f0000004380)={0x2020}, 0x2020)

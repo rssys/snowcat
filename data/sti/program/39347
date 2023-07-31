@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='attr/keycreate\x00')
+write$evdev(r0, &(0x7f0000000080)=[{{0x0, 0x2710}}], 0x10)

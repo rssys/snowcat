@@ -1,0 +1,7 @@
+ioctl$sock_SIOCGIFINDEX_80211(0xffffffffffffffff, 0x8933, &(0x7f0000000040)={'wlan0\x00'})
+sendmsg$NL80211_CMD_CRIT_PROTOCOL_STOP(0xffffffffffffffff, 0x0, 0x4000000)
+socketpair(0x11, 0x80000, 0x0, &(0x7f0000000740)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+syz_btf_id_by_name$bpf_lsm(&(0x7f0000000a40)='bpf_lsm_ipc_getsecid\x00')
+socket$nl_generic(0x10, 0x3, 0x10)
+arch_prctl$ARCH_MAP_VDSO_X32(0x2001, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f00000010c0)='devlink\x00', r0)

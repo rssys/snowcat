@@ -1,0 +1,2 @@
+sendmsg$TIPC_CMD_GET_NODES(0xffffffffffffffff, 0x0, 0x20008000)
+io_setup(0x10000, &(0x7f0000000100))

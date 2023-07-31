@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000300)='./file0\x00', 0x0)
+ioctl$SECCOMP_IOCTL_NOTIF_ADDFD(r0, 0x40182103, 0x0)

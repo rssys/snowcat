@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000000a40)='net/ip_tables_names\x00')
+sendmsg$BATADV_CMD_GET_DAT_CACHE(0xffffffffffffffff, 0x0, 0x0)

@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$ethtool(&(0x7f0000001dc0)='ethtool\x00', 0xffffffffffffffff)

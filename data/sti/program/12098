@@ -1,0 +1,2 @@
+clock_gettime(0x0, &(0x7f0000000180))
+mlockall(0x3)

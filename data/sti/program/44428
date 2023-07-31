@@ -1,0 +1,2 @@
+fork()
+ioctl$BLKZEROOUT(0xffffffffffffffff, 0x127f, 0x0)

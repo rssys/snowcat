@@ -1,0 +1,3 @@
+r0 = syz_open_dev$loop(&(0x7f0000000100)='/dev/loop#\x00', 0x0, 0x0)
+getitimer(0x0, &(0x7f0000000000))
+ioctl$LOOP_GET_STATUS(r0, 0x4c00, 0x0)

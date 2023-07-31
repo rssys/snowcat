@@ -1,0 +1,3 @@
+r0 = syz_init_net_socket$bt_hci(0x1f, 0x3, 0x1)
+ioctl$BTRFS_IOC_BALANCE_PROGRESS(r0, 0x84009422, 0x0)
+ioctl$sock_bt_hci(r0, 0x800448d3, &(0x7f0000000200))

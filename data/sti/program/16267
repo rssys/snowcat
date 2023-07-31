@@ -1,0 +1,2 @@
+socketpair$nbd(0x1, 0x1, 0x0, &(0x7f0000000040)={<r0=>0xffffffffffffffff})
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000300)={'sit0\x00', &(0x7f0000000080)=@ethtool_per_queue_op={0x17}})

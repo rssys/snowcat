@@ -1,0 +1,3 @@
+r0 = socket(0xa, 0x3, 0x50)
+connect$unix(r0, &(0x7f0000000000)=@file={0x0, './file0\x00'}, 0x6e)
+connect$unix(r0, &(0x7f0000000080)=@file={0x0, './file0\x00'}, 0x6e)

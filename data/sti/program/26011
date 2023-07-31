@@ -1,0 +1,2 @@
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000b40)='net/ip6_tables_targets\x00')

@@ -1,0 +1,2 @@
+r0 = openat$pfkey(0xffffff9c, &(0x7f0000000100)='/proc/self/net/pfkey\x00', 0x0, 0x0)
+ioctl$LOOP_CTL_REMOVE(r0, 0x402c5829, 0x2)

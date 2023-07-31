@@ -1,0 +1,2 @@
+pipe2(&(0x7f00000011c0)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x0)
+fchown(r0, 0xee00, 0xffffffffffffffff)

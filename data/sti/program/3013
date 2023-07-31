@@ -1,0 +1,2 @@
+setresuid(0x0, 0xee00, 0xffffffffffffffff)
+utimes(&(0x7f0000000040)='.\x00', 0x0)

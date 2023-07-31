@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000100)='ns/uts\x00')
+ioctl$FIBMAP(r0, 0x1, &(0x7f0000000140))

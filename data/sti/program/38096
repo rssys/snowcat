@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001600)={[{@mpol={'mpol', 0x3d, {'prefer', '=static'}}}], [{@appraise_type='appraise_type=imasig'}, {@appraise_type='appraise_type=imasig'}]})

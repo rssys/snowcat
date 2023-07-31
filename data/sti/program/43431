@@ -1,0 +1,4 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$IPVS_CMD_DEL_DEST(0xffffffffffffffff, 0x0, 0x40080)
+syz_genetlink_get_family_id$ipvs(&(0x7f00000002c0)='IPVS\x00', r0)
+openat$incfs(0xffffffffffffff9c, &(0x7f0000000640)='.log\x00', 0x82c0, 0x40)

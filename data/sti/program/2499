@@ -1,0 +1,3 @@
+set_tid_address(0x0)
+creat(&(0x7f0000000080)='./file0\x00', 0x0)
+lsetxattr$trusted_overlay_upper(&(0x7f00000006c0)='./file0\x00', &(0x7f0000000700)='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)

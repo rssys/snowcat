@@ -1,0 +1,2 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000280)='net/if_inet6\x00')
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000300)='net/arp\x00')

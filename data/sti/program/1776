@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000300)='timerslack_ns\x00')
+write$vga_arbiter(r0, 0x0, 0x0)

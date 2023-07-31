@@ -1,0 +1,1 @@
+keyctl$KEYCTL_PKEY_DECRYPT(0x1a, &(0x7f0000000000), &(0x7f0000000040)={'enc=', 'oaep', ' hash=', {'sha224-arm64-neon\x00'}}, 0x0, 0x0)

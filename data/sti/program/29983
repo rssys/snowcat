@@ -1,0 +1,4 @@
+r0 = socket$inet6_tcp(0xa, 0x1, 0x0)
+r1 = openat$sndseq(0xffffffffffffff9c, &(0x7f0000001200)='/dev/snd/seq\x00', 0x0)
+ioctl$SNDRV_SEQ_IOCTL_GET_CLIENT_INFO(r1, 0xc0bc5310, &(0x7f0000000040))
+ioctl$sock_inet6_tcp_SIOCOUTQ(r0, 0x890b, &(0x7f0000000000))

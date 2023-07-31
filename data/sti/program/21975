@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r2 = syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000280)='NLBL_UNLBL\x00', r1)
+sendmsg$NLBL_UNLABEL_C_STATICREMOVE(r0, &(0x7f00000003c0)={0x0, 0x0, &(0x7f0000000380)={&(0x7f0000000200)={0x28, r2, 0xa11, 0x0, 0x0, {}, [@NLBL_UNLABEL_A_IFACE={0x14, 0x6, 'batadv0\x00'}]}, 0x28}}, 0x0)

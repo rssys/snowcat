@@ -1,0 +1,4 @@
+r0 = openat$procfs(0xffffffffffffff9c, &(0x7f0000000040)='/proc/bus/input/devices\x00', 0x0, 0x0)
+r1 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+r2 = dup(r1)
+mount$9p_fd(0x0, &(0x7f00000000c0)='./cgroup/cgroup.procs\x00', &(0x7f0000000340)='9p\x00', 0x0, &(0x7f0000000440)={'trans=fd,', {'rfdno', 0x3d, r2}, 0x2c, {'wfdno', 0x3d, r0}})

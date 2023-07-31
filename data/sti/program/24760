@@ -1,0 +1,2 @@
+r0 = syz_open_dev$evdev(&(0x7f0000000640)='/dev/input/event#\x00', 0x0, 0x0)
+ioctl$EVIOCGBITKEY(r0, 0x80404521, &(0x7f0000000680)=""/252)

@@ -1,0 +1,3 @@
+r0 = socket$inet_smc(0x2b, 0x1, 0x0)
+r1 = dup2(r0, r0)
+read$snddsp(r1, &(0x7f0000000000)=""/103, 0x67)

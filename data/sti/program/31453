@@ -1,0 +1,1 @@
+set_mempolicy(0x1, &(0x7f00000001c0)=0xffffffffffffffa2, 0xfff)

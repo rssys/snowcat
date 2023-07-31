@@ -1,0 +1,2 @@
+openat$audio1(0xffffff9c, &(0x7f00000003c0)='/dev/audio1\x00', 0x0, 0x0)
+openat$pfkey(0xffffff9c, &(0x7f00000010c0)='/proc/self/net/pfkey\x00', 0x484c0, 0x0)

@@ -1,0 +1,2 @@
+syz_mount_image$iso9660(&(0x7f0000003080)='iso9660\x00', &(0x7f00000030c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000033c0))
+setxattr$security_ima(&(0x7f0000003600)='./file0\x00', &(0x7f0000003640)='security.ima\x00', 0x0, 0x0, 0x0)

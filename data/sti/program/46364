@@ -1,0 +1,2 @@
+r0 = socket$inet6_mptcp(0xa, 0x1, 0x106)
+ioctl$sock_SIOCGIFCONF(r0, 0x8912, &(0x7f0000004300)=@buf={0x0, &(0x7f00000042c0)})

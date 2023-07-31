@@ -1,0 +1,4 @@
+add_key(&(0x7f00000000c0)='cifs.spnego\x00', 0x0, &(0x7f0000000140), 0x0, 0xfffffffffffffffd)
+sendmsg$IPVS_CMD_GET_CONFIG(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$team(&(0x7f00000008c0)='team\x00')
+symlinkat(&(0x7f0000004c00)='./file0\x00', 0xffffffffffffff9c, &(0x7f0000004c40)='./file0\x00')

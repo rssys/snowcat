@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f00000004c0)='keyring\x00', &(0x7f0000000500)={'syz', 0x1}, 0x0, 0x0, 0xfffffffffffffffe)
+keyctl$search(0xa, r0, &(0x7f00000005c0)='keyring\x00', &(0x7f0000000600)={'syz', 0x1}, 0x0)

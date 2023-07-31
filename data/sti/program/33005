@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000180)='comm\x00')
+execveat(r0, &(0x7f0000000000)='\x00', 0x0, 0x0, 0x1000)

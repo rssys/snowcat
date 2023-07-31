@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$TEAM_CMD_PORT_LIST_GET(r0, &(0x7f0000001b80)={0x0, 0x0, &(0x7f0000001b40)={0x0}}, 0x0)
+syz_genetlink_get_family_id$gtp(&(0x7f0000001c00)='gtp\x00', r0)

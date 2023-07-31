@@ -1,0 +1,2 @@
+r0 = openat$userio(0xffffff9c, &(0x7f0000000000)='/dev/userio\x00', 0x141841, 0x0)
+write$USERIO_CMD_SEND_INTERRUPT(r0, 0x0, 0x0)

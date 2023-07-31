@@ -1,0 +1,5 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+r1 = openat$sndseq(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/snd/seq\x00', 0x1)
+ioctl$SNDRV_SEQ_IOCTL_CREATE_QUEUE(r1, 0xc08c5332, &(0x7f0000000000)={0x0, 0x0, 0x0, 'queue1\x00'})
+write$sndseq(r1, &(0x7f0000000100)=[{0x1f, 0x0, 0x0, 0x0, @tick, {}, {}, @control}], 0x1c)
+dup2(r0, r1)

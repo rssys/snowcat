@@ -1,0 +1,3 @@
+r0 = openat$audio1(0xffffff9c, &(0x7f0000000000)='/dev/audio1\x00', 0x101002, 0x0)
+ioctl$SNDCTL_DSP_SPEED(r0, 0xc0045002, &(0x7f0000001100))
+write$dsp(r0, &(0x7f0000000040)="1247c7b5f2e4ac47fbe9718d00189e2a58501ddd90493f2315c40fd853ce8377f3a692777aa47aff14e170f704f6fe1be9e3afdb46e8bc3b431ccd7286dedc2f", 0x40)

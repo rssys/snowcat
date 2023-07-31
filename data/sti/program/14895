@@ -1,0 +1,2 @@
+r0 = add_key(&(0x7f0000001000)='id_resolver\x00', &(0x7f0000001040)={'syz', 0x1}, &(0x7f0000001100)='?', 0x1, 0xffffffffffffffff)
+keyctl$setperm(0x5, r0, 0x0)

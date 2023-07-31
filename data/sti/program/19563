@@ -1,0 +1,2 @@
+socket$packet(0x11, 0x2, 0x300)
+syz_genetlink_get_family_id$team(&(0x7f0000000ac0)='team\x00', 0xffffffffffffffff)

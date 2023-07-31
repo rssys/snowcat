@@ -1,0 +1,2 @@
+r0 = syz_open_dev$admmidi(&(0x7f0000000000)='/dev/admmidi#\x00', 0x84, 0x0)
+ioctl$SNDRV_RAWMIDI_IOCTL_PARAMS(r0, 0xc0205710, &(0x7f0000000040)={0x1})

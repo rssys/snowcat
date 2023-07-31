@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$batadv(&(0x7f00000001c0)='batadv\x00')
+syz_mount_image$msdos(0x0, &(0x7f00000000c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$security_capability(&(0x7f0000000080)='./file0\x00', &(0x7f0000000100)='security.capability\x00', &(0x7f0000000280)=@v3, 0x18, 0x0)

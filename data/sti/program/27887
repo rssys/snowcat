@@ -1,0 +1,2 @@
+r0 = syz_open_dev$admmidi(&(0x7f0000000040)='/dev/admmidi#\x00', 0x2, 0x0)
+read$midi(r0, 0x0, 0x0)

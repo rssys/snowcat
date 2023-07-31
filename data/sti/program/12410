@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f0000000100)='keyring\x00', &(0x7f0000000140)={'syz', 0x1}, 0x0, 0x0, 0xffffffffffffffff)
+keyctl$assume_authority(0x10, r0)

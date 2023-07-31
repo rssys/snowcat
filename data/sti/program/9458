@@ -1,0 +1,3 @@
+openat$adsp1(0xffffff9c, &(0x7f0000000000)='/dev/adsp1\x00', 0x0, 0x0)
+ioctl$SOUND_PCM_READ_BITS(0xffffffffffffffff, 0x80045005, 0x0)
+openat$audio(0xffffff9c, &(0x7f0000000400)='/dev/audio\x00', 0x105040, 0x0)

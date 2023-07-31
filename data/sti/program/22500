@@ -1,0 +1,1 @@
+syz_emit_ethernet(0x2a, &(0x7f0000000000)={@broadcast, @broadcast, @void, {@arp={0x806, @generic={0x0, 0x0, 0x6, 0x4, 0x0, @remote, "9a1e10cb", @dev, "0e27aadf"}}}}, 0x0)

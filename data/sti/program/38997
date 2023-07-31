@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000100)='./file0\x00', 0x0)
+write$P9_RREADLINK(r0, 0x0, 0x10)

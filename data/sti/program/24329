@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$nl_generic(r0, &(0x7f00000018c0)={0x0, 0x0, &(0x7f0000001880)={&(0x7f0000000000)=ANY=[@ANYBLOB="ec1700001a00016957c4593dab77858a7e"], 0x17ec}}, 0x0)

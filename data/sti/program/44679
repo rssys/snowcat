@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsn(&(0x7f0000000080)='/dev/vcs#\x00', 0x0, 0x1542)
+write$char_raw(r0, &(0x7f0000001400)={'m'}, 0x200)

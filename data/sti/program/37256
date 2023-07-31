@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$wireguard(0x0, 0xffffffffffffffff)
+syz_io_uring_setup(0x1419, &(0x7f0000000080), &(0x7f0000ffc000/0x3000)=nil, &(0x7f0000ffc000/0x4000)=nil, &(0x7f0000000100), &(0x7f0000000140))

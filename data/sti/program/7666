@@ -1,0 +1,2 @@
+r0 = syz_mount_image$tmpfs(&(0x7f0000000000)='tmpfs\x00', &(0x7f00000001c0)='./file0\x00', 0x0, 0xffffff80, 0x0, 0x1000000, &(0x7f0000001400)=ANY=[])
+getdents(r0, 0x0, 0x0)

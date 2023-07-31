@@ -1,0 +1,1 @@
+syz_mount_image$nfs4(&(0x7f0000000140)='nfs4\x00', &(0x7f0000000180)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002640)={[], [{@subj_type={'subj_type', 0x3d, '/dev/vcs#\x00'}}]})

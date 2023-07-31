@@ -1,0 +1,2 @@
+syz_open_dev$vcsu(&(0x7f0000000540)='/dev/vcsu#\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$wireguard(&(0x7f0000000500)='wireguard\x00', 0xffffffffffffffff)

@@ -1,0 +1,5 @@
+r0 = signalfd(0xffffffffffffffff, &(0x7f0000000040), 0x8)
+io_uring_setup(0x7905, &(0x7f00000001c0)={0x0, 0x5750})
+r1 = io_uring_setup(0x2f29, &(0x7f00000001c0))
+ioctl$LOOP_CHANGE_FD(0xffffffffffffffff, 0x4c06, 0xffffffffffffffff)
+dup2(r0, r1)

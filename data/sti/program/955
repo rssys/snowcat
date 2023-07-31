@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsu(&(0x7f0000000000)='/dev/vcsu#\x00', 0x1, 0x0)
+read$ptp(r0, &(0x7f0000000040)=""/196, 0xc4)

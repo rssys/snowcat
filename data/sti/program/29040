@@ -1,0 +1,2 @@
+r0 = fork()
+sched_setaffinity(r0, 0x8, &(0x7f0000000000)=0x7)

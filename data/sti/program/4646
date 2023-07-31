@@ -1,0 +1,8 @@
+r0 = openat$zero(0xffffffffffffff9c, &(0x7f0000000140)='/dev/zero\x00', 0x0, 0x0)
+ioctl$sock_SIOCDELRT(r0, 0x890c, 0x0)
+socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$mptcp(&(0x7f0000000600)='mptcp_pm\x00')
+sendmsg$DEVLINK_CMD_SB_POOL_GET(0xffffffffffffffff, 0x0, 0x0)
+sendmsg$DEVLINK_CMD_SB_POOL_GET(0xffffffffffffffff, 0x0, 0x0)
+r1 = getpid()
+syz_open_procfs$namespace(r1, 0x0)

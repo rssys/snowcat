@@ -1,0 +1,2 @@
+r0 = fork()
+setpgid(r0, 0x0)

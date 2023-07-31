@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000001980)='attr\x00')
+symlinkat(&(0x7f0000003300)='./file0\x00', r0, &(0x7f0000003340)='./file0/../file0\x00')

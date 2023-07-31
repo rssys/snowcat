@@ -1,0 +1,5 @@
+r0 = creat(&(0x7f0000002100)='./file0\x00', 0x0)
+r1 = creat(&(0x7f0000002100)='./file0\x00', 0x0)
+writev(r1, &(0x7f0000001100)=[{&(0x7f0000000080)='k', 0x1}], 0x1)
+ioctl$FS_IOC_RESVSP(r0, 0x660c, 0x0)
+write$binfmt_misc(r0, &(0x7f0000000040)={'syz0'}, 0x4)

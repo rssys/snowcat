@@ -1,0 +1,2 @@
+openat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x40, 0x0)
+setxattr$trusted_overlay_origin(&(0x7f0000000240)='./file0\x00', &(0x7f0000000280)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

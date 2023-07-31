@@ -1,0 +1,2 @@
+clock_getres(0x0, &(0x7f0000000280))
+fork()

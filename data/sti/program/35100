@@ -1,0 +1,4 @@
+syz_open_procfs(0x0, &(0x7f0000007900)='net/netstat\x00')
+openat$cgroup(0xffffffffffffffff, 0x0, 0x200002, 0x0)
+fork()
+openat$smack_thread_current(0xffffff9c, &(0x7f0000007a40)='/proc/thread-self/attr/current\x00', 0x2, 0x0)

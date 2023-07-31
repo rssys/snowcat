@@ -1,0 +1,4 @@
+syz_open_procfs$namespace(0x0, &(0x7f00000000c0)='ns/pid_for_children\x00')
+io_setup(0x8, &(0x7f0000000100)=<r0=>0x0)
+io_cancel(r0, &(0x7f0000000280)={0x0, 0x0, 0x0, 0x0, 0x0, 0xffffffffffffffff, 0x0}, 0x0)
+syz_genetlink_get_family_id$wireguard(&(0x7f0000003fc0)='wireguard\x00', 0xffffffffffffffff)

@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$netlbl_mgmt(0x0)
+socketpair$nbd(0x1, 0x1, 0x0, &(0x7f00000007c0))

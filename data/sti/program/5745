@@ -1,0 +1,2 @@
+syz_mount_image$iso9660(&(0x7f0000000340)='iso9660\x00', &(0x7f0000000380)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000a40))
+removexattr(&(0x7f0000000140)='./file0\x00', &(0x7f0000000300)=@known='system.posix_acl_access\x00')

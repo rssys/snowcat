@@ -1,0 +1,2 @@
+lsetxattr$smack_xattr_label(&(0x7f0000001a00)='./file1/file0\x00', 0x0, 0x0, 0x0, 0x0)
+symlink(&(0x7f0000002040)='./file2\x00', &(0x7f0000002080)='./file1\x00')

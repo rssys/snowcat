@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0x0, &(0x7f0000000380)='ns/mnt\x00')
+ioctl$PERF_EVENT_IOC_REFRESH(r0, 0xb703, 0x0)

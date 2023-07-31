@@ -1,0 +1,7 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+openat$zero(0xffffffffffffff9c, &(0x7f0000005b80)='/dev/zero\x00', 0x0, 0x0)
+r1 = openat$zero(0xffffffffffffff9c, &(0x7f0000005b80)='/dev/zero\x00', 0x0, 0x0)
+openat$zero(0xffffffffffffff9c, &(0x7f0000005b80)='/dev/zero\x00', 0x0, 0x0)
+r2 = openat$zero(0xffffffffffffff9c, &(0x7f0000005b80)='/dev/zero\x00', 0x0, 0x0)
+setsockopt$inet6_IPV6_HOPOPTS(r0, 0x29, 0x36, &(0x7f0000000000)=ANY=[@ANYRES32=r1, @ANYRES32=r2], 0x50)
+setsockopt$inet6_IPV6_HOPOPTS(r0, 0x29, 0x36, 0x0, 0x248)

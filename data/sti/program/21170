@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000080)='numa_maps\x00')
+syz_mount_image$fuse(&(0x7f0000000000)='fuse\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002100)={{'fd', 0x3d, r0}, 0x2c, {'rootmode', 0x3d, 0xc000}, 0x2c, {'user_id'}, 0x2c, {'group_id'}, 0x2c, {[{@default_permissions='default_permissions'}, {@max_read={'max_read'}}], [{@rootcontext={'rootcontext', 0x3d, 'unconfined_u'}}]}})

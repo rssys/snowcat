@@ -1,0 +1,2 @@
+recvmsg$can_bcm(0xffffffffffffffff, 0x0, 0x40010103)
+openat$adsp1(0xffffff9c, &(0x7f0000005080)='/dev/adsp1\x00', 0x0, 0x0)

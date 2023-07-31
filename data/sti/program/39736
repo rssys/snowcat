@@ -1,0 +1,1 @@
+add_key(&(0x7f0000000140)='encrypted\x00', &(0x7f0000000040)={'syz', 0x1}, &(0x7f0000000080)='+', 0x1, 0xffffffffffffffff)

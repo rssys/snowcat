@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f00000000c0)='./file0\x00', 0x40, 0x0)
+fsetxattr(r0, &(0x7f0000000400)=@known='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

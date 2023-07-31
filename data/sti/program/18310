@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_ipv6_tunnel_SIOCCHG6RD(r0, 0x89fb, &(0x7f0000000200)={'ip6tnl0\x00', 0x0})

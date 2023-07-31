@@ -1,0 +1,3 @@
+openat$sequencer(0xffffff9c, &(0x7f0000005400)='/dev/sequencer\x00', 0x4802, 0x0)
+r0 = openat$cachefiles(0xffffff9c, &(0x7f00000054c0)='/dev/cachefiles\x00', 0x0, 0x0)
+sendmsg$BATADV_CMD_GET_MESH(r0, 0x0, 0x14)

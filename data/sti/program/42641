@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000000080)='net/ip6_flowlabel\x00')
+syz_open_procfs(0x0, &(0x7f0000000200)='net/ip6_flowlabel\x00')

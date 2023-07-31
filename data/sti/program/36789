@@ -1,0 +1,1 @@
+openat$hpet(0xffffff9c, &(0x7f0000000040)='/dev/hpet\x00', 0x101400, 0x0)

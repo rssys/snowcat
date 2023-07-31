@@ -1,0 +1,4 @@
+ioctl$VFIO_IOMMU_MAP_DMA(0xffffffffffffffff, 0x3b71, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000340)='nl80211\x00', 0xffffffffffffffff)
+mkdirat(0xffffffffffffff9c, &(0x7f0000000540)='./file0\x00', 0x0)
+openat$tcp_congestion(0xffffff9c, 0x0, 0x1, 0x0)

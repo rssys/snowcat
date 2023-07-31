@@ -1,0 +1,1 @@
+syz_emit_ethernet(0x12, &(0x7f0000000100)={@broadcast, @link_local, @val={@void}}, 0x0)

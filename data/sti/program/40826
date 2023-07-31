@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000000040)='./file0\x00', 0x0)
+ioctl$FS_IOC_FIEMAP(r0, 0x4030582a, &(0x7f0000000180)=ANY=[@ANYBLOB="000000000000009100000009000000000000000001"])
+write$selinux_attr(r0, &(0x7f0000000000)='system_u:object_r:hald_mac_exec_t:s0\x00', 0x25)

@@ -1,0 +1,2 @@
+r0 = socket$inet_tcp(0x2, 0x1, 0x0)
+ioctl$sock_inet_SIOCGARP(r0, 0x8955, &(0x7f00000001c0)={{}, {0x0, @random="355409038d04"}, 0x4a, {0x2, 0x0, @private}, 'sit0\x00'})

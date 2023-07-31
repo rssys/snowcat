@@ -1,0 +1,1 @@
+syz_open_dev$mouse(&(0x7f0000000ec0)='/dev/input/mouse#\x00', 0x878, 0x600000)

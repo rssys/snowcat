@@ -1,0 +1,4 @@
+ioctl$sock_FIOSETOWN(0xffffffffffffffff, 0x8901, &(0x7f00000000c0))
+r0 = socket$kcm(0x29, 0x5, 0x0)
+r1 = dup2(r0, r0)
+getsockopt$kcm_KCM_RECV_DISABLE(r1, 0x119, 0x1, 0x0, 0x20000000)

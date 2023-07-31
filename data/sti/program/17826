@@ -1,0 +1,2 @@
+r0 = syz_open_dev$binderN(&(0x7f0000000140)='/dev/binder#\x00', 0x0, 0x0)
+ioctl$BINDER_WRITE_READ(r0, 0xc0306201, &(0x7f00000002c0)={0x30, 0x0, &(0x7f0000000180)=[@acquire_done, @free_buffer, @request_death], 0x1, 0x0, &(0x7f0000000200)='T'})

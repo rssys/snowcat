@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+write$char_usb(r0, &(0x7f00000002c0)="e698b25f7a95607ea0482f92e5ac40", 0xf)

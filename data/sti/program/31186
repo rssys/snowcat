@@ -1,0 +1,4 @@
+setreuid(0x0, 0xee00)
+add_key$fscrypt_provisioning(&(0x7f0000000000)='fscrypt-provisioning\x00', 0x0, 0x0, 0x0, 0xffffffffffffffff)
+getresuid(&(0x7f0000000140), &(0x7f0000000180), &(0x7f00000001c0)=<r0=>0x0)
+setreuid(r0, 0x0)

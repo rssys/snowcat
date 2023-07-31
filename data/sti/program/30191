@@ -1,0 +1,2 @@
+openat$cgroup_ro(0xffffffffffffffff, &(0x7f0000001040)='hugetlb.2MB.limit_in_bytes\x00', 0x0, 0x0)
+syz_open_dev$tty1(0xc, 0x4, 0x1)

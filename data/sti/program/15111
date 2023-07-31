@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f0000000000)='securityfs\x00', 0x0)
+fsconfig$FSCONFIG_SET_FLAG(r0, 0x0, 0xffffffffffffffff, 0x0, 0x0)

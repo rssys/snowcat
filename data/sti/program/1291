@@ -1,0 +1,2 @@
+r0 = socket$unix(0x1, 0x2, 0x0)
+ioctl$sock_netdev_private(r0, 0x541b, &(0x7f0000000000))

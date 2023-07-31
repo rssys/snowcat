@@ -1,0 +1,1 @@
+add_key$keyring(&(0x7f00000004c0)='keyring\x00', &(0x7f0000000500)={'syz', 0x0}, 0x0, 0x0, 0xfffffffffffffffb)

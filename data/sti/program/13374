@@ -1,0 +1,2 @@
+syz_open_dev$tty1(0xc, 0x4, 0x3)
+ioctl$SNDRV_CTL_IOCTL_PCM_PREFER_SUBDEVICE(0xffffffffffffffff, 0x40045532, 0x0)

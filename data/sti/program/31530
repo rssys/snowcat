@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sg(&(0x7f0000000040)='/dev/sg#\x00', 0x0, 0x80e42)
+write$binfmt_misc(r0, &(0x7f0000000140)=ANY=[], 0x2a)

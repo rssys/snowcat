@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000004400)='tmpfs\x00', &(0x7f0000004440)='./file1\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000004880)={[{@mpol={'mpol', 0x3d, {'default', '', @void}}}, {@gid={'gid'}}]})

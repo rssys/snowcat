@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f00000001c0)='ns/mnt\x00')
+ioctl$sock_ipv6_tunnel_SIOCGETTUNNEL(r0, 0x89f0, 0x0)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$dri(&(0x7f0000000140)='/dev/dri/card#\x00', 0x0, 0x0)
+ioctl$DRM_IOCTL_AGP_BIND(r0, 0x40086436, &(0x7f0000000000))

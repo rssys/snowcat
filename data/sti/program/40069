@@ -1,0 +1,2 @@
+r0 = syz_mount_image$tmpfs(&(0x7f00000000c0)='tmpfs\x00', &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x3000043, &(0x7f00000003c0)=ANY=[])
+fchown(r0, 0x0, 0xee01)

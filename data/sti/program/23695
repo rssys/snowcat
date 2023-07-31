@@ -1,0 +1,2 @@
+syz_open_procfs(0xffffffffffffffff, 0x0)
+syz_open_procfs(0xffffffffffffffff, &(0x7f00000003c0)='net/vlan/vlan0\x00')

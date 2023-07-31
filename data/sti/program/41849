@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f0000000280)='keyring\x00', &(0x7f00000002c0)={'syz', 0x3}, 0x0, 0x0, 0xffffffffffffffff)
+add_key(&(0x7f0000000300)='cifs.idmap\x00', &(0x7f0000000340)={'syz', 0x1}, &(0x7f0000000380)='\t', 0x1, r0)

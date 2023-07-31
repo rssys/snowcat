@@ -1,0 +1,3 @@
+r0 = openat$snapshot(0xffffff9c, &(0x7f0000000080)='/dev/snapshot\x00', 0x0, 0x0)
+ioctl$SNAPSHOT_FREE(r0, 0x3305)
+ioctl$SNDCTL_DSP_GETOSPACE(0xffffffffffffffff, 0x8010500c, &(0x7f0000000100))

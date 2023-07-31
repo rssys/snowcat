@@ -1,0 +1,5 @@
+r0 = creat(&(0x7f0000000040)='./file0\x00', 0x0)
+r1 = open(&(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+writev(r0, &(0x7f0000000580)=[{&(0x7f00000001c0)="c8066bd1ec5599ecdc3dbe", 0xb}, {&(0x7f0000000200)="33da1584ae", 0x5}], 0x2)
+r2 = eventfd2(0x0, 0x80801)
+sendfile(r2, r1, 0x0, 0x25)

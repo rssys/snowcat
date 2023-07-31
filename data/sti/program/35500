@@ -1,0 +1,5 @@
+syz_genetlink_get_family_id$netlbl_mgmt(&(0x7f0000000040)='NLBL_MGMT\x00')
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+socketpair$nbd(0x1, 0x1, 0x0, &(0x7f00000007c0))
+ioctl$sock_SIOCGIFINDEX_80211(r0, 0x8933, &(0x7f0000000940)={'wlan0\x00'})
+syz_open_procfs$namespace(0x0, &(0x7f0000000b40)='ns/ipc\x00')

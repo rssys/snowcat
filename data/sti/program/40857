@@ -1,0 +1,7 @@
+r0 = accept4$inet6(0xffffffffffffffff, 0x0, &(0x7f0000000200), 0x0)
+accept4$inet6(r0, 0x0, 0x0, 0x1000)
+io_uring_register$IORING_REGISTER_EVENTFD(0xffffffffffffffff, 0x4, &(0x7f00000002c0), 0x1)
+ioctl$ifreq_SIOCGIFINDEX_team(r0, 0x8933, &(0x7f00000003c0)={'team0\x00'})
+syz_open_dev$sg(&(0x7f0000000440)='/dev/sg#\x00', 0xfffffff9, 0x8a202)
+ioctl$SG_IO(0xffffffffffffffff, 0x2285, &(0x7f0000000740)={0x53, 0xffffffffffffffff, 0x2b, 0x0, @buffer={0x0, 0xf8, &(0x7f0000000480)=""/248}, &(0x7f0000000580)="fe61a54afcc74aa6c6d4efeee1995e2217a41c56565f5ec52af392c5a52ce0fd7208a43dc37453034c44af", &(0x7f0000000600)=""/201, 0xffffffff, 0x0, 0x0, &(0x7f0000000700)})
+syz_open_dev$ttys(0xc, 0x2, 0x1)

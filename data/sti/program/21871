@@ -1,0 +1,3 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+r1 = dup2(r0, r0)
+connect$unix(r1, &(0x7f0000000000)=@file={0x10, './file0\x00'}, 0xb)

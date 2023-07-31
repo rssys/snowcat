@@ -1,0 +1,2 @@
+syz_mount_image$nfs(&(0x7f0000003cc0)='nfs\x00', &(0x7f0000003d00)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000003dc0))
+mkdir(&(0x7f0000004280)='./file0/file0\x00', 0x0)

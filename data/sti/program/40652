@@ -1,0 +1,1 @@
+openat$ipvs(0xffffff9c, &(0x7f00000009c0)='/proc/sys/net/ipv4/vs/lblcr_expiration\x00', 0x2, 0x0)

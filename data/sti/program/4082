@@ -1,0 +1,4 @@
+r0 = openat$tcp_congestion(0xffffff9c, &(0x7f0000000000)='/proc/sys/net/ipv4/tcp_congestion_control\x00', 0x1, 0x0)
+socket$netlink(0x10, 0x3, 0x0)
+syz_genetlink_get_family_id$tipc(&(0x7f0000000140)='TIPC\x00', 0xffffffffffffffff)
+fstat(r0, &(0x7f0000001740))

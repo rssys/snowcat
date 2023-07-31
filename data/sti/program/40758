@@ -1,0 +1,3 @@
+r0 = syz_init_net_socket$nl_rdma(0x10, 0x3, 0x10)
+sendmsg$RDMA_NLDEV_CMD_STAT_DEL(r0, &(0x7f00000000c0)={0x0, 0x0, &(0x7f0000000080)={0x0, 0x4c}}, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000100)='devlink\x00', r0)

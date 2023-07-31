@@ -1,0 +1,3 @@
+r0 = socket$nl_sock_diag(0x10, 0x3, 0x4)
+ioctl$SNDRV_TIMER_IOCTL_CONTINUE(0xffffffffffffffff, 0x54a2)
+mount$9p_fd(0x0, &(0x7f0000000140)='.\x00', &(0x7f0000000180)='9p\x00', 0x0, &(0x7f00000001c0)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno', 0x3d, r0}, 0x2c, {[{@privport='privport'}, {@version_u='version=9p2000.u'}], [{@fscontext={'fscontext', 0x3d, 'staff_u'}}]}})

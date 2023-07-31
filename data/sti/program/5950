@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$ethtool(&(0x7f0000001480)='ethtool\x00', 0xffffffffffffffff)
+syz_open_dev$ndb(&(0x7f0000001b80)='/dev/nbd#\x00', 0x0, 0x20000)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

@@ -1,0 +1,2 @@
+unshare(0x8000400)
+syz_genetlink_get_family_id$team(&(0x7f0000000080)='team\x00')

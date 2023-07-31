@@ -1,0 +1,2 @@
+r0 = openat$vcs(0xffffffffffffff9c, &(0x7f0000000080)='/dev/vcs\x00', 0xa001, 0x0)
+write$P9_RGETATTR(r0, &(0x7f00000000c0)={0xa0}, 0xa0)

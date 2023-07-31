@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$team(&(0x7f0000000240)='team\x00', 0xffffffffffffffff)

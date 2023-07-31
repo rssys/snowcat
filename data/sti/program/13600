@@ -1,0 +1,4 @@
+r0 = socket$inet_tcp(0x2, 0x1, 0x0)
+r1 = openat(0xffffffffffffff9c, &(0x7f0000000040)='./cgroup/cgroup.procs\x00', 0x0, 0x0)
+open_by_handle_at(r1, &(0x7f0000000000)=ANY=[@ANYBLOB="2a00000002000000", @ANYRES16=r1], 0x0)
+close_range(r0, 0xffffffffffffffff, 0x0)

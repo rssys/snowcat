@@ -1,0 +1,2 @@
+pipe2$9p(&(0x7f0000000000)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x0)
+writev(r0, &(0x7f00000001c0)=[{&(0x7f0000000040)="9380fc2e", 0x4}], 0x1000000000000258)

@@ -1,0 +1,2 @@
+read$FUSE(0xffffffffffffffff, 0x0, 0x0)
+syz_mount_image$ntfs(0x0, &(0x7f0000007400)='./file0\x00', 0xf63, 0x0, 0x0, 0x0, &(0x7f0000007780)={[{@case_sensitive_no='case_sensitive=no'}], [{@smackfsdef={'smackfsdef'}}]})

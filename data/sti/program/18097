@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+write$P9_RFSYNC(r0, &(0x7f0000001200)={0x7}, 0xfffffdef)

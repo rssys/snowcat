@@ -1,0 +1,4 @@
+open(&(0x7f0000000b00)='./file0\x00', 0x16b440, 0x0)
+r0 = syz_open_dev$vcsa(&(0x7f0000000240)='/dev/vcsa#\x00', 0x0, 0x200840)
+r1 = socket$nl_audit(0x10, 0x3, 0x9)
+mount$9p_fd(0x0, &(0x7f00000001c0)='./file0\x00', &(0x7f0000000200)='9p\x00', 0x0, &(0x7f0000000280)={'trans=fd,', {'rfdno', 0x3d, r0}, 0x2c, {'wfdno', 0x3d, r1}})

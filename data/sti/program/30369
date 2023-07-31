@@ -1,0 +1,2 @@
+sendmsg$nl_netfilter(0xffffffffffffffff, 0x0, 0x0)
+fork()

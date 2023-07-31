@@ -1,0 +1,3 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x42, 0x0)
+fsetxattr$security_ima(r0, &(0x7f0000000040)='security.ima\x00', &(0x7f0000000080)=ANY=[], 0x93, 0x0)
+fsetxattr$trusted_overlay_redirect(r0, &(0x7f00000001c0)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)

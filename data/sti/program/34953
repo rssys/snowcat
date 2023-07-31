@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000002100)='./file0\x00', 0x0)
+writev(0xffffffffffffffff, &(0x7f0000001100)=[{&(0x7f0000000080)="6b5888f255beef8baa3ff21ceb639963868ed8dc0d4e4b3211fa343b0d96ff108b1713369155785db1", 0x29}], 0x1)
+ioctl$FS_IOC_RESVSP(r0, 0xc0c0583b, &(0x7f0000000040)={0x8})

@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x2, 0x300)
+ioctl$sock_inet_SIOCSIFNETMASK(r0, 0x8914, &(0x7f0000000000)={'sit0\x00', {0x2, 0x0, @remote}})

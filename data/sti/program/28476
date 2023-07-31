@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f0000000080)='binfmt_misc\x00', 0x0)
+write$sndseq(r0, 0x0, 0x0)

@@ -1,0 +1,1 @@
+syz_mount_image$bfs(&(0x7f0000001980)='bfs\x00', &(0x7f00000019c0)='./file0/file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001f00))

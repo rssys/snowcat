@@ -1,0 +1,2 @@
+r0 = fork()
+getpriority(0x1, r0)

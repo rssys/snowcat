@@ -1,0 +1,6 @@
+r0 = syz_open_dev$loop(&(0x7f0000000000)='/dev/loop#\x00', 0x0, 0x0)
+ioctl$BLKSECDISCARD(r0, 0x4c06, 0x0)
+syz_open_dev$loop(&(0x7f0000000040)='/dev/loop#\x00', 0x0, 0x163000)
+r1 = openat$vcsu(0xffffffffffffff9c, &(0x7f0000000980)='/dev/vcsu\x00', 0x0, 0x0)
+ioctl$SNDRV_TIMER_IOCTL_PVERSION(r1, 0x80045400, 0x0)
+ioctl$sock_SIOCGIFCONF(r1, 0x8912, 0x0)

@@ -1,0 +1,3 @@
+r0 = add_key$keyring(&(0x7f0000003540)='keyring\x00', &(0x7f0000003580)={'syz', 0x3}, 0x0, 0x0, 0xfffffffffffffffd)
+request_key(&(0x7f0000003480)='blacklist\x00', &(0x7f00000034c0)={'syz', 0x3}, 0x0, 0xffffffffffffffff)
+add_key$keyring(&(0x7f0000003540)='keyring\x00', &(0x7f0000003580)={'syz', 0x2}, 0x0, 0x0, r0)

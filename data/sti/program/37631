@@ -1,0 +1,2 @@
+openat$cgroup_ro(0xffffffffffffffff, &(0x7f0000000000)='cpuset.memory_pressure\x00', 0x0, 0x0)
+socket$packet(0x11, 0x2, 0x300)

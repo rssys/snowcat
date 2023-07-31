@@ -1,0 +1,2 @@
+r0 = gettid()
+migrate_pages(r0, 0x8, 0x0, &(0x7f0000000200)=0x101)

@@ -1,0 +1,4 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000200)='net/ip6_tables_targets\x00')
+r1 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000200)='net/ip6_tables_targets\x00')
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000200)='net/ip6_tables_targets\x00')
+dup2(r1, r0)

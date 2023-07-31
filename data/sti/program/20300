@@ -1,0 +1,3 @@
+ioctl$KVM_HYPERV_EVENTFD(0xffffffffffffffff, 0x4018aebd, &(0x7f0000000640))
+syz_init_net_socket$ax25(0x3, 0x2, 0xc4)
+ioctl$ifreq_SIOCGIFINDEX_team(0xffffffffffffffff, 0x8933, 0x0)

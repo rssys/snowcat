@@ -1,0 +1,2 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000480)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000003580)='nl80211\x00')

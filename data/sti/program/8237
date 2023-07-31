@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000200)='oom_score_adj\x00')
+readv(r0, &(0x7f0000000340)=[{&(0x7f0000000080)=""/11, 0xb}], 0x1)

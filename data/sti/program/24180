@@ -1,0 +1,2 @@
+r0 = syz_init_net_socket$nl_rdma(0x10, 0x3, 0x10)
+sendmsg$RDMA_NLDEV_CMD_SET(r0, &(0x7f00000000c0)={0x0, 0x0, &(0x7f0000000080)={&(0x7f0000000040)=ANY=[@ANYBLOB="24b2"], 0x24}}, 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$l2tp6(0xa, 0x2, 0x73)
+ioctl$sock_SIOCOUTQ(r0, 0x5411, &(0x7f00000000c0))

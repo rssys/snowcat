@@ -1,0 +1,1 @@
+openat$vcs(0xffffffffffffff9c, &(0x7f0000000000)='/dev/vcs\x00', 0x0, 0x0)

@@ -1,0 +1,4 @@
+r0 = add_key$user(&(0x7f0000000180)='user\x00', &(0x7f00000001c0)={'syz', 0x0}, &(0x7f0000000200)="a5", 0x1, 0xfffffffffffffffc)
+keyctl$search(0xa, r0, &(0x7f0000000300)='syzkaller\x00', &(0x7f0000000340)={'syz', 0x1}, 0xffffffffffffffff)
+r1 = add_key$keyring(&(0x7f0000000380)='keyring\x00', &(0x7f00000003c0)={'syz', 0x1}, 0x0, 0x0, 0xfffffffffffffffb)
+keyctl$KEYCTL_RESTRICT_KEYRING(0x1d, r1, 0x0, 0x0)

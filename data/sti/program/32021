@@ -1,0 +1,1 @@
+syslog(0x3, 0xfffffffffffffffe, 0x1000000)

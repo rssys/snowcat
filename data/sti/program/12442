@@ -1,0 +1,5 @@
+ioctl$BINDER_SET_CONTEXT_MGR_EXT(0xffffffffffffffff, 0x4018620d, 0x0)
+syz_genetlink_get_family_id$team(&(0x7f0000000080)='team\x00', 0xffffffffffffffff)
+connect$bt_sco(0xffffffffffffffff, 0x0, 0x0)
+sendmsg$BATADV_CMD_GET_VLAN(0xffffffffffffffff, 0x0, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

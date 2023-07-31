@@ -1,0 +1,2 @@
+r0 = eventfd2(0x2, 0x0)
+read$eventfd(r0, &(0x7f0000000000), 0x8)

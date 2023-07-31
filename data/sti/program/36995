@@ -1,0 +1,5 @@
+r0 = open(&(0x7f0000000000)='./file0\x00', 0x4240, 0x0)
+r1 = open(&(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+r2 = dup2(r0, r1)
+fsetxattr$trusted_overlay_upper(r2, &(0x7f0000000040)='trusted.overlay.upper\x00', &(0x7f0000000080)={0x0, 0xfb, 0x15, 0x0, 0x0, "2c4fbfa52a02f02df84decc63aca5251"}, 0x15, 0x0)
+fsetxattr$trusted_overlay_upper(r0, &(0x7f00000000c0)='trusted.overlay.upper\x00', &(0x7f0000000100)={0x0, 0xfb, 0x15, 0x0, 0x0, "6856c0ca078c2cc6a4ffd745cab01bba"}, 0x15, 0x0)

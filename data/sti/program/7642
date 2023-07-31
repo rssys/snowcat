@@ -1,0 +1,2 @@
+r0 = add_key(&(0x7f0000000740)='cifs.idmap\x00', &(0x7f0000000780)={'syz', 0x0}, 0x0, 0x0, 0xfffffffffffffffe)
+keyctl$set_timeout(0xf, r0, 0x0)

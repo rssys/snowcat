@@ -1,0 +1,2 @@
+tkill(0xffffffffffffffff, 0x0)
+fork()

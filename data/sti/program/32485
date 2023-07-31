@@ -1,0 +1,1 @@
+syz_mount_image$iso9660(&(0x7f0000000100)='iso9660\x00', &(0x7f0000000140)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000440)=ANY=[@ANYBLOB="5fbcf3e7debbdd8e68684e34a62f14205522ddc21375fb024ffc409d034a1dfcee8d19f7ced619f9e4622e02f16c8bc86bef865a1b40ae830f1da0b62c"])

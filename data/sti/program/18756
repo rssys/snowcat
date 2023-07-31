@@ -1,0 +1,2 @@
+openat(0xffffffffffffff9c, &(0x7f0000000340)='./file0\x00', 0x42, 0x0)
+creat(&(0x7f00000005c0)='./file0\x00', 0x0)

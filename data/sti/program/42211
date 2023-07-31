@@ -1,0 +1,3 @@
+r0 = socket(0x10, 0x802, 0x0)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00')
+sendmsg$NL80211_CMD_REGISTER_FRAME(r0, &(0x7f0000000100)={0x0, 0x0, &(0x7f00000000c0)={&(0x7f00000003c0)=ANY=[@ANYBLOB="2c030000", @ANYRES16=r1, @ANYBLOB="030600", @ANYRES32=0x0, @ANYBLOB="7a005b00f46ef2aca4ac28133b"], 0x32c}}, 0x0)

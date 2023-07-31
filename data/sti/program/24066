@@ -1,0 +1,1 @@
+sched_getaffinity(0x0, 0x8, &(0x7f0000000340))

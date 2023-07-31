@@ -1,0 +1,2 @@
+ioctl$VHOST_SET_VRING_ENDIAN(0xffffffffffffffff, 0x4008af13, 0x0)
+io_uring_setup(0x605c, &(0x7f0000000080))

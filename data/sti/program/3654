@@ -1,0 +1,5 @@
+syz_genetlink_get_family_id$devlink(0x0, 0xffffffffffffffff)
+fork()
+syz_open_dev$vcsu(&(0x7f00000019c0)='/dev/vcsu#\x00', 0x0, 0x80200)
+syz_genetlink_get_family_id$devlink(&(0x7f0000001a80)='devlink\x00', 0xffffffffffffffff)
+socket$nl_audit(0x10, 0x3, 0x9)

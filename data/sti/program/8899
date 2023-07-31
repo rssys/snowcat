@@ -1,0 +1,2 @@
+r0 = openat$ipvs(0xffffff9c, &(0x7f0000000040)='/proc/sys/net/ipv4/vs/drop_packet\x00', 0x2, 0x0)
+write$cgroup_int(r0, &(0x7f0000000000)=0xd6, 0x12)

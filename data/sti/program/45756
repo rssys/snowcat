@@ -1,0 +1,3 @@
+pipe(&(0x7f0000000480)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+ioctl$DRM_IOCTL_RM_MAP(r0, 0x4018641b, 0x0)
+ioctl$DRM_IOCTL_RM_CTX(r0, 0xc0086421, 0x0)

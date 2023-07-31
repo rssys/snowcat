@@ -1,0 +1,1 @@
+syz_mount_image$vfat(&(0x7f0000000100)='vfat\x00', &(0x7f0000000140)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000440)=ANY=[@ANYBLOB='nonumtail=0,utf8=1,rodir,utf8=1,sys_imiutable,rodir,fscontext=user_u,context=root,a'])

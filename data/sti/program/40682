@@ -1,0 +1,1 @@
+syz_mount_image$jffs2(&(0x7f0000000000)='jffs2\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0xe7b9d6bfe3e63c2c, &(0x7f0000000680))

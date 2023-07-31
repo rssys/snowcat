@@ -1,0 +1,3 @@
+setuid(0xee00)
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_ipv6_tunnel_SIOCGETTUNNEL(r0, 0x894c, 0x0)

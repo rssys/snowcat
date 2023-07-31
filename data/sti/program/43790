@@ -1,0 +1,4 @@
+openat$loop_ctrl(0xffffff9c, &(0x7f0000000000)='/dev/loop-control\x00', 0x0, 0x0)
+r0 = openat$loop_ctrl(0xffffff9c, &(0x7f0000000100)='/dev/loop-control\x00', 0x0, 0x0)
+ioctl$LOOP_CTL_ADD(r0, 0x4c80, 0x0)
+syz_mount_image$iso9660(&(0x7f0000000400)='iso9660\x00', 0x0, 0x0, 0x0, 0x0, 0xa00010, &(0x7f0000000540)={[{@gid={'gid', 0x3d, 0xffffffffffffffff}}, {@cruft='cruft'}]})

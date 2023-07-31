@@ -1,0 +1,5 @@
+r0 = syz_open_dev$sg(&(0x7f0000000000)='/dev/sg#\x00', 0x0, 0xe8022)
+r1 = openat$vcs(0xffffffffffffff9c, &(0x7f0000000080)='/dev/vcs\x00', 0x0, 0x0)
+r2 = dup2(r0, r1)
+write$P9_RSTAT(r2, &(0x7f0000000240)=ANY=[@ANYBLOB="5b0000007d00000000540000000000000000000000000000000000000000000000c727e2c2"], 0x5b)
+read$char_usb(r1, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = socket(0xa, 0x2, 0x0)
+setsockopt$inet_IP_IPSEC_POLICY(r0, 0x0, 0x2d, &(0x7f0000000000)={{{@in6=@ipv4={[], [], @private}, @in=@remote}}, {{@in=@multicast2}, 0x0, @in6=@private2}}, 0xe8)

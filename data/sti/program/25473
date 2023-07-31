@@ -1,0 +1,3 @@
+r0 = openat$uhid(0xffffff9c, &(0x7f0000001680)='/dev/uhid\x00', 0x2, 0x0)
+add_key$fscrypt_v1(&(0x7f00000000c0)='logon\x00', 0x0, 0x0, 0x0, 0xfffffffffffffffe)
+write$UHID_CREATE(r0, &(0x7f0000001740)={0x0, {'syz0\x00', 'syz0\x00', 'syz1\x00', 0x0}}, 0x11c)

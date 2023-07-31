@@ -1,0 +1,1 @@
+request_key(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x2}, &(0x7f0000000080)='\x00', 0xfffffffffffffffd)

@@ -1,0 +1,5 @@
+ioctl$SIOCAX25ADDFWD(0xffffffffffffffff, 0x89ea, 0x0)
+r0 = socket$nl_crypto(0x10, 0x3, 0x15)
+ioctl$sock_SIOCGIFINDEX(r0, 0x8933, &(0x7f0000000280)={'wlan1\x00'})
+accept4(r0, &(0x7f0000000380)=@l2tp={0x2, 0x0, @dev}, 0x0, 0x0)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000000e80)='l2tp\x00', 0xffffffffffffffff)

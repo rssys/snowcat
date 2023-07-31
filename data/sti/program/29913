@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000a00)='net/fib_triestat\x00')
+read(r0, &(0x7f0000000ac0)=""/80, 0x50)
+preadv(r0, &(0x7f0000001580)=[{&(0x7f0000000280)=""/251, 0xfb}], 0x1, 0x0, 0x7d)

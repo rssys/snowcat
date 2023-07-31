@@ -1,0 +1,1 @@
+prctl$PR_SET_MM_EXE_FILE(0x8, 0xd, 0xffffffffffffffff)

@@ -1,0 +1,2 @@
+r0 = signalfd4(0xffffffffffffffff, &(0x7f00000002c0), 0x8, 0x0)
+ioctl$F2FS_IOC_MOVE_RANGE(r0, 0xc01cf509, 0x0)

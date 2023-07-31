@@ -1,0 +1,6 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = dup2(r0, r0)
+r2 = dup2(r1, r1)
+r3 = syz_open_dev$sg(&(0x7f0000000200)='/dev/sg#\x00', 0x0, 0x0)
+dup2(r3, r2)
+mmap$IORING_OFF_SQES(&(0x7f0000ffb000/0x4000)=nil, 0x4000, 0x0, 0x10011, r1, 0x10000000)

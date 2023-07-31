@@ -1,0 +1,7 @@
+ioctl$SG_SET_COMMAND_Q(0xffffffffffffffff, 0x2271, &(0x7f0000000000)=0x1)
+ioctl$VIDIOC_G_CROP(0xffffffffffffffff, 0xc014563b, &(0x7f0000000040)={0x5, {0x6, 0xfffffffc, 0xd426, 0xffffffbb}})
+mmap$binder(&(0x7f0000ffe000/0x2000)=nil, 0x2000, 0x1, 0x11, 0xffffffffffffffff, 0x7)
+r0 = openat$proc_capi20ncci(0xffffff9c, &(0x7f0000000080)='/proc/capi/capi20ncci\x00', 0x100, 0x0)
+mmap$binder(&(0x7f0000ffe000/0x1000)=nil, 0x1000, 0x1, 0x11, r0, 0xd099)
+r1 = syz_open_dev$binderN(&(0x7f0000000100)='/dev/binder#\x00', 0x0, 0x800)
+ioctl$BINDER_WRITE_READ(r1, 0xc0306201, &(0x7f0000000340)={0x78, 0x0, &(0x7f0000000200)=[@register_looper, @acquire, @reply={0x40406301, {0x3, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x48, 0x18, &(0x7f0000000140)={@fd, @flat=@handle={0x73682a85, 0x101, 0x1}, @fd}, &(0x7f00000001c0)={0x0, 0x18, 0x30}}}, @increfs_done={0x40106308, 0x1}, @register_looper, @clear_death={0x400c630f, 0x3}], 0xbf, 0x0, &(0x7f0000000280)="61dd46bc57b769bad6ba0d9318b94d6fd3fb55f0726f181bcdf34aebe7b8c70d4ec506c7985c3331f839cf96a2bb4c90f43f6755c8814bfe0bb6aa72d1c3f40096ac37e9c9c2b9d7748db565d0dd864df9dd9524b8d48548c980704a1a2a301aa25d0e1400cc86ac5b6ced188c7516c67e3fb527ee3c51299dc68c1e3236c644bcfec2edd552af3da7a777d84f75942b6f08a33e1d829f2d7e524a0263429a8cba48234afc8d57f38afeda161e560cc3365959ea8e67558201f9c79203dd50"})

@@ -1,0 +1,4 @@
+r0 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+write$P9_RFLUSH(r0, &(0x7f0000000080)={0xffffffb8}, 0xfffffdd4)
+mount(0x0, &(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)='configfs\x00', 0x0, 0x0)
+lchown(&(0x7f00000001c0)='./file0\x00', 0xee01, 0xffffffffffffffff)

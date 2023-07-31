@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vim2m(&(0x7f0000000000)='/dev/video#\x00', 0x4, 0x2)
+ioctl$vim2m_VIDIOC_REQBUFS(r0, 0xc0145608, &(0x7f0000000080)={0x9, 0x2, 0x1})

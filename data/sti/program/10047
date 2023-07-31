@@ -1,0 +1,2 @@
+r0 = add_key$fscrypt_v1(&(0x7f0000000000)='logon\x00', &(0x7f0000000080)={'fscrypt:', @desc1='0000111122223333'}, &(0x7f00000000c0)={0x0, "a4d454962c94c25be3d936d82a4aa9d9bcd6a7ce170bef164a7c12459651bbf7f07e2f1de27b0dac72f3d5b861804da9650fd89af52f003e96ac15a14320ef76"}, 0x48, 0xfffffffffffffffc)
+keyctl$invalidate(0x15, r0)

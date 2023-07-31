@@ -1,0 +1,2 @@
+r0 = openat$vsock(0xffffff9c, &(0x7f00000009c0)='/dev/vsock\x00', 0x0, 0x0)
+execveat(r0, &(0x7f0000000a00)='./file0/file0\x00', 0x0, 0x0, 0x0)

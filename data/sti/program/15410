@@ -1,0 +1,2 @@
+r0 = socket$l2tp6(0xa, 0x2, 0x73)
+ioctl$sock_SIOCGIFINDEX_80211(r0, 0x8933, &(0x7f0000000b80)={'wlan1\x00'})

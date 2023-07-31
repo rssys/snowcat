@@ -1,0 +1,2 @@
+r0 = openat$nvme_fabrics(0xffffff9c, &(0x7f00000002c0)='/dev/nvme-fabrics\x00', 0x802, 0x0)
+write$RDMA_USER_CM_CMD_RESOLVE_ROUTE(r0, &(0x7f0000000300)={0x4, 0x8}, 0x10)

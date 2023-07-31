@@ -1,0 +1,3 @@
+unshare(0x8000400)
+r0 = signalfd(0xffffffffffffffff, &(0x7f0000018680), 0x8)
+signalfd(r0, &(0x7f0000000000), 0x8)

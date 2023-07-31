@@ -1,0 +1,3 @@
+r0 = openat$procfs(0xffffffffffffff9c, &(0x7f0000000080)='/proc/timer_list\x00', 0x0, 0x0)
+read$ptp(r0, &(0x7f0000000140)=""/217, 0xd9)
+read$usbmon(r0, &(0x7f00000000c0)=""/112, 0x20000130)

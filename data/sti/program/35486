@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$batadv(0x0)
+syz_mount_image$ext4(&(0x7f0000000140)='ext4\x00', &(0x7f0000000180)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+syz_mount_image$msdos(&(0x7f0000000580)='msdos\x00', &(0x7f00000005c0)='./file0/file0\x00', 0x0, 0x0, 0x0, 0x100004, &(0x7f0000001800))

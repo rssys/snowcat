@@ -1,0 +1,2 @@
+r0 = syz_open_dev$sg(&(0x7f00000000c0)='/dev/sg#\x00', 0x0, 0xa0882)
+ioctl$BTRFS_IOC_TREE_SEARCH(r0, 0x30d, 0x0)

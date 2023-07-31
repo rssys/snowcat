@@ -1,0 +1,3 @@
+openat$vim2m(0xffffff9c, 0x0, 0x2, 0x0)
+r0 = openat$adsp1(0xffffff9c, &(0x7f0000000040)='/dev/adsp1\x00', 0x0, 0x0)
+ioctl$SOUND_MIXER_READ_STEREODEVS(r0, 0x80044dfb, &(0x7f0000001100))

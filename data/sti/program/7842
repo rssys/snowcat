@@ -1,0 +1,2 @@
+syz_mount_image$nfs(&(0x7f0000003400)='nfs\x00', &(0x7f0000003440)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000035c0))
+lremovexattr(&(0x7f0000003b80)='./file0\x00', &(0x7f0000003bc0)=@known='system.posix_acl_default\x00')

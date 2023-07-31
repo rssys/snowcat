@@ -1,0 +1,2 @@
+syz_open_dev$vbi(&(0x7f00000016c0)='/dev/vbi#\x00', 0x0, 0x2)
+syz_io_uring_setup(0x4117, &(0x7f0000002c00), &(0x7f0000ffb000/0x4000)=nil, &(0x7f0000ffd000/0x3000)=nil, &(0x7f0000002c80), &(0x7f0000002cc0))

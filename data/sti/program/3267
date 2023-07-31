@@ -1,0 +1,2 @@
+mknod(&(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+setxattr$security_selinux(&(0x7f0000000440)='./file0\x00', &(0x7f0000000480)='security.selinux\x00', &(0x7f00000004c0)='system_u:object_r:dhcpd_unit_file_t:s0\x00', 0x27, 0x0)

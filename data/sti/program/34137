@@ -1,0 +1,5 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+r1 = dup(r0)
+r2 = openat(0xffffffffffffff9c, &(0x7f0000000040)='./cgroup/cgroup.procs\x00', 0x0, 0x0)
+dup2(r1, r2)
+ioctl$TIOCL_SETSEL(r2, 0x541c, &(0x7f0000000080)={0x2, {0xb}})

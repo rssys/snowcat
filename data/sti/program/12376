@@ -1,0 +1,3 @@
+syz_mount_image$afs(0x0, &(0x7f00000004c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$incfs_metadata(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='user.incfs.metadata\x00', &(0x7f0000000080)="3b2150412418af05b901a223bd2b399a1f1c139698d982e54a8c99d8ba2fdfc7aa68cd2da7ed2caff56fa1e1c7164c4c477d75c5dcbb2d36db", 0x39, 0x0)
+lsetxattr$trusted_overlay_upper(&(0x7f0000000140)='./file0\x00', &(0x7f00000007c0)='trusted.overlay.upper\x00', &(0x7f0000000800)={0x0, 0xfb, 0x39, 0x0, 0x0, "c76ad14974158a5718e242fb00", "a55b8d2813f40e95b3ed030bc013d30c1cc4f176c3d9c4522d0b4c71d181f51e6eb1ab66"}, 0x39, 0x0)

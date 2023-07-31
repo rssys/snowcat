@@ -1,0 +1,5 @@
+openat$thread_pidfd(0xffffff9c, &(0x7f0000000180)='/proc/thread-self\x00', 0x151000, 0x0)
+clone3(&(0x7f0000000580)={0x0, &(0x7f00000002c0), 0x0, &(0x7f0000000340), {0x38}, &(0x7f0000000380)=""/167, 0xa7, &(0x7f0000000440)=""/167, 0x0}, 0x58)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000740)='batadv\x00', 0xffffffffffffffff)
+sendmsg$BATADV_CMD_GET_MCAST_FLAGS(0xffffffffffffffff, 0x0, 0x0)
+setxattr$trusted_overlay_origin(&(0x7f0000005c00)='./file0\x00', &(0x7f0000005c40)='trusted.overlay.origin\x00', &(0x7f0000005c80)='y\x00', 0x2, 0x2)

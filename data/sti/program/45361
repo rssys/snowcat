@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_mgmt(&(0x7f0000000040)='NLBL_MGMT\x00', 0xffffffffffffffff)
+sendmsg$NLBL_MGMT_C_LISTALL(r0, &(0x7f0000000140)={&(0x7f0000000000), 0xc, 0x0}, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

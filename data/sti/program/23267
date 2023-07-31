@@ -1,0 +1,2 @@
+syz_open_dev$vcsn(&(0x7f0000002b80)='/dev/vcs#\x00', 0x0, 0x0)
+mkdirat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)

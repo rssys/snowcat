@@ -1,0 +1,7 @@
+ioctl$CAPI_GET_FLAGS(0xffffffffffffffff, 0x80044323, 0x0)
+r0 = openat$capi20(0xffffff9c, &(0x7f00000001c0)='/dev/capi20\x00', 0x100, 0x0)
+ioctl$CAPI_REGISTER(0xffffffffffffffff, 0x400c4301, &(0x7f0000000200)={0x9, 0x0, 0x2})
+syz_genetlink_get_family_id$team(&(0x7f0000000240)='team\x00', 0xffffffffffffffff)
+ioctl$BTRFS_IOC_GET_SUBVOL_INFO(0xffffffffffffffff, 0x81e8943c, 0x0)
+ioctl$BTRFS_IOC_TREE_SEARCH_V2(r0, 0xc0709411, 0x0)
+ioctl$BTRFS_IOC_GET_SUBVOL_ROOTREF(0xffffffffffffffff, 0xd000943d, &(0x7f0000078c40)={0x3ff, [], 0x3f, "5c450e78d65c23"})

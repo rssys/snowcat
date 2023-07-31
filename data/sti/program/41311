@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000000c00)='net/ip_tables_names\x00')
+syz_open_procfs(0x0, &(0x7f0000000c00)='net/ip_tables_names\x00')

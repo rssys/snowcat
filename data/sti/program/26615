@@ -1,0 +1,3 @@
+r0 = syz_genetlink_get_family_id$devlink(&(0x7f0000000280)='devlink\x00', 0xffffffffffffffff)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$DEVLINK_CMD_SB_TC_POOL_BIND_GET(r1, &(0x7f0000004780)={0x0, 0x0, &(0x7f0000004740)={&(0x7f0000004640)={0x14, r0, 0x66949c2a0704aba9}, 0x14}}, 0x0)

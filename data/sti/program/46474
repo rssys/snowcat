@@ -1,0 +1,2 @@
+r0 = openat$procfs(0xffffff9c, &(0x7f00000011c0)='/proc/slabinfo\x00', 0x0, 0x0)
+read$char_usb(r0, &(0x7f0000001200)=""/147, 0x93)

@@ -1,0 +1,2 @@
+pipe(&(0x7f0000000000)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+fcntl$notify(r0, 0x402, 0x0)

@@ -1,0 +1,2 @@
+r0 = getpid()
+ptrace$getenv(0x4201, r0, 0x0, 0x0)

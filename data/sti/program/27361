@@ -1,0 +1,2 @@
+r0 = socket$inet_sctp(0x2, 0x1, 0x84)
+ioctl$sock_SIOCGIFVLAN_SET_VLAN_NAME_TYPE_CMD(r0, 0x8982, &(0x7f0000002440)={0x6, 'macsec0\x00', {0x400}})

@@ -1,0 +1,4 @@
+syz_mount_image$tmpfs(&(0x7f0000000040)='tmpfs\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000900)=ANY=[])
+r0 = open_tree(0xffffffffffffff9c, &(0x7f0000000100)='\x00', 0x89101)
+r1 = open_tree(0xffffffffffffff9c, &(0x7f0000000200)='./file0\x00', 0x0)
+dup2(r1, r0)

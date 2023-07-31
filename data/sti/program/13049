@@ -1,0 +1,1 @@
+clock_getres(0x6, &(0x7f0000001dc0))

@@ -1,0 +1,2 @@
+pipe2(&(0x7f0000000300)={<r0=>0xffffffffffffffff}, 0x0)
+fsconfig$FSCONFIG_SET_PATH(r0, 0x3, &(0x7f0000001b00)='msdos\x00', &(0x7f0000001b40)='./file0\x00', 0xffffffffffffffff)

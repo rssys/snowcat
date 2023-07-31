@@ -1,0 +1,3 @@
+pipe(&(0x7f0000000000)={<r0=>0xffffffffffffffff})
+r1 = socket$inet6_udplite(0xa, 0x2, 0x88)
+dup2(r0, r1)

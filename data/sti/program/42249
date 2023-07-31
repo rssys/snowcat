@@ -1,0 +1,2 @@
+r0 = add_key$user(&(0x7f0000000400)='user\x00', &(0x7f0000000440)={'syz', 0x1}, &(0x7f0000000480)="d1", 0x1, 0xfffffffffffffffb)
+keyctl$revoke(0x3, r0)

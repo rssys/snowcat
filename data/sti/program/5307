@@ -1,0 +1,4 @@
+r0 = socket$inet6_mptcp(0xa, 0x1, 0x106)
+ioctl$F2FS_IOC_RELEASE_VOLATILE_WRITE(r0, 0xf504, 0x0)
+openat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+openat$vicodec1(0xffffff9c, &(0x7f0000000040)='/dev/video37\x00', 0x2, 0x0)

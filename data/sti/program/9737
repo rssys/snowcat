@@ -1,0 +1,3 @@
+r0 = epoll_create(0x8)
+r1 = mq_open(&(0x7f0000000000)='\\\x00', 0x0, 0x0, 0x0)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f0000000080))

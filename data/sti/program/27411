@@ -1,0 +1,1 @@
+add_key$fscrypt_provisioning(&(0x7f0000000080)='fscrypt-provisioning\x00', &(0x7f00000000c0)={'syz', 0x2}, &(0x7f0000000100)=ANY=[@ANYBLOB="01"], 0x48, 0xfffffffffffffffc)

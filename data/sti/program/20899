@@ -1,0 +1,5 @@
+sendmsg$WG_CMD_GET_DEVICE(0xffffffffffffffff, &(0x7f00000005c0)={0x0, 0x0, 0x0}, 0x0)
+syz_genetlink_get_family_id$team(0x0, 0xffffffffffffffff)
+getsockopt$inet6_IPV6_IPSEC_POLICY(0xffffffffffffffff, 0x29, 0x22, &(0x7f0000000c80)={{{@in=@multicast1, @in6=@local}}, {{@in6=@remote}}}, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

@@ -1,0 +1,2 @@
+r0 = openat$dlm_control(0xffffff9c, &(0x7f0000000200)='/dev/dlm-control\x00', 0x0, 0x0)
+read$FUSE(r0, 0x0, 0x0)

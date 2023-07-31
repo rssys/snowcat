@@ -1,0 +1,1 @@
+timerfd_settime(0xffffffffffffffff, 0x14858fc46d96d999, &(0x7f00000000c0), 0x0)

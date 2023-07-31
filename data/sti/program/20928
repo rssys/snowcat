@@ -1,0 +1,2 @@
+r0 = syz_init_net_socket$nfc_raw(0x27, 0x3, 0x0)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000180)={'wlan0\x00', &(0x7f0000000140)=@ethtool_ringparam={0x10}})

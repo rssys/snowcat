@@ -1,0 +1,3 @@
+r0 = syz_open_dev$binderN(&(0x7f00000001c0)='/dev/binder#\x00', 0x0, 0x0)
+ioctl$BINDER_SET_CONTEXT_MGR_EXT(r0, 0x4018620d, &(0x7f0000000200))
+bpf$BPF_BTF_LOAD(0x12, 0x0, 0x0)

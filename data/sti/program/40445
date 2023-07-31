@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000080)='net/arp\x00')
+read$rfkill(r0, 0x0, 0x2)

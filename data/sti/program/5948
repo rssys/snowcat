@@ -1,0 +1,1 @@
+setxattr$incfs_metadata(&(0x7f0000002f80)='.\x00', &(0x7f0000002fc0)='user.incfs.metadata\x00', &(0x7f0000003000)="d3", 0x1, 0x2)

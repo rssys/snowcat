@@ -1,0 +1,1 @@
+keyctl$instantiate(0xc, 0x0, &(0x7f0000000100)=@encrypted_load={'load ', 'default', 0x20, 'user:'}, 0xffffffffffffffb8, 0x0)

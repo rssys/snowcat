@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$ipvs(&(0x7f00000004c0)='IPVS\x00', 0xffffffffffffffff)

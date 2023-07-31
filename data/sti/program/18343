@@ -1,0 +1,2 @@
+pipe(&(0x7f0000000000)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+write$P9_RREAD(r0, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = openat$autofs(0xffffffffffffff9c, &(0x7f0000000040)='/dev/autofs\x00', 0x0, 0x0)
+sendmsg$NLBL_MGMT_C_VERSION(r0, 0x0, 0x0)

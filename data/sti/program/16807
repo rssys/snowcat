@@ -1,0 +1,3 @@
+mount$9p_xen(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0)
+mknod(&(0x7f0000000200)='./file0\x00', 0x0, 0x0)
+mount$9p_xen(&(0x7f00000002c0)='syz\x00', &(0x7f0000000300)='./file0\x00', &(0x7f0000000340)='9p\x00', 0x880, &(0x7f0000000380)={'trans=xen,', {[{@version_u='version=9p2000.u'}], [{@fowner_lt={'fowner<', 0xee01}}]}})

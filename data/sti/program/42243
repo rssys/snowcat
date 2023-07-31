@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+ioctl$F2FS_IOC_RESIZE_FS(r0, 0x4008f510, 0x0)

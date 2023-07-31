@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+write$binfmt_script(r0, &(0x7f0000000980)=ANY=[@ANYBLOB="2321202e2f66696c6530205b202f6465762f7663737523000a9f08a790b54b75fce60d"], 0x1019)

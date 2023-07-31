@@ -1,0 +1,3 @@
+syz_open_dev$swradio(&(0x7f0000000000)='/dev/swradio#\x00', 0x1, 0x2)
+fork()
+ioctl$VIDIOC_QUERYBUF(0xffffffffffffffff, 0xc04c5609, 0x0)

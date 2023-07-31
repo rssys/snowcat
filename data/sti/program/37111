@@ -1,0 +1,2 @@
+setuid(0xee00)
+syz_open_procfs(0x0, &(0x7f0000000100)='mounts\x00')

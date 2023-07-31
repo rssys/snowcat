@@ -1,0 +1,2 @@
+r0 = socket$pppl2tp(0x18, 0x1, 0x1)
+fsetxattr$security_ima(r0, &(0x7f00000001c0)='security.ima\x00', &(0x7f0000000200)=ANY=[], 0x10, 0x0)

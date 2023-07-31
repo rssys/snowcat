@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x7909, &(0x7f0000000280))
+io_uring_register$IORING_UNREGISTER_FILES(r0, 0x3, 0x0, 0x0)

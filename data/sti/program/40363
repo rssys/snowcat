@@ -1,0 +1,2 @@
+r0 = socket$nl_sock_diag(0x10, 0x3, 0x4)
+sendmsg$SOCK_DIAG_BY_FAMILY(r0, &(0x7f00000013c0)={0x0, 0x0, &(0x7f0000001380)={&(0x7f0000001400)=ANY=[@ANYBLOB="38120000140031"], 0x1238}}, 0x0)

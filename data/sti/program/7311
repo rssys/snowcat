@@ -1,0 +1,2 @@
+sendmsg$NLBL_CALIPSO_C_LIST(0xffffffffffffffff, 0x0, 0x0)
+mlockall(0x1)

@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+mount$9p_fd(0x0, &(0x7f0000000200)='.\x00', &(0x7f0000000380)='9p\x00', 0x0, &(0x7f00000003c0)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno', 0x3d, r0}, 0x2c, {[{@noextend='noextend'}]}})

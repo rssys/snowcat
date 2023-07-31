@@ -1,0 +1,3 @@
+r0 = syz_open_dev$vcsu(&(0x7f0000000000)='/dev/vcsu#\x00', 0x0, 0x0)
+fcntl$setlease(r0, 0x400, 0x0)
+fcntl$setlease(r0, 0x400, 0x1)

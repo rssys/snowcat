@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000080)='./file0\x00', 0xa0040, 0x0)
+fadvise64(r0, 0x2000000010003, 0x800, 0x4)

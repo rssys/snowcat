@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000180)='net/sctp\x00')
+openat$cgroup_type(r0, &(0x7f0000000340)='cgroup.type\x00', 0x2, 0x0)

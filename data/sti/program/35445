@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$netlbl_calipso(&(0x7f00000009c0)='NLBL_CALIPSO\x00', 0xffffffffffffffff)

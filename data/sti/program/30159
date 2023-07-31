@@ -1,0 +1,1 @@
+syz_mount_image$vfat(&(0x7f0000000000)='vfat\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000340)={[], [{@context={'context', 0x3d, 'sysadm_u'}}, {@fscontext={'fscontext', 0x3d, 'root'}}]})

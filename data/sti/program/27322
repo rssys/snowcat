@@ -1,0 +1,7 @@
+socket$nl_rdma(0x10, 0x3, 0x14)
+r0 = socket$phonet_pipe(0x23, 0x5, 0x2)
+ioctl$sock_inet_SIOCSIFADDR(r0, 0x8916, &(0x7f0000000240)={'syzkaller0\x00', {0x2, 0x0, @dev}})
+r1 = socket$inet6_mptcp(0xa, 0x1, 0x106)
+syz_init_net_socket$ax25(0x3, 0x3, 0xcb)
+setsockopt$inet6_tcp_buf(r1, 0x6, 0x1c, &(0x7f0000000440)="02ef557f4ce02234d8c07dd4e9faae6bd31fc6c78f29ed11c0432e35ad698ae0d54fc5a730d6ac76bcf80e33bfb950e25db3caac419be20564377d7101d5c0d6e37e49353b283fcae12e62433d2d7248ad29b0e9bfaca1ad6f732e8ca337fd2f763fc194e8579d965ea59b4c2e913eb5de685d8402cb65da4143505b68b5acfbfcaa4b715919401e8624d34e4167848d91231a0f5a1291023f33670b2551b439855d92e3b025dac086ea0b1a0d39882d62532f646c6b7545a84eb1a9c4237c59fa6000de252c", 0xc6)
+ioctl$sock_SIOCGIFVLAN_SET_VLAN_NAME_TYPE_CMD(r0, 0x8982, &(0x7f00000005c0)={0x6, 'macsec0\x00', {0x627}, 0x7})

@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000000040)='tmpfs\x00', &(0x7f0000000080)='./file1\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001680)={[{@size={'size', 0x3d, [0x35, 0x0, 0x32, 0x6b, 0x0]}}], [{@smackfsfloor={'smackfsfloor', 0x3d, '@'}}, {@fowner_gt={'fowner>', 0xffffffffffffffff}}, {@uid_eq={'uid'}}, {@fsmagic={'fsmagic'}}]})

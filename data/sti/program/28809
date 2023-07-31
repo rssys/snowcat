@@ -1,0 +1,3 @@
+add_key$keyring(&(0x7f0000000400)='keyring\x00', &(0x7f0000000440)={'syz', 0x1}, 0x0, 0x0, 0xfffffffffffffffd)
+add_key$keyring(&(0x7f0000000480)='keyring\x00', 0x0, 0x0, 0x0, 0xffffffffffffffff)
+request_key(&(0x7f00000007c0)='id_legacy\x00', &(0x7f0000000800)={'syz', 0x3}, &(0x7f0000000840)='fscrypt:', 0x0)

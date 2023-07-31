@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='net/ip6_tables_names\x00')
+read$char_raw(r0, &(0x7f0000003200)={""/42823}, 0xa800)

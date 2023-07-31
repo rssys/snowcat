@@ -1,0 +1,1 @@
+openat$dlm_control(0xffffff9c, &(0x7f00000003c0)='/dev/dlm-control\x00', 0x119000, 0x0)

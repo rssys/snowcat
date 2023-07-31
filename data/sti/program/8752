@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_SIOCGIFINDEX(r0, 0x8922, &(0x7f0000000000)={'sit0\x00'})

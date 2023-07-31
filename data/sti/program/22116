@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$batadv(&(0x7f0000000400)='batadv\x00', 0xffffffffffffffff)
+socketpair(0x11, 0x3, 0x9, &(0x7f0000002100))

@@ -1,0 +1,3 @@
+capset(&(0x7f0000000200)={0x19980330}, &(0x7f0000000240))
+r0 = getpgrp(0x0)
+sched_setaffinity(r0, 0x0, 0x0)

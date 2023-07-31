@@ -1,0 +1,1 @@
+openat$adsp1(0xffffff9c, &(0x7f0000000140)='/dev/adsp1\x00', 0x800, 0x0)

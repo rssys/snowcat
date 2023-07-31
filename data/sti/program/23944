@@ -1,0 +1,2 @@
+r0 = openat$cgroup_root(0xffffffffffffff9c, &(0x7f0000000000)='./cgroup/syz1\x00', 0x200002, 0x0)
+openat$cgroup_freezer_state(r0, &(0x7f0000000040)='freezer.state\x00', 0x2, 0x0)

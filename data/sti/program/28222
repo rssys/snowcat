@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$nbd(0x0, 0xffffffffffffffff)
+io_setup(0x1ff, &(0x7f00000056c0))

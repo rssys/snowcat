@@ -1,0 +1,3 @@
+socketpair(0x0, 0x0, 0x0, 0x0)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000300)='net/ip6_flowlabel\x00')
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000300)='net/ip6_flowlabel\x00')

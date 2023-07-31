@@ -1,0 +1,3 @@
+r0 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00')
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_PEER_MEASUREMENT_START(r1, &(0x7f00000007c0)={0x0, 0x0, &(0x7f0000000780)={&(0x7f0000001400)=ANY=[@ANYBLOB='H\v\x00\x00', @ANYRES16=r0, @ANYRES16, @ANYRES32=0x0, @ANYBLOB="0c00990020"], 0xb48}}, 0x0)

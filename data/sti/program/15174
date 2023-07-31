@@ -1,0 +1,2 @@
+io_uring_setup(0x0, &(0x7f00000000c0)={0x0, 0x0, 0x0, 0x2})
+syz_genetlink_get_family_id$l2tp(&(0x7f0000001f40)='l2tp\x00', 0xffffffffffffffff)

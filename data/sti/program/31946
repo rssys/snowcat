@@ -1,0 +1,4 @@
+ioctl$sock_inet_SIOCSARP(0xffffffffffffffff, 0x8955, 0x0)
+fspick(0xffffffffffffffff, &(0x7f0000000280)='./file0\x00', 0x1)
+r0 = fsopen(&(0x7f0000000440)='autofs\x00', 0x0)
+fsconfig$FSCONFIG_CMD_CREATE(r0, 0x6, 0x0, 0x0, 0x0)

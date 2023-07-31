@@ -1,0 +1,1 @@
+readlinkat(0xffffffffffffffff, 0x0, &(0x7f0000000040)=""/56, 0x38)

@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+syz_genetlink_get_family_id$gtp(&(0x7f0000001f80)='gtp\x00', r0)

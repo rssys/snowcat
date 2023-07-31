@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsa(&(0x7f00000001c0)='/dev/vcsa#\x00', 0x0, 0x0)
+fcntl$addseals(r0, 0x409, 0x0)

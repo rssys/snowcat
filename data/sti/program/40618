@@ -1,0 +1,2 @@
+mknod$loop(&(0x7f0000000000)='./file0\x00', 0x0, 0x1)
+setxattr$security_evm(&(0x7f0000000940)='./file0\x00', &(0x7f0000000980)='security.evm\x00', &(0x7f00000009c0)=@md5={0x1, "126f18d43347c93750ef90eb227a52e9"}, 0x11, 0x0)

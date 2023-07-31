@@ -1,0 +1,2 @@
+r0 = openat$vimc2(0xffffff9c, &(0x7f0000000c40)='/dev/video2\x00', 0x2, 0x0)
+ioctl$VIDIOC_PREPARE_BUF(r0, 0xc050565d, 0x0)

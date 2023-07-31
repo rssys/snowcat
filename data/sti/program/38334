@@ -1,0 +1,1 @@
+syz_mount_image$nfs(&(0x7f0000002dc0)='nfs\x00', &(0x7f0000002e00)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002f40)={[], [{@appraise_type='appraise_type=imasig'}]})

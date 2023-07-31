@@ -1,0 +1,2 @@
+r0 = openat$vicodec1(0xffffff9c, &(0x7f0000000380)='/dev/video37\x00', 0x2, 0x0)
+ioctl$VIDIOC_SUBDEV_ENUM_DV_TIMINGS(r0, 0xc0945662, &(0x7f00000003c0)={0x0, 0x0, [], {0x0, @reserved}})

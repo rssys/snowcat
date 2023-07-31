@@ -1,0 +1,2 @@
+mlockall(0x1)
+munlockall()

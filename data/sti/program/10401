@@ -1,0 +1,2 @@
+r0 = epoll_create(0x1000)
+fcntl$dupfd(r0, 0x406, r0)

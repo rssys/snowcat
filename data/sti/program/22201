@@ -1,0 +1,2 @@
+r0 = openat$rfkill(0xffffff9c, &(0x7f00000000c0)='/dev/rfkill\x00', 0x0, 0x0)
+ioctl$BTRFS_IOC_SNAP_CREATE_V2(r0, 0x50009417, 0x0)

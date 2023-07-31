@@ -1,0 +1,5 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+r1 = dup(r0)
+ioctl$TIOCL_PASTESEL(r1, 0x541c, &(0x7f0000000100))
+dup3(0xffffffffffffffff, 0xffffffffffffffff, 0x0)
+io_uring_register$IORING_UNREGISTER_EVENTFD(0xffffffffffffffff, 0x5, 0x0, 0x0)

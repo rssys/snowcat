@@ -1,0 +1,2 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000080)='net/raw\x00')
+signalfd(0xffffffffffffffff, 0x0, 0x0)

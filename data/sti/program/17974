@@ -1,0 +1,2 @@
+r0 = fsopen(&(0x7f0000000080)='ramfs\x00', 0x0)
+fsconfig$FSCONFIG_SET_FD(r0, 0x3, 0x0, 0x0, 0xffffffffffffffff)

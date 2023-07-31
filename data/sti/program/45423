@@ -1,0 +1,2 @@
+r0 = openat$dsp1(0xffffff9c, &(0x7f00000002c0)='/dev/dsp1\x00', 0x101002, 0x0)
+ioctl$SNDCTL_DSP_GETOPTR(r0, 0x800c5012, &(0x7f0000000300))

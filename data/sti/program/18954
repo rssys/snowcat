@@ -1,0 +1,2 @@
+r0 = socket$inet6_sctp(0xa, 0x5, 0x84)
+ioctl$sock_SIOCDELRT(r0, 0x890c, &(0x7f0000000080)={0x0, @generic={0x0, "6ded5e2a64826b809d3f5a5d6601"}, @phonet, @phonet})

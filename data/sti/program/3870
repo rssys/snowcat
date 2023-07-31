@@ -1,0 +1,2 @@
+fchmodat(0xffffffffffffff9c, &(0x7f00000005c0)='./file0\x00', 0x0)
+mkdir(&(0x7f00000002c0)='./file0\x00', 0x0)

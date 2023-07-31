@@ -1,0 +1,2 @@
+ioctl$IOCTL_VMCI_CTX_GET_CPT_STATE(0xffffffffffffffff, 0x7b1, &(0x7f0000001000)={0x0})
+shmctl$IPC_INFO(0x0, 0x3, &(0x7f00000010c0))

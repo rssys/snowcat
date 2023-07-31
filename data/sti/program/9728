@@ -1,0 +1,4 @@
+r0 = openat$fb0(0xffffff9c, &(0x7f00000000c0)='/dev/fb0\x00', 0x0, 0x0)
+openat$fb1(0xffffff9c, &(0x7f00000001c0)='/dev/fb1\x00', 0x400c0, 0x0)
+syz_genetlink_get_family_id$ethtool(&(0x7f00000003c0)='ethtool\x00', 0xffffffffffffffff)
+ioctl$FBIOBLANK(r0, 0x4611, 0x2)

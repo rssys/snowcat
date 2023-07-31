@@ -1,0 +1,2 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+sendmsg$IPCTNL_MSG_CT_GET(r0, &(0x7f00000012c0)={0x0, 0x0, &(0x7f0000001280)={&(0x7f00000011c0)=ANY=[@ANYBLOB="c00000000101010800"], 0xc0}}, 0x0)

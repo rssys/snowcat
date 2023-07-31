@@ -1,0 +1,2 @@
+symlink(&(0x7f0000000480)='./file0\x00', &(0x7f00000004c0)='./file0\x00')
+syz_mount_image$affs(&(0x7f00000006c0)='affs\x00', &(0x7f0000000700)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000b80)={[], [{@fsmagic={'fsmagic'}}]})

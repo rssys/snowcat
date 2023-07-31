@@ -1,0 +1,2 @@
+r0 = openat$dsp(0xffffff9c, &(0x7f0000000100)='/dev/dsp\x00', 0x402, 0x0)
+write$dsp(r0, &(0x7f0000000140)="aa", 0x1)

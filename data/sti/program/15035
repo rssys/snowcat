@@ -1,0 +1,1 @@
+syz_btf_id_by_name$bpf_lsm(&(0x7f0000000000)='bpf_lsm_perf_event_alloc\x00')

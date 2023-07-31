@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$bt_sco(0x1f, 0x5, 0x2)
+r1 = syz_init_net_socket$bt_sco(0x1f, 0x5, 0x2)
+r2 = dup2(r1, r1)
+dup2(r0, r2)

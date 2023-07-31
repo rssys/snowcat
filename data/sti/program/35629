@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000040)={'syz', 0x2}, 0x0, 0x0, 0xfffffffffffffffc)
+add_key$fscrypt_v1(&(0x7f0000000100)='logon\x00', &(0x7f0000000140)={'fscrypt:', @desc1='0000111122223333'}, &(0x7f00000002c0)={0x0, "ae92a8bff526009c70ba5a95e61c4c6b810322a6e876361e4285caba723e5366d70cced8888f4d2b6ee0535f6a426c3bad14273b4c78d39d6888a04fe1da1c58"}, 0x48, r0)

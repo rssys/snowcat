@@ -1,0 +1,2 @@
+mkdir(&(0x7f0000000000)='./file1\x00', 0x0)
+lsetxattr$security_selinux(&(0x7f0000000040)='./file1\x00', &(0x7f0000000080)='security.selinux\x00', &(0x7f0000000100)='/sbin/dhclient\x00', 0xf, 0x0)

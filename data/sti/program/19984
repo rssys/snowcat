@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000680)='attr/sockcreate\x00')
+pwritev(r0, &(0x7f0000000a40)=[{&(0x7f0000000880)='#', 0x1}, {0x0}], 0x2, 0x0, 0x2)

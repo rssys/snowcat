@@ -1,0 +1,4 @@
+sendmsg$NL80211_CMD_STOP_AP(0xffffffffffffffff, &(0x7f0000000640)={0x0, 0x0, &(0x7f0000000600)={&(0x7f00000005c0)={0x20, 0x0, 0x0, 0x0, 0x0, {{}, {@void, @val={0xc}}}}, 0x20}}, 0x0)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000580)='nl80211\x00')
+sendmsg$NL80211_CMD_STOP_AP(r0, &(0x7f0000000640)={0x0, 0x0, &(0x7f0000000600)={&(0x7f00000005c0)=ANY=[@ANYBLOB=' \x00\x00\x00', @ANYRES16=r1, @ANYBLOB="0103000000000000000001"], 0x20}}, 0x0)

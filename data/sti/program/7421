@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$netlbl_cipso(&(0x7f0000001640)='NLBL_CIPSOv4\x00', 0xffffffffffffffff)

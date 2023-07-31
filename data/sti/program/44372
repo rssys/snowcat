@@ -1,0 +1,2 @@
+r0 = timerfd_create(0x0, 0x0)
+fcntl$dupfd(r0, 0x263ecdc400000003, 0xffffffffffffffff)

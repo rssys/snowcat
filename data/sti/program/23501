@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$gtp(&(0x7f0000000540)='gtp\x00', 0xffffffffffffffff)
+syz_open_procfs$namespace(0x0, &(0x7f00000009c0)='ns/pid\x00')

@@ -1,0 +1,4 @@
+getgid()
+write$FUSE_DIRENTPLUS(0xffffffffffffffff, 0x0, 0x0)
+getgid()
+syz_io_uring_setup(0x3315, &(0x7f000000aa40), &(0x7f0000ffc000/0x3000)=nil, &(0x7f0000ffc000/0x1000)=nil, &(0x7f000000aac0), &(0x7f000000ab00))

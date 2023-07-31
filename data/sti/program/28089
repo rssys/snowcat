@@ -1,0 +1,2 @@
+r0 = inotify_init1(0x800)
+read(r0, 0x0, 0x0)

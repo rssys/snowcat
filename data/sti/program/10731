@@ -1,0 +1,2 @@
+setuid(0xee01)
+ioprio_get$uid(0x3, 0xee01)

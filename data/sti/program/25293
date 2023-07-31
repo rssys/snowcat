@@ -1,0 +1,4 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000000)='./file1\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+syz_mount_image$nfs(0x0, &(0x7f0000000140)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000580))
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000100)='ethtool\x00')
+rename(&(0x7f0000000040)='./file1\x00', &(0x7f0000000080)='./file0\x00')

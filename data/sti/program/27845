@@ -1,0 +1,2 @@
+r0 = socket$l2tp6(0xa, 0x2, 0x73)
+setsockopt$inet6_MCAST_MSFILTER(r0, 0x29, 0x30, &(0x7f0000000800)=ANY=[@ANYBLOB="030000000a004e2000000001ff"], 0x48c)

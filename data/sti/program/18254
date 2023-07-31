@@ -1,0 +1,2 @@
+symlinkat(&(0x7f0000000040)='./file0\x00', 0xffffffffffffff9c, &(0x7f0000000080)='./file0\x00')
+syz_mount_image$tmpfs(&(0x7f0000000380)='tmpfs\x00', &(0x7f00000003c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000006c0))

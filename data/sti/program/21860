@@ -1,0 +1,2 @@
+r0 = syz_open_dev$evdev(&(0x7f0000000000)='/dev/input/event#\x00', 0x0, 0x0)
+ioctl$EVIOCGVERSION(r0, 0x80044501, 0x0)

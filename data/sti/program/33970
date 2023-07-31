@@ -1,0 +1,4 @@
+pipe2$9p(&(0x7f0000000040)={<r0=>0xffffffffffffffff, <r1=>0xffffffffffffffff}, 0x4800)
+write$P9_RWRITE(r1, &(0x7f0000000000)={0xb}, 0xb)
+r2 = dup2(r0, r1)
+read$snapshot(r2, &(0x7f00000000c0)=""/4091, 0xffb)

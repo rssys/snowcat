@@ -1,0 +1,2 @@
+r0 = socket$alg(0x26, 0x5, 0x0)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000000)={'vlan0\x00', &(0x7f0000000200)=@ethtool_dump={0x40}})

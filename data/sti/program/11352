@@ -1,0 +1,4 @@
+sendmsg$NL80211_CMD_SET_MPATH(0xffffffffffffffff, &(0x7f00000001c0)={0x0, 0x0, &(0x7f00000000c0)={&(0x7f0000000140)={0x28, 0x0, 0x0, 0x0, 0x0, {{}, {@val={0x8}, @void}}, [@NL80211_ATTR_MPATH_NEXT_HOP={0xa}]}, 0x28}}, 0x0)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00', 0xffffffffffffffff)
+sendmsg$NL80211_CMD_SET_INTERFACE(r0, &(0x7f00000000c0)={0x0, 0x0, &(0x7f0000000100)={&(0x7f0000000140)=ANY=[@ANYBLOB='$\x00\x00\x00', @ANYRES16=r1, @ANYBLOB="050000000000000000000600000008000300", @ANYBLOB="0800050007"], 0x24}}, 0x0)

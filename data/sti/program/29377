@@ -1,0 +1,2 @@
+r0 = add_key$keyring(&(0x7f0000000000)='keyring\x00', &(0x7f0000000080)={'syz', 0x3}, 0x0, 0x0, 0xffffffffffffffff)
+add_key(&(0x7f0000000140)='dns_resolver\x00', 0x0, &(0x7f0000000200)="cf1f16387255270ce6984f07b0f6a764e58d2efd3f1b5dae658bf800", 0xfffff, r0)

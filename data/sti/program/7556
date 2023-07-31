@@ -1,0 +1,2 @@
+r0 = syz_open_dev$rtc(&(0x7f0000000140)='/dev/rtc#\x00', 0x0, 0x0)
+ioctl$RTC_IRQP_READ(r0, 0x8004700b, &(0x7f0000000180))

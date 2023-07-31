@@ -1,0 +1,2 @@
+r0 = syz_open_dev$swradio(&(0x7f0000000000)='/dev/swradio#\x00', 0x1, 0x2)
+ioctl$VIDIOC_G_JPEGCOMP(r0, 0xc0505611, 0x0)

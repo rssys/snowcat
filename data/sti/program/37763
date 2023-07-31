@@ -1,0 +1,2 @@
+r0 = syz_open_dev$swradio(&(0x7f0000000a00)='/dev/swradio#\x00', 0x0, 0x2)
+ioctl$VIDIOC_SUBDEV_G_EDID(r0, 0xc0245628, &(0x7f0000000040)={0x0, 0x0, 0xffffffe0, [], 0x0})

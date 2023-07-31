@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$SEG6(&(0x7f0000000140)='SEG6\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$team(&(0x7f0000000a00)='team\x00', 0xffffffffffffffff)

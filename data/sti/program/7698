@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+write$binfmt_misc(r0, &(0x7f0000000140)={'syz1', "e6439fed05ad0a61e289f7bbf71c04d6d68d235e4d01d8dad3f01fb514c551aa347c953c06c7c1b356f5cd47cf4ff070e14d422e1ce9c7d1cf44b4db8d19fdf03f689c671cd0e4fb"}, 0x4c)

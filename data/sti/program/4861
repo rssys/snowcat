@@ -1,0 +1,5 @@
+r0 = openat$apparmor_task_current(0xffffff9c, &(0x7f0000000080)='/proc/self/attr/current\x00', 0x2, 0x0)
+r1 = dup(r0)
+r2 = socket$inet6_udp(0xa, 0x2, 0x0)
+r3 = dup(r1)
+copy_file_range(r2, 0xfffffffffffffffe, r3, 0x0, 0x0, 0x0)

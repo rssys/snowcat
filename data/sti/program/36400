@@ -1,0 +1,4 @@
+socketpair(0x2c, 0x0, 0x0, &(0x7f0000000000))
+syz_init_net_socket$nl_rdma(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$tipc(&(0x7f0000000400)='TIPC\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$netlbl_cipso(0x0, 0xffffffffffffffff)

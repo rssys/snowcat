@@ -1,0 +1,2 @@
+r0 = socket$inet6_tcp(0xa, 0x1, 0x0)
+setsockopt$inet6_tcp_TCP_FASTOPEN_KEY(r0, 0x6, 0x21, &(0x7f0000002740)="18e88a84f359692e3b3a4ab48f860803", 0x10)

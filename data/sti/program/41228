@@ -1,0 +1,3 @@
+syz_mount_image$fuse(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = openat$cuse(0xffffff9c, &(0x7f00000048c0)='/dev/cuse\x00', 0x2, 0x0)
+mount$fuse(0x0, &(0x7f0000004840)='./file0\x00', &(0x7f0000004880)='fuse\x00', 0x40, &(0x7f0000004900)={{'fd', 0x3d, r0}, 0x2c, {'rootmode', 0x3d, 0x2000}, 0x2c, {'user_id'}, 0x2c, {'group_id'}, 0x2c, {[{@allow_other='allow_other'}, {@default_permissions='default_permissions'}, {@blksize={'blksize'}}]}})

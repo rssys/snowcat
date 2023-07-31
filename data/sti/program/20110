@@ -1,0 +1,2 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+sendmsg$IPCTNL_MSG_EXP_DELETE(r0, &(0x7f0000000380)={0x0, 0x0, &(0x7f0000000340)={&(0x7f0000000180)=ANY=[@ANYBLOB="380000001f0203"], 0x38}}, 0x0)

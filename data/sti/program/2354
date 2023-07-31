@@ -1,0 +1,2 @@
+socket$packet(0x11, 0x2, 0x300)
+syz_btf_id_by_name$bpf_lsm(&(0x7f0000001740)='bpf_lsm_dentry_init_security\x00')

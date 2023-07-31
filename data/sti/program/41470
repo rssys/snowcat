@@ -1,0 +1,2 @@
+sendmsg$TIPC_CMD_GET_LINKS(0xffffffffffffffff, 0x0, 0x0)
+mkdir(&(0x7f0000000600)='./file0\x00', 0x0)

@@ -1,0 +1,2 @@
+r0 = gettid()
+pidfd_open(r0, 0x0)

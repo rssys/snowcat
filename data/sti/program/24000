@@ -1,0 +1,1 @@
+syz_mount_image$msdos(&(0x7f0000001040)='msdos\x00', &(0x7f0000001080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002380)={[], [{@fscontext={'fscontext', 0x3d, 'sysadm_u'}}]})

@@ -1,0 +1,1 @@
+syz_mount_image$fuse(&(0x7f0000000000)='fuse\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x2042044, &(0x7f0000002140)={{'fd'}, 0x2c, {'rootmode'}, 0x2c, {'user_id'}, 0x2c, {'group_id'}})

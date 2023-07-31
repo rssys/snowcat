@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$batadv(&(0x7f0000000040)='batadv\x00')
+socket$inet_tcp(0x2, 0x1, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000300)='./file0\x00', 0x0, 0x0, 0x0)
+syz_open_procfs(0x0, &(0x7f0000000500)='net/ip6_tables_names\x00')

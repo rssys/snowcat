@@ -1,0 +1,3 @@
+mknod$loop(&(0x7f00000006c0)='./file0\x00', 0x0, 0x1)
+truncate(&(0x7f0000000740)='./file0\x00', 0x80)
+truncate(&(0x7f00000009c0)='./file0\x00', 0x5)

@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$netlbl_mgmt(&(0x7f00000004c0)='NLBL_MGMT\x00')
+syz_open_procfs(0x0, &(0x7f00000007c0)='environ\x00')

@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000200)='net/icmp\x00')
+read$eventfd(r0, &(0x7f0000000040), 0xffffff99)
+read$eventfd(r0, &(0x7f0000000080), 0x8)

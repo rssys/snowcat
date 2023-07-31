@@ -1,0 +1,6 @@
+pipe2$9p(&(0x7f00000025c0)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x0)
+r1 = epoll_create(0x3)
+epoll_ctl$EPOLL_CTL_ADD(r1, 0x1, r0, &(0x7f0000000040)={0x90000015})
+r2 = epoll_create(0x3)
+epoll_ctl$EPOLL_CTL_ADD(r2, 0x1, r1, &(0x7f0000000140))
+write$P9_RREADLINK(r0, &(0x7f0000000080)={0x10, 0x17, 0x0, {0x7, './file0'}}, 0x10)

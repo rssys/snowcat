@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000000)={'lo\x00', &(0x7f0000000800)=@ethtool_gstrings={0x1b, 0x7}})

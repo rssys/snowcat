@@ -1,0 +1,8 @@
+fork()
+ioctl$sock_SIOCBRADDBR(0xffffffffffffffff, 0x89a0, 0x0)
+syz_genetlink_get_family_id$devlink(0x0, 0xffffffffffffffff)
+syz_open_procfs$namespace(0x0, 0x0)
+fork()
+get_robust_list(0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f00000008c0)='batadv\x00', 0xffffffffffffffff)
+ioctl$TIOCL_SELLOADLUT(0xffffffffffffffff, 0x541c, 0x0)

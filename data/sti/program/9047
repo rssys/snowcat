@@ -1,0 +1,3 @@
+r0 = open_tree(0xffffffffffffff9c, &(0x7f0000000100)='\x00', 0x89101)
+r1 = socket$nl_netfilter(0x10, 0x3, 0xc)
+dup2(r1, r0)

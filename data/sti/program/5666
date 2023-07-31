@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+setsockopt$inet_msfilter(r0, 0x0, 0x29, &(0x7f00000001c0)=ANY=[@ANYBLOB="e0000002ac1e010100000000000e884f"], 0x10)

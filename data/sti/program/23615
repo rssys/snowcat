@@ -1,0 +1,2 @@
+fsconfig$FSCONFIG_SET_FD(0xffffffffffffffff, 0x5, &(0x7f0000000000)='$$#&\x00', 0x0, 0xffffffffffffffff)
+fork()

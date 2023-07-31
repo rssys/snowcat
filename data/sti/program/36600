@@ -1,0 +1,1 @@
+syz_mount_image$minix(0x0, &(0x7f0000000200)='./file0\x00', 0x802, 0x0, 0x0, 0x0, &(0x7f00000003c0)={[{'/dev/vcs#\x00'}, {'/dev/vcs#\x00'}, {'/dev/vcs#\x00'}, {'{)'}], [{@defcontext={'defcontext', 0x3d, 'unconfined_u'}}, {@smackfstransmute={'smackfstransmute', 0x3d, '/dev/vcs#\x00'}}]})

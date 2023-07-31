@@ -1,0 +1,1 @@
+openat$tcp_mem(0xffffff9c, &(0x7f0000000400)='/proc/sys/net/ipv4/tcp_rmem\x00', 0x1, 0x0)

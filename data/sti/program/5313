@@ -1,0 +1,3 @@
+sendmsg$SMC_PNETID_DEL(0xffffffffffffffff, 0x0, 0x0)
+r0 = add_key$keyring(&(0x7f0000000080)='keyring\x00', &(0x7f0000000200)={'syz', 0x0}, 0x0, 0x0, 0xfffffffffffffffc)
+keyctl$assume_authority(0xf, r0)

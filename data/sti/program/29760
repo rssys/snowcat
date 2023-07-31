@@ -1,0 +1,3 @@
+r0 = socket$packet(0x11, 0x3, 0x300)
+r1 = syz_open_procfs$namespace(0x0, &(0x7f0000000640)='ns/net\x00')
+dup3(r0, r1, 0x0)

@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$wireguard(&(0x7f00000003c0)='wireguard\x00')
+munmap(&(0x7f0000003000/0x1000)=nil, 0x1000)

@@ -1,0 +1,3 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000480)='./file1\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f00000021c0)='./file1\x00', 0x800)

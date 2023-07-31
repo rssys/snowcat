@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$BTRFS_IOC_SET_RECEIVED_SUBVOL(r0, 0x8936, &(0x7f00000001c0)={"9f2a90f1a06fceb83ac6e24458760016"})

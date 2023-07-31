@@ -1,0 +1,2 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)
+name_to_handle_at(0xffffffffffffff9c, &(0x7f0000000380)='./file0\x00', &(0x7f00000003c0)={0x8}, &(0x7f0000001400), 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$inet_sctp(0x2, 0x5, 0x84)
+getsockopt$EBT_SO_GET_INIT_INFO(r0, 0x0, 0x82, &(0x7f0000000000)={'broute\x00'}, &(0x7f0000000080)=0x50)

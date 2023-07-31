@@ -1,0 +1,1 @@
+syz_open_dev$rtc(&(0x7f0000000b00)='/dev/rtc#\x00', 0xffff, 0x240)

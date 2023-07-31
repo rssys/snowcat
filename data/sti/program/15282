@@ -1,0 +1,1 @@
+pkey_mprotect(&(0x7f0000ffa000/0x4000)=nil, 0x4000, 0x3000000, 0xffffffffffffffff)

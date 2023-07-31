@@ -1,0 +1,3 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$ethtool(0x0, 0xffffffffffffffff)
+sendmsg$IEEE802154_LIST_IFACE(r0, &(0x7f0000002300)={0x0, 0x0, &(0x7f00000022c0)={0x0}}, 0x0)

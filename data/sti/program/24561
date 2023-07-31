@@ -1,0 +1,5 @@
+syz_io_uring_complete(0x0)
+syz_genetlink_get_family_id$wireguard(&(0x7f0000000000)='wireguard\x00', 0xffffffffffffffff)
+syz_mount_image$v7(&(0x7f0000000040)='v7\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000200))
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000002ac0)='./file0\x00', 0x60)

@@ -1,0 +1,4 @@
+r0 = openat$selinux_attr(0xffffffffffffff9c, &(0x7f0000000040)='/proc/thread-self/attr/exec\x00', 0x2, 0x0)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+r2 = fcntl$dupfd(r1, 0x0, r0)
+write$sndseq(r2, &(0x7f0000000100)=[{0x0, 0x0, 0x0, 0x0, @time, {}, {}, @addr}], 0x1c)

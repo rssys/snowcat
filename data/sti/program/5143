@@ -1,0 +1,2 @@
+fork()
+socket$nl_netfilter(0x10, 0x3, 0xc)

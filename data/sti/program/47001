@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000040)='ethtool\x00', 0xffffffffffffffff)
+socket$pppl2tp(0x18, 0x1, 0x1)

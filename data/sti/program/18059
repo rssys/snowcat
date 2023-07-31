@@ -1,0 +1,4 @@
+syz_mount_image$ext4(0x0, &(0x7f0000002a80)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = creat(&(0x7f0000004540)='./file1\x00', 0x0)
+r1 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000004580)='ns/time\x00')
+mount$9p_fd(0x0, &(0x7f00000044c0)='./file0\x00', &(0x7f0000004500)='9p\x00', 0x0, &(0x7f00000045c0)={'trans=fd,', {'rfdno', 0x3d, r0}, 0x2c, {'wfdno', 0x3d, r1}})

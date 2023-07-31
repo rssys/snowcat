@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$devlink(&(0x7f0000000100)='devlink\x00', 0xffffffffffffffff)
+syz_io_uring_submit(0x0, 0x0, 0x0, 0x0)
+sendmsg$NL80211_CMD_GET_FTM_RESPONDER_STATS(0xffffffffffffffff, 0x0, 0x41)
+openat$tcp_congestion(0xffffff9c, &(0x7f0000000900)='/proc/sys/net/ipv4/tcp_congestion_control\x00', 0x1, 0x0)

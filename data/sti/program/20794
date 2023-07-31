@@ -1,0 +1,4 @@
+creat(&(0x7f0000001880)='./file0\x00', 0x0)
+chown(&(0x7f00000019c0)='./file0\x00', 0xee00, 0x0)
+r0 = open(&(0x7f0000000300)='./file0\x00', 0x0, 0x0)
+fcntl$setstatus(r0, 0x4, 0x46000)

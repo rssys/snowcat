@@ -1,0 +1,1 @@
+add_key(&(0x7f0000000340)='dns_resolver\x00', &(0x7f0000000380)={'syz', 0x0}, &(0x7f00000003c0)="8ff700", 0x3, 0xfffffffffffffffd)

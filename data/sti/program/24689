@@ -1,0 +1,6 @@
+r0 = inotify_init()
+inotify_add_watch(r0, &(0x7f0000000100)='.\x00', 0x42000395)
+openat2$dir(0xffffff9c, &(0x7f0000000040)='./file1\x00', &(0x7f0000000140)={0x105040}, 0x18)
+r1 = inotify_init()
+inotify_add_watch(r1, &(0x7f0000000000)='./file1\x00', 0x24)
+setxattr$incfs_metadata(&(0x7f00000002c0)='./file1\x00', &(0x7f0000000300)='user.incfs.metadata\x00', 0x0, 0x0, 0x0)

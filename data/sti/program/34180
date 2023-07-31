@@ -1,0 +1,2 @@
+r0 = openat$rfkill(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/rfkill\x00', 0xa02, 0x0)
+readv(r0, &(0x7f0000001240)=[{&(0x7f0000000100)=""/12, 0xc}], 0x1)

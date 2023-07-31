@@ -1,0 +1,2 @@
+r0 = openat$incfs(0xffffffffffffff9c, &(0x7f0000000000)='.pending_reads\x00', 0x8e441, 0x0)
+write$nbd(r0, 0x0, 0xfffffebb)

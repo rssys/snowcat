@@ -1,0 +1,1 @@
+syz_mount_image$afs(&(0x7f0000003dc0)='afs\x00', &(0x7f0000003e00)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000004080)={[{@flock_strict='flock=strict'}, {@dyn='dyn'}]})

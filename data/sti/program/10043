@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000000600)='tmpfs\x00', &(0x7f0000000640)='./file1\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000f00)={[{@mpol={'mpol', 0x3d, {'interleave', '=relative', @void}}}], [{@func={'func', 0x3d, 'KEXEC_INITRAMFS_CHECK'}}]})

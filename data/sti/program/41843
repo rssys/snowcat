@@ -1,0 +1,2 @@
+pipe(&(0x7f0000000100)={<r0=>0xffffffffffffffff})
+flock(r0, 0xc)

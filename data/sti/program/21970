@@ -1,0 +1,2 @@
+r0 = openat$ptp0(0xffffff9c, &(0x7f0000001600)='/dev/ptp0\x00', 0x0, 0x0)
+ioctl$PTP_SYS_OFFSET_EXTENDED(r0, 0xc4c03d09, 0x0)

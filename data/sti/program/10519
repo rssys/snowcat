@@ -1,0 +1,2 @@
+r0 = syz_mount_image$tmpfs(&(0x7f0000000800)='tmpfs\x00', &(0x7f0000000840)='./file0\x00', 0x0, 0x0, 0x0, 0x1, &(0x7f0000001c80)={[{@size={'size', 0x3d, [0x65, 0x0]}}]})
+unlinkat(r0, &(0x7f0000000000)='./file0\x00', 0x200)

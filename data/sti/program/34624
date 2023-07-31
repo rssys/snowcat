@@ -1,0 +1,2 @@
+open(&(0x7f0000000540)='./file0\x00', 0x40040, 0x0)
+syz_genetlink_get_family_id$nl802154(0x0, 0xffffffffffffffff)

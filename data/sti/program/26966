@@ -1,0 +1,2 @@
+r0 = socket$l2tp6(0xa, 0x2, 0x73)
+ioctl$sock_SIOCGIFVLAN_ADD_VLAN_CMD(r0, 0x8982, &(0x7f0000004280)={0x0, 'lo\x00'})

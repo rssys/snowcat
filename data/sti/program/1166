@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_inet6_SIOCDIFADDR(r0, 0x8936, &(0x7f00000000c0)={@private0, 0x10003f})

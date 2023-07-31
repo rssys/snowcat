@@ -1,0 +1,3 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)
+setxattr$security_ima(&(0x7f0000000180)='./file0\x00', &(0x7f00000001c0)='security.ima\x00', 0x0, 0x0, 0x0)
+setxattr$security_ima(&(0x7f0000000040)='./file0\x00', &(0x7f0000000100)='security.ima\x00', &(0x7f0000000140)=@md5={0x1, "67e03380621668559053fa67fada59f5"}, 0x11, 0x0)

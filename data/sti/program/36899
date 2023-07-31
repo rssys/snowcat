@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='attr/current\x00')
+write$P9_RCREATE(r0, 0x0, 0x2b)

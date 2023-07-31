@@ -1,0 +1,3 @@
+syz_mount_image$tmpfs(0x0, &(0x7f0000004240)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$security_evm(&(0x7f0000000040)='./file0\x00', &(0x7f0000000240)='security.evm\x00', &(0x7f0000000280)=ANY=[], 0xb1, 0x0)
+lsetxattr$trusted_overlay_redirect(&(0x7f0000000080)='./file0\x00', &(0x7f0000000180)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)

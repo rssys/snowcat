@@ -1,0 +1,2 @@
+r0 = openat$zero(0xffffffffffffff9c, &(0x7f00000007c0)='/dev/zero\x00', 0x42, 0x0)
+mmap$IORING_OFF_SQ_RING(&(0x7f0000ffc000/0x1000)=nil, 0x1002, 0x2000019, 0x2013, r0, 0xffffffff00000000)

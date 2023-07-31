@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+setsockopt$inet_IP_IPSEC_POLICY(r0, 0x0, 0x7, &(0x7f0000000440)={{{@in6=@rand_addr=' \x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01', @in=@loopback}}, {{@in6=@dev}, 0x0, @in=@private}}, 0xe4)

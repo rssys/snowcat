@@ -1,0 +1,2 @@
+syz_mount_image$gfs2meta(&(0x7f0000000140)='gfs2meta\x00', &(0x7f0000000180)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$trusted_overlay_opaque(&(0x7f0000001940)='./file0\x00', &(0x7f0000001980)='trusted.overlay.opaque\x00', &(0x7f00000019c0)='y\x00', 0x2, 0x1)

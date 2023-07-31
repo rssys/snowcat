@@ -1,0 +1,4 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+sendmsg$IPCTNL_MSG_EXP_NEW(r0, &(0x7f0000000240)={0x0, 0x0, &(0x7f0000000200)={&(0x7f0000000280)=ANY=[@ANYBLOB="3400000002020102000000000000000000000000200002"], 0x34}}, 0x0)
+socket$nl_netfilter(0x10, 0x3, 0xc)
+sendmsg$IPCTNL_MSG_EXP_NEW(0xffffffffffffffff, 0x0, 0x0)

@@ -1,0 +1,2 @@
+socket$packet(0x11, 0x3, 0x300)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000000700)='l2tp\x00', 0xffffffffffffffff)

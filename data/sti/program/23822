@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000000040)='tmpfs\x00', &(0x7f0000000240)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000005c0)={[{@size={'size', 0x3d, [0x33]}}, {@huge_advise='huge=advise'}], [{@fscontext={'fscontext', 0x3d, 'unconfined_u'}}]})

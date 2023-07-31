@@ -1,0 +1,8 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000800)='batadv\x00', 0xffffffffffffffff)
+sendmsg$BATADV_CMD_GET_MCAST_FLAGS(r0, &(0x7f0000000900)={&(0x7f00000007c0)={0x10, 0x0, 0x0, 0x400000}, 0xc, &(0x7f00000008c0)={0x0}}, 0x0)
+getuid()
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000a80)='batadv\x00', r0)
+socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$gtp(&(0x7f0000000d40)='gtp\x00', r1)

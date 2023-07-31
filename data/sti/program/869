@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000540)='./file0\x00', 0x0)
+ioctl$EXT4_IOC_GROUP_EXTEND(r0, 0x40046607, 0x0)

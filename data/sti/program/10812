@@ -1,0 +1,1 @@
+memfd_create(&(0x7f0000000140)='security.selinux\x00', 0x4)

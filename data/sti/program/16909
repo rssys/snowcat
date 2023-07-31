@@ -1,0 +1,4 @@
+r0 = openat$full(0xffffffffffffff9c, &(0x7f00000003c0)='/dev/full\x00', 0x0, 0x0)
+openat$full(0xffffffffffffff9c, &(0x7f00000003c0)='/dev/full\x00', 0x0, 0x0)
+read$eventfd(r0, &(0x7f0000000040), 0x1ffffe74)
+ioctl$BTRFS_IOC_GET_SUBVOL_INFO(r0, 0x81f8943c, 0x0)

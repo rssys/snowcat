@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_ifreq(r0, 0x8943, &(0x7f0000000000)={'wlan0\x00', @ifru_mtu})

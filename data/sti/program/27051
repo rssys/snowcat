@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x301c2, 0x0)
+write$P9_RSTATFS(r0, &(0x7f0000000100)={0x43}, 0xfffffdef)

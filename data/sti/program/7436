@@ -1,0 +1,3 @@
+r0 = syz_open_dev$binderN(&(0x7f0000002680)='/dev/binder#\x00', 0x0, 0x3)
+ioctl$BINDER_SET_MAX_THREADS(r0, 0x40046205, &(0x7f00000026c0))
+ioctl$BINDER_GET_NODE_INFO_FOR_REF(r0, 0xc018620c, &(0x7f0000002a00))

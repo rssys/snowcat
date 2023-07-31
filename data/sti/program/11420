@@ -1,0 +1,3 @@
+socket$inet6_udp(0xa, 0x2, 0x0)
+creat(&(0x7f0000001140)='./file0\x00', 0x0)
+syz_open_dev$mouse(&(0x7f0000001280)='/dev/input/mouse#\x00', 0x0, 0x0)

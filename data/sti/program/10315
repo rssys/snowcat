@@ -1,0 +1,3 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000000)='/dev/vcsa#\x00', 0x1f, 0x0)
+read$ptp(r0, &(0x7f00000001c0)=""/102400, 0x19000)
+read$char_usb(r0, &(0x7f0000000040)=""/18, 0x12)

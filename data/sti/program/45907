@@ -1,0 +1,5 @@
+setsockopt$packet_fanout_data(0xffffffffffffffff, 0x107, 0x16, &(0x7f0000000040), 0x8)
+syz_genetlink_get_family_id$ipvs(&(0x7f0000000140)='IPVS\x00', 0xffffffffffffffff)
+ioctl$sock_ipv6_tunnel_SIOCGET6RD(0xffffffffffffffff, 0x89f8, 0x0)
+setsockopt$packet_add_memb(0xffffffffffffffff, 0x107, 0x1, &(0x7f0000000380)={0x0, 0x1, 0x6, @dev}, 0x10)
+ioctl$PERF_EVENT_IOC_REFRESH(0xffffffffffffffff, 0x2402, 0x0)

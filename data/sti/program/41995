@@ -1,0 +1,2 @@
+prctl$PR_SET_NAME(0xf, &(0x7f0000000000)='-\t\x00\x01')
+seccomp$SECCOMP_SET_MODE_STRICT(0x0, 0x0, 0x0)

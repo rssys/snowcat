@@ -1,0 +1,5 @@
+ioctl$SNDCTL_DSP_GETOSPACE(0xffffffffffffffff, 0x8010500c, 0x0)
+r0 = openat$dsp1(0xffffff9c, &(0x7f0000000100)='/dev/dsp1\x00', 0x0, 0x0)
+ioctl$SOUND_PCM_READ_BITS(r0, 0x80045005, 0x0)
+openat$audio1(0xffffff9c, &(0x7f0000000240)='/dev/audio1\x00', 0x0, 0x0)
+ioctl$SNDCTL_DSP_SETDUPLEX(0xffffffffffffffff, 0x5016, 0x0)

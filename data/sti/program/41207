@@ -1,0 +1,1 @@
+syz_mount_image$zonefs(&(0x7f0000000040)='zonefs\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x180080, &(0x7f00000007c0))

@@ -1,0 +1,2 @@
+r0 = socket$packet(0x11, 0x2, 0x300)
+sendmmsg$sock(r0, &(0x7f0000000240)=[{{&(0x7f0000000000)=@nfc_llcp={0x27, 0x1, 0x0, 0x0, 0x0, 0x0, "6cc36d1aeb07cd47ff9ae61fd8cc4a8a311e0befa05e0749911999157ae035226bcaa960eec11a69bc92571cc90815885e01d7da1812348cd2ec505c149ff3"}, 0x80, 0x0}}], 0x1, 0x0)

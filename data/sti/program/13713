@@ -1,0 +1,2 @@
+open(&(0x7f0000003b40)='./file0\x00', 0x44, 0x0)
+setxattr$security_selinux(&(0x7f0000000440)='./file0\x00', &(0x7f0000000480)='security.selinux\x00', &(0x7f00000004c0)='/usr/sbin/ntpd\x00', 0xf, 0x0)

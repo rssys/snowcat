@@ -1,0 +1,2 @@
+syz_mount_image$msdos(&(0x7f00000000c0)='msdos\x00', &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000640))
+setxattr$trusted_overlay_origin(&(0x7f0000000a80)='./file0\x00', &(0x7f0000000ac0)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

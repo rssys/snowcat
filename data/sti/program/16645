@@ -1,0 +1,2 @@
+r0 = openat$zero(0xffffff9c, &(0x7f0000000400)='/dev/zero\x00', 0x0, 0x0)
+read$FUSE(r0, &(0x7f0000000740)={0x2020}, 0x2020)

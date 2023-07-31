@@ -1,0 +1,4 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000400)='clear_refs\x00')
+r1 = syz_open_procfs(0x0, &(0x7f0000000180)='net/packet\x00')
+socket$packet(0x11, 0x2, 0x300)
+sendfile(r0, r1, 0x0, 0x7ffff000)

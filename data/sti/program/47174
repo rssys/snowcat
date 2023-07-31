@@ -1,0 +1,7 @@
+syz_open_dev$vcsn(&(0x7f00000000c0)='/dev/vcs#\x00', 0x2, 0x0)
+socket$inet6_tcp(0xa, 0x1, 0x0)
+open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+write$P9_RSTAT(0xffffffffffffffff, 0x0, 0xfffffdfa)
+openat(0xffffffffffffff9c, &(0x7f0000000100)='./file1\x00', 0x42, 0x0)
+syz_mount_image$nfs(&(0x7f00000018c0)='nfs\x00', &(0x7f0000001900)='./file0\x00', 0x0, 0x0, &(0x7f0000001a00), 0x1891008, &(0x7f0000001a40))
+rename(&(0x7f0000000000)='./file0\x00', &(0x7f0000000080)='./file1\x00')

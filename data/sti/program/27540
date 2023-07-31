@@ -1,0 +1,2 @@
+open(&(0x7f0000000080)='./file0\x00', 0x129842, 0x0)
+ioctl$SECCOMP_IOCTL_NOTIF_RECV(0xffffffffffffffff, 0xc0502100, 0x0)

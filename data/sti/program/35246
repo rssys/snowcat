@@ -1,0 +1,2 @@
+r0 = openat$dlm_plock(0xffffff9c, &(0x7f0000000080)='/dev/dlm_plock\x00', 0x0, 0x0)
+fsconfig$FSCONFIG_CMD_RECONFIGURE(r0, 0x7, 0x0, 0x0, 0x0)

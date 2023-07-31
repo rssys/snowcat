@@ -1,0 +1,4 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f00000000c0)='net/igmp6\x00')
+flock(r0, 0x5)
+syz_open_procfs(0xffffffffffffffff, &(0x7f00000000c0)='net/igmp6\x00')
+flock(r0, 0x1)

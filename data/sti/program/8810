@@ -1,0 +1,2 @@
+openat$dsp1(0xffffff9c, &(0x7f0000000000)='/dev/dsp1\x00', 0xa0000, 0x0)
+openat$dsp(0xffffff9c, &(0x7f00000000c0)='/dev/dsp\x00', 0x4802, 0x0)

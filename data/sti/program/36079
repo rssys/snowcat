@@ -1,0 +1,3 @@
+r0 = signalfd4(0xffffffffffffffff, &(0x7f0000000080), 0x8, 0x0)
+r1 = epoll_create(0x481)
+epoll_ctl$EPOLL_CTL_ADD(r1, 0x1, r0, &(0x7f0000000400)={0x28000000})

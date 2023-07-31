@@ -1,0 +1,5 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/snd/seq\x00', 0x1)
+ioctl$SNDRV_SEQ_IOCTL_CREATE_QUEUE(r0, 0xc08c5332, &(0x7f0000000000)={0x0, 0x0, 0x0, 'queue1\x00'})
+sendmsg$IPVS_CMD_GET_DEST(0xffffffffffffffff, &(0x7f0000000340)={0x0, 0x0, &(0x7f0000000300)={&(0x7f0000001540)=ANY=[@ANYBLOB="00000000000000000000080000000800040000000000f7ff0500000000005c00038008000500ac1414bb080005007f00000100000008000300000000"], 0xcc}}, 0x0)
+write$sndseq(r0, &(0x7f0000000100)=[{0x0, 0x0, 0x0, 0x0, @tick, {}, {}, @control}], 0xfffffe66)
+futex(0x0, 0x0, 0x0, 0x0, 0x0, 0x0)

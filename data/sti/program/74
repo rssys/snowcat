@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/netlink\x00')
+read$char_usb(r0, &(0x7f0000000040)=""/240, 0xf0)
+read$char_usb(r0, &(0x7f0000000140)=""/164, 0xa4)

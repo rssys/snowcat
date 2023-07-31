@@ -1,0 +1,5 @@
+r0 = syz_init_net_socket$bt_hci(0x1f, 0x3, 0x1)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$BATADV_CMD_GET_NEIGHBORS(0xffffffffffffffff, 0x0, 0x0)
+getsockopt$bt_BT_FLUSHABLE(r0, 0x112, 0x8, 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(&(0x7f00000003c0)='batadv\x00', r1)

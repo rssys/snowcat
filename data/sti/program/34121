@@ -1,0 +1,3 @@
+openat$apparmor_thread_exec(0xffffff9c, &(0x7f0000000000)='/proc/thread-self/attr/exec\x00', 0x2, 0x0)
+openat$snapshot(0xffffff9c, &(0x7f0000000040)='/dev/snapshot\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000380)='ethtool\x00', 0xffffffffffffffff)

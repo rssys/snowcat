@@ -1,0 +1,2 @@
+open(&(0x7f0000000180)='./cgroup/cgroup.procs\x00', 0x301000, 0x0)
+sendmsg$NFT_MSG_GETOBJ_RESET(0xffffffffffffffff, 0x0, 0x0)

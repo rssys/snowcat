@@ -1,0 +1,4 @@
+syz_mount_image$tmpfs(&(0x7f00000007c0)='tmpfs\x00', &(0x7f0000000800)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000d40))
+lstat(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)={0x0, 0x0, 0x0, 0x0, <r0=>0x0})
+setreuid(0xee01, r0)
+removexattr(&(0x7f0000000780)='./file0\x00', &(0x7f0000000940)=@random={'user.', 'fsuuid'})

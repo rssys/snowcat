@@ -1,0 +1,5 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000080)='/dev/vcsa#\x00', 0x0, 0x0)
+close(r0)
+socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000300)='nl80211\x00')
+sendmsg$NL80211_CMD_START_AP(r0, &(0x7f0000000080)={0x0, 0x0, &(0x7f0000000040)={&(0x7f0000000000)=ANY=[@ANYBLOB='(\x00\x00\x00', @ANYRES16=r1, @ANYBLOB="032fec696a769e91fbd411"], 0x28}}, 0x0)

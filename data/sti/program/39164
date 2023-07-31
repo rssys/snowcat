@@ -1,0 +1,2 @@
+r0 = openat$cachefiles(0xffffff9c, &(0x7f0000000140)='/dev/cachefiles\x00', 0x1e9842, 0x0)
+writev(r0, &(0x7f0000000400)=[{&(0x7f0000000200)="9a", 0x1}], 0x1)

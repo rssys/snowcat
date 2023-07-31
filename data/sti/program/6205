@@ -1,0 +1,2 @@
+bpf$BPF_MAP_LOOKUP_AND_DELETE_BATCH(0x19, 0x0, 0x0)
+syz_btf_id_by_name$bpf_lsm(&(0x7f0000000440)='bpf_lsm_msg_msg_free_security\x00')

@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000001f80)='tmpfs\x00', &(0x7f0000001fc0)='./file0\x00', 0x0, 0x0, 0x0, 0x801, &(0x7f0000002100)={[{@nr_blocks={'nr_blocks', 0x3d, [0x30, 0x0]}}], [{@smackfsroot={'smackfsroot', 0x3d, '].\\'}}, {@euid_eq={'euid'}}, {@obj_type={'obj_type', 0x3d, '-!,[#@+\xf5\\^\xb4\xa3/:\xa6'}}]})

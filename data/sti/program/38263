@@ -1,0 +1,3 @@
+syz_mount_image$nfs4(&(0x7f0000001dc0)='nfs4\x00', &(0x7f0000001e00)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+symlinkat(&(0x7f0000000480)='./file0\x00', 0xffffffffffffff9c, &(0x7f00000006c0)='./file0/file0\x00')
+syz_mount_image$msdos(&(0x7f0000000000)='msdos\x00', &(0x7f0000000040)='./file0/file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000600)=ANY=[@ANYRESDEC, @ANYBLOB])

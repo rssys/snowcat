@@ -1,0 +1,2 @@
+r0 = fork()
+ptrace$peeksig(0x4209, r0, 0x0, 0x0)

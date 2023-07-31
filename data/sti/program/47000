@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+setsockopt$SO_BINDTODEVICE(r0, 0x1, 0x19, &(0x7f0000000b80)='vxcan1\x00', 0x10)

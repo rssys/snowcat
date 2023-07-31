@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0x0, &(0x7f0000000140)='ns/cgroup\x00')
+setns(r0, 0x2000000)

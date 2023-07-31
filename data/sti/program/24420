@@ -1,0 +1,2 @@
+r0 = socket$rxrpc(0x21, 0x2, 0xa)
+ioctl$ifreq_SIOCGIFINDEX_batadv_hard(r0, 0x8933, &(0x7f0000002140)={'batadv_slave_1\x00'})

@@ -1,0 +1,4 @@
+ioctl$SNDRV_RAWMIDI_IOCTL_PARAMS(0xffffffffffffffff, 0xc0205710, 0x0)
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nbd(&(0x7f0000000480)='nbd\x00', r0)
+ioctl$VIDIOC_TRY_EXT_CTRLS(0xffffffffffffffff, 0xc0185649, 0x0)

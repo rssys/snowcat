@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000100)='./file0\x00', 0x0)
+fadvise64(r0, 0xd355bee, 0x3ff, 0x4)

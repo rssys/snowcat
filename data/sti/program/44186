@@ -1,0 +1,4 @@
+ioctl$VIDIOC_QUERYBUF(0xffffffffffffffff, 0xc04c5609, 0x0)
+openat$dsp1(0xffffff9c, &(0x7f0000000100)='/dev/dsp1\x00', 0x4000, 0x0)
+ioctl$VIDIOC_DQBUF(0xffffffffffffffff, 0xc04c5611, 0x0)
+ioctl$SNDCTL_DSP_GETODELAY(0xffffffffffffffff, 0x80045017, &(0x7f00000003c0))

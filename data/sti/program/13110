@@ -1,0 +1,3 @@
+r0 = getpgrp(0x0)
+r1 = getpgrp(0xffffffffffffffff)
+kcmp$KCMP_EPOLL_TFD(r0, r1, 0x2, 0xffffffffffffffff, 0x0)

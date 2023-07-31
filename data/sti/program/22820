@@ -1,0 +1,3 @@
+r0 = socket$inet(0x2, 0x3, 0xff)
+connect$inet(r0, &(0x7f0000000000)={0x2, 0x0, @loopback}, 0x10)
+sendmsg$inet(r0, &(0x7f00000017c0)={0x0, 0x0, &(0x7f0000001700)=[{&(0x7f0000001880)="daded63bd373698392698fe5103ab86d067e315dc9b210017c212405b1fb543ed3f51ba9e5331351", 0x28}], 0x1}, 0x0)

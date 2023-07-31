@@ -1,0 +1,6 @@
+syz_open_dev$vcsn(&(0x7f0000000000)='/dev/vcs#\x00', 0x3000, 0x0)
+ioctl$sock_SIOCGIFVLAN_SET_VLAN_NAME_TYPE_CMD(0xffffffffffffffff, 0x8982, &(0x7f0000000600)={0x6, 'veth0_to_hsr\x00'})
+setsockopt$sock_attach_bpf(0xffffffffffffffff, 0x1, 0x32, 0x0, 0x0)
+openat$ttyS3(0xffffff9c, &(0x7f0000000200)='/dev/ttyS3\x00', 0x0, 0x0)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$SEG6(&(0x7f0000000080)='SEG6\x00', r0)

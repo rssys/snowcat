@@ -1,0 +1,2 @@
+syz_io_uring_complete(0x0)
+syz_open_dev$evdev(&(0x7f0000000a40)='/dev/input/event#\x00', 0x0, 0x0)

@@ -1,0 +1,4 @@
+socket$packet(0x11, 0x3, 0x300)
+r0 = syz_open_procfs(0x0, &(0x7f0000000400)='fdinfo/3\x00')
+r1 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000140)='net/ip6_flowlabel\x00')
+sendfile(r0, r1, 0x0, 0x7ffff000)

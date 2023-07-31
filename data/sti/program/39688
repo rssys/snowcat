@@ -1,0 +1,2 @@
+sendmsg$nl_route_sched(0xffffffffffffffff, 0x0, 0x0)
+io_setup(0xffff, &(0x7f0000000800))

@@ -1,0 +1,2 @@
+r0 = openat$null(0xffffffffffffff9c, &(0x7f0000000140)='/dev/null\x00', 0x1, 0x0)
+write$cgroup_int(r0, 0x0, 0x0)

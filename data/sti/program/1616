@@ -1,0 +1,2 @@
+setuid(0xee01)
+symlink(&(0x7f0000000480)='./file0\x00', &(0x7f00000009c0)='./file0\x00')

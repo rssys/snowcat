@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$l2tp(&(0x7f0000000040)='l2tp\x00', 0xffffffffffffffff)
+socket$nl_generic(0x10, 0x3, 0x10)
+mknodat(0xffffffffffffff9c, &(0x7f00000007c0)='./file0\x00', 0x0, 0x8)
+openat$dlm_monitor(0xffffff9c, &(0x7f0000000940)='/dev/dlm-monitor\x00', 0x30000, 0x0)

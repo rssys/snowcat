@@ -1,0 +1,2 @@
+r0 = socket$inet(0xa, 0x2, 0x0)
+connect(r0, &(0x7f0000000000)=@in6={0xa, 0x0, 0x0, @rand_addr=' \x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01'}, 0x80)

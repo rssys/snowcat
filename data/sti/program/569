@@ -1,0 +1,2 @@
+r0 = openat$urandom(0xffffffffffffff9c, &(0x7f0000000040)='/dev/urandom\x00', 0x0, 0x0)
+ioctl$RNDADDENTROPY(r0, 0x40085203, &(0x7f0000000340)={0x0, 0x41, "943af314d01ef89a5acc1951ca741387e5af33f6b9fed023b47f6a43a1e7d2a403963f8ab2043bd1b1fd4bf7e9ebd832394a137a9e54c24a7e52c5f0234fb6d2dd"})

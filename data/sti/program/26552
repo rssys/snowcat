@@ -1,0 +1,3 @@
+ioctl$SNDRV_TIMER_IOCTL_PARAMS(0xffffffffffffffff, 0x40505412, &(0x7f0000000080))
+r0 = socket(0xa, 0x3, 0x2)
+ioctl$sock_inet6_udp_SIOCINQ(r0, 0x541b, &(0x7f0000000040))

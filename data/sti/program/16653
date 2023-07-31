@@ -1,0 +1,1 @@
+syz_genetlink_get_family_id$gtp(&(0x7f0000000180)='gtp\x00', 0xffffffffffffffff)

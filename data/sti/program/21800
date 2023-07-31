@@ -1,0 +1,2 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+pivot_root(&(0x7f0000000740)='./file0/../file0\x00', &(0x7f0000000780)='./file0\x00')

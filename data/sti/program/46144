@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000340)='./file0\x00', 0x0)
+write$6lowpan_control(r0, &(0x7f0000000380)='disconnect aa:aa:aa:aa:aa:10 1', 0x1e)

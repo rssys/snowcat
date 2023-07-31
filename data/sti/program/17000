@@ -1,0 +1,2 @@
+r0 = memfd_create(&(0x7f0000000040)='\x00', 0x0)
+fsetxattr$system_posix_acl(r0, &(0x7f0000001ac0)='system.posix_acl_access\x00', 0x0, 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$audion(&(0x7f00000000c0)='/dev/audio#\x00', 0x1, 0x81)
+write$6lowpan_enable(r0, &(0x7f0000000100)='1', 0x1)

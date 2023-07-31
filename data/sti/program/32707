@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r2 = syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000640)='NLBL_UNLBL\x00', r0)
+sendmsg$NLBL_UNLABEL_C_STATICADD(r1, &(0x7f0000000780)={0x0, 0x0, &(0x7f0000000740)={&(0x7f0000000680)={0x64, r2, 0x3, 0x0, 0x0, {}, [@NLBL_UNLABEL_A_IFACE={0x14, 0x6, 'geneve0\x00'}, @NLBL_UNLABEL_A_SECCTX={0x27, 0x7, 'system_u:object_r:depmod_exec_t:s0\x00'}, @NLBL_UNLABEL_A_IPV6ADDR={0x14, 0x2, @loopback}]}, 0x64}}, 0x0)

@@ -1,0 +1,3 @@
+fork()
+socket$packet(0x11, 0x0, 0x300)
+syz_genetlink_get_family_id$nl802154(0x0, 0xffffffffffffffff)

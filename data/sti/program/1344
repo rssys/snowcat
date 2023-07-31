@@ -1,0 +1,1 @@
+syz_mount_image$ext4(&(0x7f0000000000)='ext4\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002700)=ANY=[@ANYBLOB="2c6a71666d743d76667376312c666f776e65723eafce0af0f9f4c5f9ee98b722"])

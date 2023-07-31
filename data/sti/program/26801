@@ -1,0 +1,3 @@
+capset(&(0x7f0000000040)={0x20071026}, &(0x7f0000000080))
+r0 = syz_open_procfs(0x0, &(0x7f00000001c0)='stack\x00')
+read$usbmon(r0, 0x0, 0x0)

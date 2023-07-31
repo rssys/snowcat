@@ -1,0 +1,3 @@
+ioctl$BTRFS_IOC_QUOTA_RESCAN(0xffffffffffffffff, 0x4040942c, 0x0)
+r0 = fsopen(&(0x7f0000000080)='hugetlbfs\x00', 0x0)
+fsconfig$FSCONFIG_CMD_CREATE(r0, 0x6, 0x0, 0x0, 0x0)

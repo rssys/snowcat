@@ -1,0 +1,8 @@
+creat(&(0x7f0000000000)='./file0\x00', 0x0)
+r0 = open(&(0x7f0000000100)='./file0\x00', 0x0, 0x0)
+ioctl$FS_IOC_SETFLAGS(r0, 0x40086602, &(0x7f0000000080))
+r1 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+r2 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+write$cgroup_pid(r2, &(0x7f0000000040), 0xfffffee3)
+ioctl$FS_IOC_FIEMAP(r2, 0xc020660b, &(0x7f0000000440)=ANY=[@ANYBLOB="000000000000000002"])
+write$P9_RFLUSH(r1, 0x0, 0x0)

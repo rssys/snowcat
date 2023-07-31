@@ -1,0 +1,5 @@
+r0 = syz_open_dev$sndpcmp(&(0x7f0000000080)='/dev/snd/pcmC#D#p\x00', 0x0, 0x1c8002)
+openat$tcp_congestion(0xffffff9c, &(0x7f0000000200)='/proc/sys/net/ipv4/tcp_congestion_control\x00', 0x1, 0x0)
+socket$can_raw(0x1d, 0x3, 0x1)
+ioctl$SNDRV_PCM_IOCTL_TTSTAMP(r0, 0x40044103, 0x0)
+openat$nvme_fabrics(0xffffff9c, &(0x7f0000000440)='/dev/nvme-fabrics\x00', 0x40, 0x0)

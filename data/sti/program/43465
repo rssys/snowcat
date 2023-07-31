@@ -1,0 +1,2 @@
+r0 = openat$ipvs(0xffffff9c, &(0x7f0000000200)='/proc/sys/net/ipv4/vs/backup_only\x00', 0x2, 0x0)
+write$RDMA_USER_CM_CMD_RESOLVE_ROUTE(r0, &(0x7f00000003c0)={0x4, 0x8}, 0x10)

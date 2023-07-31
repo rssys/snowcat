@@ -1,0 +1,2 @@
+creat(&(0x7f0000000200)='./file0\x00', 0x0)
+lsetxattr$security_capability(&(0x7f0000000000)='./file0\x00', 0x0, 0x0, 0x0, 0x0)

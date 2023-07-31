@@ -1,0 +1,4 @@
+r0 = openat$dsp1(0xffffff9c, &(0x7f0000000000)='/dev/dsp1\x00', 0x0, 0x0)
+r1 = epoll_create1(0x0)
+epoll_ctl$EPOLL_CTL_ADD(r1, 0x1, r0, &(0x7f00000000c0))
+ioctl$SNDCTL_DSP_SETTRIGGER(r0, 0x40045010, &(0x7f0000000040))

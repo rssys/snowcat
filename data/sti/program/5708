@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_ifreq(r0, 0x8914, &(0x7f0000000080)={'sit0\x00', @ifru_data=0x0})

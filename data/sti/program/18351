@@ -1,0 +1,5 @@
+syz_mount_image$iso9660(0x0, &(0x7f0000000200)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+syz_mount_image$iso9660(0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f0000003ac0)='./file0\x00', &(0x7f0000003b00)='9p\x00', 0x0, &(0x7f0000005480)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[{@version_9p2000='version=9p2000'}], [{@defcontext={'defcontext', 0x3d, 'unconfined_u'}}, {@uid_eq={'uid'}}, {@uid_lt={'uid<'}}]}})
+sendmsg$nl_route_sched(0xffffffffffffffff, &(0x7f0000005700)={&(0x7f0000005640), 0xc, 0x0, 0x1, 0x0, 0x0, 0x40}, 0x0)
+syz_mount_image$ntfs(0x0, &(0x7f0000005940)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000005ac0)={[{@utf8='utf8'}], [{@seclabel='seclabel'}, {@smackfstransmute={'smackfstransmute', 0x3d, 'defcontext'}}, {@permit_directio='permit_directio'}]})

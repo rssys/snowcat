@@ -1,0 +1,3 @@
+r0 = add_key$fscrypt_v1(&(0x7f0000000080)='logon\x00', &(0x7f00000000c0)={'fscrypt:', @desc4='85baa174f0cb1142'}, &(0x7f0000000100)={0x0, "dfaabb52ceea3d2334113225f4ef48da3b95f5c1eeb632d6fe94deb055bdc236fc6ae6907057a810d17be0effb4926187566750e4a602589bd6ac89b5e0bf5c7"}, 0x48, 0xfffffffffffffffe)
+capset(&(0x7f0000000000)={0x19980330}, &(0x7f0000000040))
+keyctl$chown(0x4, r0, 0x0, 0xee00)

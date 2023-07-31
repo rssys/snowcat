@@ -1,0 +1,2 @@
+openat$hwrng(0xffffff9c, &(0x7f0000000000)='/dev/hwrng\x00', 0x0, 0x0)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='fd/3\x00')

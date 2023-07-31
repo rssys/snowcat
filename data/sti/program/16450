@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000800)='ethtool\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$team(&(0x7f0000000fc0)='team\x00', 0xffffffffffffffff)

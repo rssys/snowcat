@@ -1,0 +1,1 @@
+syz_open_dev$hiddev(&(0x7f00000001c0)='/dev/usb/hiddev#\x00', 0x0, 0xac800)

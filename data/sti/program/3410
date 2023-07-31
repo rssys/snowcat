@@ -1,0 +1,2 @@
+r0 = syz_open_dev$usbmon(&(0x7f0000000240)='/dev/usbmon#\x00', 0x0, 0x82900)
+ioctl$MON_IOCX_GET(r0, 0x400c9206, &(0x7f00000003c0)={0x0, 0x0})

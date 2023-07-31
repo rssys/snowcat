@@ -1,0 +1,3 @@
+r0 = fork()
+r1 = fork()
+kcmp$KCMP_EPOLL_TFD(r1, r0, 0x7, 0xffffffffffffffff, 0x0)

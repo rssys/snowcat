@@ -1,0 +1,3 @@
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$IEEE802154_ASSOCIATE_REQ(0xffffffffffffffff, &(0x7f0000000a40)={&(0x7f0000000980)={0x10, 0x0, 0x0, 0x40800000}, 0xc, &(0x7f0000000a00)={&(0x7f00000009c0)={0x14}, 0x14}}, 0x0)
+add_key$fscrypt_v1(&(0x7f0000000000)='logon\x00', &(0x7f0000000040)={'fscrypt:', @desc3='e8dab99234bb312e'}, &(0x7f0000000080)={0x0, "8aff00ced176fcc0a18aa6ebedcb9de1aa8fbee214c1edd0d604bf5ce3a9335b36a261c29f26864e16cd0d9eac40158f4b5265a24a70540d1c47c189009050be", 0x3e}, 0x48, 0xfffffffffffffffc)

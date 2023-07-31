@@ -1,0 +1,6 @@
+syz_open_procfs$namespace(0x0, &(0x7f0000000000)='ns/user\x00')
+openat$pfkey(0xffffff9c, &(0x7f0000000040)='/proc/self/net/pfkey\x00', 0x0, 0x0)
+bpf$BPF_BTF_LOAD(0x12, 0x0, 0x0)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$GTP_CMD_DELPDP(r0, 0x0, 0x0)
+openat$pfkey(0xffffff9c, &(0x7f0000003700)='/proc/self/net/pfkey\x00', 0x642, 0x0)

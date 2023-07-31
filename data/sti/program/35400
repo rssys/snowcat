@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$wireguard(&(0x7f0000001440)='wireguard\x00', r0)

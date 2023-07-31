@@ -1,0 +1,2 @@
+mkdir(&(0x7f0000000100)='./file0\x00', 0x0)
+setxattr$trusted_overlay_nlink(&(0x7f0000000140)='./file0\x00', &(0x7f0000000180)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x1)

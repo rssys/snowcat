@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_SIOCADDRT(r0, 0x890b, &(0x7f0000000040)={0x8000000000000000, @sco={0x1f, @none}, @ax25={0x3, @null}, @l2})

@@ -1,0 +1,4 @@
+r0 = openat$mice(0xffffff9c, 0x0, 0x42281)
+execveat(r0, &(0x7f000000a800)='./file0\x00', &(0x7f000000aa00)=[&(0x7f000000a840)='bridge0\x00', &(0x7f000000a880)='/dev/input/mice\x00', &(0x7f000000a8c0)='&\xd4&W\'\x00', &(0x7f000000a900)='bridge0\x00', &(0x7f000000a940)='bridge0\x00', &(0x7f000000a980)='syz0\x00', &(0x7f000000a9c0)='!@\'%-{/:\x00'], &(0x7f000000ab40)=[&(0x7f000000aa40)='%\x00', &(0x7f000000aa80)='@^[\x00', &(0x7f000000aac0)='syz0\x00', &(0x7f000000ab00)='{)\x00'], 0x100)
+r1 = socket$kcm(0x29, 0x5, 0x0)
+ioctl$sock_kcm_SIOCKCMUNATTACH(r1, 0x89e1, &(0x7f000000b040))

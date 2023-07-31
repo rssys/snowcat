@@ -1,0 +1,4 @@
+r0 = inotify_init()
+open(&(0x7f0000000040)='./file0\x00', 0x149142, 0x0)
+setresuid(0xee01, 0xee01, 0x0)
+inotify_add_watch(r0, &(0x7f0000000040)='./file0\x00', 0x4000000)

@@ -1,0 +1,3 @@
+syz_mount_image$vfat(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_upper(&(0x7f0000001600)='./file0\x00', &(0x7f0000001640)='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)
+lsetxattr$trusted_overlay_nlink(&(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

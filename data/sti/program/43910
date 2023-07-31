@@ -1,0 +1,5 @@
+r0 = syz_mount_image$tmpfs(&(0x7f0000000040)='tmpfs\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000800)=ANY=[])
+getdents(r0, &(0x7f0000000100)=""/202, 0xca)
+r1 = syz_mount_image$tmpfs(&(0x7f0000000040)='tmpfs\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x8c0260, &(0x7f0000000800)=ANY=[])
+getdents(r1, &(0x7f0000000100)=""/202, 0xca)
+dup3(r1, r0, 0x0)

@@ -1,0 +1,7 @@
+r0 = openat$cuse(0xffffff9c, &(0x7f00000000c0)='/dev/cuse\x00', 0x2, 0x0)
+r1 = openat$cuse(0xffffff9c, &(0x7f0000000140)='/dev/cuse\x00', 0x2, 0x0)
+read$FUSE(r0, &(0x7f0000000180)={0x2020}, 0x2020)
+syz_genetlink_get_family_id$mptcp(&(0x7f0000002240)='mptcp_pm\x00', 0xffffffffffffffff)
+r2 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$FOU_CMD_DEL(r2, 0x0, 0x0)
+read$FUSE(r1, &(0x7f0000002640)={0x2020}, 0x2020)

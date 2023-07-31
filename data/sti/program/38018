@@ -1,0 +1,3 @@
+ioctl$SNDRV_CTL_IOCTL_SUBSCRIBE_EVENTS(0xffffffffffffffff, 0xc0045516, 0x0)
+r0 = io_uring_setup(0x7ade, &(0x7f00000001c0))
+io_uring_register$IORING_REGISTER_PROBE(r0, 0x8, 0x0, 0x0)

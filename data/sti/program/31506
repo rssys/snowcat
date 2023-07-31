@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000080)='nl80211\x00')
+sendmsg$NL80211_CMD_START_AP(r0, &(0x7f00000001c0)={0x0, 0x0, &(0x7f0000000200)={&(0x7f00000002c0)={0x48, r1, 0x5, 0x0, 0x0, {{}, {@val={0x8}, @void}}, [@beacon=[@NL80211_ATTR_BEACON_HEAD={0x2c, 0xe, {@with_ht, 0x0, @default, 0x0, @void, @void, @void, @void, @void, @void, @void, @void, @void, @void, @void, @void, @void}}]]}, 0x48}}, 0x0)

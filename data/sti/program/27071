@@ -1,0 +1,1 @@
+unlinkat(0xffffffffffffffff, &(0x7f0000000140)='./file0\x00', 0x0)

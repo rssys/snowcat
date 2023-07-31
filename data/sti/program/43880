@@ -1,0 +1,4 @@
+syz_open_dev$vcsa(&(0x7f0000000240)='/dev/vcsa#\x00', 0x2, 0x0)
+syz_open_procfs(0x0, &(0x7f00000018c0)='oom_score\x00')
+openat$cgroup_root(0xffffff9c, &(0x7f0000001a40)='./cgroup/syz0\x00', 0x200002, 0x0)
+openat$cachefiles(0xffffff9c, &(0x7f0000001b80)='/dev/cachefiles\x00', 0x0, 0x0)

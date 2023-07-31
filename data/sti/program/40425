@@ -1,0 +1,2 @@
+ioctl$BLKGETSIZE64(0xffffffffffffffff, 0x80081272, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000200)='devlink\x00')

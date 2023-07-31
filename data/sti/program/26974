@@ -1,0 +1,2 @@
+syz_mount_image$nfs(0x0, &(0x7f0000000200)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$security_selinux(&(0x7f0000000240)='./file0\x00', &(0x7f0000000280)='security.selinux\x00', &(0x7f00000002c0)='system_u:object_r:devicekit_var_run_t:s0\x00', 0x29, 0x0)

@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='attr/fscreate\x00')
+write$P9_RLERRORu(r0, &(0x7f0000000140)={0x3a, 0x7, 0x0, {{0x6, '}\\\x0f^l+'}}}, 0x13)

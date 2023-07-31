@@ -1,0 +1,1 @@
+shmctl$SHM_STAT_ANY(0x0, 0xf, &(0x7f0000000180)=""/4096)

@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000000040)='net/rt_cache\x00')
+syz_open_procfs(0x0, &(0x7f00000006c0)='net/dev_mcast\x00')

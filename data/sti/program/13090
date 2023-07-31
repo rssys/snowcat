@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000005f40)='./file0\x00', 0x0)
+write$tcp_congestion(r0, &(0x7f0000000000)='reno\x00', 0x5)
+ioctl$FS_IOC_SETFLAGS(r0, 0x40046602, &(0x7f0000000080))

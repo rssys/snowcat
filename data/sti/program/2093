@@ -1,0 +1,6 @@
+r0 = open(&(0x7f0000000040)='./file0\x00', 0x109042, 0x0)
+syz_open_dev$tty20(0xc, 0x4, 0x0)
+write$P9_RSTAT(r0, &(0x7f0000000340)=ANY=[], 0xfffffdfa)
+ioctl$FIGETBSZ(0xffffffffffffffff, 0x2, &(0x7f0000000000))
+ioctl$TIOCSERGETLSR(0xffffffffffffffff, 0x5459, 0x0)
+removexattr(&(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)=@known='security.apparmor\x00')

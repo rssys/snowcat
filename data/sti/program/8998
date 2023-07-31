@@ -1,0 +1,2 @@
+syz_mount_image$iso9660(&(0x7f0000001480)='iso9660\x00', &(0x7f00000014c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000034c0)=ANY=[])
+chown(&(0x7f00000018c0)='./file0\x00', 0x0, 0xffffffffffffffff)

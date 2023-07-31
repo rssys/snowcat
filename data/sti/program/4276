@@ -1,0 +1,1 @@
+add_key(&(0x7f0000000340)='id_resolver\x00', &(0x7f0000000380)={'syz', 0x0}, &(0x7f00000003c0)='x', 0x1, 0xfffffffffffffffd)

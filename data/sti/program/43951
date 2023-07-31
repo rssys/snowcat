@@ -1,0 +1,1 @@
+openat$vcsa(0xffffffffffffff9c, &(0x7f00000004c0)='/dev/vcsa\x00', 0x101000, 0x0)

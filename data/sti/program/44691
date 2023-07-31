@@ -1,0 +1,2 @@
+ioctl$SNDCTL_DSP_SETFMT(0xffffffffffffffff, 0xc0045005, &(0x7f0000000100)=0x1f)
+openat$audio(0xffffff9c, &(0x7f0000000200)='/dev/audio\x00', 0x4020, 0x0)

@@ -1,0 +1,1 @@
+memfd_create(&(0x7f00000001c0)='/dev/vcs#\x00', 0x6)

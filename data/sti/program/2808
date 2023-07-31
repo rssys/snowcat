@@ -1,0 +1,2 @@
+r0 = openat$uinput(0xffffff9c, &(0x7f0000001600)='/dev/uinput\x00', 0x0, 0x0)
+ioctl$UI_DEV_SETUP(r0, 0x405c5503, &(0x7f0000000000)={{}, 'syz0\x00'})

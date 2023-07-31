@@ -1,0 +1,2 @@
+creat(&(0x7f0000000000)='./file0\x00', 0x0)
+lremovexattr(&(0x7f00000015c0)='./file0\x00', &(0x7f0000001600)=@known='trusted.overlay.opaque\x00')

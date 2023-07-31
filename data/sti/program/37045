@@ -1,0 +1,2 @@
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000000)='ns/pid_for_children\x00')
+pkey_mprotect(&(0x7f0000800000/0x800000)=nil, 0x800002, 0x2, 0xffffffffffffffff)

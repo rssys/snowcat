@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+ioctl$PIO_UNISCRNMAP(r0, 0x4b6a, &(0x7f0000000080)="e54bac417c965bdac4d72be533ab1adec73b3aea4fa1b9f1417e2ccaba3a79acd65ce059139e26936ab0250e167ccc60c4c5ea456a8b4dfc11c32a4ab4763c5643aef8cd1ff374502cf140d343c411fd686cfa2762b804ca5ccb7a2adfbcd91ea29bf96ea6ca3e529dd79745fffe")

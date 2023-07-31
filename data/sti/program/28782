@@ -1,0 +1,2 @@
+syz_io_uring_setup(0x60cb, &(0x7f0000000100), &(0x7f0000ffc000/0x1000)=nil, &(0x7f0000ffc000/0x1000)=nil, &(0x7f0000000180), &(0x7f00000001c0))
+ioctl$SNDCTL_DSP_GETOSPACE(0xffffffffffffffff, 0x8010500c, 0x0)

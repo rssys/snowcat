@@ -1,0 +1,1 @@
+bpf$BPF_PROG_WITH_BTFID_LOAD(0x12, 0x0, 0x0)

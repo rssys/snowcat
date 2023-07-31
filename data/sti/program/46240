@@ -1,0 +1,5 @@
+r0 = openat$selinux_attr(0xffffff9c, &(0x7f0000000040)='/proc/thread-self/attr/sockcreate\x00', 0x2, 0x0)
+write$selinux_attr(r0, &(0x7f00000000c0)='system_u:object_r:traceroute_exec_t:s0\x00', 0x27)
+r1 = socket$netlink(0x10, 0x3, 0x0)
+r2 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00', 0xffffffffffffffff)
+sendmsg$NL80211_CMD_DEAUTHENTICATE(r1, &(0x7f0000000180)={0x0, 0x0, &(0x7f0000000140)={&(0x7f0000000080)={0x11, r2, 0x0, 0x0, 0x0, {{}, {@void, @val={0xc}}}}, 0x20}}, 0x0)

@@ -1,0 +1,3 @@
+syz_mount_image$tmpfs(&(0x7f0000000600)='tmpfs\x00', &(0x7f0000000640)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001c40)={[], [{@pcr={'pcr'}}]})
+syz_mount_image$msdos(&(0x7f0000001c80)='msdos\x00', &(0x7f0000001cc0)='./file0/file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002140))
+symlinkat(&(0x7f0000002340)='./file0\x00', 0xffffffffffffff9c, &(0x7f0000002380)='./file0/file0/file0\x00')

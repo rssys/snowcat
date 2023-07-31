@@ -1,0 +1,2 @@
+syz_mount_image$ext4(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_unix(&(0x7f00000001c0)='./file0\x00', &(0x7f0000000200)='./file0\x00', &(0x7f0000000240)='9p\x00', 0x0, &(0x7f0000000440)={'trans=unix,', {[{@msize={'msize', 0x3d, 0x7822768b}}, {@version_u='version=9p2000.u'}]}})

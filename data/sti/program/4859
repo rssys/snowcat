@@ -1,0 +1,2 @@
+r0 = openat$ptmx(0xffffffffffffff9c, &(0x7f00000000c0)='/dev/ptmx\x00', 0x0, 0x0)
+ioctl$TCSETSF2(r0, 0x402c542d, &(0x7f0000000100)={0x7666, 0x0, 0x0, 0x3, 0x0, "f79cc539422e3555810e305af712a8135de933"})

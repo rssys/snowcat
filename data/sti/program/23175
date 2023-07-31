@@ -1,0 +1,2 @@
+r0 = memfd_create(&(0x7f0000000140)='/dev/vcs\x00', 0x0)
+sync_file_range(r0, 0x0, 0x0, 0x2)

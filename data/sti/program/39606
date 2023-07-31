@@ -1,0 +1,2 @@
+openat$cgroup_subtree(0xffffffffffffffff, &(0x7f0000000000)='cgroup.subtree_control\x00', 0x2, 0x0)
+fork()

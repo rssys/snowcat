@@ -1,0 +1,2 @@
+syz_mount_image$ext4(&(0x7f0000000000)='ext3\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000640)={[{@data_err_ignore='data_err=ignore'}, {@bsdgroups='bsdgroups'}, {@journal_checksum='journal_checksum'}], [{@smackfsroot={'smackfsroot', 0x3d, '}:}:}-[&d#'}}, {@smackfstransmute={'smackfstransmute', 0x3d, '],\\$['}}]})
+lsetxattr$trusted_overlay_nlink(&(0x7f0000000a00)='.\x00', &(0x7f0000000a40)='trusted.overlay.nlink\x00', &(0x7f0000000a80)={'U-'}, 0x16, 0x0)

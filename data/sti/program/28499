@@ -1,0 +1,2 @@
+symlink(&(0x7f0000000180)='./file0\x00', &(0x7f0000000240)='./file0\x00')
+lgetxattr(&(0x7f00000001c0)='./file0\x00', &(0x7f0000000200)=@known='system.posix_acl_default\x00', 0x0, 0x0)

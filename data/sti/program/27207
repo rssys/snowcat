@@ -1,0 +1,2 @@
+r0 = openat$nullb(0xffffff9c, &(0x7f0000000040)='/dev/nullb0\x00', 0x0, 0x0)
+ioctl$BLKPG(r0, 0x1269, &(0x7f0000000140)={0x0, 0x0, 0x11, &(0x7f0000000100)="b60c6f24da09764839b49c984b1c9bf3ec"})

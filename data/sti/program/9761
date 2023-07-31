@@ -1,0 +1,2 @@
+r0 = memfd_create(&(0x7f0000000000)='}[{&\x00', 0x0)
+fsetxattr$trusted_overlay_origin(r0, &(0x7f0000000040)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

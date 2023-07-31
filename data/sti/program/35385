@@ -1,0 +1,1 @@
+syz_mount_image$jffs2(&(0x7f0000000000)='jffs2\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000500)=ANY=[@ANYBLOB='compr=none,compr=none,compr=none,rp_size=00000000000000000008'])

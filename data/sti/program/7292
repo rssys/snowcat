@@ -1,0 +1,2 @@
+bpf$PROG_LOAD(0x5, 0x0, 0x0)
+syz_btf_id_by_name$bpf_lsm(&(0x7f0000000700)='bpf_lsm_locked_down\x00')

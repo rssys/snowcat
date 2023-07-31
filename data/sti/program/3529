@@ -1,0 +1,3 @@
+r0 = socket$pppoe(0x18, 0x1, 0x0)
+connect$pppoe(r0, &(0x7f0000004f40)={0x18, 0x0, {0x2, @random, 'hsr0\x00'}}, 0x1e)
+writev(r0, &(0x7f0000000440)=[{&(0x7f0000000100)="de4cec1d1df497c70b4f85c2461e616bc7055fc3c449f77b70ec46bd41", 0x1d}, {&(0x7f0000000140)="a5e84fdba00450dd987bc2", 0xb}], 0x2)

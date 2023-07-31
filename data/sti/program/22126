@@ -1,0 +1,2 @@
+syz_mount_image$msdos(&(0x7f0000000180)='msdos\x00', &(0x7f00000001c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000015c0))
+setxattr$trusted_overlay_nlink(&(0x7f0000001e40)='./file0\x00', &(0x7f0000001e80)='trusted.overlay.nlink\x00', &(0x7f0000001ec0)={'L-'}, 0x16, 0x0)

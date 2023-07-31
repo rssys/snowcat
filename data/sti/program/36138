@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000500)='nl80211\x00')
+sendmsg$NL80211_CMD_DEL_TX_TS(r0, &(0x7f00000001c0)={0x0, 0x0, &(0x7f0000000100)={&(0x7f0000000080)=ANY=[@ANYBLOB='l\x00\x00\x00', @ANYRES16=r1, @ANYBLOB="01002cbd7000fedbdf251b"], 0x6c}}, 0x0)

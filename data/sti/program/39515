@@ -1,0 +1,2 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='net/kcm\x00')
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000080)='net/wireless\x00')

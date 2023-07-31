@@ -1,0 +1,2 @@
+r0 = socket(0x10, 0x2, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f00000001c0)='nl80211\x00', r0)

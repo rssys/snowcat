@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$l2tp(&(0x7f00000002c0)='l2tp\x00', 0xffffffffffffffff)
+openat$apparmor_thread_current(0xffffff9c, &(0x7f0000000400)='/proc/thread-self/attr/current\x00', 0x2, 0x0)
+openat$vhost_vsock(0xffffff9c, 0x0, 0x2, 0x0)

@@ -1,0 +1,6 @@
+write$tun(0xffffffffffffffff, &(0x7f0000000000)={@void, @void, @llc={@snap={0x54, 0x0, "c727", "444186", 0x0, "51c09e5aa3dc0a7c7367ed4bfc8bf7a662016d12afe9686c978bd7cd24ef7bea58f77e16780caddeed0b197682b61a25878e429cad248fb0a077623afe0137bf0af3b833b84eda8243074ecb69cd623ea3e3ce76"}}}, 0x5d)
+setsockopt$WPAN_SECURITY_LEVEL(0xffffffffffffffff, 0x0, 0x2, &(0x7f00000003c0)=0xffffffffffffffff, 0x4)
+socket$nl_generic(0x10, 0x3, 0x10)
+openat$cgroup_ro(0xffffffffffffffff, 0x0, 0x0, 0x0)
+openat$vim2m(0xffffff9c, &(0x7f0000000640)='/dev/vim2m\x00', 0x2, 0x0)
+clone3(&(0x7f0000000c40)={0xc000000, &(0x7f0000000a00), &(0x7f0000000a40), &(0x7f0000000a80), {0x31}, &(0x7f0000000ac0)=""/34, 0x22, &(0x7f0000000b00)=""/195, 0x0}, 0x58)

@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000280)='./file0\x00', 0x0)
+r1 = gettid()
+fcntl$setownex(r0, 0xf, &(0x7f00000002c0)={0x0, r1})
+fcntl$getownex(r0, 0x10, &(0x7f0000000a80))

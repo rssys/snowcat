@@ -1,0 +1,5 @@
+r0 = add_key$keyring(&(0x7f0000000340)='keyring\x00', &(0x7f0000000380)={'syz', 0x2}, 0x0, 0x0, 0xfffffffffffffffc)
+r1 = add_key$keyring(&(0x7f0000000440)='keyring\x00', &(0x7f0000000480)={'syz', 0x0}, 0x0, 0x0, r0)
+r2 = add_key$keyring(&(0x7f0000000340)='keyring\x00', &(0x7f0000000380)={'syz', 0x2}, 0x0, 0x0, 0xfffffffffffffffc)
+r3 = add_key$keyring(&(0x7f0000000440)='keyring\x00', &(0x7f0000000480)={'syz', 0x0}, 0x0, 0x0, r2)
+keyctl$search(0xa, r3, &(0x7f0000000200)='asymmetric\x00', &(0x7f0000000240)={'syz', 0x3}, r1)

@@ -1,0 +1,2 @@
+syz_mount_image$hfsplus(&(0x7f0000002a80)='hfsplus\x00', &(0x7f0000002ac0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000003c0)=ANY=[])
+setxattr$incfs_size(&(0x7f0000000480)='./file0\x00', &(0x7f00000004c0)='user.incfs.size\x00', 0x0, 0x0, 0x0)

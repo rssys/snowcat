@@ -1,0 +1,6 @@
+r0 = syz_open_dev$binderN(&(0x7f0000002840)='/dev/binder#\x00', 0x0, 0x0)
+ioctl$BINDER_SET_CONTEXT_MGR_EXT(r0, 0x4018620d, &(0x7f0000002880))
+r1 = syz_open_dev$binderN(&(0x7f0000002840)='/dev/binder#\x00', 0x0, 0x0)
+ioctl$BINDER_SET_CONTEXT_MGR_EXT(r1, 0x4018620d, &(0x7f0000002880))
+r2 = syz_open_dev$binderN(&(0x7f0000002840)='/dev/binder#\x00', 0x0, 0x0)
+ioctl$BINDER_SET_CONTEXT_MGR_EXT(r2, 0x4018620d, &(0x7f0000002880))

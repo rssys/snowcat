@@ -1,0 +1,6 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_ipv6_tunnel_SIOCGETPRL(r0, 0x89f4, &(0x7f0000000340)={'ip6_vti0\x00', 0x0})
+sendmsg$L2TP_CMD_TUNNEL_MODIFY(0xffffffffffffffff, 0x0, 0x0)
+r1 = openat$mixer(0xffffff9c, &(0x7f00000006c0)='/dev/mixer\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$l2tp(&(0x7f0000000780)='l2tp\x00', 0xffffffffffffffff)
+ioctl$SOUND_OLD_MIXER_INFO(r1, 0x80304d65, &(0x7f0000000880))

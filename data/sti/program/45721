@@ -1,0 +1,2 @@
+r0 = openat$procfs(0xffffff9c, &(0x7f0000000100)='/proc/keys\x00', 0x0, 0x0)
+read$char_raw(r0, &(0x7f0000001000)={""/43346}, 0x2332)

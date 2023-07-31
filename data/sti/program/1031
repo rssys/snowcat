@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+write$binfmt_elf64(r0, &(0x7f00000006c0)=ANY=[], 0x53c)

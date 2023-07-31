@@ -1,0 +1,2 @@
+r0 = syz_open_dev$video(&(0x7f0000000000)='/dev/video#\x00', 0xd0f, 0x0)
+ioctl$VIDIOC_ENUM_FRAMESIZES(r0, 0xc02c564a, &(0x7f0000000040)={0x9, 0x32315241})

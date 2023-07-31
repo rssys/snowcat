@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$ethtool(&(0x7f0000000040)='ethtool\x00', 0xffffffffffffffff)
+openat$random(0xffffff9c, &(0x7f0000000080)='/dev/urandom\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f00000000c0)='nl80211\x00', 0xffffffffffffffff)

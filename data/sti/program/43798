@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f00000000c0)='ns/ipc\x00')
+fsetxattr$trusted_overlay_upper(r0, &(0x7f0000000100)='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)

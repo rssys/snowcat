@@ -1,0 +1,2 @@
+r0 = socket$inet6_sctp(0xa, 0x5, 0x84)
+setsockopt$inet_sctp6_SCTP_MAX_BURST(r0, 0x84, 0x2, &(0x7f00000000c0)=@assoc_value, 0x8)

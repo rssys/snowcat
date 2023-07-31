@@ -1,0 +1,8 @@
+openat$proc_mixer(0xffffff9c, &(0x7f0000000000)='/proc/asound/card0/oss_mixer\x00', 0x92000, 0x0)
+openat$proc_mixer(0xffffff9c, &(0x7f0000000080)='/proc/asound/card2/oss_mixer\x00', 0x0, 0x0)
+sendmsg$DEVLINK_CMD_TRAP_GET(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000380)='devlink\x00', 0xffffffffffffffff)
+syz_open_dev$media(&(0x7f0000000700)='/dev/media#\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$batadv(0x0, 0xffffffffffffffff)
+socket$inet6_tcp(0xa, 0x1, 0x0)
+syz_init_net_socket$rose(0xb, 0x5, 0x0)

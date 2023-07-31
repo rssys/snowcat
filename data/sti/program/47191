@@ -1,0 +1,5 @@
+r0 = creat(&(0x7f0000000040)='./file0\x00', 0x0)
+r1 = open(&(0x7f0000000380)='./file0\x00', 0x6080, 0x0)
+r2 = eventfd2(0x0, 0x0)
+write$binfmt_script(r0, &(0x7f0000000a00)={'#! ', './file0'}, 0xb)
+sendfile(r2, r1, 0x0, 0x200000000026)

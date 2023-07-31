@@ -1,0 +1,2 @@
+r0 = openat$sequencer(0xffffff9c, &(0x7f0000002ac0)='/dev/sequencer\x00', 0x0, 0x0)
+ioctl$SNDCTL_SEQ_GETTIME(r0, 0x80045113, &(0x7f0000002b00))

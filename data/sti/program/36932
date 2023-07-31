@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$wireguard(0x0, 0xffffffffffffffff)
+openat$snapshot(0xffffff9c, &(0x7f0000000600)='/dev/snapshot\x00', 0x480, 0x0)

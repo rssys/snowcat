@@ -1,0 +1,2 @@
+r0 = openat$vcsa(0xffffffffffffff9c, &(0x7f0000000040)='/dev/vcsa\x00', 0x2, 0x0)
+write(r0, &(0x7f0000000100)="4f5c9b8690590e54d8dff227acbd08a18da71e8def8f339bf72e3c3edbd54f3012", 0x21)

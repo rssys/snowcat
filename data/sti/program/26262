@@ -1,0 +1,2 @@
+r0 = socket$nl_rdma(0x10, 0x3, 0x14)
+sendmsg$RDMA_NLDEV_CMD_GET_CHARDEV(r0, &(0x7f0000000280)={0x0, 0x0, &(0x7f0000000240)={&(0x7f00000001c0)=ANY=[@ANYBLOB="1c0000000f1401"], 0x1c}}, 0x0)

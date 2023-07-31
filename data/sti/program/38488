@@ -1,0 +1,4 @@
+r0 = syz_open_dev$loop(&(0x7f0000000000)='/dev/loop#\x00', 0x0, 0x100082)
+ioctl$BLKBSZSET(0xffffffffffffffff, 0x40081271, &(0x7f0000000080))
+shmget$private(0x0, 0x4000, 0x0, &(0x7f0000ffc000/0x4000)=nil)
+ioctl$LOOP_SET_STATUS(r0, 0x4c00, 0x0)

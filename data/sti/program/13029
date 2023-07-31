@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='oom_score\x00')
+preadv(r0, &(0x7f0000001180)=[{&(0x7f0000000040)=""/37, 0x25}], 0x1, 0x0, 0x0)

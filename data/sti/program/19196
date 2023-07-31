@@ -1,0 +1,2 @@
+chown(&(0x7f0000000380)='./file0\x00', 0xee00, 0xee00)
+mkdirat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)

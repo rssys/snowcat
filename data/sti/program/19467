@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x1)
+write$cgroup_subtree(r0, &(0x7f00000029c0)=ANY=[@ANYBLOB="004d64df"], 0x6)

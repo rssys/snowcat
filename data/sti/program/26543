@@ -1,0 +1,2 @@
+io_setup(0xdef0, &(0x7f0000000000))
+openat$procfs(0xffffffffffffff9c, &(0x7f0000000000)='/proc/key-users\x00', 0x0, 0x0)

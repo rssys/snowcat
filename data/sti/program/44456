@@ -1,0 +1,3 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000100)='./file0\x00', 0x5, 0x0, 0x0, 0x0, &(0x7f0000000640)={[{@dots='dots'}], [{@euid_eq={'euid', 0x3d, 0xffffffffffffffff}}]})
+setxattr$trusted_overlay_origin(&(0x7f0000000a80)='./file0\x00', &(0x7f0000000ac0)='trusted.overlay.origin\x00', &(0x7f0000000b00)='y\x00', 0x2, 0x0)
+setxattr$trusted_overlay_nlink(&(0x7f0000008140)='./file0\x00', &(0x7f0000008180)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

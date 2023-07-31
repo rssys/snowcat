@@ -1,0 +1,4 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000100)='./file1\x00', 0x42, 0x0)
+fcntl$lock(r0, 0x26, &(0x7f0000000000))
+r1 = syz_open_procfs(0x0, &(0x7f0000000000)='fdinfo/3\x00')
+read$char_raw(r1, &(0x7f0000000200)=ANY=[], 0x6e00)

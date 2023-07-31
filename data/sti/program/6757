@@ -1,0 +1,2 @@
+r0 = openat$6lowpan_control(0xffffff9c, &(0x7f0000000000)='/sys/kernel/debug/bluetooth/6lowpan_control\x00', 0x2, 0x0)
+preadv(r0, &(0x7f00000005c0)=[{&(0x7f0000000040)=""/193, 0xc1}], 0x1, 0x0, 0xaa)

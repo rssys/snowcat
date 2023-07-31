@@ -1,0 +1,2 @@
+mknod(&(0x7f00000000c0)='./file0\x00', 0x0, 0x0)
+setxattr(&(0x7f00000015c0)='./file0\x00', &(0x7f0000001540)=@known='user.incfs.size\x00', 0x0, 0x0, 0x0)

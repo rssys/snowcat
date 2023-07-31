@@ -1,0 +1,6 @@
+r0 = openat$adsp1(0xffffff9c, &(0x7f0000000000)='/dev/adsp1\x00', 0x101000, 0x0)
+ioctl$SNDCTL_DSP_STEREO(r0, 0xc0045003, &(0x7f0000000040)=0x1)
+add_key$keyring(&(0x7f0000000240)='keyring\x00', &(0x7f0000000280)={'syz', 0x1}, 0x0, 0x0, 0xfffffffffffffffb)
+openat$dsp(0xffffff9c, &(0x7f0000000300)='/dev/dsp\x00', 0x0, 0x0)
+r1 = socket$inet(0x2, 0x2, 0x49c)
+ioctl$sock_bt_hidp_HIDPCONNADD(0xffffffffffffffff, 0x400448c8, &(0x7f00000031c0)={0xffffffffffffffff, r1, 0x0, 0xd5, &(0x7f00000030c0)="ddb9d05658a333e7e428214820572c6f4555f131421cc9baee4241340f8e9854b9c9e00ac61fdfeacb25e898da2b7f195bdf4d4c93362ee725f8dda153e3ea9f340c128235f75c1a34ae84ad845bbe988d47097ab660c757b69ed91c78e36a0ec91e86e94488f97f959f46dd161a770f7bcfa7233381466a15530933d52679defaea99daceb5c2ff1e3a2e7d44a44f6e3d4ed13f2f1ec34b8226d189573c45a420a5087f82c02fda6e36d121b8504df3ce0044c2c9cba0422aec34d99271dd0266a011e85e542f16120193f0d36b673f166f4024ee", 0x4, 0x40, 0x6, 0x0, 0x0, 0x4, 0x2, 'syz1\x00'})

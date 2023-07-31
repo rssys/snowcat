@@ -1,0 +1,2 @@
+shmctl$IPC_INFO(0x0, 0x3, &(0x7f0000000000)=""/4096)
+shmctl$SHM_STAT(0x0, 0xd, &(0x7f0000001740)=""/86)

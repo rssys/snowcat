@@ -1,0 +1,1 @@
+syz_mount_image$squashfs(&(0x7f0000004880)='squashfs\x00', &(0x7f00000048c0)='./file0\x00', 0x0, 0x0, 0x0, 0x830804, &(0x7f0000004e00))

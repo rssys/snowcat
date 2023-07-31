@@ -1,0 +1,1 @@
+openat$fb0(0xffffff9c, &(0x7f0000000080)='/dev/fb0\x00', 0x204002, 0x0)

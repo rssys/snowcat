@@ -1,0 +1,2 @@
+r0 = open(&(0x7f00000000c0)='./file0\x00', 0x82143, 0x0)
+fsetxattr$security_selinux(r0, &(0x7f0000000040)='security.selinux\x00', &(0x7f0000000000)='system_u:object_r:clock_device_t:s0\x00', 0x24, 0x0)

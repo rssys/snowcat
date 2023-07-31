@@ -1,0 +1,1 @@
+openat$ttyS3(0xffffff9c, &(0x7f00000000c0)='/dev/ttyS3\x00', 0x105480, 0x0)

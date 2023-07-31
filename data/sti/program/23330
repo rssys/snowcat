@@ -1,0 +1,2 @@
+syz_open_dev$video4linux(&(0x7f0000000840)='/dev/v4l-subdev#\x00', 0x0, 0x0)
+openat$ocfs2_control(0xffffff9c, &(0x7f0000000880)='/dev/ocfs2_control\x00', 0x0, 0x0)

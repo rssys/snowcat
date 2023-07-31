@@ -1,0 +1,2 @@
+creat(&(0x7f00000000c0)='./file0\x00', 0x0)
+syz_genetlink_get_family_id$fou(0x0)

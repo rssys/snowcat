@@ -1,0 +1,2 @@
+syz_mount_image$ext4(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_xen(0x0, &(0x7f00000014c0)='./file0\x00', &(0x7f0000001500)='9p\x00', 0x0, &(0x7f0000001540)={'trans=xen,', {[], [{@context={'context', 0x3d, 'staff_u'}}, {@obj_type={'obj_type', 0x3d, '#}\x83^\x99@#^+'}}, {@rootcontext={'rootcontext', 0x3d, 'sysadm_u'}}]}})

@@ -1,0 +1,2 @@
+r0 = syz_open_dev$usbfs(&(0x7f0000000000)='/dev/bus/usb/00#/00#\x00', 0xb, 0x8001)
+ioctl$USBDEVFS_DISCSIGNAL(r0, 0x5514, 0x0)

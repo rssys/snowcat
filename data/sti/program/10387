@@ -1,0 +1,2 @@
+r0 = socket$inet_sctp(0x2, 0x1, 0x84)
+ioctl$sock_inet_SIOCGIFBRDADDR(r0, 0x8919, &(0x7f0000000000)={'lo\x00', {0x2, 0x0, @dev}})

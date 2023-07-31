@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$nl80211(0x0, 0xffffffffffffffff)
+faccessat(0xffffffffffffffff, 0x0, 0x0)
+sendmsg$NL80211_CMD_DISCONNECT(0xffffffffffffffff, 0x0, 0x0)
+syz_io_uring_setup(0x299c, &(0x7f0000000c00), &(0x7f0000ffa000/0x4000)=nil, &(0x7f0000ffc000/0x1000)=nil, &(0x7f0000000c80), &(0x7f0000000cc0))

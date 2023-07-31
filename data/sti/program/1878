@@ -1,0 +1,5 @@
+r0 = openat$loop_ctrl(0xffffffffffffff9c, &(0x7f0000000000)='/dev/loop-control\x00', 0x80100, 0x0)
+r1 = ioctl$LOOP_CTL_GET_FREE(0xffffffffffffffff, 0x4c82)
+ioctl$LOOP_CTL_ADD(r0, 0x4c80, r1)
+ioctl$LOOP_CTL_REMOVE(0xffffffffffffffff, 0x4c81, r1)
+msgsnd(0x0, &(0x7f0000000000)={0x1, "df771331cf3c2de8976a3ed6e0634253e7c558b8de649b63fef7dab87dd0398f603a8803d266a87483d6cc0f765af4b38bcdecba5c4a9d"}, 0x3f, 0x0)

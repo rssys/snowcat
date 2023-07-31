@@ -1,0 +1,3 @@
+r0 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00')
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_TDLS_CHANNEL_SWITCH(r1, &(0x7f0000000240)={0x0, 0x0, &(0x7f0000000200)={&(0x7f00000001c0)={0x20, r0, 0x712fdaa89fa594c9, 0x0, 0x0, {{}, {@void, @val={0xc}}}}, 0x20}}, 0x0)

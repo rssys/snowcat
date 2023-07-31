@@ -1,0 +1,2 @@
+open(&(0x7f0000000000)='./file0\x00', 0x4ac2, 0x0)
+open_tree(0xffffffffffffff9c, &(0x7f0000000140)='./file0\x00', 0x1101)

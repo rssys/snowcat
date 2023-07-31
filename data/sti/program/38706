@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00')
+sendmsg$NL80211_CMD_NEW_INTERFACE(r0, &(0x7f0000000200)={0x0, 0x0, &(0x7f00000001c0)={&(0x7f00000002c0)={0x44, r1, 0x1, 0x0, 0x0, {{}, {@void, @val={0x30}, @val={0xc}}}, [@mon_options=[@NL80211_ATTR_MU_MIMO_GROUP_DATA={0x1c, 0xe7, "f1d1e18ab36b02abd270998e60e1531239bfe206e3de3534"}]]}, 0x44}}, 0x0)

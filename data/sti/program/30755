@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+setsockopt$inet_opts(r0, 0x0, 0x4, &(0x7f0000000040)="60088630897f0a2ba0020dfd6d1d94201f59f66e", 0x14)

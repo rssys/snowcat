@@ -1,0 +1,2 @@
+r0 = epoll_create1(0x0)
+fsetxattr(r0, &(0x7f0000000080)=@random={'security.', '\x00'}, 0x0, 0x0, 0x0)

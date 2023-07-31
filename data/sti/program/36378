@@ -1,0 +1,3 @@
+r0 = syz_open_dev$ttys(0xc, 0x2, 0x0)
+write$binfmt_script(r0, &(0x7f0000001700)=ANY=[], 0x2d)
+readv(r0, &(0x7f0000001680)=[{&(0x7f0000000140)=""/85, 0x55}], 0x1)

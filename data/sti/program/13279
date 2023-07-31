@@ -1,0 +1,5 @@
+socketpair$unix(0x1, 0x5, 0x0, &(0x7f0000000100)={0xffffffffffffffff, <r0=>0xffffffffffffffff})
+bind$unix(r0, &(0x7f0000001500)=@file={0x1, './file0\x00'}, 0x6e)
+r1 = syz_open_dev$vcsu(&(0x7f0000000180)='/dev/vcsu#\x00', 0x0, 0x0)
+pipe2$9p(&(0x7f0000000200)={<r2=>0xffffffffffffffff}, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000140)='./file0\x00', &(0x7f00000001c0)='9p\x00', 0x0, &(0x7f0000000280)={'trans=fd,', {'rfdno', 0x3d, r2}, 0x2c, {'wfdno', 0x3d, r1}})

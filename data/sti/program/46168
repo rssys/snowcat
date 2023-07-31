@@ -1,0 +1,2 @@
+sendmsg$BATADV_CMD_GET_VLAN(0xffffffffffffffff, 0x0, 0x0)
+openat$sequencer(0xffffff9c, &(0x7f0000000680)='/dev/sequencer\x00', 0x0, 0x0)

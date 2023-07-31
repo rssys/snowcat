@@ -1,0 +1,2 @@
+r0 = openat$ptmx(0xffffffffffffff9c, &(0x7f0000000080)='/dev/ptmx\x00', 0x840, 0x0)
+read(r0, 0x0, 0x0)

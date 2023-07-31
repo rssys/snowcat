@@ -1,0 +1,2 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+vmsplice(r0, &(0x7f0000000040)=[{&(0x7f0000000000)="c16b4b02a71aea3f2d0f"}], 0x10000000000000ef, 0x2)

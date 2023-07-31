@@ -1,0 +1,4 @@
+r0 = fsopen(&(0x7f0000000000)='tmpfs\x00', 0x0)
+fsconfig$FSCONFIG_CMD_CREATE(r0, 0x6, 0x0, 0x0, 0x0)
+r1 = fsmount(r0, 0x0, 0x0)
+fsconfig$FSCONFIG_SET_PATH_EMPTY(r0, 0x4, &(0x7f0000000040)='pipefs\x00', &(0x7f0000000080)='./file0\x00', r1)

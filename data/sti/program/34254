@@ -1,0 +1,1 @@
+syz_80211_inject_frame(&(0x7f0000000140)=@broadcast, &(0x7f0000000000)=ANY=[], 0x10)

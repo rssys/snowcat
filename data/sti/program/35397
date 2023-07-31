@@ -1,0 +1,2 @@
+r0 = gettid()
+get_robust_list(r0, &(0x7f0000000100)=0x0, &(0x7f0000000140))

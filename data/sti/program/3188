@@ -1,0 +1,2 @@
+openat$hwrng(0xffffff9c, 0x0, 0x0, 0x0)
+syz_btf_id_by_name$bpf_lsm(&(0x7f0000000200)='bpf_lsm_sb_pivotroot\x00')

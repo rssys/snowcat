@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$batadv(&(0x7f00000005c0)='batadv\x00', 0xffffffffffffffff)
+syz_genetlink_get_family_id$batadv(&(0x7f0000000740)='batadv\x00', 0xffffffffffffffff)

@@ -1,0 +1,1 @@
+openat$null(0xffffff9c, &(0x7f0000000500)='/dev/null\x00', 0x40, 0x0)

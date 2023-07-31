@@ -1,0 +1,1 @@
+symlinkat(&(0x7f0000000680)='./file0\x00', 0xffffffffffffffff, 0x0)

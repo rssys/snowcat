@@ -1,0 +1,3 @@
+r0 = creat(&(0x7f0000000080)='./file0\x00', 0x0)
+write$P9_RCLUNK(r0, &(0x7f0000000040)={0x7}, 0x7)
+ioctl$FITRIM(r0, 0x660c, 0x0)

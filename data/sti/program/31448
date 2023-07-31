@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$fou(&(0x7f0000000080)='fou\x00')
+fspick(0xffffffffffffffff, 0x0, 0x0)

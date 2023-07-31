@@ -1,0 +1,2 @@
+ioctl$HIDIOCGCOLLECTIONINFO(0xffffffffffffffff, 0xc0104811, 0x0)
+syz_io_uring_setup(0x6880, &(0x7f0000000840), &(0x7f0000ffd000/0x2000)=nil, &(0x7f0000ffa000/0x4000)=nil, &(0x7f00000008c0), &(0x7f0000000900))

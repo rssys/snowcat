@@ -1,0 +1,3 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+setxattr$incfs_id(&(0x7f00000007c0)='./file0\x00', &(0x7f0000000800)='user.incfs.id\x00', 0x0, 0x0, 0x0)
+setxattr$trusted_overlay_redirect(&(0x7f0000001880)='./file0\x00', &(0x7f00000018c0)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)

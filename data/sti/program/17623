@@ -1,0 +1,4 @@
+sendmsg$DCCPDIAG_GETSOCK(0xffffffffffffffff, 0x0, 0x0)
+bpf$BPF_RAW_TRACEPOINT_OPEN(0x11, 0x0, 0x0)
+open_tree(0xffffffffffffff9c, &(0x7f0000000480)='./file0\x00', 0x0)
+open$dir(&(0x7f0000000540)='./file0\x00', 0x540, 0x50)

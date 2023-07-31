@@ -1,0 +1,3 @@
+r0 = openat$autofs(0xffffffffffffff9c, &(0x7f0000000000)='/dev/autofs\x00', 0x840, 0x0)
+execveat(r0, &(0x7f0000000480)='./file0\x00', &(0x7f0000000540)=[&(0x7f00000004c0)='\\\x00', &(0x7f0000000500)=']&&)\x00'], &(0x7f00000006c0)=[&(0x7f0000000580)='+\'$\x00', &(0x7f00000005c0)='\x00', &(0x7f0000000600)='broadcast-link\x00', &(0x7f0000000640)='broadcast-link\x00', &(0x7f0000000680)='udp\x00'], 0x1000)
+openat$snapshot(0xffffffffffffff9c, &(0x7f0000000c40)='/dev/snapshot\x00', 0x82100, 0x0)

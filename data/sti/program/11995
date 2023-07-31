@@ -1,0 +1,1 @@
+lsetxattr$trusted_overlay_origin(&(0x7f0000000040)='.\x00', &(0x7f0000000080)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

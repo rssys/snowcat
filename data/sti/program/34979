@@ -1,0 +1,7 @@
+r0 = openat$btrfs_control(0xffffff9c, &(0x7f0000000000)='/dev/btrfs-control\x00', 0x0, 0x0)
+ioctl$BINDER_WRITE_READ(r0, 0xc0306201, &(0x7f00000002c0)={0x58, 0x0, &(0x7f0000000140)=[@dead_binder_done, @transaction={0x40406300, {0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0}}, @exit_looper, @enter_looper], 0xea, 0x0, &(0x7f00000001c0)="f6382069f7ccdf207a1fd4b76bb412bc4517538457ea0ad413473760be63514277ea21ee7e5a803dd89595b9e4ce02d5186c5df2c33866c2e4f5bee34b8e9711acbe296e1b51bbdd49a5711c770b8573eeb78abc5bfd2597116e56561192a956b4cc12246b4547b55d88faf5d8e790ff095ff1408af47b527c389db4bb3cc6e28f8c23fca98f438b967fe1ed76122d7b7bca0cbe0d26f4e9ecd12fb4902265ea7b2a2cbf9dc0b3784dd7142d716e682440a3e431ce7e13f85a320dfbecd0f27f18c06f2f693b599c5ddd4ad10dd81212ab8494ccddb1f963f574e4a8e22af746b9e2d7c396d8bde325ca"})
+socket$inet6(0xa, 0x4, 0x543)
+r1 = syz_open_dev$loop(&(0x7f0000000300)='/dev/loop#\x00', 0x4, 0x80800)
+ioctl$LOOP_SET_FD(r1, 0x4c00, 0xffffffffffffffff)
+ioctl$LOOP_CHANGE_FD(r0, 0x4c06, 0xffffffffffffffff)
+socket$inet_sctp(0x2, 0x1, 0x84)

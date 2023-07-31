@@ -1,0 +1,2 @@
+ioctl$sock_inet6_SIOCSIFADDR(0xffffffffffffffff, 0x8916, &(0x7f0000000000)={@empty})
+getresgid(&(0x7f0000000c80), &(0x7f0000000cc0), &(0x7f0000000d00))

@@ -1,0 +1,4 @@
+mknod(&(0x7f0000000040)='./file0\x00', 0x0, 0x0)
+mknodat(0xffffffffffffff9c, &(0x7f0000000000)='./file1\x00', 0xc000, 0x0)
+setxattr$security_ima(&(0x7f0000000080)='./file1\x00', &(0x7f00000000c0)='security.ima\x00', &(0x7f0000000200)=@v2, 0x9, 0x0)
+rename(&(0x7f0000000180)='./file0\x00', &(0x7f00000001c0)='./file1\x00')

@@ -1,0 +1,2 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000180)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$security_selinux(&(0x7f00000001c0)='./file0\x00', &(0x7f0000000200)='security.selinux\x00', &(0x7f0000000000)='system_u:object_r:systemd_systemctl_exec_t:s0\x00', 0xfdd9, 0x0)

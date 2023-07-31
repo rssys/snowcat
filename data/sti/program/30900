@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$wireguard(0x0, 0xffffffffffffffff)
+socket$packet(0x11, 0x2, 0x300)

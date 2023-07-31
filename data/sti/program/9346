@@ -1,0 +1,2 @@
+syz_mount_image$xfs(0x0, &(0x7f0000000780)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lgetxattr(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)=@random={'security.', ')!#({^\xf4&\x00'}, &(0x7f0000000080)=""/28, 0x1c)

@@ -1,0 +1,4 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+r1 = fcntl$dupfd(r0, 0x0, r0)
+r2 = openat$tcp_mem(0xffffff9c, &(0x7f00000010c0)='/proc/sys/net/ipv4/tcp_wmem\x00', 0x1, 0x0)
+dup3(r1, r2, 0x0)

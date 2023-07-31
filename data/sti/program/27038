@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000000080)='net/ip_vs\x00')
+pipe(&(0x7f0000000300))

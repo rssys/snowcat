@@ -1,0 +1,4 @@
+ioctl$vim2m_VIDIOC_S_FMT(0xffffffffffffffff, 0xc0cc5605, &(0x7f0000000000)={0x0, @sdr})
+openat$vim2m(0xffffff9c, &(0x7f0000000140)='/dev/vim2m\x00', 0x2, 0x0)
+syz_init_net_socket$nfc_llcp(0x27, 0x0, 0x1)
+syz_genetlink_get_family_id$ethtool(&(0x7f0000005600)='ethtool\x00', 0xffffffffffffffff)

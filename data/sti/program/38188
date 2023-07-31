@@ -1,0 +1,2 @@
+r0 = syz_open_dev$evdev(&(0x7f0000000040)='/dev/input/event#\x00', 0x0, 0x0)
+fsetxattr$security_selinux(r0, &(0x7f0000000080)='security.selinux\x00', &(0x7f00000000c0)='system_u:object_r:tpm_device_t:s0\x00', 0x1d, 0x0)

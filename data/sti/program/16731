@@ -1,0 +1,2 @@
+openat$nvram(0xffffffffffffff9c, &(0x7f00000004c0)='/dev/nvram\x00', 0x480, 0x0)
+openat$nvram(0xffffffffffffff9c, &(0x7f00000003c0)='/dev/nvram\x00', 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = openat$dir(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x2042, 0x0)
+pread64(r0, &(0x7f0000000080)=""/224, 0xfffffffffffffdef, 0x0)

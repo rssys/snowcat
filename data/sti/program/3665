@@ -1,0 +1,1 @@
+openat$thread_pidfd(0xffffff9c, &(0x7f0000000240)='/proc/thread-self\x00', 0x414002, 0x0)

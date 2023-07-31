@@ -1,0 +1,2 @@
+r0 = openat$ptp0(0xffffffffffffff9c, &(0x7f0000000000)='/dev/ptp0\x00', 0x0, 0x0)
+read$ptp(r0, 0x0, 0x0)

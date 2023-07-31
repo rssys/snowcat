@@ -1,0 +1,3 @@
+sendmsg$NL80211_CMD_START_P2P_DEVICE(0xffffffffffffffff, &(0x7f0000000300)={0x0, 0x0, 0x0}, 0x0)
+sendmsg$BATADV_CMD_GET_ROUTING_ALGOS(0xffffffffffffffff, 0x0, 0x4)
+syz_open_dev$vcsn(&(0x7f0000000000)='/dev/vcs#\x00', 0x0, 0x103342)

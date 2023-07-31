@@ -1,0 +1,5 @@
+syz_genetlink_get_family_id$ethtool(&(0x7f00000002c0)='ethtool\x00', 0xffffffffffffffff)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$SMC_PNETID_GET(r0, &(0x7f0000000540)={&(0x7f0000000440)={0x10, 0x0, 0x0, 0x80000000}, 0xc, &(0x7f0000000500)={0x0}}, 0x0)
+openat$ptmx(0xffffff9c, &(0x7f0000000640)='/dev/ptmx\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$team(&(0x7f00000006c0)='team\x00', r0)

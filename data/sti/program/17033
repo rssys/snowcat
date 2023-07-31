@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+ioctl$KVM_SET_CLOCK(r0, 0x4030ae7b, 0x0)

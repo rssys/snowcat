@@ -1,0 +1,1 @@
+syz_mount_image$f2fs(0x0, &(0x7f0000003640)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000046c0)={[{@four_active_logs='active_logs=4'}, {@user_xattr='user_xattr'}, {@noinline_data='noinline_data'}, {@nouser_xattr='nouser_xattr'}], [{@uid_eq={'uid', 0x3d, 0xee00}}]})

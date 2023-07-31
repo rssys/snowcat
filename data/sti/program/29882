@@ -1,0 +1,2 @@
+r0 = openat$bsg(0xffffffffffffff9c, &(0x7f0000000080)='/dev/bsg\x00', 0x0, 0x0)
+name_to_handle_at(r0, &(0x7f00000000c0)='./file0\x00', &(0x7f0000000100)={0x8}, 0x0, 0x0)

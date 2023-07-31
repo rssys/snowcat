@@ -1,0 +1,6 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_calipso(&(0x7f00000002c0)='NLBL_CALIPSO\x00', r0)
+syz_genetlink_get_family_id$smc(0x0, 0xffffffffffffffff)
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$BATADV_CMD_GET_TRANSTABLE_LOCAL(r1, &(0x7f0000000640)={0x0, 0x0, &(0x7f0000000600)={0x0}}, 0x0)
+sendmsg$NL802154_CMD_SET_BACKOFF_EXPONENT(r0, &(0x7f0000000840)={0x0, 0x0, &(0x7f0000000800)={0x0}}, 0x0)

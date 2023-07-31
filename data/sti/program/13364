@@ -1,0 +1,2 @@
+syz_open_dev$vcsu(&(0x7f0000000000)='/dev/vcsu#\x00', 0x0, 0x0)
+syz_io_uring_setup(0x7541, &(0x7f0000000140), &(0x7f0000ff9000/0x4000)=nil, &(0x7f0000ffb000/0x3000)=nil, &(0x7f0000001280), &(0x7f00000012c0))

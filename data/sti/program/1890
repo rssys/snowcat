@@ -1,0 +1,1 @@
+memfd_create(&(0x7f0000000100)='/dev/udmabuf\x00', 0x6)

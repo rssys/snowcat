@@ -1,0 +1,6 @@
+syz_mount_image$nfs4(0x0, &(0x7f00000001c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = open(&(0x7f0000000400)='./file0\x00', 0x0, 0x0)
+r1 = openat$vcsu(0xffffffffffffff9c, &(0x7f0000000040)='/dev/vcsu\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$net_dm(&(0x7f0000000100)='NET_DM\x00')
+ioctl$SECCOMP_IOCTL_NOTIF_ID_VALID(r1, 0x40082102, 0x0)
+mkdirat$cgroup(r0, &(0x7f0000000000)='syz0\x00', 0x1ff)

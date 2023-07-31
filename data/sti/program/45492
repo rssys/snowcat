@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_inet6_SIOCADDRT(r0, 0x890b, &(0x7f0000000140)={@loopback, @empty, @empty, 0x7fff})

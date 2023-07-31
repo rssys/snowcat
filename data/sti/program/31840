@@ -1,0 +1,2 @@
+r0 = socket$inet_udplite(0x2, 0x2, 0x88)
+fsetxattr$trusted_overlay_redirect(r0, &(0x7f0000000000)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)

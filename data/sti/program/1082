@@ -1,0 +1,1 @@
+sendmsg$AUDIT_SIGNAL_INFO(0xffffffffffffffff, 0x0, 0x0)

@@ -1,0 +1,3 @@
+r0 = memfd_create(&(0x7f0000000100)='\x00', 0x0)
+write$binfmt_misc(r0, &(0x7f0000000140)=ANY=[], 0x21)
+lseek(r0, 0x0, 0x3)

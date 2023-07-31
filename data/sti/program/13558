@@ -1,0 +1,5 @@
+socketpair(0x18, 0x0, 0x0, &(0x7f0000000000))
+syz_open_dev$mouse(&(0x7f00000000c0)='/dev/input/mouse#\x00', 0xfff, 0x0)
+r0 = openat$qat_adf_ctl(0xffffff9c, &(0x7f0000000140)='/dev/qat_adf_ctl\x00', 0x2, 0x0)
+ioctl$IOCTL_START_ACCEL_DEV(r0, 0x40096102, &(0x7f0000000580))
+syz_open_dev$mouse(&(0x7f0000000600)='/dev/input/mouse#\x00', 0x40, 0x0)

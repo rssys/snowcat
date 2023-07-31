@@ -1,0 +1,4 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000000)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lsetxattr$system_posix_acl(&(0x7f00000002c0)='./file0\x00', &(0x7f0000000700)='system.posix_acl_default\x00', &(0x7f0000000940), 0x24, 0x0)
+lsetxattr$security_evm(&(0x7f0000000380)='./file0\x00', &(0x7f00000003c0)='security.evm\x00', &(0x7f0000000400)=@v1={0x2, "acd8596565e099a0"}, 0x9, 0x0)
+lsetxattr$system_posix_acl(&(0x7f0000000100)='./file0\x00', &(0x7f0000000140)='system.posix_acl_default\x00', &(0x7f0000000300)={{}, {}, [], {}, [{}]}, 0x2c, 0x0)

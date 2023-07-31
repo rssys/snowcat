@@ -1,0 +1,3 @@
+syz_init_net_socket$bt_hci(0x1f, 0x3, 0x1)
+r0 = syz_init_net_socket$bt_hci(0x1f, 0x3, 0x1)
+ioctl$F2FS_IOC_GET_COMPRESS_BLOCKS(r0, 0x8008f511, 0x0)

@@ -1,0 +1,5 @@
+modify_ldt$read(0x0, &(0x7f0000000000)=""/4096, 0x1000)
+syz_genetlink_get_family_id$batadv(0x0, 0xffffffffffffffff)
+fork()
+ioctl$sock_SIOCGIFINDEX_802154(0xffffffffffffffff, 0x8933, 0x0)
+sendmsg$NL802154_CMD_DEL_SEC_LEVEL(0xffffffffffffffff, 0x0, 0x0)

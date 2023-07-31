@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$TEAM_CMD_PORT_LIST_GET(r0, &(0x7f00000034c0)={0x0, 0x0, &(0x7f0000003480)={&(0x7f0000000280)=ANY=[@ANYBLOB="f8030000", @ANYRES16, @ANYBLOB="01"], 0x3f8}}, 0x0)

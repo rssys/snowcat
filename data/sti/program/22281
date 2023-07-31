@@ -1,0 +1,6 @@
+syz_genetlink_get_family_id$devlink(&(0x7f0000000040)='devlink\x00', 0xffffffffffffffff)
+openat$incfs(0xffffffffffffff9c, 0x0, 0x28080, 0x0)
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$net_dm(&(0x7f00000005c0)='NET_DM\x00', r0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$devlink(0x0, 0xffffffffffffffff)

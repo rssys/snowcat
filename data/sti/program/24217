@@ -1,0 +1,1 @@
+keyctl$instantiate(0xc, 0x0, &(0x7f0000001100)=@encrypted_update={'update ', 'ecryptfs', 0x20, 'trusted:', ')^.})-'}, 0x1f, 0x0)

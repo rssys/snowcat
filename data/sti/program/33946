@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+sendmsg$TIPC_NL_SOCK_GET(r0, &(0x7f00000002c0)={0x0, 0x0, &(0x7f0000000280)={&(0x7f00000000c0)=ANY=[@ANYBLOB="3401000018006f5921b40f44292a5aa302fcb391f2"], 0x134}}, 0x0)

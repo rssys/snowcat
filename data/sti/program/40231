@@ -1,0 +1,2 @@
+mlockall(0x5)
+mlockall(0x3)

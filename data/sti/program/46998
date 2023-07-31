@@ -1,0 +1,1 @@
+renameat(0xffffffffffffffff, &(0x7f0000002c80)='./file0\x00', 0xffffffffffffffff, &(0x7f0000002cc0)='./file0\x00')

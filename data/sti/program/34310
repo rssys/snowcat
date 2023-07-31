@@ -1,0 +1,2 @@
+r0 = syz_open_dev$dri(&(0x7f0000000000)='/dev/dri/card#\x00', 0x0, 0x0)
+ioctl$BTRFS_IOC_SUBVOL_CREATE_V2(r0, 0x50009418, &(0x7f00000001c0)={{}, 0x0, 0x0, @inherit={0x0, 0x0}, @devid})

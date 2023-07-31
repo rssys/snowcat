@@ -1,0 +1,2 @@
+ioctl$sock_SIOCBRADDBR(0xffffffffffffffff, 0x89a0, 0x0)
+syz_80211_join_ibss(&(0x7f00000001c0)='wlan1\x00', 0x0, 0x0, 0x0)

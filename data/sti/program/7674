@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vim2m(&(0x7f0000000500)='/dev/video#\x00', 0x0, 0x2)
+ioctl$vim2m_VIDIOC_STREAMOFF(r0, 0x40045612, &(0x7f0000000540))

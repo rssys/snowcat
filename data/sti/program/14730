@@ -1,0 +1,2 @@
+symlink(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='./file0\x00')
+lsetxattr$trusted_overlay_opaque(&(0x7f00000000c0)='./file0\x00', &(0x7f0000000100)='trusted.overlay.opaque\x00', 0x0, 0x0, 0x0)

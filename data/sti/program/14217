@@ -1,0 +1,6 @@
+r0 = openat$autofs(0xffffffffffffff9c, 0x0, 0x840, 0x0)
+sendmsg$TIPC_NL_BEARER_GET(r0, 0x0, 0x0)
+execveat(r0, 0x0, 0x0, &(0x7f00000006c0)=[0x0, &(0x7f0000000600)='broadcast-link\x00', &(0x7f0000000640)='broadcast-link\x00'], 0x0)
+syz_open_procfs$namespace(0x0, &(0x7f0000000800)='ns/uts\x00')
+sendmsg$NL80211_CMD_DISCONNECT(r0, 0x0, 0x0)
+mkdirat(0xffffffffffffff9c, &(0x7f0000000c00)='./file0\x00', 0x0)

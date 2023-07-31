@@ -1,0 +1,2 @@
+r0 = openat$incfs(0xffffffffffffff9c, &(0x7f0000000040)='.pending_reads\x00', 0x42, 0x0)
+read$usbmon(r0, &(0x7f0000000280)=""/211, 0xd3)

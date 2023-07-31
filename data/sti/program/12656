@@ -1,0 +1,5 @@
+r0 = fsopen(&(0x7f0000000000)='cgroup2\x00', 0x0)
+fsconfig$FSCONFIG_CMD_CREATE(r0, 0x6, 0x0, 0x0, 0x0)
+fsmount(r0, 0x0, 0x0)
+r1 = creat(&(0x7f0000000080)='./file0\x00', 0x0)
+dup2(r1, r0)

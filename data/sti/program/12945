@@ -1,0 +1,3 @@
+openat$urandom(0xffffffffffffff9c, &(0x7f00000001c0)='/dev/urandom\x00', 0x0, 0x0)
+socket$inet_udplite(0x2, 0x2, 0x88)
+syz_genetlink_get_family_id$SEG6(&(0x7f0000002b40)='SEG6\x00')

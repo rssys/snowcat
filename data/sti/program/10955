@@ -1,0 +1,1 @@
+prctl$PR_SET_NAME(0xf, &(0x7f0000000200)='/\x00')

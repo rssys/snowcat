@@ -1,0 +1,2 @@
+socketpair$unix(0x1, 0x2, 0x0, &(0x7f0000003040)={<r0=>0xffffffffffffffff})
+ioctl$sock_TIOCOUTQ(r0, 0x5411, &(0x7f0000003080))

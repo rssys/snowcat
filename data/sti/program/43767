@@ -1,0 +1,5 @@
+r0 = openat$binder_debug(0xffffff9c, &(0x7f0000000000)='/sys/kernel/debug/binder/failed_transaction_log\x00', 0x0, 0x0)
+close(r0)
+r1 = syz_open_dev$tty20(0xc, 0x4, 0x1)
+ioctl$TCSETSW2(r1, 0x402c542c, &(0x7f0000000400)={0x0, 0x0, 0x0, 0x0, 0x0, "6fad7b4a99e69fa5983ea10f027c08faf5d71f"})
+write$qrtrtun(r0, &(0x7f0000001b40)='I', 0x1)

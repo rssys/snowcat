@@ -1,0 +1,2 @@
+r0 = openat$cachefiles(0xffffff9c, &(0x7f00000000c0)='/dev/cachefiles\x00', 0x401, 0x0)
+write$RDMA_USER_CM_CMD_CREATE_ID(r0, 0x0, 0x0)

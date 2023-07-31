@@ -1,0 +1,2 @@
+syz_open_dev$char_raw(0x0, 0x1, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f000000ba80)='devlink\x00', 0xffffffffffffffff)

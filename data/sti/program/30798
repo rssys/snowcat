@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vbi(&(0x7f00000000c0)='/dev/vbi#\x00', 0x2, 0x2)
+ioctl$VIDIOC_S_TUNER(r0, 0x4054561e, &(0x7f0000000040)={0x0, "f8dff55c1b7bbbe1576f3cb1f9c2b526663074a32c96ed71caaf7c65a32cde19"})

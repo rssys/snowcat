@@ -1,0 +1,2 @@
+syz_mount_image$iso9660(0x0, &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+link(&(0x7f0000000a80)='./file0\x00', &(0x7f0000000ac0)='./file0/file0\x00')

@@ -1,0 +1,2 @@
+pipe2(&(0x7f0000000000)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x0)
+write$char_usb(r0, &(0x7f0000000000)="b0", 0xfffffdef)

@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+setxattr$security_capability(&(0x7f00000001c0)='./file0\x00', &(0x7f0000000200)='security.capability\x00', &(0x7f0000000240)=@v3={0x3000000, [], 0xee00}, 0x18, 0x0)
+setxattr$trusted_overlay_origin(&(0x7f0000000280)='./file0\x00', &(0x7f00000002c0)='trusted.overlay.origin\x00', &(0x7f0000000300)='y\x00', 0x2, 0x0)
+write$P9_RREADLINK(r0, &(0x7f0000000340)={0x10, 0x17, 0x0, {0x7, './file0'}}, 0x10)

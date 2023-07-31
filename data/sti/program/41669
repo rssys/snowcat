@@ -1,0 +1,2 @@
+syz_mount_image$xfs(0x0, &(0x7f0000000780)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+lremovexattr(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)=@known='trusted.overlay.origin\x00')

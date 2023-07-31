@@ -1,0 +1,4 @@
+r0 = openat$uhid(0xffffff9c, &(0x7f0000000780)='/dev/uhid\x00', 0x802, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NLBL_UNLABEL_C_STATICLISTDEF(0xffffffffffffffff, 0x0, 0x0)
+write$UHID_GET_REPORT_REPLY(r0, &(0x7f0000001bc0), 0xa)

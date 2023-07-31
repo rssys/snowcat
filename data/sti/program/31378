@@ -1,0 +1,1 @@
+syz_mount_image$fuse(0x0, &(0x7f0000002780)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000004800)={{'fd'}, 0x2c, {'rootmode'}, 0x2c, {'user_id'}, 0x2c, {'group_id'}, 0x2c, {[], [{@euid_gt={'euid>'}}, {@fowner_lt={'fowner<'}}, {@euid_gt={'euid>'}}, {@mask={'mask', 0x3d, '^MAY_WRITE'}}]}})

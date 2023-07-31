@@ -1,0 +1,2 @@
+r0 = openat$vcsa(0xffffffffffffff9c, &(0x7f0000001680)='/dev/vcsa\x00', 0x282, 0x0)
+write$eventfd(r0, &(0x7f00000017c0), 0x8)

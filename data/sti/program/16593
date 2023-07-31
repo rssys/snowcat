@@ -1,0 +1,5 @@
+r0 = epoll_create(0x3ff)
+r1 = epoll_create(0x5)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f0000000080)={0x20000005})
+r2 = socket$nl_generic(0x10, 0x3, 0x10)
+epoll_ctl$EPOLL_CTL_ADD(r1, 0x1, r2, &(0x7f00000001c0)={0x40000005})

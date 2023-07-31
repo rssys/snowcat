@@ -1,0 +1,8 @@
+getsockname$netlink(0xffffffffffffffff, &(0x7f00000022c0), &(0x7f0000002300)=0xc)
+getsockname$netlink(0xffffffffffffffff, &(0x7f00000022c0), 0x0)
+sendmsg$NL80211_CMD_EXTERNAL_AUTH(0xffffffffffffffff, &(0x7f00000004c0)={&(0x7f0000000400), 0xc, 0x0}, 0x0)
+sendmsg$NL80211_CMD_SET_WDS_PEER(0xffffffffffffffff, 0x0, 0x8010)
+r0 = syz_open_dev$vcsa(&(0x7f0000000080)='/dev/vcsa#\x00', 0x0, 0x100202)
+getsockname$netlink(0xffffffffffffffff, 0x0, 0x0)
+getsockname(0xffffffffffffffff, 0x0, 0x0)
+write$cgroup_pid(r0, &(0x7f0000000040), 0x20000052)

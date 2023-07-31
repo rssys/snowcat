@@ -1,0 +1,5 @@
+syz_mount_image$tmpfs(0x0, &(0x7f00000002c0)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r0 = open$dir(&(0x7f00000000c0)='./file0\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$smc(&(0x7f0000000080)='SMC_PNETID\x00')
+sendmsg$SMC_PNETID_FLUSH(0xffffffffffffffff, 0x0, 0x0)
+mkdirat(r0, &(0x7f0000000000)='./file0\x00', 0x0)

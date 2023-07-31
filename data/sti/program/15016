@@ -1,0 +1,3 @@
+creat(&(0x7f0000000000)='./file0\x00', 0xca96e20e4c4cfcdd)
+r0 = creat(&(0x7f0000001280)='./file0\x00', 0x0)
+write$P9_RATTACH(r0, &(0x7f0000000080)={0x14}, 0x14)

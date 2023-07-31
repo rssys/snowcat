@@ -1,0 +1,7 @@
+write$char_raw(0xffffffffffffffff, 0x0, 0x0)
+ioctl$PTP_PIN_GETFUNC2(0xffffffffffffffff, 0xc0603d0f, 0x0)
+ioctl$CHAR_RAW_GETSIZE64(0xffffffffffffffff, 0x80041272, &(0x7f000000b900))
+ioctl$TIOCSBRK(0xffffffffffffffff, 0x5427)
+ioctl$CHAR_RAW_SECDISCARD(0xffffffffffffffff, 0x127d, 0x0)
+syz_open_dev$char_raw(0x0, 0x0, 0x2c00)
+syz_genetlink_get_family_id$devlink(&(0x7f000000ba80)='devlink\x00', 0xffffffffffffffff)

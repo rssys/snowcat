@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vivid(&(0x7f0000000180)='/dev/video#\x00', 0x3, 0x2)
+ioctl$VIDIOC_STREAMOFF(r0, 0x40045613, &(0x7f00000001c0))

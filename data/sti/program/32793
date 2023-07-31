@@ -1,0 +1,4 @@
+pipe2$9p(&(0x7f0000000100)={<r0=>0xffffffffffffffff, <r1=>0xffffffffffffffff}, 0x0)
+r2 = epoll_create1(0x0)
+dup2(r1, r0)
+epoll_ctl$EPOLL_CTL_ADD(r2, 0x1, r1, &(0x7f00000000c0)={0xa0000000})

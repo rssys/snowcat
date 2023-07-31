@@ -1,0 +1,2 @@
+r0 = getpid()
+ioprio_set$pid(0x2, r0, 0x0)

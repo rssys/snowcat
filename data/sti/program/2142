@@ -1,0 +1,2 @@
+add_key$fscrypt_v1(0x0, 0x0, &(0x7f0000000080)={0x0, "42fa1bf7a77bf5411ae8e6890a13be19b29590c986774dd3f27f423024faafd74f0e483dbdea4144f8bd5e675c9ac32eb686d739c742d69a64419e4a95c145ae"}, 0x48, 0xfffffffffffffff8)
+rt_sigpending(&(0x7f0000001740), 0x8)

@@ -1,0 +1,4 @@
+openat$pfkey(0xffffff9c, &(0x7f0000000000)='/proc/self/net/pfkey\x00', 0x0, 0x0)
+openat$vfio(0xffffff9c, &(0x7f0000000040)='/dev/vfio/vfio\x00', 0x0, 0x0)
+openat$cgroup_root(0xffffff9c, &(0x7f00000000c0)='./cgroup.cpu/syz1\x00', 0x200002, 0x0)
+syz_open_dev$media(&(0x7f00000003c0)='/dev/media#\x00', 0x0, 0x0)

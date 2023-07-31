@@ -1,0 +1,4 @@
+r0 = fsopen(&(0x7f00000001c0)='ramfs\x00', 0x0)
+fsconfig$FSCONFIG_CMD_CREATE(r0, 0x6, 0x0, 0x0, 0x0)
+r1 = fsmount(r0, 0x0, 0x0)
+symlinkat(&(0x7f0000000040)='./file0\x00', r1, &(0x7f0000000080)='./file0\x00')

@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r2 = syz_genetlink_get_family_id$netlbl_cipso(&(0x7f0000000180)='NLBL_CIPSOv4\x00', r0)
+sendmsg$NLBL_CIPSOV4_C_LIST(r1, &(0x7f0000000380)={0x0, 0x0, &(0x7f0000000340)={&(0x7f00000001c0)={0x14, r2, 0x1}, 0x14}}, 0x0)

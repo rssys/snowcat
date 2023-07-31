@@ -1,0 +1,1 @@
+openat$procfs(0xffffffffffffff9c, &(0x7f00000001c0)='/proc/asound/timers\x00', 0x300, 0x0)

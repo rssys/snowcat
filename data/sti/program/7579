@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000140)='ns\x00')
+faccessat(r0, &(0x7f0000000180)='./cgroup/cgroup.procs\x00', 0x0)

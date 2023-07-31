@@ -1,0 +1,1 @@
+openat$dir(0xffffffffffffff9c, &(0x7f0000000080)='./file0\x00', 0xc6240, 0x0)

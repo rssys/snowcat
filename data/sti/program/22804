@@ -1,0 +1,2 @@
+r0 = openat$audio(0xffffff9c, &(0x7f0000000140)='/dev/audio\x00', 0x201, 0x0)
+ioctl$SNDCTL_DSP_GETOSPACE(r0, 0x8010500c, &(0x7f0000000200))

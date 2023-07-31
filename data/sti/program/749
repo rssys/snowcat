@@ -1,0 +1,7 @@
+syz_genetlink_get_family_id$fou(0x0, 0xffffffffffffffff)
+syz_open_procfs$namespace(0x0, &(0x7f0000000080)='ns/pid_for_children\x00')
+fork()
+syz_io_uring_submit(0x0, 0x0, 0x0, 0x0)
+r0 = fork()
+sched_setaffinity(r0, 0x8, &(0x7f0000001640)=0x9)
+sendmsg$kcm(0xffffffffffffffff, 0x0, 0x0)

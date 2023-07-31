@@ -1,0 +1,1 @@
+faccessat(0xffffffffffffffff, &(0x7f0000000080)='\x00', 0x0)

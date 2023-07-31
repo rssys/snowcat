@@ -1,0 +1,1 @@
+syz_open_dev$char_raw(&(0x7f00000005c0)='/dev/raw/raw#\x00', 0x1, 0x20040)

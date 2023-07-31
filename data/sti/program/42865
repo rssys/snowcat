@@ -1,0 +1,4 @@
+ioctl$SNDCTL_TMR_START(0xffffffffffffffff, 0x5402)
+r0 = openat$sequencer2(0xffffff9c, &(0x7f0000000140)='/dev/sequencer2\x00', 0x0, 0x0)
+ioctl$SNDCTL_TMR_CONTINUE(r0, 0x5404)
+ioctl$SNDCTL_SEQ_PANIC(r0, 0x5111)

@@ -1,0 +1,4 @@
+syz_mount_image$tmpfs(0x0, &(0x7f0000000700)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+chroot(&(0x7f0000000000)='./file0\x00')
+mount(0x0, &(0x7f0000000040)='./file0\x00', &(0x7f0000000080)='securityfs\x00', 0x0, 0x0)
+pivot_root(&(0x7f00000000c0)='./file0\x00', &(0x7f0000000100)='./file0\x00')

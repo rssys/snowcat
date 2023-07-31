@@ -1,0 +1,2 @@
+openat$audio1(0xffffff9c, &(0x7f0000000180)='/dev/audio1\x00', 0x0, 0x0)
+ioctl$IOCTL_VMCI_DATAGRAM_SEND(0xffffffffffffffff, 0x7ab, 0x0)

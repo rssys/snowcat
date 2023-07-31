@@ -1,0 +1,2 @@
+r0 = openat$capi20(0xffffff9c, &(0x7f0000000040)='/dev/capi20\x00', 0x0, 0x0)
+ioctl$CAPI_GET_MANUFACTURER(r0, 0xc0044306, &(0x7f0000000000))

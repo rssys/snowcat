@@ -1,0 +1,1 @@
+lsetxattr$trusted_overlay_redirect(&(0x7f0000000300)='.\x00', &(0x7f0000000340)='trusted.overlay.redirect\x00', &(0x7f0000000380)='./file0\x00', 0x8, 0x0)

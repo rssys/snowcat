@@ -1,0 +1,4 @@
+r0 = socket$nl_netfilter(0x10, 0x3, 0xc)
+r1 = socket$inet6_tcp(0xa, 0x1, 0x0)
+r2 = dup3(r1, r0, 0x0)
+ioctl$sock_inet6_udp_SIOCINQ(r2, 0x541b, &(0x7f00000001c0))

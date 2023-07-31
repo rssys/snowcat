@@ -1,0 +1,2 @@
+r0 = open$dir(&(0x7f00000001c0)='./file0\x00', 0xc41, 0x0)
+fsetxattr$trusted_overlay_redirect(r0, &(0x7f0000000040)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)

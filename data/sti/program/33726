@@ -1,0 +1,2 @@
+r0 = socket$inet_udp(0x2, 0x2, 0x0)
+ioctl$sock_ipv4_tunnel_SIOCGETTUNNEL(r0, 0x89f0, &(0x7f00000000c0)={'gretap0\x00', 0x0})

@@ -1,0 +1,2 @@
+syz_open_dev$vivid(&(0x7f0000005f40)='/dev/video#\x00', 0x1, 0x2)
+setxattr$incfs_size(0x0, &(0x7f00000072c0)='user.incfs.size\x00', &(0x7f0000007300), 0x8, 0x0)

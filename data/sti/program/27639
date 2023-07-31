@@ -1,0 +1,2 @@
+add_key$fscrypt_provisioning(&(0x7f0000006a80)='fscrypt-provisioning\x00', 0x0, 0x0, 0x0, 0xfffffffffffffffe)
+execveat(0xffffffffffffffff, &(0x7f0000000000)='./file0/file0\x00', 0x0, 0x0, 0x0)

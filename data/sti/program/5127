@@ -1,0 +1,2 @@
+mknod$loop(&(0x7f0000000080)='./file0\x00', 0x0, 0x0)
+lsetxattr$security_capability(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='security.capability\x00', &(0x7f00000000c0)=@v2={0x20000}, 0x14, 0x0)

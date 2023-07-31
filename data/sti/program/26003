@@ -1,0 +1,2 @@
+r0 = socket$pppoe(0x18, 0x1, 0x0)
+openat$cgroup_devices(r0, &(0x7f0000000100)='devices.allow\x00', 0x2, 0x0)

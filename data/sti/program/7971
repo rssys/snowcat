@@ -1,0 +1,3 @@
+r0 = openat$sndseq(0xffffff9c, &(0x7f0000000040)='/dev/snd/seq\x00', 0x0)
+ioctl$SNDRV_SEQ_IOCTL_CREATE_QUEUE(r0, 0xc08c5332, &(0x7f0000000280)={0x0, 0x0, 0x0, 'queue1\x00'})
+ioctl$SNDRV_SEQ_IOCTL_GET_PORT_INFO(r0, 0x402c5342, &(0x7f0000000340))

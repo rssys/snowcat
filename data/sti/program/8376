@@ -1,0 +1,2 @@
+io_setup(0x7a53, &(0x7f00000001c0))
+io_destroy(0x0)

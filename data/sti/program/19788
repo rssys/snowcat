@@ -1,0 +1,4 @@
+r0 = epoll_create(0xb1fa)
+r1 = socket$nl_netfilter(0x10, 0x3, 0xc)
+epoll_ctl$EPOLL_CTL_ADD(r0, 0x1, r1, &(0x7f0000000080)={0x2000201c})
+epoll_wait(r0, &(0x7f0000000040)=[{}], 0x1, 0x95c)

@@ -1,0 +1,2 @@
+r0 = add_key$user(&(0x7f00000000c0)='user\x00', &(0x7f0000000100)={'syz', 0x3}, &(0x7f0000000140)="c1", 0x1, 0xfffffffffffffffd)
+keyctl$update(0x2, r0, 0x0, 0x0)

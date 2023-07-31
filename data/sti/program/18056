@@ -1,0 +1,4 @@
+syz_open_procfs(0x0, 0x0)
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000340)='net/rpc\x00')
+ioctl$RTC_WIE_OFF(0xffffffffffffffff, 0x7010)
+openat$rtc(0xffffff9c, &(0x7f0000000440)='/dev/rtc0\x00', 0x40, 0x0)

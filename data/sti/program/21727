@@ -1,0 +1,1 @@
+syz_mount_image$msdos(0x0, &(0x7f0000000d00)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000fc0)={[{@nodots='nodots'}, {@dots='dots'}], [{@func={'func', 0x3d, 'MMAP_CHECK'}}]})

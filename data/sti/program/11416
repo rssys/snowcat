@@ -1,0 +1,2 @@
+r0 = openat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x101c41, 0x0)
+writev(r0, &(0x7f0000001480)=[{&(0x7f0000001140)="98", 0xfffffdef}], 0x1)

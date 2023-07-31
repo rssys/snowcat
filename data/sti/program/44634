@@ -1,0 +1,2 @@
+mknod$loop(&(0x7f0000001f40)='./file0\x00', 0x0, 0x0)
+unlink(&(0x7f0000000580)='./file0\x00')

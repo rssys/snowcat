@@ -1,0 +1,3 @@
+r0 = openat$sndseq(0xffffff9c, &(0x7f0000000000)='/dev/snd/seq\x00', 0x2002)
+write$sndseq(r0, 0x0, 0x0)
+writev(r0, &(0x7f0000000200)=[{&(0x7f0000000080)="fa7e641a402049eca96baee61419c11280dcadd9b1a84fb926f9effa", 0x1c}], 0x1)

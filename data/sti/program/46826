@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vcsn(&(0x7f0000000280)='/dev/vcs#\x00', 0x5, 0x8202)
+write$P9_RFSYNC(r0, &(0x7f00000002c0)={0x7}, 0x7)

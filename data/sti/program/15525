@@ -1,0 +1,1 @@
+openat$snapshot(0xffffffffffffff9c, &(0x7f0000000540)='/dev/snapshot\x00', 0x1c1040, 0x0)

@@ -1,0 +1,6 @@
+ioctl$SNDCTL_DSP_SETDUPLEX(0xffffffffffffffff, 0x5016, 0x0)
+r0 = openat$snapshot(0xffffff9c, &(0x7f0000000080)='/dev/snapshot\x00', 0x0, 0x0)
+ioctl$SNAPSHOT_FREE(r0, 0x3305)
+ioctl$ifreq_SIOCGIFINDEX_batadv_hard(0xffffffffffffffff, 0x8933, &(0x7f00000000c0)={'batadv_slave_1\x00'})
+ioctl$SNAPSHOT_UNFREEZE(0xffffffffffffffff, 0x3302)
+perf_event_open$cgroup(0x0, 0xffffffffffffffff, 0xe, 0xffffffffffffffff, 0x0)

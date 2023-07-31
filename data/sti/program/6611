@@ -1,0 +1,2 @@
+r0 = syz_init_net_socket$bt_sco(0x1f, 0x5, 0x2)
+getsockname(r0, &(0x7f0000000380)=@l2={0x1f, 0x0, @fixed}, &(0x7f00000004c0)=0xfffffffffffffdfc)

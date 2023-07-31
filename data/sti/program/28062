@@ -1,0 +1,4 @@
+syz_genetlink_get_family_id$batadv(&(0x7f0000001d40)='batadv\x00')
+shmget$private(0x0, 0x1000, 0x0, &(0x7f0000ffe000/0x1000)=nil)
+getresuid(0x0, 0x0, 0x0)
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000004fc0)='ns/ipc\x00')

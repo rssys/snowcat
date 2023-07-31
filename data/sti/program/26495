@@ -1,0 +1,2 @@
+add_key(&(0x7f0000000080)='logon\x00', &(0x7f0000000180)={'syz', 0x0}, &(0x7f0000000340)='y', 0x1, 0xffffffffffffffff)
+sendmsg$BATADV_CMD_GET_DAT_CACHE(0xffffffffffffffff, 0x0, 0x0)

@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000001300)='limits\x00')
+sendmsg$NL80211_CMD_START_NAN(0xffffffffffffffff, 0x0, 0x4)

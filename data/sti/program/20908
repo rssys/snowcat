@@ -1,0 +1,2 @@
+syz_mount_image$iso9660(0x0, &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x100c00, &(0x7f0000000740)={[{@block={'block'}}, {@check_relaxed='check=relaxed'}, {@check_relaxed='check=relaxed'}, {@mode={'mode', 0x3d, 0x5}}, {@gid={'gid'}}, {@map_normal='map=normal'}, {@norock='norock'}], [{@euid_gt={'euid>'}}, {@euid_eq={'euid', 0x3d, 0xffffffffffffffff}}, {@audit='audit'}, {@fowner_eq={'fowner', 0x3d, 0xffffffffffffffff}}]})
+setxattr$trusted_overlay_nlink(&(0x7f0000000ac0)='./file0\x00', &(0x7f0000000b00)='trusted.overlay.nlink\x00', 0x0, 0x0, 0x0)

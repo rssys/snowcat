@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000140)='./file0\x00', 0x0)
+ioctl$FS_IOC_GETFLAGS(r0, 0x80046601, &(0x7f0000000180))

@@ -1,0 +1,1 @@
+syz_mount_image$tmpfs(&(0x7f0000001300)='tmpfs\x00', &(0x7f0000001340)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000001440)={[{@size={'size', 0x3d, [0x25, 0x0]}}], [{@obj_user={'obj_user', 0x3d, 'blacklist\x00'}}, {@audit='audit'}, {@obj_type={'obj_type', 0x3d, 'syz'}}]})

@@ -1,0 +1,2 @@
+r0 = socket$inet(0x2, 0x2, 0x0)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000040)={'sit0\x00', &(0x7f0000000200)=ANY=[@ANYBLOB="02"]})

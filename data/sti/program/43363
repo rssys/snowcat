@@ -1,0 +1,5 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_unlabel(&(0x7f0000000300)='NLBL_UNLBL\x00', r0)
+openat$null(0xffffff9c, &(0x7f0000000340)='/dev/null\x00', 0x0, 0x0)
+socket$inet_mptcp(0x2, 0x1, 0x106)
+sendmsg$NLBL_UNLABEL_C_STATICREMOVEDEF(r0, &(0x7f0000000200)={&(0x7f0000000140), 0xc, &(0x7f00000001c0)={0x0}}, 0x0)

@@ -1,0 +1,2 @@
+msgctl$MSG_STAT_ANY(0x0, 0xd, &(0x7f0000000040)=""/4096)
+msgctl$MSG_STAT_ANY(0x0, 0xd, &(0x7f0000001a00)=""/107)

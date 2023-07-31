@@ -1,0 +1,2 @@
+r0 = socket$can_bcm(0x1d, 0x2, 0x2)
+connect$can_bcm(r0, &(0x7f0000000080), 0xfe84)

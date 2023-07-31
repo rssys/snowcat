@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$nl80211(&(0x7f0000004800)='nl80211\x00', 0xffffffffffffffff)
+io_uring_setup(0x1d28, &(0x7f000000be80)={0x0, 0x8683, 0x8})

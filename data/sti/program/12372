@@ -1,0 +1,1 @@
+syz_open_dev$usbfs(&(0x7f0000000600)='/dev/bus/usb/00#/00#\x00', 0x5, 0xa40)

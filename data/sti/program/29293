@@ -1,0 +1,2 @@
+r0 = socket$caif_stream(0x25, 0x1, 0x2)
+connect$caif(r0, &(0x7f0000000380)=@dbg, 0x18)

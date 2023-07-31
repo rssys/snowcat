@@ -1,0 +1,6 @@
+r0 = openat$audio1(0xffffff9c, &(0x7f0000000000)='/dev/audio1\x00', 0x4040, 0x0)
+ioctl$SNDCTL_DSP_GETOPTR(r0, 0x800c5012, &(0x7f0000000040))
+accept4$phonet_pipe(0xffffffffffffffff, 0x0, 0x0, 0x1800)
+r1 = openat$rdma_cm(0xffffff9c, &(0x7f00000001c0)='/dev/infiniband/rdma_cm\x00', 0x2, 0x0)
+write$RDMA_USER_CM_CMD_JOIN_IP_MCAST(r1, &(0x7f0000000100)={0x10, 0x30, 0xfa00, {&(0x7f00000000c0), 0x0, {0xa, 0x4e20, 0x0, @rand_addr=' \x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02'}}}, 0x38)
+ioctl$SNDCTL_DSP_GETTRIGGER(0xffffffffffffffff, 0x80045010, &(0x7f0000000080))

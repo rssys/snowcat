@@ -1,0 +1,1 @@
+add_key(&(0x7f0000000480)='logon\x00', &(0x7f0000000440)={'syz', 0x3}, &(0x7f0000000400)="b1", 0x1, 0xffffffffffffffff)

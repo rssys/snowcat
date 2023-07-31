@@ -1,0 +1,2 @@
+r0 = socket$inet(0x2, 0x80003, 0x8)
+setsockopt$inet_buf(r0, 0x0, 0x20, &(0x7f0000000080)="90c5e6b6ce3e98673cbec5a3", 0xc)

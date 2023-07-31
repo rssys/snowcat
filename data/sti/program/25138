@@ -1,0 +1,2 @@
+pipe2$9p(&(0x7f0000000040)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x0)
+flock(r0, 0x5)

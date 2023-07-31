@@ -1,0 +1,3 @@
+openat$cgroup_ro(0xffffffffffffffff, &(0x7f0000000040)='cpuset.effective_mems\x00', 0x0, 0x0)
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+ioctl$sock_inet6_udp_SIOCINQ(r0, 0x890b, &(0x7f0000000000))

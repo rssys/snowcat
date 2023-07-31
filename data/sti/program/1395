@@ -1,0 +1,2 @@
+ioctl$DRM_IOCTL_MODE_CREATE_DUMB(0xffffffffffffffff, 0xc02064b2, 0x0)
+openat$dir(0xffffff9c, &(0x7f0000000000)='./file0\x00', 0x40, 0x0)

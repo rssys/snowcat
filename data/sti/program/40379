@@ -1,0 +1,2 @@
+r0 = mq_open(&(0x7f0000000080)='cgroup.taC\x9d\xda\xca\x85\xcbI\x10:]1\x17H\xachreaus\x00', 0x0, 0x0, 0x0)
+mq_timedreceive(r0, &(0x7f0000000200)=""/159, 0xffffffffffffff59, 0x0, &(0x7f0000000100)={0x0, 0x989680})

@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000240)='net/rt_acct\x00')
+ioctl$SNDCTL_SEQ_SYNC(r0, 0x5101)

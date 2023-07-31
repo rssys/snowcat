@@ -1,0 +1,2 @@
+setreuid(0x0, 0xee01)
+openat$sndseq(0xffffffffffffff9c, &(0x7f0000000100)='/dev/snd/seq\x00', 0x0)

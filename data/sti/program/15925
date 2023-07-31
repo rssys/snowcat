@@ -1,0 +1,2 @@
+r0 = openat$audio1(0xffffff9c, &(0x7f0000000100)='/dev/audio1\x00', 0x0, 0x0)
+ioctl$SOUND_PCM_READ_BITS(r0, 0x80045005, &(0x7f0000000300))

@@ -1,0 +1,2 @@
+r0 = socket$inet_mptcp(0x2, 0x1, 0x106)
+bind(r0, &(0x7f0000000000)=@x25={0x9, @null='               \x00'}, 0x80)

@@ -1,0 +1,3 @@
+setresgid(0xee00, 0xee01, 0x0)
+r0 = getegid()
+setregid(0x0, r0)

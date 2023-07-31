@@ -1,0 +1,2 @@
+syz_open_dev$evdev(0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00')

@@ -1,0 +1,1 @@
+syz_mount_image$minix(0x0, &(0x7f0000000180)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002380)={[{'/]\xbd@{,'}], [{@dont_measure='dont_measure'}, {@obj_type={'obj_type', 0x3d, '*'}}, {@permit_directio='permit_directio'}, {@appraise_type='appraise_type=imasig'}]})

@@ -1,0 +1,4 @@
+r0 = syz_open_dev$vcsn(&(0x7f0000000080)='/dev/vcs#\x00', 0x4, 0x0)
+fcntl$setstatus(r0, 0x4, 0x42400)
+r1 = openat$hpet(0xffffffffffffff9c, &(0x7f0000000700)='/dev/hpet\x00', 0x0, 0x0)
+dup3(r1, r0, 0x0)

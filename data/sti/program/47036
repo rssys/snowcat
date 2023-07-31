@@ -1,0 +1,2 @@
+ioctl$BTRFS_IOC_SUBVOL_CREATE(0xffffffffffffffff, 0x5000940e, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)

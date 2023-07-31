@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/rt_acct\x00')
+read$char_raw(r0, &(0x7f0000000400)={""/14757}, 0x3a00)

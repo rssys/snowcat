@@ -1,0 +1,5 @@
+syz_mount_image$tmpfs(&(0x7f0000000500)='tmpfs\x00', &(0x7f0000000540)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000008c0)={[], [{@smackfshat={'smackfshat', 0x3d, ']#-//%[\'\x00'}}]})
+r0 = openat$dir(0xffffff9c, &(0x7f0000000a00)='./file0\x00', 0x222000, 0x0)
+futimesat(r0, &(0x7f0000000a40)='./file0\x00', 0x0)
+r1 = open$dir(&(0x7f0000000b40)='./file0\x00', 0x0, 0x0)
+getdents(r1, &(0x7f0000000b80)=""/107, 0x6b)

@@ -1,0 +1,2 @@
+mlockall(0x5)
+bpf$BPF_LINK_CREATE(0x1c, &(0x7f0000001900), 0x10)

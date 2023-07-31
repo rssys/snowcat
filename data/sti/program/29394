@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000000)='./file0\x00', 0x0)
+openat$nvme_fabrics(0xffffff9c, 0x0, 0x0, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000580)='nl80211\x00', 0xffffffffffffffff)
+ioctl$KVM_SET_CLOCK(r0, 0x4030ae7b, 0x0)

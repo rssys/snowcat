@@ -1,0 +1,4 @@
+syz_mount_image$nfs4(0x0, &(0x7f0000000040)='./file0\x00', 0x10000000000004, 0xfffffffffffffd47, 0x0, 0x14, 0x0)
+getrandom(&(0x7f0000000240)=""/4096, 0x1000, 0x2)
+lsetxattr$trusted_overlay_upper(&(0x7f00000001c0)='./file0\x00', &(0x7f0000000200)='trusted.overlay.upper\x00', 0x0, 0x0, 0x0)
+lsetxattr$trusted_overlay_upper(&(0x7f0000000000)='./file0\x00', &(0x7f0000000180)='trusted.overlay.upper\x00', &(0x7f0000001200)=ANY=[], 0xfbd, 0x1)

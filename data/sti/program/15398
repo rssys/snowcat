@@ -1,0 +1,4 @@
+getgroups(0x0, 0x0)
+r0 = syz_io_uring_complete(0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f00000000c0)='devlink\x00', 0xffffffffffffffff)
+sendmsg$DEVLINK_CMD_PORT_UNSPLIT(r0, 0x0, 0x8811)

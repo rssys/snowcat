@@ -1,0 +1,2 @@
+symlink(&(0x7f0000000480)='./file0\x00', &(0x7f00000004c0)='./file0\x00')
+setxattr$security_selinux(&(0x7f0000000000)='./file0\x00', 0x0, 0x0, 0x0, 0x0)

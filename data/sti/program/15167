@@ -1,0 +1,2 @@
+r0 = openat$bsg(0xffffffffffffff9c, &(0x7f0000000000)='/dev/bsg\x00', 0x531c82, 0x0)
+write$P9_RREADDIR(r0, &(0x7f0000001400)={0xb}, 0xb)

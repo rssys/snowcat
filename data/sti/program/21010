@@ -1,0 +1,1 @@
+syz_open_dev$evdev(&(0x7f00000012c0)='/dev/input/event#\x00', 0x0, 0xff00)

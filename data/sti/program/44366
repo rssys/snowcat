@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f00000001c0)='net/fib_trie\x00')
+preadv(r0, &(0x7f0000000240)=[{&(0x7f0000000080)=""/231, 0xe7}], 0x1, 0x0, 0x0)

@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000040)='nl80211\x00', 0xffffffffffffffff)
+syz_init_net_socket$nfc_raw(0x27, 0x0, 0x0)
+ioctl$sock_SIOCGIFINDEX_80211(0xffffffffffffffff, 0x8933, &(0x7f0000001b40)={'wlan0\x00'})

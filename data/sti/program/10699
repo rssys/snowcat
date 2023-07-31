@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f0000000080)='./file0\x00', 0x0)
+fsetxattr$trusted_overlay_redirect(r0, &(0x7f0000000240)='trusted.overlay.redirect\x00', 0x0, 0x0, 0x0)

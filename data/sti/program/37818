@@ -1,0 +1,4 @@
+openat$zero(0xffffff9c, &(0x7f0000000380)='/dev/zero\x00', 0x0, 0x0)
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$nbd(&(0x7f0000000700)='nbd\x00', r0)
+syz_open_dev$sndpcmc(&(0x7f0000000740)='/dev/snd/pcmC#D#c\x00', 0x0, 0x0)

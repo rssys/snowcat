@@ -1,0 +1,2 @@
+r0 = openat$procfs(0xffffff9c, &(0x7f0000002400)='/proc/timer_list\x00', 0x0, 0x0)
+fcntl$F_GET_FILE_RW_HINT(r0, 0x40d, 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$pppl2tp(0x18, 0x1, 0x1)
+ioctl$SIOCSIFMTU(r0, 0x8922, &(0x7f0000000040)={'dummy0\x00'})

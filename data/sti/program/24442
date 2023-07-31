@@ -1,0 +1,1 @@
+openat$udambuf(0xffffff9c, &(0x7f00000002c0)='/dev/udmabuf\x00', 0x2)

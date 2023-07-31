@@ -1,0 +1,4 @@
+r0 = openat$sndseq(0xffffffffffffff9c, &(0x7f0000000880)='/dev/snd/seq\x00', 0x0)
+ioctl$SNDRV_SEQ_IOCTL_CREATE_QUEUE(r0, 0xc08c5332, &(0x7f0000000540)={0x0, 0x0, 0x0, 'queue1\x00'})
+r1 = openat$sndseq(0xffffffffffffff9c, &(0x7f0000000880)='/dev/snd/seq\x00', 0x0)
+ioctl$SNDRV_SEQ_IOCTL_GET_QUEUE_STATUS(r1, 0xc05c5340, &(0x7f00000008c0))

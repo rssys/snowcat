@@ -1,0 +1,1 @@
+openat$khugepaged_scan(0xffffff9c, &(0x7f0000000a80)='/sys/kernel/mm/transparent_hugepage/khugepaged/scan_sleep_millisecs\x00', 0x1, 0x0)

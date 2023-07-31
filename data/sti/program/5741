@@ -1,0 +1,3 @@
+r0 = socket$inet6_tcp(0xa, 0x1, 0x0)
+ioctl$sock_SIOCGIFINDEX(r0, 0x8933, &(0x7f0000000000)={'lo\x00', <r1=>0x0})
+ioctl$sock_inet6_SIOCDIFADDR(r0, 0x8916, &(0x7f0000000040)={@private1, 0x0, r1})

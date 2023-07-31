@@ -1,0 +1,3 @@
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000000)='ns/pid_for_children\x00')
+ioctl$NS_GET_PARENT(0xffffffffffffffff, 0xb702, 0x0)
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000000)='ns/pid_for_children\x00')

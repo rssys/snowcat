@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$netlbl_unlabel(0x0)
+syz_genetlink_get_family_id$nbd(&(0x7f0000000580)='nbd\x00')

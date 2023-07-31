@@ -1,0 +1,2 @@
+syz_mount_image$ext4(0x0, &(0x7f0000000780)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000580)='./file0\x00', &(0x7f00000005c0)='9p\x00', 0x0, &(0x7f0000000640)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[], [{@defcontext={'defcontext', 0x3d, 'root'}}]}})

@@ -1,0 +1,8 @@
+ioprio_get$uid(0x0, 0x0)
+r0 = syz_open_dev$dmmidi(&(0x7f0000001600)='/dev/dmmidi#\x00', 0x0, 0x4000)
+ioctl$SNDRV_RAWMIDI_IOCTL_PVERSION(r0, 0x80045700, 0x0)
+r1 = syz_open_dev$dmmidi(&(0x7f0000001600)='/dev/dmmidi#\x00', 0x0, 0x0)
+ioctl$SNDRV_RAWMIDI_IOCTL_PVERSION(r1, 0x80045700, 0x0)
+syz_open_dev$dmmidi(&(0x7f0000001600)='/dev/dmmidi#\x00', 0x0, 0x0)
+ioctl$SNDRV_RAWMIDI_IOCTL_PVERSION(0xffffffffffffffff, 0x80045700, 0x0)
+syz_open_dev$sndmidi(&(0x7f0000000080)='/dev/snd/midiC#D#\x00', 0x2, 0x2)

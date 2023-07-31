@@ -1,0 +1,2 @@
+syz_mount_image$tmpfs(&(0x7f00000023c0)='tmpfs\x00', &(0x7f0000002400)='./file0\x00', 0x0, 0x0, 0x0, 0x181004b, &(0x7f00000039c0))
+syz_mount_image$tmpfs(&(0x7f00000006c0)='tmpfs\x00', &(0x7f0000000700)='./file0\x00', 0x0, 0x0, 0x0, 0x2201022, &(0x7f0000000a00))

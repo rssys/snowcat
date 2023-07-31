@@ -1,0 +1,1 @@
+syz_mount_image$vfat(&(0x7f0000000440)='vfat\x00', &(0x7f0000000480)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f00000008c0)=ANY=[@ANYBLOB=',defcontext=unconfined_u,context='])

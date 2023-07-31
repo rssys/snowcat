@@ -1,0 +1,2 @@
+r0 = socket$inet_icmp_raw(0x2, 0x3, 0x1)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000040)={'lo\x00', &(0x7f0000000000)=@ethtool_cmd={0x3e}})

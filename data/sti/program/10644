@@ -1,0 +1,2 @@
+r0 = openat$random(0xffffffffffffff9c, &(0x7f0000000180)='/dev/urandom\x00', 0x0, 0x0)
+ioctl$RNDADDENTROPY(r0, 0x40085203, &(0x7f0000000ac0)={0xfc, 0x41, "cb80fbe5d4f4c82b487c90adc68710441f02ca57c8602b126fe9e0f2a22f3cc32fa0bcfd39fe126c5242fc4908807cfb0161f1236aa14e4430ee594df6769ac238"})

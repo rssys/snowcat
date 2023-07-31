@@ -1,0 +1,1 @@
+ioctl$HIDIOCAPPLICATION(0xffffffffffffffff, 0x4802, 0x0)

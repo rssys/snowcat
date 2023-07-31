@@ -1,0 +1,2 @@
+ioctl$ifreq_SIOCGIFINDEX_batadv_hard(0xffffffffffffffff, 0x8933, 0x0)
+syz_open_dev$tty20(0xc, 0x4, 0x0)

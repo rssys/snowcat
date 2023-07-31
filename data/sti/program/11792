@@ -1,0 +1,2 @@
+syz_mount_image$nfs4(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$9p_unix(0x0, &(0x7f0000000400)='./file0\x00', &(0x7f0000000440)='9p\x00', 0x0, &(0x7f0000000480)={'trans=unix,', {[{@noextend='noextend'}]}})

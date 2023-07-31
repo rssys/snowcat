@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000002100)='./file0\x00', 0x0)
+r1 = creat(&(0x7f0000002100)='./file0\x00', 0x0)
+write$binfmt_misc(r1, &(0x7f0000000480)=ANY=[], 0xf6)
+ioctl$FS_IOC_RESVSP(r0, 0x660c, 0x0)

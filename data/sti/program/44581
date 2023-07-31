@@ -1,0 +1,2 @@
+r0 = openat$sequencer(0xffffff9c, &(0x7f0000000000)='/dev/sequencer\x00', 0x1, 0x0)
+writev(r0, &(0x7f0000000400)=[{&(0x7f0000000080)="d84855f5b73eefdc879abdd1c7d35177bfacff6f8a91bea4085cefe6", 0x1c}], 0x1)

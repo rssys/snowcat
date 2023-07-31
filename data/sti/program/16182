@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f00000005c0)='./file0\x00', 0x0)
+ioctl$FICLONERANGE(r0, 0x4020940d, &(0x7f00000006c0)={{r0}})

@@ -1,0 +1,2 @@
+r0 = socket$caif_stream(0x25, 0x1, 0x1)
+connect$caif(r0, &(0x7f0000000040)=@util={0x25, "5aaae867232b054e072323f292aaa368"}, 0x18)

@@ -1,0 +1,2 @@
+r0 = signalfd(0xffffffffffffffff, &(0x7f0000000080), 0x8)
+open_by_handle_at(r0, &(0x7f0000000180)={0x8}, 0x0)

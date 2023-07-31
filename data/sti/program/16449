@@ -1,0 +1,2 @@
+openat$dir(0xffffff9c, &(0x7f0000000040)='./file0/file0\x00', 0x0, 0x0)
+syz_mount_image$minix(&(0x7f0000000140)='minix\x00', &(0x7f0000000180)='./file0\x00', 0x0, 0x0, 0x0, 0x141020, &(0x7f0000000300))

@@ -1,0 +1,2 @@
+r0 = openat$apparmor_thread_exec(0xffffff9c, &(0x7f0000003000)='/proc/thread-self/attr/exec\x00', 0x2, 0x0)
+write$apparmor_exec(r0, &(0x7f0000003040)={'exec ', '\xfe\xe4p:\x00'}, 0xa)

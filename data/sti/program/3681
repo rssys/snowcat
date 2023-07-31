@@ -1,0 +1,2 @@
+r0 = io_uring_setup(0x4a6c, &(0x7f0000000180))
+ioctl$BTRFS_IOC_TREE_SEARCH(r0, 0xd0009411, 0x0)

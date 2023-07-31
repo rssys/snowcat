@@ -1,0 +1,1 @@
+keyctl$restrict_keyring(0x1d, 0xfffffffffffffffd, &(0x7f0000002900)='trusted\x00', &(0x7f0000002940)='queue0\x00')

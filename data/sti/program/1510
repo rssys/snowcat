@@ -1,0 +1,4 @@
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nbd(&(0x7f0000000700)='nbd\x00', r0)
+r2 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NBD_CMD_CONNECT(r2, &(0x7f0000000100)={0x0, 0x0, &(0x7f00000000c0)={&(0x7f0000000140)=ANY=[@ANYBLOB='`\x00\x00\x00', @ANYRES16=r1, @ANYBLOB="010026bd7000ffdbdf2501000000080001"], 0x60}}, 0x0)

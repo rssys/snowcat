@@ -1,0 +1,3 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+r1 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000380)='nl80211\x00')
+sendmsg$NL80211_CMD_CONTROL_PORT_FRAME(r0, &(0x7f00000000c0)={0x0, 0x0, &(0x7f0000000080)={&(0x7f0000000480)={0x4c, r1, 0x1, 0x0, 0x0, {{}, {@void, @void}}, [@NL80211_ATTR_FRAME={0x38, 0xe, @data_frame={@qos_no_ht={{@type00={{0x0, 0x2, 0xe}, {}, @broadcast, @broadcast, @from_mac}}, {@type10={{}, {}, @from_mac=@broadcast, @broadcast}}}, @a_msdu}}]}, 0x4c}}, 0x0)

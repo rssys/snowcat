@@ -1,0 +1,2 @@
+r0 = openat$incfs(0xffffffffffffff9c, &(0x7f0000000080)='.log\x00', 0x185040, 0x0)
+read$FUSE(r0, &(0x7f0000002180)={0x2020}, 0x2020)

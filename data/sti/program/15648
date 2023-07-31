@@ -1,0 +1,2 @@
+symlink(&(0x7f0000000240)='./file0\x00', &(0x7f0000000280)='./file0\x00')
+setxattr$trusted_overlay_origin(&(0x7f00000007c0)='./file0\x00', &(0x7f0000000800)='trusted.overlay.origin\x00', 0x0, 0x0, 0x0)

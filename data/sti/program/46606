@@ -1,0 +1,2 @@
+openat$dir(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x2042, 0x0)
+chown(&(0x7f0000000100)='./file0\x00', 0xffffffffffffffff, 0xee00)

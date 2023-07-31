@@ -1,0 +1,3 @@
+syz_genetlink_get_family_id$batadv(&(0x7f0000000100)='batadv\x00')
+shmat(0x0, &(0x7f0000ff4000/0x2000)=nil, 0x4000)
+shmat(0x0, &(0x7f0000ffb000/0x2000)=nil, 0x4000)

@@ -1,0 +1,2 @@
+r0 = openat$autofs(0xffffff9c, &(0x7f0000000000)='/dev/autofs\x00', 0x600200, 0x0)
+signalfd(r0, &(0x7f0000000040), 0x8)

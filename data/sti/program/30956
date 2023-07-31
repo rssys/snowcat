@@ -1,0 +1,2 @@
+openat$mice(0xffffff9c, &(0x7f0000000380)='/dev/input/mice\x00', 0x0)
+openat$mice(0xffffff9c, &(0x7f0000000640)='/dev/input/mice\x00', 0xc000)

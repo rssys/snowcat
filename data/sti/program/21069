@@ -1,0 +1,4 @@
+socket$nl_route(0x10, 0x3, 0x0)
+syz_genetlink_get_family_id$nl80211(0x0, 0xffffffffffffffff)
+syz_open_procfs(0x0, &(0x7f0000000580)='fdinfo/4\x00')
+syz_open_procfs(0x0, &(0x7f0000000580)='fdinfo/4\x00')

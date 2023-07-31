@@ -1,0 +1,3 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='mountinfo\x00')
+read$snapshot(r0, 0x0, 0x6c00)
+sendfile(r0, r0, &(0x7f0000000000)=0x8, 0x9)

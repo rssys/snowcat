@@ -1,0 +1,3 @@
+r0 = socket$inet6_udplite(0xa, 0x2, 0x88)
+mkdirat$cgroup_root(0xffffffffffffff9c, &(0x7f0000000000)='./cgroup.net/syz1\x00', 0x1ff)
+flock(r0, 0x7)

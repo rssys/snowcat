@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000040)='attr/fscreate\x00')
+write$P9_RFLUSH(r0, &(0x7f0000000280)={0xa}, 0x7)

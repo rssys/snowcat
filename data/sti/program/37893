@@ -1,0 +1,1 @@
+syz_mount_image$nfs(&(0x7f0000000040)='nfs\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x1010000, &(0x7f0000001300)={[], [{@fsname={'fsname', 0x3d, '/dev/vcsu#\x00'}}]})

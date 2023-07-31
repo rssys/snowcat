@@ -1,0 +1,4 @@
+symlink(&(0x7f0000000000)='./file0\x00', &(0x7f0000000040)='./file0\x00')
+geteuid()
+recvmmsg(0xffffffffffffffff, &(0x7f0000003100), 0x0, 0x101, 0x0)
+syz_mount_image$nilfs2(0x0, 0x0, 0x0, 0x0, 0x0, 0xc0000, &(0x7f0000003340)={[{@discard='discard'}, {@nodiscard='nodiscard'}, {@snapshot={'snapshot'}}, {@snapshot={'snapshot'}}], [{@audit='audit'}, {@appraise_type='appraise_type=imasig'}]})

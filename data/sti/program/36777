@@ -1,0 +1,1 @@
+memfd_create(&(0x7f0000000000)='/proc/asound/card0/oss_mixer\x00', 0x2)

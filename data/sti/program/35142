@@ -1,0 +1,2 @@
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000080)='ns/ipc\x00')
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000000)='ns/ipc\x00')

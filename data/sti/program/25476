@@ -1,0 +1,4 @@
+r0 = getpgrp(0xffffffffffffffff)
+syz_mount_image$vfat(0x0, &(0x7f0000000200)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000a80)={[], [{@uid_lt={'uid<', 0xee00}}]})
+syz_genetlink_get_family_id$nbd(&(0x7f0000000040)='nbd\x00')
+process_vm_writev(r0, &(0x7f0000001380)=[{&(0x7f0000000280)=""/217, 0xd9}], 0x1, &(0x7f0000001780)=[{&(0x7f0000001400)=""/213, 0xd5}], 0x1, 0x0)

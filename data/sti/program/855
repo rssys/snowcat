@@ -1,0 +1,3 @@
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000080)='net/rt6_stats\x00')
+r0 = syz_open_procfs(0x0, &(0x7f0000000040)='task\x00')
+getdents(r0, &(0x7f0000000180)=""/54, 0x36)

@@ -1,0 +1,4 @@
+ioctl$PTP_CLOCK_GETCAPS(0xffffffffffffffff, 0x80503d01, 0x0)
+r0 = open(&(0x7f0000000100)='./file0\x00', 0x101141, 0x0)
+write$rfkill(r0, 0x0, 0x0)
+ioctl$RFKILL_IOCTL_NOINPUT(0xffffffffffffffff, 0x5201)

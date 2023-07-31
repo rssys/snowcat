@@ -1,0 +1,2 @@
+r0 = openat$dlm_control(0xffffff9c, &(0x7f0000002180)='/dev/dlm-control\x00', 0x0, 0x0)
+readv(r0, &(0x7f0000002300)=[{&(0x7f0000002200)=""/95, 0x5f}], 0x1)

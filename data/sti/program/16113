@@ -1,0 +1,2 @@
+r0 = socket$inet_mptcp(0x2, 0x1, 0x106)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000080)={'sit0\x00', &(0x7f0000000000)=@ethtool_coalesce={0xf}})

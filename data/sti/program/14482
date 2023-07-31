@@ -1,0 +1,2 @@
+r0 = socket$inet_udp(0x2, 0x2, 0x0)
+setsockopt$inet_opts(r0, 0x0, 0x4, &(0x7f00000000c0)="17051db2d21b7eb2df8dd0adb9aaedb335560122483fb5d10770d1284bc4f424097a7e1cc262edd6e6", 0x29)

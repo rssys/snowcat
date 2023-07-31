@@ -1,0 +1,2 @@
+syz_mount_image$squashfs(0x0, &(0x7f0000000100)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+mount$overlay(0x0, &(0x7f0000003b80)='./file0\x00', &(0x7f0000003bc0)='overlay\x00', 0x0, &(0x7f0000003c00)={[], [{@defcontext={'defcontext', 0x3d, 'system_u'}}]})

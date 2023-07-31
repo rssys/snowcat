@@ -1,0 +1,2 @@
+r0 = openat$vicodec1(0xffffff9c, &(0x7f0000000180)='/dev/video37\x00', 0x2, 0x0)
+ioctl$VIDIOC_S_INPUT(r0, 0xc0045627, &(0x7f00000001c0))

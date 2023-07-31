@@ -1,0 +1,4 @@
+r0 = syz_open_dev$ndb(&(0x7f0000000000)='/dev/nbd#\x00', 0x0, 0x0)
+ioctl$NBD_DISCONNECT(r0, 0xab08)
+r1 = syz_open_dev$ndb(&(0x7f0000000040)='/dev/nbd#\x00', 0x0, 0x4c40)
+ioctl$NBD_SET_TIMEOUT(r1, 0xab09, 0x8001)

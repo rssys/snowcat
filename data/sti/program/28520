@@ -1,0 +1,2 @@
+pipe2$9p(&(0x7f0000000400)={0xffffffffffffffff, <r0=>0xffffffffffffffff}, 0x0)
+write$P9_RMKNOD(r0, &(0x7f0000000600)={0x14}, 0x14)

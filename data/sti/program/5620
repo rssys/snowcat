@@ -1,0 +1,3 @@
+r0 = syz_genetlink_get_family_id$nl80211(&(0x7f0000000000)='nl80211\x00')
+r1 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_GET_STATION(r1, &(0x7f0000000100)={0x0, 0x0, &(0x7f00000000c0)={&(0x7f0000000080)={0x1c, r0, 0x813b619a380d188b, 0x0, 0x0, {{}, {@void, @void}}, [@NL80211_ATTR_STA_TX_POWER={0x6}]}, 0x1c}}, 0x0)

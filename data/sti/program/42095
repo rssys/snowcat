@@ -1,0 +1,1 @@
+openat$ptmx(0xffffffffffffff9c, &(0x7f0000000480)='/dev/ptmx\x00', 0x16f17f9c1e147d2e, 0x0)

@@ -1,0 +1,6 @@
+sendmsg$BATADV_CMD_GET_TRANSTABLE_LOCAL(0xffffffffffffffff, 0x0, 0x0)
+sendmsg$DEVLINK_CMD_SB_TC_POOL_BIND_GET(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$devlink(&(0x7f0000000480)='devlink\x00', 0xffffffffffffffff)
+sendmsg$BATADV_CMD_GET_NEIGHBORS(0xffffffffffffffff, 0x0, 0x9040)
+sendmsg$BATADV_CMD_GET_BLA_CLAIM(0xffffffffffffffff, 0x0, 0x0)
+accept4$inet(0xffffffffffffffff, 0x0, 0x0, 0x0)

@@ -1,0 +1,2 @@
+open(&(0x7f0000000000)='./file0\x00', 0x48c41, 0x0)
+lsetxattr$security_smack_transmute(&(0x7f0000000080)='./file0\x00', &(0x7f00000000c0)='security.SMACK64TRANSMUTE\x00', 0x0, 0x0, 0x0)

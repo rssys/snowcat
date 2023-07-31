@@ -1,0 +1,2 @@
+r0 = openat$mixer(0xffffff9c, &(0x7f0000000240)='/dev/mixer\x00', 0x0, 0x0)
+ioctl$SOUND_MIXER_WRITE_RECSRC(r0, 0xc0044dff, &(0x7f0000000280)=0x10001)

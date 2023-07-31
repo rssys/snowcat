@@ -1,0 +1,2 @@
+syz_mount_image$tmpfs(&(0x7f00000007c0)='tmpfs\x00', &(0x7f0000000800)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000d40))
+syz_mount_image$nfs(&(0x7f0000000000)='nfs\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x20, &(0x7f0000000280)={[], [{@permit_directio='permit_directio'}]})

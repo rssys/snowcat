@@ -1,0 +1,5 @@
+creat(&(0x7f00000005c0)='./file0\x00', 0x0)
+ioctl$SNAPSHOT_GET_IMAGE_SIZE(0xffffffffffffffff, 0x8008330e, 0x0)
+r0 = creat(&(0x7f00000005c0)='./file0\x00', 0x0)
+ioctl$BLKSECDISCARD(0xffffffffffffffff, 0x127d, 0x0)
+write$snapshot(r0, &(0x7f00000015c0)="d7", 0x1)

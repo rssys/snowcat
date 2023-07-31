@@ -1,0 +1,3 @@
+getsockopt$inet6_IPV6_IPSEC_POLICY(0xffffffffffffffff, 0x29, 0x22, 0x0, &(0x7f0000000100))
+r0 = socket$inet6_dccp(0xa, 0x6, 0x0)
+ioctl$sock_FIOGETOWN(r0, 0x8903, &(0x7f0000000480))

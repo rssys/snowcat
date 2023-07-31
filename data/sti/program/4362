@@ -1,0 +1,8 @@
+r0 = openat$cgroup_ro(0xffffffffffffffff, &(0x7f0000000000)='memory.current\x00', 0x0, 0x0)
+r1 = pidfd_open(0x0, 0x0)
+ioctl$BTRFS_IOC_START_SYNC(r1, 0x80089418, &(0x7f0000000040))
+sendmsg$nl_route(0xffffffffffffffff, 0x0, 0x10)
+clone3(&(0x7f00000003c0)={0x2000000, 0x0, &(0x7f0000000240), &(0x7f0000000280), {0x1b}, &(0x7f00000002c0)=""/35, 0x23, &(0x7f0000000300)=""/87, &(0x7f0000000380)=[0x0], 0x1, {r0}}, 0x58)
+write$char_usb(0xffffffffffffffff, &(0x7f0000000580)="14ee9cee9c76b0575509a8d311676d78a43281c8b42701abaccfdbf0278f5d2defc9b98d7ba15982f15ec13864adf197722e488429fbb53fa21c693587237f1288777ac88585cdf3cc24ec88219a805b5bc9c6c0594d306e1af7337d4cd77867e95d04027b4a86b8923b1b1113974618399137a356", 0x75)
+openat$cgroup_ro(0xffffffffffffffff, &(0x7f0000000a40)='cpu.stat\x00', 0x0, 0x0)
+socketpair$nbd(0x1, 0x1, 0x0, &(0x7f0000000bc0))

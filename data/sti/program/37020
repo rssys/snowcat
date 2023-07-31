@@ -1,0 +1,4 @@
+r0 = syz_mount_image$tmpfs(&(0x7f0000000000)='tmpfs\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000080)=ANY=[])
+symlinkat(&(0x7f00000000c0)='./file0\x00', r0, &(0x7f0000000100)='./file0\x00')
+r1 = syz_mount_image$vfat(&(0x7f0000000080)='vfat\x00', &(0x7f0000000140)='./file0\x00', 0x0, 0x0, 0x0, 0x40000, &(0x7f0000000480)=ANY=[])
+unlinkat(r1, &(0x7f0000000400)='./file0\x00', 0x0)

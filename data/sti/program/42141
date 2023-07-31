@@ -1,0 +1,4 @@
+syz_open_dev$audion(0x0, 0x0, 0x0)
+r0 = syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_cipso(0x0, 0xffffffffffffffff)
+sendmsg$NLBL_CIPSOV4_C_LISTALL(r0, 0x0, 0x0)

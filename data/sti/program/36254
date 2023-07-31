@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f0000000a40)='./file0\x00', 0x0)
+r1 = creat(&(0x7f0000000a40)='./file0\x00', 0x0)
+write$binfmt_script(r1, &(0x7f0000000ec0)={'#! ', './file0'}, 0xb)
+dup3(r0, r1, 0x0)

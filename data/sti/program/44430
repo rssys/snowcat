@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000001d80)='sessionid\x00')
+readlinkat(r0, &(0x7f0000001dc0)='\x00', &(0x7f0000001e00)=""/17, 0x11)

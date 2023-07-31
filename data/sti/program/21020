@@ -1,0 +1,3 @@
+r0 = socket(0x11, 0x2, 0x0)
+ioctl$sock_FIOSETOWN(r0, 0x8901, &(0x7f00000010c0)=0xffffffffffffffff)
+ioctl$sock_SIOCGPGRP(r0, 0x8904, &(0x7f0000000000))

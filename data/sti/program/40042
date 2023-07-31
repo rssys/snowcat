@@ -1,0 +1,1 @@
+openat$ubi_ctrl(0xffffff9c, &(0x7f0000001dc0)='/dev/ubi_ctrl\x00', 0x0, 0x0)

@@ -1,0 +1,2 @@
+r0 = openat$vcsu(0xffffffffffffff9c, &(0x7f0000000040)='/dev/vcsu\x00', 0x0, 0x0)
+pread64(r0, &(0x7f0000000200)=""/140, 0x8c, 0x0)

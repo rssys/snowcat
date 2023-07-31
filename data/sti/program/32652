@@ -1,0 +1,2 @@
+r0 = openat$proc_capi20ncci(0xffffff9c, &(0x7f00000001c0)='/proc/capi/capi20ncci\x00', 0x0, 0x0)
+connect$pptp(r0, &(0x7f0000000000)={0x18, 0x2, {0x0, @empty}}, 0x1e)

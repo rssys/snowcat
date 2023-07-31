@@ -1,0 +1,2 @@
+r0 = syz_open_dev$tty1(0xc, 0x4, 0x4)
+writev(r0, &(0x7f0000001100)=[{&(0x7f0000002140)="6b5888f255beef8baa3ff21ceb639963868ed8dc0d9b4b", 0x17}], 0x1)

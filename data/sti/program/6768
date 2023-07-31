@@ -1,0 +1,4 @@
+r0 = socket$inet_smc(0x2b, 0x1, 0x0)
+r1 = syz_open_dev$sndpcmp(&(0x7f00000005c0)='/dev/snd/pcmC#D#p\x00', 0x0, 0x0)
+r2 = dup3(r1, r0, 0x0)
+close_range(r2, 0xffffffffffffffff, 0x0)

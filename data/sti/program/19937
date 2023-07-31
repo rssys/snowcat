@@ -1,0 +1,6 @@
+syz_open_dev$hidraw(&(0x7f0000000080)='/dev/hidraw#\x00', 0x0, 0x0)
+syz_genetlink_get_family_id$nl80211(&(0x7f0000000340)='nl80211\x00', 0xffffffffffffffff)
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+sendmsg$NL80211_CMD_SET_COALESCE(r0, &(0x7f0000000680)={&(0x7f0000000440)={0x10, 0x0, 0x0, 0x80}, 0xc, 0x0, 0x1, 0x0, 0x0, 0x40000}, 0x80011)
+ioctl$sock_SIOCBRDELBR(r0, 0x89a1, &(0x7f00000006c0)='dummy0\x00')
+syz_genetlink_get_family_id$tipc(&(0x7f0000000880)='TIPC\x00', r0)

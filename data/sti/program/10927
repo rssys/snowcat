@@ -1,0 +1,2 @@
+symlinkat(&(0x7f00000002c0)='./file0\x00', 0xffffffffffffff9c, &(0x7f0000000300)='./file0\x00')
+syz_mount_image$ext4(&(0x7f0000000340)='ext2\x00', &(0x7f0000000380)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000002780)={[{@noacl='noacl'}], [{@measure='measure'}, {@mask={'mask', 0x3d, '^MAY_APPEND'}}]})

@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000080)='ns/pid_for_children\x00')
+ioctl$sock_ipv6_tunnel_SIOCDELTUNNEL(r0, 0xb704, 0x0)

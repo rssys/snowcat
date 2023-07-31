@@ -1,0 +1,2 @@
+r0 = socket$netlink(0x10, 0x3, 0x0)
+sendmsg$TEAM_CMD_OPTIONS_GET(r0, &(0x7f0000000a00)={0x0, 0x0, &(0x7f0000000080)={&(0x7f00000000c0)=ANY=[@ANYBLOB="4801000012002d91"], 0x148}}, 0x0)

@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+setsockopt$inet_IP_IPSEC_POLICY(r0, 0x0, 0x10, &(0x7f0000001f00)={{{@in=@broadcast, @in6=@remote}}, {{@in=@dev}, 0x0, @in=@loopback}}, 0xe4)

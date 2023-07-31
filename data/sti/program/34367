@@ -1,0 +1,2 @@
+r0 = add_key$fscrypt_v1(&(0x7f0000000080)='logon\x00', &(0x7f00000000c0)={'fscrypt:', @desc3='e8dab99234bb312e'}, &(0x7f0000000100)={0x0, "a3007022d7763d2007bf3b3c0149d79c9a5095e8ca087868c6145235103b7f1c201484a443223242f7ca2d8fb44a4b83490ca72079841dd0bbfe69853b69c42f"}, 0x48, 0xfffffffffffffffd)
+keyctl$search(0xa, r0, &(0x7f0000000180)='trusted\x00', &(0x7f00000001c0)={'syz', 0x3}, r0)

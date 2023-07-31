@@ -1,0 +1,2 @@
+mknod(&(0x7f0000000000)='./file0\x00', 0x0, 0x0)
+mount$9p_fd(0x0, &(0x7f0000000100)='./file0\x00', &(0x7f0000000140)='9p\x00', 0x0, &(0x7f0000000400)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[{@privport='privport'}], [{@context={'context', 0x3d, 'root'}}]}})

@@ -1,0 +1,1 @@
+openat$ttyprintk(0xffffff9c, &(0x7f0000000700)='/dev/ttyprintk\x00', 0x8200, 0x0)

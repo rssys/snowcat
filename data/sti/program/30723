@@ -1,0 +1,6 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000240)='cmdline\x00')
+r1 = memfd_create(&(0x7f0000000000)='cmdline\x00', 0x0)
+sendfile(r1, r0, 0x0, 0x0)
+r2 = syz_open_procfs(0x0, &(0x7f0000000240)='cmdline\x00')
+r3 = memfd_create(&(0x7f0000000000)='cmdline\x00', 0x0)
+sendfile(r3, r2, 0x0, 0x0)

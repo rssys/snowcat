@@ -1,0 +1,4 @@
+r0 = socket$packet(0x11, 0x2, 0x300)
+setsockopt$packet_rx_ring(r0, 0x107, 0x5, &(0x7f0000000000)=@req={0x10000, 0x7f, 0x100, 0x7f00}, 0x10)
+r1 = socket$inet6_udplite(0xa, 0x2, 0x88)
+sendmmsg$inet6(r1, &(0x7f00000021c0)=[{{&(0x7f0000000040)={0xa, 0x4e24, 0x0, @dev}, 0x1c, &(0x7f00000020c0)=[{&(0x7f0000002100)="08000000b40e693f43a78963e26a82bf63d20b5f77415d08084ce0abb86fd68ab465251dc3846fbddc4e4df5c9ee4a80c19973a113db94a5d46b2ff1f2bf3d8ae6a6c7d63ce9a4e18e16ba86b5180728b3", 0x51}], 0x1}}], 0x1, 0x0)

@@ -1,0 +1,1 @@
+syz_open_dev$vcsu(&(0x7f0000001840)='/dev/vcsu#\x00', 0x10001, 0x0)

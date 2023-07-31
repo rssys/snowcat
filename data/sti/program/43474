@@ -1,0 +1,4 @@
+r0 = getpgrp(0xffffffffffffffff)
+r1 = pidfd_open(r0, 0x0)
+pipe(&(0x7f0000000000)={0xffffffffffffffff, <r2=>0xffffffffffffffff})
+pidfd_getfd(r1, r2, 0x0)

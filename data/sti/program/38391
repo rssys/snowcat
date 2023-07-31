@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='net/ip_mr_vif\x00')
+pread64(r0, 0x0, 0x0, 0x0)

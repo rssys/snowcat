@@ -1,0 +1,2 @@
+syz_mount_image$cramfs(0x0, &(0x7f0000000100)='./file0\x00', 0x9, 0x0, 0x0, 0x0, &(0x7f0000000700)={[{}, {'$[@!'}, {'\xd0,\\}+{*\\))-&-\\!(*r#'}, {'-'}, {'{-#'}, {}, {')%^)'}, {'/'}], [{@euid_lt={'euid<'}}]})
+syz_mount_image$ext4(0x0, 0x0, 0x0, 0x0, 0x0, 0x80000, &(0x7f0000001400)={[], [{@seclabel='seclabel'}, {@euid_eq={'euid', 0x3d, 0xee01}}, {@dont_appraise='dont_appraise'}, {@obj_role={'obj_role'}}]})

@@ -1,0 +1,4 @@
+pipe(&(0x7f0000000680))
+ioctl$KVM_ENABLE_CAP(0xffffffffffffffff, 0x4068aea3, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_cipso(0x0, 0xffffffffffffffff)

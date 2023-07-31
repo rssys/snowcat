@@ -1,0 +1,2 @@
+syz_mount_image$nfs4(&(0x7f0000000000)='nfs4\x00', &(0x7f0000000040)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000380))
+lsetxattr$security_ima(&(0x7f0000000680)='./file0\x00', &(0x7f00000006c0)='security.ima\x00', &(0x7f0000000700)=@v1={0x2, "2d5bb134c1a698188658"}, 0xb, 0x0)

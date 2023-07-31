@@ -1,0 +1,2 @@
+mkdirat(0xffffffffffffff9c, &(0x7f0000000000)='./file0\x00', 0x0)
+lsetxattr$security_selinux(&(0x7f0000004cc0)='./file0\x00', &(0x7f0000004d00)='security.selinux\x00', &(0x7f0000004d40)='/usr/sbin/ntpd\x00', 0xf, 0x0)

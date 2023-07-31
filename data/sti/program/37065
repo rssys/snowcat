@@ -1,0 +1,3 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+syz_open_dev$vcsn(0x0, 0x0, 0x0)
+ioctl$sock_inet6_SIOCDIFADDR(r0, 0x8936, &(0x7f0000000140)={@private0})

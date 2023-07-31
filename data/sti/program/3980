@@ -1,0 +1,3 @@
+r0 = syz_open_dev$vcsa(&(0x7f0000000600)='/dev/vcsa#\x00', 0x0, 0x641)
+ioctl$SG_GET_KEEP_ORPHAN(r0, 0x2288, &(0x7f0000000000))
+mlockall(0x3)

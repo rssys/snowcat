@@ -1,0 +1,2 @@
+syz_open_procfs(0x0, &(0x7f0000000000)='net/raw6\x00')
+syz_open_procfs(0xffffffffffffffff, &(0x7f0000000200)='fdinfo/3\x00')

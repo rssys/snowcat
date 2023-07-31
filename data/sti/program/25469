@@ -1,0 +1,1 @@
+execveat(0xffffffffffffffff, &(0x7f0000000e00)='./file0\x00', &(0x7f00000010c0)=[&(0x7f0000000e40)='inode_cache', &(0x7f0000000e80)='-:/&%\'[//**@#!.\xf2}\x00'], 0x0, 0x100)

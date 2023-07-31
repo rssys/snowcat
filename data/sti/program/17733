@@ -1,0 +1,1 @@
+request_key(&(0x7f0000000480)='blacklist\x00', &(0x7f00000004c0)={'syz', 0x2}, 0x0, 0xfffffffffffffff9)

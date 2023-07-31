@@ -1,0 +1,2 @@
+syz_open_procfs$namespace(0x0, &(0x7f0000000440)='ns/time_for_children\x00')
+fork()

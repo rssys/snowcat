@@ -1,0 +1,4 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000100)='net/nf_conntrack_expect\x00')
+r1 = signalfd4(0xffffffffffffffff, &(0x7f00000004c0), 0x8, 0x0)
+r2 = dup(r1)
+sendfile(r2, r0, 0x0, 0x130)

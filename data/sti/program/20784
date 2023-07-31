@@ -1,0 +1,2 @@
+r0 = syz_open_dev$vbi(&(0x7f0000000000)='/dev/vbi#\x00', 0x0, 0x2)
+ioctl$VIDIOC_EXPBUF(r0, 0xc0405610, &(0x7f0000000040))

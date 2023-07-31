@@ -1,0 +1,2 @@
+r0 = add_key$fscrypt_v1(&(0x7f0000000040)='logon\x00', &(0x7f0000000080)={'fscrypt:', @desc3='e8dab99234bb312e'}, &(0x7f00000000c0)={0x0, "426fe37fae4459e35e88e34e88a0c732f5aca564783dd36e7eb2ab08d6d9aea0b03ec6434c63a60a912e128d510aca057e53e6daa8e52ea89d09ffa7d57edf58"}, 0x48, 0xfffffffffffffffe)
+keyctl$set_timeout(0xf, r0, 0x800)

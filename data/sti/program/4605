@@ -1,0 +1,2 @@
+r0 = syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f00000000c0)='ns/net\x00')
+ioctl$NS_GET_NSTYPE(r0, 0xb703, 0x0)

@@ -1,0 +1,4 @@
+ioctl$FLOPPY_FDGETDRVTYP(0xffffffffffffffff, 0x8010020f, 0x0)
+socket$inet_dccp(0x2, 0x6, 0x0)
+fork()
+syz_open_procfs$namespace(0x0, &(0x7f0000000a80)='ns/cgroup\x00')

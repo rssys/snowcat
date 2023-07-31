@@ -1,0 +1,1 @@
+syz_mount_image$befs(&(0x7f00000008c0)='befs\x00', &(0x7f0000000900)='./file0\x00', 0x0, 0x0, 0x0, 0x2f0dbb0da63347af, &(0x7f0000000e80))

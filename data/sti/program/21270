@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$smc(&(0x7f0000000380)='SMC_PNETID\x00', 0xffffffffffffffff)
+shmget$private(0x0, 0x2000, 0x0, &(0x7f0000ffb000/0x2000)=nil)

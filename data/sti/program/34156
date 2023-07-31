@@ -1,0 +1,2 @@
+r0 = openat$apparmor_thread_current(0xffffff9c, &(0x7f00000002c0)='/proc/thread-self/attr/current\x00', 0x2, 0x0)
+write$binfmt_script(r0, &(0x7f0000000300)={'#! ', './file0/file0'}, 0x11)

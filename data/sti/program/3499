@@ -1,0 +1,2 @@
+ioctl$F2FS_IOC_DEFRAGMENT(0xffffffffffffffff, 0xc010f508, &(0x7f00000016c0))
+io_setup(0xb7, &(0x7f0000000080))

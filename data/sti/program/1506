@@ -1,0 +1,2 @@
+r0 = creat(&(0x7f00000045c0)='./file0\x00', 0x0)
+inotify_add_watch(r0, 0x0, 0x20)

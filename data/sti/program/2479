@@ -1,0 +1,2 @@
+creat(&(0x7f0000000340)='./file0\x00', 0x0)
+mount$overlay(0x0, &(0x7f00000003c0)='./file0\x00', &(0x7f0000000400)='overlay\x00', 0xb, &(0x7f0000000440)={[{@index_off='index=off'}]})

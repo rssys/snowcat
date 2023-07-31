@@ -1,0 +1,2 @@
+syz_genetlink_get_family_id$fou(0x0, 0xffffffffffffffff)
+syz_open_dev$evdev(&(0x7f0000000340)='/dev/input/event#\x00', 0xffffff8f, 0x40e42)

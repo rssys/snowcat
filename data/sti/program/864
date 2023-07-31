@@ -1,0 +1,1 @@
+ioctl$VIDIOC_QUERY_DV_TIMINGS(0xffffffffffffffff, 0x80845663, 0x0)

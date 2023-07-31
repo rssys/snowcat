@@ -1,0 +1,2 @@
+syz_open_dev$usbfs(&(0x7f0000000080)='/dev/bus/usb/00#/00#\x00', 0xf4e, 0x105000)
+ioctl$CHAR_RAW_FLSBUF(0xffffffffffffffff, 0x1261, 0x0)

@@ -1,0 +1,5 @@
+syz_io_uring_submit(0x0, 0x0, 0x0, 0x62)
+openat$ptmx(0xffffff9c, &(0x7f0000002440)='/dev/ptmx\x00', 0x0, 0x0)
+fork()
+lstat(&(0x7f0000002480)='./file0\x00', &(0x7f00000024c0))
+stat(&(0x7f0000002540)='./file0\x00', &(0x7f0000002580))

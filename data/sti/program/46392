@@ -1,0 +1,2 @@
+r0 = openat$vcsu(0xffffff9c, &(0x7f00000004c0)='/dev/vcsu\x00', 0x0, 0x0)
+mq_getsetattr(r0, &(0x7f0000000e80), 0x0)

@@ -1,0 +1,2 @@
+pipe(&(0x7f00000000c0)={<r0=>0xffffffffffffffff})
+fstat(r0, &(0x7f0000000340))

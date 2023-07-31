@@ -1,0 +1,1 @@
+mount$9p_fd(0x0, &(0x7f0000000000)='.\x00', &(0x7f0000000100)='9p\x00', 0x0, &(0x7f00000001c0)={'trans=fd,', {'rfdno'}, 0x2c, {'wfdno'}, 0x2c, {[], [{@context={'context', 0x3d, 'root'}}, {@rootcontext={'rootcontext', 0x3d, 'user_u'}}]}})

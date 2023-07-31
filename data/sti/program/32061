@@ -1,0 +1,2 @@
+r0 = socket$inet6_udp(0xa, 0x2, 0x0)
+ioctl$sock_SIOCADDRT(r0, 0x890b, &(0x7f00000002c0)={0x0, @qipcrtr, @generic={0x0, "6c409dbf480605d6ea36928252ee"}, @isdn})

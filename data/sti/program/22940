@@ -1,0 +1,2 @@
+syz_open_procfs$namespace(0xffffffffffffffff, &(0x7f0000000000)='ns/pid\x00')
+socket$nl_generic(0x10, 0x3, 0x10)

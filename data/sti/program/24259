@@ -1,0 +1,6 @@
+sendmsg$IPVS_CMD_GET_DEST(0xffffffffffffffff, 0x0, 0x0)
+syz_genetlink_get_family_id$ipvs(&(0x7f0000000280)='IPVS\x00', 0xffffffffffffffff)
+socket$nl_generic(0x10, 0x3, 0x10)
+bpf$PROG_LOAD(0x5, 0x0, 0x0)
+syz_genetlink_get_family_id$ipvs(&(0x7f0000003000)='IPVS\x00', 0xffffffffffffffff)
+syz_init_net_socket$nfc_raw(0x27, 0x3, 0x0)

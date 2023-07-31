@@ -1,0 +1,1 @@
+syz_mount_image$afs(&(0x7f0000000040)='afs\x00', &(0x7f0000000080)='./file0\x00', 0x0, 0x0, 0x0, 0x0, &(0x7f0000000600)=ANY=[@ANYBLOB='dyn'])

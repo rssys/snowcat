@@ -1,0 +1,4 @@
+r0 = socket$unix(0x1, 0x2, 0x0)
+r1 = openat$procfs(0xffffffffffffff9c, &(0x7f00000004c0)='/proc/asound/seq/clients\x00', 0x0, 0x0)
+r2 = dup2(r0, r1)
+connect$unix(r2, &(0x7f0000000040)=@file={0x0, './file0\x00'}, 0x6e)

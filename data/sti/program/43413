@@ -1,0 +1,2 @@
+r0 = syz_open_procfs(0xffffffffffffffff, &(0x7f0000000000)='net/ipv6_route\x00')
+preadv(r0, &(0x7f0000001080)=[{0x0}, {&(0x7f0000000080)=""/4096, 0x1000}], 0x2, 0x3fff, 0x0)

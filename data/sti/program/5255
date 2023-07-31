@@ -1,0 +1,2 @@
+r0 = openat$vcsu(0xffffff9c, &(0x7f0000000000)='/dev/vcsu\x00', 0x0, 0x0)
+read$rfkill(r0, &(0x7f0000000040), 0x8)

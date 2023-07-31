@@ -1,0 +1,2 @@
+syz_io_uring_setup(0xf22, &(0x7f0000000240), &(0x7f0000ffe000/0x2000)=nil, &(0x7f0000ffd000/0x3000)=nil, &(0x7f00000002c0), &(0x7f0000000300))
+ioctl$sock_SIOCGIFVLAN_SET_VLAN_EGRESS_PRIORITY_CMD(0xffffffffffffffff, 0x8982, &(0x7f0000000480)={0x3, 'veth1_to_batadv\x00'})

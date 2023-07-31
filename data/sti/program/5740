@@ -1,0 +1,2 @@
+write$RDMA_USER_CM_CMD_LEAVE_MCAST(0xffffffffffffffff, 0x0, 0x0)
+io_uring_setup(0x77f6, &(0x7f0000000780))

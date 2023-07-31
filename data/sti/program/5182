@@ -1,0 +1,1 @@
+add_key$user(&(0x7f00000005c0)='user\x00', &(0x7f0000000600)={'syz', 0x0}, &(0x7f0000000640)="fd", 0x1, 0xffffffffffffffff)

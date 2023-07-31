@@ -1,0 +1,4 @@
+r0 = creat(&(0x7f00000018c0)='./file0\x00', 0x0)
+write$smack_current(r0, &(0x7f0000000080)=ANY=[], 0x2)
+r1 = openat$dir(0xffffff9c, &(0x7f0000000240)='./file0\x00', 0x0, 0x0)
+ioctl$FS_IOC_SETFLAGS(r1, 0x40046602, &(0x7f0000000280)=0x10)

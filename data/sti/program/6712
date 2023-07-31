@@ -1,0 +1,3 @@
+r0 = openat$apparmor_thread_current(0xffffff9c, &(0x7f0000000000)='/proc/thread-self/attr/current\x00', 0x2, 0x0)
+r1 = dup(r0)
+write$apparmor_current(r1, &(0x7f0000000180)=@profile={'permprofile ', '&{\'@,+\x00'}, 0x13)

@@ -1,0 +1,2 @@
+r0 = openat$cuse(0xffffff9c, &(0x7f0000000000)='/dev/cuse\x00', 0x2, 0x0)
+writev(r0, &(0x7f0000000540)=[{&(0x7f0000000440)="4bc198441b148fe732c5c2bbb69c60d5", 0x10}], 0x1)

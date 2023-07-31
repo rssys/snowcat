@@ -1,0 +1,1 @@
+add_key(&(0x7f0000000440)='rxrpc_s\x00', &(0x7f0000000480)={'syz', 0x1}, &(0x7f00000004c0)="d6", 0x1, 0xfffffffffffffffc)

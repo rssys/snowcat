@@ -1,0 +1,2 @@
+r0 = open$dir(&(0x7f00000001c0)='./file0\x00', 0x242, 0x0)
+readahead(r0, 0x0, 0x10099feba1)

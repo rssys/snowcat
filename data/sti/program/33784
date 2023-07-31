@@ -1,0 +1,2 @@
+r0 = socket$nl_generic(0x10, 0x3, 0x10)
+ioctl$sock_SIOCETHTOOL(r0, 0x8946, &(0x7f0000000040)={'lo\x00', &(0x7f0000000000)=@ethtool_cmd={0x2}})

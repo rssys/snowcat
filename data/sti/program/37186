@@ -1,0 +1,2 @@
+socket$nl_crypto(0x10, 0x3, 0x15)
+openat$mice(0xffffff9c, &(0x7f00000029c0)='/dev/input/mice\x00', 0x0)

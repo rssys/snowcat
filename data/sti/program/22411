@@ -1,0 +1,2 @@
+r0 = openat$snapshot(0xffffff9c, &(0x7f0000000040)='/dev/snapshot\x00', 0x18b041, 0x0)
+write$snapshot(r0, &(0x7f0000000080)='Z', 0x1)

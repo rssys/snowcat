@@ -1,0 +1,2 @@
+syz_open_dev$char_raw(&(0x7f0000000140)='/dev/raw/raw#\x00', 0x1, 0x0)
+openat$proc_capi20(0xffffff9c, &(0x7f00000057c0)='/proc/capi/capi20\x00', 0x224002, 0x0)

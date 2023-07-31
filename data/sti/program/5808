@@ -1,0 +1,8 @@
+r0 = socket$inet(0x2, 0x6, 0x0)
+ioctl$vim2m_VIDIOC_STREAMOFF(0xffffffffffffffff, 0x40045612, &(0x7f0000000140))
+openat$cgroup_freezer_state(0xffffffffffffffff, &(0x7f0000000180)='freezer.state\x00', 0x2, 0x0)
+setsockopt$inet_dccp_buf(r0, 0x21, 0xd, &(0x7f00000001c0)="ea218b77ce09413ab63008f60c2884670fa3e5ac05e7aa1e8f54c5fbf5a916b2d23e1dced3b13e4c5fcb3b57f6816e939720ec2504ccb5a5ad64d5011743fe5735dc1745a76b", 0x46)
+connect$x25(0xffffffffffffffff, 0x0, 0x0)
+syz_init_net_socket$nl_generic(0x10, 0x3, 0x10)
+syz_genetlink_get_family_id$netlbl_mgmt(&(0x7f0000000400)='NLBL_MGMT\x00', 0xffffffffffffffff)
+clone3(&(0x7f0000000900)={0x100400, &(0x7f0000000700), &(0x7f0000000740), 0x0, {0x2d}, &(0x7f00000007c0)=""/131, 0x83, &(0x7f0000000880)=""/47, 0x0}, 0x58)

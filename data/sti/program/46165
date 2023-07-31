@@ -1,0 +1,5 @@
+r0 = syz_open_dev$vcsu(&(0x7f00000001c0)='/dev/vcsu#\x00', 0x8, 0x80)
+sendmsg$NLBL_UNLABEL_C_STATICREMOVEDEF(r0, 0x0, 0x24040815)
+syz_open_procfs$namespace(0x0, 0x0)
+r1 = syz_open_dev$loop(&(0x7f0000000380)='/dev/loop#\x00', 0x0, 0x2752f629e69c844e)
+ioctl$LOOP_SET_FD(r1, 0x4c00, r0)

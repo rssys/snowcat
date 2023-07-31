@@ -1,0 +1,4 @@
+r0 = syz_open_procfs(0x0, &(0x7f0000000000)='smaps_rollup\x00')
+syz_mount_image$tmpfs(0x0, &(0x7f0000000240)='./file0\x00', 0x0, 0x0, 0x0, 0x0, 0x0)
+r1 = syz_open_procfs(0x0, &(0x7f0000000000)='smaps_rollup\x00')
+mount$9p_fd(0x0, &(0x7f00000002c0)='./file0\x00', &(0x7f0000000300)='9p\x00', 0x0, &(0x7f00000014c0)={'trans=fd,', {'rfdno', 0x3d, r0}, 0x2c, {'wfdno', 0x3d, r1}, 0x2c, {[{@version_u='version=9p2000.u'}, {@dfltgid={'dfltgid'}}], [{@dont_appraise='dont_appraise'}]}})

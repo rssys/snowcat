@@ -1,0 +1,2 @@
+r0 = getpgid(0x0)
+setpgid(r0, 0x0)

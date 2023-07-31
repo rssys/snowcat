@@ -1,0 +1,2 @@
+r0 = socket$nl_rdma(0x10, 0x3, 0x14)
+sendmsg$RDMA_NLDEV_CMD_STAT_DEL(r0, &(0x7f0000000a80)={0x0, 0x0, &(0x7f0000000a40)={&(0x7f0000000340)=ANY=[@ANYBLOB="3000000012140100"], 0x30}}, 0x0)

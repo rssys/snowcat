@@ -1,0 +1,2 @@
+r0 = socket$inet_sctp(0x2, 0x5, 0x84)
+getsockopt$inet_sctp_SCTP_DEFAULT_SEND_PARAM(r0, 0x84, 0xa, 0x0, &(0x7f0000000080))
