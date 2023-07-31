@@ -225,6 +225,32 @@ inference-2023-07-28-1-26-23/
 
 
 
+## Step-4: Emulate SKI (MLPCT) (ETA: 3 minutes)
+Based on the inference results of the test dataset, we can emulate a run of SKI.
+Concurrent tests (CTs) that were predicted in the last step will be considered by different schedulers such as MLPCT and original PCT. In the end, each scheduler will select a few CTs that it wants to execute. Then, we can get the race coverage history achieved by this scheduler.
+
+**How to run?**
+
+Copy the path of the inference result `$SNOWCAT_STORAGE/inference/inference-{timestamp}` and run the following commands:
+
+```bash
+$ cd $ARTIFACT_HOME
+$ cd evaluation/
+$ python emulate_ski.py `$SNOWCAT_STORAGE/inference/inference-{timestamp}`
+```
+
+**What output is expected?**
+
+A race coverage history graph `race-coverage-history.pdf` will be generated and stored under `$SNOWCAT_STORAGE/graph/`.
+
+```bash
+$ cd $SNOWCAT_STORAGE/graph
+$ ls
+race-coverage-history.pdf
+```
+
+
+
 ## License
 
 Code of Snowboard and SKI hypervisor (`tool/ski` and `tool/snowboard`) in this repository is licensed under the GLPv2 license (`tool/ski/src/LICENSE` and `tool/snowboard/src/LICENSE`). The rest of Snowcat implementation is under Apache 2 license (`script/LICENSE` and `learning/LICENSE`).
