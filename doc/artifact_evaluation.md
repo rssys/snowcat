@@ -89,3 +89,85 @@ $ python emulate_ski.py $SNOWCAT_STORAGE/figure-6.b/inference-result $SNOWCAT_ST
 **What output is expected?**
 
 A graph will be generated under `$SNOWCAT_STORAGE/graph` and it should be the same as the graph we present in the paper.
+
+
+## Snowboard-PIC (Table-4)
+
+### Experiment data
+
+The data relevant to this experiment is stored under `snowcat_sosp_2023/snowboard-pic/`:
+
+```bash
+- bug-inference-data.tar
+```
+
+### Reproduce the table data (ETA: 15 minutes)
+
+**How to run?**
+
+One can reproduce the table numbers by running the following commands:
+
+```bash
+$ cd $SNOWCAT_STORAGE
+$ gcloud storage cp -r gs://snowcat_sosp_2023/snowboard-pic/bug-inference-data.tar . # this takes some time
+$ tar -xvf bug-inference-data.tar
+$ cd bug-inference-data/
+$ ls
+bug-1 bug-2 bug-3 bug-4 bug-5 bug-6
+# all necessary data is downloaded
+
+$ cd $MAIN_HOME/evaluation/
+$ python emulate_snowboard.py $SNOWCAT_STORAGE/bug-infernece-data/bug-1
+```
+
+**What output is expected?**
+
+```bash
+$ python emulate_snowboard.py $SNOWCAT_STORAGE/bug-infernece-data/bug-1
+Bug finding probability:
+Method: SB-PIC-S2 Probability: 1.0
+Method: SB-RAND-S2 Probability: 0.538
+Average number of selected ctis:
+Method: SB-PIC-S2 #-selected-ctis-avg: 29
+Method: SB-RAND-S2 #-selected-ctis-avg: 29
+
+$ python emulate_snowboard.py $SNOWCAT_STORAGE/bug-infernece-data/bug-2
+Bug finding probability:
+Method: SB-PIC-S2 Probability: 0.669
+Method: SB-RAND-S2 Probability: 0.493
+Average number of selected ctis:
+Method: SB-PIC-S2 #-selected-ctis-avg: 20
+Method: SB-RAND-S2 #-selected-ctis-avg: 20
+
+$ python emulate_snowboard.py $SNOWCAT_STORAGE/bug-infernece-data/bug-3
+Bug finding probability:
+Method: SB-PIC-S2 Probability: 0.589
+Method: SB-RAND-S2 Probability: 0.402
+Average number of selected ctis:
+Method: SB-PIC-S2 #-selected-ctis-avg: 86
+Method: SB-RAND-S2 #-selected-ctis-avg: 86
+
+$ python emulate_snowboard.py $SNOWCAT_STORAGE/bug-infernece-data/bug-4
+Bug finding probability:
+Method: SB-PIC-S2 Probability: 1.0
+Method: SB-RAND-S2 Probability: 0.419
+Average number of selected ctis:
+Method: SB-PIC-S2 #-selected-ctis-avg: 24
+Method: SB-RAND-S2 #-selected-ctis-avg: 24
+
+$ python emulate_snowboard.py $SNOWCAT_STORAGE/bug-infernece-data/bug-5
+Bug finding probability:
+Method: SB-PIC-S2 Probability: 1.0
+Method: SB-RAND-S2 Probability: 0.78
+Average number of selected ctis:
+Method: SB-PIC-S2 #-selected-ctis-avg: 38
+Method: SB-RAND-S2 #-selected-ctis-avg: 38
+
+$ python emulate_snowboard.py $SNOWCAT_STORAGE/bug-infernece-data/bug-6
+Bug finding probability:
+Method: SB-PIC-S2 Probability: 0.51
+Method: SB-RAND-S2 Probability: 0.195
+Average number of selected ctis:
+Method: SB-PIC-S2 #-selected-ctis-avg: 154
+Method: SB-RAND-S2 #-selected-ctis-avg: 154
+```
