@@ -138,7 +138,7 @@ dataset  raw
 
 Please modify the file `$ARTIFACT_HOME/learning/train_config_template.init` and `$ARTIFACT_HOME/learning/predict_config_template.init` by changing `use_cpu=False` to `use_cpu=True` before continue.
 
-### Split the dataset
+### Split the dataset (ETA: 5 minutes)
 
 **How to run?**
 
@@ -196,7 +196,7 @@ $ python train.py ./train-config-2023-07-27-20-54-32.ini
 
    
 
-## Step-3: Use the PIC model to make inference
+## Step-3: Use the PIC model to make inference (ETA: 30 minutes)
 
 **How to run?**
 
