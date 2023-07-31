@@ -265,6 +265,11 @@ def collect_coverage_for_one_cti(concurrent_input_dirpath, sample_size=128):
 
         cpu0_preemption_ins = exec_para_dict["CPU0_preemption_ins"]
         cpu1_preemption_ins = exec_para_dict["CPU1_preemption_ins"]
+        try:
+            cpu0_preemption_ins = hex(INS_TO_BLOCK_DICT[int(cpu0_preemption_ins, 16)])[2 : ]
+            cpu1_preemption_ins = hex(INS_TO_BLOCK_DICT[int(cpu1_preemption_ins, 16)])[2 : ]
+        except:
+            continue
         if cpu0_preemption_ins == "ffffffff" and cpu1_preemption_ins == "ffffffff":
             continue
 
