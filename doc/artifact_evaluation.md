@@ -1,10 +1,24 @@
 # Reproduce results of Snowcat
 
-To facilitate the process for reviewers to reproduce our results, we make our raw experiment data publicly accessiable on Google Cloud Storage. Reviewers can download our raw data and run the script to reproduce the final results we present in the paper.
+## Overview
+
+This doc provides instructions to reproduce our experiment results:
+
+- **MLPCT:** Race coverage history when using different versions of the PIC model to test the kernel.
+- **Snowboard-PIC:** finding ability when using the PIC model to select concurrent tests from a cluster of tests.
+
+We consider them as our major results because:
+
+- The **MLPCT** experiment shows the benefit of using PIC to select interesting schedules and potential of fine tuning a base PIC model for testing newer kernel versions.
+- The **Snowboard-PIC** shows that using PIC to select concurrent tests can increase the ability (i.e., bug finding probability) of Snowboard to find new bugs.
+
+In addition, this document introduces (1) how to access the experiment raw data and (2) how to access the trained PIC models.
 
 
 
 ## Experiment data
+
+To facilitate the process for reviewewrs to reproduce our results, we make our raw experiment data publicly accessiable on Google Cloud Storage. Reviewers can download our raw data and run the script to reproduce the final results we present in the paper.
 
 Our raw experiment data is stored at https://console.cloud.google.com/storage/browser/snowcat_sosp_2023 and can be accessed by anyone who has a google account.
 
@@ -30,7 +44,7 @@ There are generally two ways to download them.
 
 - Use gsutil to download the data (recommended)
 
-  1. Please visit the website https://cloud.google.com/storage/docs/gsutil_install#linux to get gsutil installed in the machine.
+  1. Visit the website https://cloud.google.com/storage/docs/gsutil_install#linux to get gsutil installed.
 
   2. Set up a google credential (explained in the website as well). A google account is needed so that `gsutil` can access public data on the cloud.
 
@@ -65,13 +79,13 @@ All data relevant to this experiment is stored under `snowcat_sosp_2023/mlpct/`:
 - kernel-6.1-race-coverage-result.tar # possible data races found by dynamically running CTs. Needed for figure-6.b, 6.d, 6.f.
 ```
 
-One can selectively download the raw data to reproduce the a certain graph.
+(One can selectively download the raw data to reproduce the a certain graph.)
 
 ### Reproduce the graphs (ETA: 3 days downloading + 3 hours ski emulation)
 
 **How to run?**
 
-Taking figure-6.b as an example, one can reproduce the graph by running the following commands:
+Taking figure-6.b as an example, one can reproduce this graph by running the following commands:
 
 ```bash
 $ cd $SNOWCAT_STORAGE
@@ -89,6 +103,8 @@ $ python emulate_ski.py $SNOWCAT_STORAGE/figure-6.b/inference-result $SNOWCAT_ST
 **What output is expected?**
 
 A graph will be generated under `$SNOWCAT_STORAGE/graph` and it should be the same as the graph we present in the paper.
+
+
 
 
 ## Snowboard-PIC (Table-4)
@@ -171,6 +187,7 @@ Average number of selected ctis:
 Method: SB-PIC-S2 #-selected-ctis-avg: 154
 Method: SB-RAND-S2 #-selected-ctis-avg: 154
 ```
+
 
 
 ## Trained PIC models
