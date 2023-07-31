@@ -171,3 +171,17 @@ Average number of selected ctis:
 Method: SB-PIC-S2 #-selected-ctis-avg: 154
 Method: SB-RAND-S2 #-selected-ctis-avg: 154
 ```
+
+
+## Trained PIC models
+
+### Experiment data
+The evaluation of Snowcat used several versions of the PIC model, which are stored at `snowcat_sosp_2023/model-checkpoint/`:
+```bash
+pic-5-checkpoint.tar
+pic-6.a-checkpoint.tar
+pic-6.b-checkpoint.tar
+pic-6.c-checkpoint.tar
+pic-6.d-checkpoint.tar
+```
+One can download the checkpoint and use it to make new inference. Instructions related to inference are provided in the root README.
