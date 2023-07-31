@@ -35,7 +35,11 @@ STI_DATA_DIRPATH = config["dataset"]["sti_data_dirpath"]
 
 PRETRAINED_BERT_FILEPATH = config["model"]["pretrained_bert_ckpt_filepath"]
 assert osp.exists(PRETRAINED_BERT_FILEPATH) is True
-CHECKPOINT_FILEPATH = config["model"]["checkpoint_filepath"]
+
+if len(sys.argv) == 3:
+    CHECKPOINT_FILEPATH = sys.argv[2]
+else:
+    CHECKPOINT_FILEPATH = config["model"]["checkpoint_filepath"]
 if osp.exists(CHECKPOINT_FILEPATH) is False:
     print(f"Checkpoint {CHECKPOINT_FILEPATH} does not exist")
     exit(0)
@@ -163,7 +167,7 @@ def get_current_time():
 if __name__ == '__main__':
     _, timestamp = get_current_time()
     snowcat_storage_dirpath = os.environ.get("SNOWCAT_STORAGE")
-    run_dirpath = osp.join(SNOWCAT_STORAGE, "inference", f"inference-{timestamp}")
+    run_dirpath = osp.join(snowcat_storage_dirpath, "inference", f"inference-{timestamp}")
     os.makedirs(run_dirpath, exist_ok=True)
 
     dataset_config = PICDataset.PICDatasetConfig(STI_DATA_DIRPATH, \
