@@ -162,7 +162,7 @@ the new inference/predict config is stored in ./predict-config-2023-07-27-21-29-
 
 (Note some error messages might show up to the screen but they are generally acceptable. Sometimes we might fail to generate a graph if certain information is missing (e.g., sequential control flow) and this issue occasionally happens when the random sequential test input is ill-defined.
 
-### Start training
+### Start training (ETA: 5 hours)
 
 **How to run?**
 
