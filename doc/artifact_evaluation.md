@@ -40,6 +40,8 @@ Data related to the following experiments are uploaded:
 
 ### Access the data
 
+**Dear reviewers, we are happy share a VM that already stores all the data to save your time. Please leave us a comment on hocrp if you need.**
+
 There are generally two ways to download them.
 
 - Use gsutil to download the data (recommended)
@@ -65,6 +67,8 @@ There are generally two ways to download them.
 ### Prerequisite
 
 Reproducing each subfigure in Figure-6 requires downloading ~5TB raw data, so we recommend using a 10 TB disk with btrfs compression enabled.
+
+**Dear reviewers, we are happy share a VM that already stores all the data to save your time. Please leave us a comment on hocrp if you need.**
 
 ### Experiment data
 
