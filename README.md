@@ -2,12 +2,17 @@ This repository contains the artifact for the SOSP'23 paper:
 
 *Sishuai Gong, Dinglan Peng, Deniz Altınbüken, Pedro Fonseca, Petros Maniatis, "Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor".*
 
+(We used the tool name "LUMOS" in the submission to stay anonymous.)
+
 
 
 ## 💡 Dear artifact reviewers
 
 - The root README.md (this doc) provides instructions to help you verify Snowcat is **runnable**. Starting from scratch, we will first create a tiny dataset, train the PIC model based on the dataset and then use the PIC model to predict some concurrent tests.
-- The [`artifact_evaluation` doc](doc/artifact_evaluation.md) provides instructions to help you verify the major results. In particular, they explain how to access the raw experiment data we collect and to verify the presentations (e.g., graphs in the paper).
+
+- The [`artifact_evaluation` doc](doc/artifact_evaluation.md) provides instructions to help you verify the major results. In particular, they explain how to access the raw experiment data we collected and use them to verify the presentations (e.g., graphs in the paper).
+
+  **Because downloading our raw data takes quite some time, we provide a VM in which the data is already downloaded and ready for verification to reviewers. How to access it is explained as a comment on hotcrp.**
 
 
 
@@ -17,7 +22,8 @@ The implementation of Snowcat has two major components---`learning` and `testing
 - The `learning` component (code under `snowcat/learning/`)  is used to:
   - train the PIC model.
   - make inference using a trained PIC.
-- The `testing` component (code under XXX) is used to:
+- The `testing` component (code under `snowcat/tool/`) is used to:
+  - execute sequential test inputs (STIs) and concurrent tests (CTs).
   - collect training data.
 
 
@@ -61,12 +67,12 @@ The implementation of Snowcat has two major components---`learning` and `testing
   $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
   $ cd script
   # source testing_setup.sh $SNOWCAT_STORAGE
-  $ source testing_setup.sh snowcat-data # the path to store all outputs.
+  $ source testing_setup.sh snowcat/storage # the path to store all outputs.
   ```
 
   Note: the above script exports several important ENV variables that are cruical for Snowcat. Please **ensure** the script is always sourced in your current bash session.
 
-- The `learning` component requires installing some ML liraries. Please first **manually install anaconda** and then run the following commands:
+- The `learning` component requires installing some ML liraries on a CPU-only machine. Please **(1) manually install anaconda** and (2) run the following commands:
 
   ```bash
   $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
@@ -88,18 +94,20 @@ Some execution information about the sequential test inputs (e.g., control flow)
 This repo provides a coprus of sequential test inputs and they can be analyzed by Snowcat with the following commands:
 
 ```bash
+# make sure script/testing_setup.sh is sourced.
 $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
 $ cd script/data-collection/sti-data
 # $ ./collect_sti_data.sh $STI_ID_A $STI_ID_B
 $ ./collect_sti_data.sh 100 150
 ```
-`$STI_ID_A` and `$STI_ID_B` together decide a range of sequential test inputs that will be analyzed. In the above case, 50 sequential test inputs (STI-ID==100, STI-ID=101, STI-ID=102, ..., STI-ID=150) will be executed and profiled.
+`$STI_ID_A` and `$STI_ID_B` together decide a list of sequential test inputs that will be analyzed. In the above case, 50 sequential test inputs (STI-ID==100, STI-ID=101, STI-ID=102, ..., STI-ID=150) will be executed and profiled.
 
 **What output is expected?**
 
 A folder `sti-data` under `$SNOWCAT_STORAGE` will be created.
 
 ```bash
+# make sure script/testing_setup.sh is sourced.
 $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
 $ ls $SNOWCAT_STORAGE/sti-data
 block_assembly_dict  code_block_sequence  error  generator-log  intra_data_flow  raw  sc_control_flow  shared_mem_access  stat  ur_control_flow
@@ -111,13 +119,14 @@ The coverage of some concurrent test inputs is needed to build a training datase
 
 **How to run?**
 
-Running the following commands will collect the coverage of certain concurrent tests:
+Running the following commands will collect the coverage of some random concurrent tests:
 
 ```bash
+# make sure script/testing_setup.sh is sourced.
 $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
 $ cd script/data-collection/cti-data
 # $ ./collect_random_cti_data.sh $number_of_ctis_to_profile; ./extract_coverage.py
-$ ./collect_ranom_cti_data.sh 50; ./extract_coverage.py  # collect the coverage of 50 concurrent test inputs under different interleavings
+$ ./collect_random_cti_data.sh 50; ./extract_coverage.py  # collect the coverage of 50 concurrent test inputs under different interleavings
 ```
 
 **What output is expected?**
@@ -134,17 +143,19 @@ dataset  raw
 
 ## Step-2: Train a PIC model
 
-💡For users who want to use the GPU (A100) for training:
+💡For users who want to use GPUs (A100) for training:
 
-Please modify the file `$ARTIFACT_HOME/learning/train_config_template.init` and `$ARTIFACT_HOME/learning/predict_config_template.init` by changing `use_cpu=False` to `use_cpu=True` before continue.
+Please modify the file `$ARTIFACT_HOME/learning/train-config-template.ini` and `$ARTIFACT_HOME/learning/predict-config-template.ini` by changing `use_cpu=True` to `use_cpu=False` before continue.
 
 ### Split the dataset (ETA: 5 minutes)
 
 **How to run?**
 
-To split the dataset (collected in the last step), one can run:
+To split the dataset (`$SNOWCAT_STORAGE/cti-data/`, collected in the last step), one can run:
 
 ```bash
+# make sure script/testing_setup.sh is sourced.
+# make sure snowcat-cpu is activated.
 $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
 $ cd learning/
 $ python split_dataset.py
@@ -160,7 +171,7 @@ the new training config is stored in ./train-config-2023-07-27-21-29-54.ini
 the new inference/predict config is stored in ./predict-config-2023-07-27-21-29-54.ini
 ```
 
-(Note some error messages might show up to the screen but they are generally acceptable. Sometimes we might fail to generate a graph if certain information is missing (e.g., sequential control flow) and this issue occasionally happens when the random sequential test input is ill-defined.
+Note some warning/error messages might show up to the screen but they are generally acceptable. First, warnings that complain the missing of tensorboardX module is fine since it is not used by us anyway. Second, sometimes we might fail to generate a graph if certain information is missing (e.g., sequential control flow) and this issue occasionally happens when the random sequential test input is ill-defined.
 
 ### Start training (ETA: 10 hours (5 hours per epoch))
 
@@ -169,6 +180,8 @@ the new inference/predict config is stored in ./predict-config-2023-07-27-21-29-
 Copy the path of the training config and run the following commands:
 
 ```bash
+# make sure script/testing_setup.sh is sourced.
+# make sure snowcat-cpu is activated.
 $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
 $ cd learning/
 $ python train.py ./train-config-2023-07-27-20-54-32.ini
@@ -176,16 +189,17 @@ $ python train.py ./train-config-2023-07-27-20-54-32.ini
 
 **What output is expected?**
 
-1. In the middle of each epoch, a report of training or validation performance (average precision) is reported periocally.
+1. In the middle of each epoch, the current training or validation performance (average precision) is printed periocally.
 
    ```bash
    2023-07-27 23:31:52.923280 epoch: 01 loss: 0.07475609332323074 rank: 00 update_frequency: 2 trained_graphs_this_gpu: 100 total_graphs_per_gpu: 1238 train_ap_on_all: 0.9034862518310547 train_ap_on_ur: 0.01715177111327648 last_lr_rate: [5e-05]
    2023-07-28 01:03:21.298420 epoch: 01 loss: 0.04783577099442482 rank: 01 update_frequency: 2 trained_graphs_this_gpu: 200 total_graphs_per_gpu: 1238 train_ap_on_all: 0.9459865093231201 train_ap_on_ur: 0.013260450214147568 last_lr_rate: [5e-05]
    ```
 
-2. After each epoch, a model checkpoint is created and save to the disk. One can find them in a folder under `$SNOWCAT_STORAGE/training/`. The folder is named as `train-{timestamp}` in which the timestamp is created at the beginning of the training.
+2. After each epoch, a model checkpoint is created and saved to the disk. One can find them in a folder under `$SNOWCAT_STORAGE/training/`. The folder is named as `train-{timestamp}` in which the timestamp is created at the beginning of the training.
 
    ```bash
+   # make sure script/testing_setup.sh is sourced.
    $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
    $ ls $SNOWCAT_STORAGE/training
    train-2023-07-27-21-38-47/
@@ -193,7 +207,7 @@ $ python train.py ./train-config-2023-07-27-20-54-32.ini
    amp-checkpoint-0.tar  amp-checkpoint-1.tar  backup  bert-parameters  dataset-report  model-arch
    # amp-checkpoint-1.tar is the checkpoint made after the first epoch
    ```
-
+   
    
 
 ## Step-3: Use the PIC model to make inference (ETA: 30 minutes)
@@ -203,11 +217,13 @@ $ python train.py ./train-config-2023-07-27-20-54-32.ini
 Once the model is trained, we can load the checkpoint and make inference on the test dataset. To start inference, one needs to:
 
 1. Copy the path of the inference/predict config filepath, which is generated in the previous step: Split the dataset.
-2. Copy the path of the model checkpoint, which can be found under the folder $SNOWCAT_STORAGE/training/, which is explained in the last step.
+2. Copy the path of the model checkpoint, which can be found under the folder $SNOWCAT_STORAGE/training/, which is explained in the previous step.
 
 Then, running the following commands will make inference on the test dataset:
 
 ```bash
+# make sure script/testing_setup.sh is sourced.
+# make sure snowcat-cpu is activated.
 $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
 $ cd learning/
 $ python predict.py ./predict-config-2023-07-27-21-29-54.ini $SNOWCAT_STORAGE/training/train-2023-07-27-21-38-47/amp-checkpoint-1.tar
@@ -218,6 +234,7 @@ $ python predict.py ./predict-config-2023-07-27-21-29-54.ini $SNOWCAT_STORAGE/tr
 A folder under `$SNOWCAT_STORAGE/inference/` will be created and is named as `inference-{timestamp}`.
 
 ```bash
+# make sure script/testing_setup.sh is sourced.
 $ cd $ARTIFACT_HOME # the path where Snowcat is downloaded/cloned.
 $ ls $SNOWCAT_STORAGE/inference
 inference-2023-07-28-1-26-23/
@@ -227,7 +244,7 @@ inference-2023-07-28-1-26-23/
 
 ## Step-4: Emulate SKI (MLPCT) (ETA: 3 minutes)
 Based on the inference results of the test dataset, we can emulate a run of SKI.
-Concurrent tests (CTs) that were predicted in the last step will be considered by different schedulers such as MLPCT and original PCT. In the end, each scheduler will select a few CTs that it wants to execute. Then, we can get the race coverage history achieved by this scheduler.
+Concurrent tests (CTs) that were predicted in the last step will be considered by different schedulers such as MLPCT and original PCT. In the end, each scheduler will select a few CTs that it wants to execute. Then, we can access the race coverage (collected when building the dataset) and get the race coverage history achieved by this scheduler.
 
 **How to run?**
 
