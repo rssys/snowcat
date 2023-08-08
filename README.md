@@ -208,7 +208,8 @@ $ python train.py ./train-config-2023-07-27-20-54-32.ini
    # amp-checkpoint-1.tar is the checkpoint made after the first epoch
    ```
    
-   
+
+
 
 ## Step-3: Use the PIC model to make inference (ETA: 30 minutes)
 

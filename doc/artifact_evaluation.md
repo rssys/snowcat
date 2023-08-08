@@ -5,7 +5,7 @@
 This doc provides instructions to reproduce our experiment results:
 
 - **MLPCT:** Race coverage history when using different versions of the PIC model to test the kernel.
-- **Snowboard-PIC:** finding ability when using the PIC model to select concurrent tests from a cluster of tests.
+- **Snowboard-PIC:** bug finding ability when using the PIC model to select concurrent tests from a cluster of tests.
 
 We consider them as our major results because:
 
@@ -18,21 +18,25 @@ In addition, this document introduces (1) how to access the experiment raw data 
 
 ## Experiment data
 
-To facilitate the process for reviewewrs to reproduce our results, we make our raw experiment data publicly accessiable on Google Cloud Storage. Reviewers can download our raw data and run the script to reproduce the final results we present in the paper.
+To evaluate Snowcat, we ran a large amount of experiments that took us a lot of time (e.g., > 1 month machine time). Following the artifact evaluation rules, we do not expect reviewers to repeat these experiments from scratch to verify our results. As a workaround, we choose to release our raw experiment data so reviewers can download them and run scripts to reproduce the final results we present in the paper.
 
-Our raw experiment data is stored at https://console.cloud.google.com/storage/browser/snowcat_sosp_2023 and can be accessed by anyone who has a google account.
+The data is stored on Google Cloud Storage  https://console.cloud.google.com/storage/browser/snowcat_sosp_2023  and is accessible to anyone who has a google account.
 
-### Content
+### Content list
 
-Data related to the following experiments are uploaded:
+Data related to the following experiments is uploaded:
 
 - Inference result for MLPCT/SKI-PIC.
 
-  We used different models to predict new concurrent tests (CTs) and then apply the new MLPCT, which will access the inference result for a predict, to select/skip CTs. With the inference data, one can simluate SKI runs and reproduce the same race coverage history graphs as we present in the paper.
+  We used different models to predict new concurrent tests (CTs) and then apply the several schedulers (e.g., MLPCT-S1) to select interesting CTs. In particular, each MLPCT scheduler will (1) read the inference result of a CT, which reveals the set of code blocks that are predicted to execute or not, (2) evaluate the interestingness of the CT and (3) decide to select/skip the CT.
+
+  In short, with the inference results, one can simluate SKI runs and reproduce the same race coverage history graphs as ours.
 
 - Inference result for Snowboard-PIC.
 
-  We used the PIC-6.b model to predict concurrent tests and apply the Snowboard-PIC sampling method to select interesting concurrent tests to run. With the inference data, one can simluate Snowboard runs, know what interesting concurrent tests were sampled, and reproduce the similar results we present in the paper.
+  We used the PIC-6.b model to predict concurrent tests and apply the Snowboard-PIC sampling method to select interesting concurrent tests to run. Similar to MLPCT, the Snowboard-PIC will access the inference result to fetch the predicted block coverage and then formulate a execute/skip decision for the new CT.
+
+  In short, one can simluate Snowboard runs, know what interesting concurrent tests were sampled, and reproduce the similar results we present in the paper.
 
 - Trained PIC models.
 
@@ -40,7 +44,7 @@ Data related to the following experiments are uploaded:
 
 ### Access the data
 
-**Dear reviewers, we are happy share a VM that already stores all the data to save your time. Please leave us a comment on hocrp if you need.**
+**Dear reviewers, we provide a VM in which the data is already downloaded and ready for verification to reviewers. How to access it is explained as a comment on hotcrp.**
 
 There are generally two ways to download them.
 
@@ -58,7 +62,7 @@ There are generally two ways to download them.
 
 - Visit the website to download the data
 
-  One can download the data using their browser with a few button clicks.
+  One can download the data using the browser with a few button clicks.
 
 
 
@@ -68,7 +72,7 @@ There are generally two ways to download them.
 
 Reproducing each subfigure in Figure-6 requires downloading ~5TB raw data, so we recommend using a 10 TB disk with btrfs compression enabled.
 
-**Dear reviewers, we are happy share a VM that already stores all the data to save your time. Please leave us a comment on hocrp if you need.**
+**Dear reviewers, we provide a VM in which the data is already downloaded and ready for verification to reviewers. How to access it is explained as a comment on hotcrp.**
 
 ### Experiment data
 
@@ -102,6 +106,12 @@ $ tar -xvf inference-result.tar
 
 $ cd $MAIN_HOME/evaluation
 $ python emulate_ski.py $SNOWCAT_STORAGE/figure-6.b/inference-result $SNOWCAT_STORAGE/kernel-6.1-race-coverage-result
+```
+
+To reproduce figure-6.a, please point `emulate_ski.py` the race coverage data from Linux kernel 5.13.
+
+```bash
+$ python emulate_ski.py $SNOWCAT_STORAGE/figure-6.a/inference-result $SNOWCAT_STORAGE/kernel-5.12-race-coverage-result
 ```
 
 **What output is expected?**
