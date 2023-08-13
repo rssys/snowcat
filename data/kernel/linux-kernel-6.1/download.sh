@@ -8,9 +8,9 @@ if [ -f "bzImage" ] && \
         exit 0
 fi
 
-wget -O bzImage "https://www.dropbox.com/scl/fi/4eb2tjlff9563wfphg0sh/bzImage?rlkey=vzkuicrc0skw70bspdxhe1tz0&dl=0"
-wget -O snapshot.img "https://www.dropbox.com/scl/fi/29ghp23xqt7r1luv29f4b/snapshot.img?rlkey=tthpaxcjcvwy80yzipu5briuz&dl=0"
-wget -O vmlinux.dis "https://www.dropbox.com/scl/fi/w8f5gmayqksrvyx7lfxu9/vmlinux.dis?rlkey=jx8btau9b6fuwfoagqqoy4x01&dl=0"
-wget -O vmlinux.map "https://www.dropbox.com/scl/fi/22tti26frgmj96c9iokl3/vmlinux.map?rlkey=h7aoqnyxsse12qlt9bvx9wwnp&dl=0"
-wget -O block-calling "https://www.dropbox.com/scl/fi/o15co59qadhk1bievyrvd/block-calling-dict?rlkey=xmhcefisa6ozfbv4ejktko9q0&dl=0"
-wget -O block-info "https://www.dropbox.com/scl/fi/2lija3dqiya40pj8ubx8w/block-info?rlkey=dk1vjtlc6a5ro1cke1unm4og8&dl=0"
+wget -O bzImage "https://purdue0-my.sharepoint.com/:u:/g/personal/sishuai_purdue_edu/EcvhzdHPxBdIus8-ewZoxk4BB6YmdWFjobjbLWTkBKkZDA?e=OYCga7&download=1"
+wget -O snapshot.img "https://purdue0-my.sharepoint.com/:u:/g/personal/sishuai_purdue_edu/Eb-rFhD8NfRNocbP5-OFBvMBKNN-yoo_1-TyPp1xqxVyfg?e=0cvNEd&download=1"
+wget -O vmlinux.dis "https://purdue0-my.sharepoint.com/:u:/g/personal/sishuai_purdue_edu/EdeiQoKYwp5Jqk2hNceKzSsBdGUa-Ha4SWtpnzEkYRpScg?e=YuCD7E&download=1"
+wget -O vmlinux.map "https://purdue0-my.sharepoint.com/:u:/g/personal/sishuai_purdue_edu/ETh-MrOxzTFGt3JbTkhQFYwBU2VtF7RRk_jNZ4NlDLLU2w?e=tAn38g&download=1"
+wget -O block-calling "https://purdue0-my.sharepoint.com/:u:/g/personal/sishuai_purdue_edu/ESeeruTgw_FOivRVMLAQiDcBA2hFMzXRtqOsAY12WN9PiQ?e=oumbM4&download=1"
+wget -O block-info "https://purdue0-my.sharepoint.com/:u:/g/personal/sishuai_purdue_edu/EeNay503G6pBvHszHRF6GeIBuWbXJwqTyxoUKByqCqkYdQ?e=THYBdC&download=1"
