@@ -2,11 +2,17 @@ This repository contains the artifact for the SOSP'23 paper:
 
 *Sishuai Gong, Dinglan Peng, Deniz Altınbüken, Pedro Fonseca, Petros Maniatis, "Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor".*
 
+(We used the tool name "LUMOS" in the submission to stay anonymous.)
 
 
-## What is Snowcat?
 
-Snowcat is a kernel concurrency testing framework. It differs from existing tools in that Snowcat uses a machine learning model to guide testing. The ML model is trained to predict the kernel code coverage given the concurrency test (i.e., a pair of sequential inputs and a schedule hint). With the predicted coverage, Snowcat can evaluate if the concurrency test is interesting and only execute interesting tests.
+## 💡 Dear artifact reviewers
+
+- The root README.md (this doc) provides instructions to help you verify Snowcat is **runnable**. Starting from scratch, we will first create a tiny dataset, train the PIC model based on the dataset and then use the PIC model to predict some concurrent tests.
+
+- The [`artifact_evaluation` doc](doc/artifact_evaluation.md) provides instructions to help you verify the major results. In particular, they explain how to access the raw experiment data we collected and use them to verify the presentations (e.g., graphs in the paper).
+
+  **Because downloading our raw data takes quite some time, we provide a VM in which the data is already downloaded and ready for verification to reviewers. How to access it is explained as a comment on hotcrp.**
 
 
 
@@ -51,7 +57,7 @@ The implementation of Snowcat has two major components---`learning` and `testing
 
   Storage: 20TB disk + Btrfs compression enabled (see how to enable compression in this [doc](doc/btrfs_compression.md))
 
-**The following instructions assume a minimum and CPU-only hardware spec.**
+**The following instructions assume a minimum hardware spec (no GPUs).**
 
 ### Get Snowcat ready (ETA: 30 minutes)
 
@@ -260,12 +266,6 @@ $ cd $SNOWCAT_STORAGE/graph
 $ ls
 race-coverage-history.pdf
 ```
-
-
-
-## Artifacts
-
-Instructions about how to access other artifacts such as trained models can be found in [artifact_evaluation](doc/artifact_evaluation.md).
 
 
 
